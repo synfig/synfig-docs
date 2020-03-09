@@ -1,7 +1,7 @@
-.. _converters:
+.. _tools_spline:
 
 ########################
-    Converters
+    Spline Tool
 ########################
 
 

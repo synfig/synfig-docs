@@ -7,14 +7,19 @@ Synfig User Manual
 ==================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
    
-   interface/index.rst
-   main_concepts/index.rst
+   installation.rst
+   interface.rst
+   main_concepts.rst
    artwork_import/index.rst
-   layers/index.rst
-   converters/index.rst
+   tools.rst
+   layers.rst
+   blend_methods.rst
+   converters.rst
+   configuration.rst
+   export.rst
 
 
 
