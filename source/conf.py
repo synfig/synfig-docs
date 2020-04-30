@@ -51,8 +51,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Synfig User Manual'
-copyright = u': This page is licensed under a CC-Zero (Public Domain) License'
-author = u'Synfig Community'
+copyright = u': This page is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License'
+author = u'Synfig Documentation Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
