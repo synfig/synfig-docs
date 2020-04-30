@@ -1,7 +1,7 @@
-.. _blend_method_composite:
+.. _export_image:
 
 ########################
-    Composite
+    Exporting images
 ########################
 
 
