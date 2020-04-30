@@ -1,4 +1,4 @@
-.. _blend_method_composite:
+.. _export_for_web:
 
 ###########################
   Export for Web (Lottie)
