@@ -22,11 +22,11 @@ In case of partial re-use or when including full list of contributors is not pos
 	.. parsed-literal::
 	
 	   The |SYNFIG_VER_MANUAL|_
-	   by the `Synfig Documentation Team <https://synfig.readthedocs.io/en/latest/about.html>`__
+	   by the `Synfig Documentation Team <https://synfig.readthedocs.io/en/latest/about.html#contributors>`__
 	   is licensed under a |LICENSE|_.
 	
 	.. |SYNFIG_VER_MANUAL| replace:: Synfig Manual
-	.. _SYNFIG_VER_MANUAL: https://synfig.readthedocs.io/en/latest/about.html#contributors
+	.. _SYNFIG_VER_MANUAL: https://synfig.readthedocs.io/en/latest/
 	.. |LICENSE| replace:: CC-BY-SA v4.0
 	.. _LICENSE: https://creativecommons.org/licenses/by-sa/4.0/
 	
