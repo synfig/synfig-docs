@@ -20,6 +20,7 @@ Synfig User Manual
    converters.rst
    configuration.rst
    export.rst
+   plugins.rst
 
 
 
