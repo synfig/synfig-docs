@@ -1,5 +1,6 @@
 .. _plugins:
 
+
 ########################
     Plugins
 ########################
@@ -8,8 +9,6 @@ Summary
 ====
 
 The Plugins feature allows to run custom python scripts directly from Synfig Studio menu. Each script takes .sif file as first argument and should modify its contents in some way. After script execution finished, the file is automatically reopened back in Synfig Studio.
-
-With the current script feature, has it work with the file itself you can't retrieve the current Time_Cursor position when the script is invoked. But you can know the value of a Parameter or ValueNode at a certain time (the ones fixed by Waypoints), because the ValueNode#Animated ValueNodes|Animated Value Nodes are stored (other problem is to know the interpolated value, which is not trivial for other thing rather than Linear or Constant interpolation)
 
 All plugins are located in the "Plug-Ins" submenu of the canvas.
 
@@ -79,26 +78,19 @@ If present inside <plugin>, the plugin will be shown in the Plugins menu, and th
 
 It has a few attributes, all optional.
 
-{|class=wikitable
-!name
-!default
-!effect
-|-
-!type
-|python
-|selects the interpreter (currently only Python is supported)
-|-
-!stdout
-|ignore
-|What to do with the script standard output:
-* **ignore** output is discarded
-* **log** the output is shown in the Synfig log
-* **message** an error message is shown to the user
-|-
-!stderr
-|message
-|Same as above, but for standard error
-|}
+type
+  **python**
+  selects the interpreter (currently only Python is supported)
+stdout
+  **ignore**
+  What to do with the script standard output:
+  
+  * **ignore** output is discarded
+  * **log** the output is shown in the Synfig log
+  * **message** an error message is shown to the user
+stderr
+  **message**
+  Same as above, but for standard error
 
 Example:
 ::
@@ -107,7 +99,7 @@ Example:
 Changing stream behaviour:
 
 ::
-<exec stdout="log" stderr="ignore">myscript.py</exec>
+    <exec stdout="log" stderr="ignore">myscript.py</exec>
 
 
 <exporter>
@@ -201,9 +193,12 @@ Once the script is completed, synfig will load that second file, so the plugin s
 
 = Tutorial =
 
-<videoflash>De9UhUkzNiY|425|344</videoflash>
+.. raw:: html
 
-
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/De9UhUkzNiY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+    
 = Details =
 
 Each plugin located in a separate subdirectory with unique name. The part of the name before first "-" symbol is used to set the group plugin belongs to (not implemented yet). The main information about plugin (plugins name and script to execute) is stored in the plugin.xml file. It's self-explanatory :
