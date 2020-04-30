@@ -39,6 +39,5 @@ However, others can change and improve your text in order to keep the manual con
 Contributors
 ===============
 
-
-* Mattia Basaglia
+* Mattia Basaglia (mbasaglia)
 * Jerome Blanchi (D.j.a.y)
