@@ -24,8 +24,8 @@ Plugin is a directory, containing the python script (*.py file), plugin.xml and 
 
 To install the plugin user should copy its directory into the following location:
 
-* **Windows Vista/7/8:** C:\Users\USERNAME\Synfig\plugins
-* **Windows XP:** C:\Documents and Settings\USERNAME\Synfig\plugins
+* **Windows Vista/7/8:** C:\\Users\\USERNAME\\Synfig\\plugins
+* **Windows XP:** C:\\Documents and Settings\\USERNAME\\Synfig\\plugins
 * **Linux:** ~/.config/synfig/plugins
 * **OSX:** /Users/USERNAME/Library/Synfig/plugins
 
