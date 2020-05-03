@@ -65,7 +65,9 @@ Name of the plugin, can be specified multiple times to provide translations
 
 
 Example:
-::
+
+.. code-block:: xml
+
     <name>This is the default name</name>
     <name xml:lang="it">This is name it will show if you set Italian as your language</name>
 
@@ -93,12 +95,15 @@ stderr
   Same as above, but for standard error
 
 Example:
-::
+
+.. code-block:: xml
+
     <exec>myscript.py</exec>
 
 Changing stream behaviour:
 
-::
+.. code-block:: xml
+
     <exec stdout="log" stderr="ignore">myscript.py</exec>
 
 
@@ -118,7 +123,9 @@ The exporter contains the following sub-elements:
 * <description> must have the default version
 
 Example:
-::
+
+.. code-block:: xml
+
    <exporter>
       <extension>svg</extension>
       <extension>svgz</extension>
@@ -136,7 +143,9 @@ A plugin can define multiple importers.
 Importers will be shown in the Open file dialog.
 
 Example:
-::
+
+.. code-block:: xml
+
    <importer>
       <extension>svg</extension>
       <extension>svgz</extension>
@@ -153,7 +162,9 @@ For <importer> and <exporter>, which extensions are supported.
 Multiple <extension> elements may be present in an importer or exporter (at least one is required)
 
 Example:
-::
+
+.. code-block:: xml
+
     <extension>svg</extension>
 
 <description>
@@ -164,8 +175,10 @@ For <importer> and <exporter>, the text to be shown in the file dialog.
 Similarly to <name> this can be translated using xml:lang
 
 Example:
-::
-<description>Scalable Vector Graphics (*.svg, *.svgz)</description>
+
+.. code-block:: xml
+
+    <description>Scalable Vector Graphics (*.svg, *.svgz)</description>
 
 
 Script Invocation
@@ -204,7 +217,9 @@ Once the script is completed, synfig will load that second file, so the plugin s
 Each plugin located in a separate subdirectory with unique name. The part of the name before first "-" symbol is used to set the group plugin belongs to (not implemented yet). The main information about plugin (plugins name and script to execute) is stored in the plugin.xml file. It's self-explanatory :
 
 plugin.xml :
-::
+
+.. code-block:: xml
+
     <?xml version="1.0" encoding="UTF-8"?>
     <plugin>
     <name>Unhide All Layers</name>
@@ -218,7 +233,9 @@ plugin.xml :
     </plugin>
 
 view-unhide-all-layers.py :
-::
+
+.. code-block:: python
+
     #!/usr/bin/env python
 
     #
