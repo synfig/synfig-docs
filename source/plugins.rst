@@ -203,6 +203,7 @@ Once the script is completed, synfig will load that second file, so the plugin s
 
 Each plugin located in a separate subdirectory with unique name. The part of the name before first "-" symbol is used to set the group plugin belongs to (not implemented yet). The main information about plugin (plugins name and script to execute) is stored in the plugin.xml file. It's self-explanatory :
 
+plugin.xml :
 ::
     <?xml version="1.0" encoding="UTF-8"?>
     <plugin>
