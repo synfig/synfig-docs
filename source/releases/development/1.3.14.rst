@@ -1,0 +1,25 @@
+.. _release-1.3.14:
+
+############################
+Synfig 1.3.14 Release Notes
+############################
+
+Improvements
+------------
+
+* Show interpolation type directly in waypoint's context menu (see `details <https://github.com/synfig/synfig/pull/1353>`_).
+
+Bugfixes
+--------
+
+* Fixed crash when removing a Spline vertex using "Remove item (Smart)" (fix `#1188 <https://github.com/synfig/synfig/pull/1188>`_).
+* Fixed incorrect placement of width points on outline when loading old files (see details `here <https://github.com/synfig/synfig/issues/314#issuecomment-601336943>`_ and `here <https://github.com/synfig/synfig/issues/1284>`_).
+* Fixed crash when Shade Layer has no sublayers (`issue #1272 <https://github.com/synfig/synfig/pull/1272>`_).
+* Fixed popup menu disappearing right after button release for Widget Gradient/Spline (`issue #1277 <https://github.com/synfig/synfig/pull/1277>`_).
+* Fixed hang when opening a second .sif file from Explorer on Windows (`issue #291 <https://github.com/synfig/synfig/issues/291>`_).
+* Fixed behavior "Local Time" parameter of Time Loop layer (`issue #479 <https://github.com/synfig/synfig/issues/479>`_).
+* Fixed wrong percentage displayed when exporting a subset of frames (`issue #1304 <https://github.com/synfig/synfig/issues/1304>`_).
+* Fixed crash when undoing deletion of Group Layer (`issue #1070 <https://github.com/synfig/synfig/issues/1070>`_).
+* Fixed TimeTrack not updating when new waypoints added to bone (`issue #1342 <https://github.com/synfig/synfig/issues/1342>`_).
+* Fixed importing of 16-bit PNG files (issues `#1160 <https://github.com/synfig/synfig/issues/1160>`_ and `#1371 <https://github.com/synfig/synfig/issues/1371>`_).
+* Fixed some memory leaks (`PR #1292 <https://github.com/synfig/synfig/pull/1292>`_, `#1293 <https://github.com/synfig/synfig/pull/1293>`_, `#1319 <https://github.com/synfig/synfig/pull/1319>`_).
