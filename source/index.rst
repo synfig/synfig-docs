@@ -21,6 +21,7 @@ Synfig User Manual
    configuration.rst
    export.rst
    plugins.rst
+   releases.rst
    about.rst
 
 
