@@ -12,10 +12,10 @@ Improvements
 Bugfixes
 --------
 
-* Fixed crash when removing a Spline vertex using "Remove item (Smart)" (fix `#1188 <https://github.com/synfig/synfig/pull/1188>`_).
+* Fixed crash when removing a Spline vertex using "Remove item (Smart)" (`issue #1102 <https://github.com/synfig/synfig/issues/1102>`_).
 * Fixed incorrect placement of width points on outline when loading old files (see details `here <https://github.com/synfig/synfig/issues/314#issuecomment-601336943>`_ and `here <https://github.com/synfig/synfig/issues/1284>`_).
 * Fixed crash when Shade Layer has no sublayers (`issue #1272 <https://github.com/synfig/synfig/pull/1272>`_).
-* Fixed popup menu disappearing right after button release for Widget Gradient/Spline (`issue #1277 <https://github.com/synfig/synfig/pull/1277>`_).
+* Fixed popup menu disappearing right after button release for Widget Gradient/Spline (`issue #1272 <https://github.com/synfig/synfig/issues/1272>`_).
 * Fixed hang when opening a second .sif file from Explorer on Windows (`issue #291 <https://github.com/synfig/synfig/issues/291>`_).
 * Fixed behavior "Local Time" parameter of Time Loop layer (`issue #479 <https://github.com/synfig/synfig/issues/479>`_).
 * Fixed wrong percentage displayed when exporting a subset of frames (`issue #1304 <https://github.com/synfig/synfig/issues/1304>`_).
