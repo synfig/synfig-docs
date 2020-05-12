@@ -204,7 +204,8 @@ For an importer, synfig will pass the file selected in the open dialog as first 
 Once the script is completed, synfig will load that second file, so the plugin script should populate it appropriately.
 
 
-= Tutorial =
+Tutorial
+=====
 
 .. raw:: html
 
@@ -212,7 +213,8 @@ Once the script is completed, synfig will load that second file, so the plugin s
         <iframe src="https://www.youtube.com/embed/De9UhUkzNiY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
     
-= Details =
+Details
+----
 
 Each plugin located in a separate subdirectory with unique name. The part of the name before first "-" symbol is used to set the group plugin belongs to (not implemented yet). The main information about plugin (plugins name and script to execute) is stored in the plugin.xml file. It's self-explanatory :
 
