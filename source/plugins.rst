@@ -205,7 +205,7 @@ Once the script is completed, synfig will load that second file, so the plugin s
 
 
 Tutorial
-=====
+========
 
 .. raw:: html
 
@@ -214,7 +214,7 @@ Tutorial
     </div>
     
 Details
-----
+-------
 
 Each plugin located in a separate subdirectory with unique name. The part of the name before first "-" symbol is used to set the group plugin belongs to (not implemented yet). The main information about plugin (plugins name and script to execute) is stored in the plugin.xml file. It's self-explanatory :
 
