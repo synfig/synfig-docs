@@ -14,10 +14,10 @@ Bugfixes
 * Fixed time and delta values in tooltip while dragging in Graph panel (#1405)
 * Fixed glitching widthpoints (#1401)
 * Fixed width points that were wrongly computed on non-homogenous Advanced Outline (#1523)
-* Fixed renaming layer set affecting other names (#1146)
-* Fixed initial value for filename entry of Render Settings dialog
 * Fixed "Link to Spline": now places vertex into correct position when Spline is looped (#1467)
 * Fixed rendering of Advanced Outline width point tips (#1480)
+* Fixed renaming layer set affecting other names (#1146)
+* Fixed initial value for filename entry of Render Settings dialog
 * Fixed wrong bone linking after skeleton copy
 * [windows] Fixed somes crashes by reverting "fix sync scrolling of params and timetrack"
 * [windows] Fixed opening and exporting of files with arabic names
