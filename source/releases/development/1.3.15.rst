@@ -4,29 +4,41 @@
 Synfig 1.3.15 Release Notes
 ############################
 
-Bugfixes
---------
-* Fixed crash on pngspritesheet exporting (`issue #356 <https://github.com/synfig/synfig/issues/356>`_).
-* Fixed crash when removing spline point too fast.
-* Fixed some crashes: try to catch all exceptions thrown in GTK event callback handlers.
+Critical fixes
+--------------
+* Fixed issue when copying skeletons from one file to another. Previously this was resulting in corrupted file, but now it isn't.
+
+Advanced Outline fixes
+----------------------
+* Fixed glitches when moving Widthpoints on unlooped Advanced Outline (`issue #1401 <https://github.com/synfig/synfig/issues/1401>`_).
+* Fix Incorrect position of Widthpoints on Homogenous Advanced Outline (`issue #1431 <https://github.com/synfig/synfig/issues/1431>`_).
+* Fixed Widthpoints that were wrongly computed on non-homogenous Advanced Outline (`issue #1523 <https://github.com/synfig/synfig/issues/1523>`_).
+* Fixed "Link to Spline": now places vertex into correct position when Spline is looped (`issue #1467 <https://github.com/synfig/synfig/issues/1467>`_).
+* Fixed rendering of Advanced Outline width point tips (`issue #1480 <https://github.com/synfig/synfig/issues/1480>`_).
+* DashItem Offset and Length parameters now use consistent units when editing them (`issue #1265 <https://github.com/synfig/synfig/issues/1265>`_).
+
+Windows version fixes
+---------------------
+* Fixed issues opening and exporting of files with multibyte (i.e. Arabic) symbols in filename.
+* Fixed random crashes when editing splines (`issue #1442 <https://github.com/synfig/synfig/issues/1442>`_).
+
+UI/UX improvements
+------------------
+
+* Removed unused Change Preview Quality menu item.
+* Activate widget_filename right after user chooses file via button/file dialog (`issue #1425 <https://github.com/synfig/synfig/issues/1425>`_).
+* Homogenous parameter of Advanced Outline is enabled and static by default.
+* Set Animation Speed parameter of Noise Distort Layer as static by default.
+ 
+
+Other bugfixes
+--------------
+
+* Fixed crash when exporting with "pngspritesheet" target (`issue #356 <https://github.com/synfig/synfig/issues/356>`_).
+* Fixed crash when removing spline vertex too fast.
+* Fixed crashes related with exceptions thrown in GTK event callback handlers.
 * Fixed crash when undoing creation of a moved/changed vertex of spline.
 * Fixed crash when unexporting value node (`issue #231 <https://github.com/synfig/synfig/issues/231>`_).
 * Fixed time and delta values in tooltip while dragging in Graph panel (`issue #1405 <https://github.com/synfig/synfig/issues/1405>`_).
-* Fixed glitching widthpoints (`issue #1401 <https://github.com/synfig/synfig/issues/1401>`_).
-* Fixed width points that were wrongly computed on non-homogenous Advanced Outline (`issue #1523 <https://github.com/synfig/synfig/issues/1523>`_).
-* Fixed "Link to Spline": now places vertex into correct position when Spline is looped (`issue #1467 <https://github.com/synfig/synfig/issues/1467>`_).
-* Fixed rendering of Advanced Outline width point tips (`issue #1480 <https://github.com/synfig/synfig/issues/1480>`_).
 * Fixed renaming layer set affecting other names (`issue #1146 <https://github.com/synfig/synfig/issues/1146>`_).
-* Fixed initial value for filename entry of Render Settings dialog.
-* Fixed wrong bone linking after skeleton copy.
-* [windows] Fixed somes crashes by reverting "fix sync scrolling of params and timetrack".
-* [windows] Fixed opening and exporting of files with arabic names.
-* [osx] Removed hardcoded references to Python version (`issue #1244 <https://github.com/synfig/synfig/issues/1244>`_).
-
-UI/UX
------
-* Removed unused Change Preview Quality menu item
-* Activate widget_filename right after user chooses file via button/file dialog (`issue #1425 <https://github.com/synfig/synfig/issues/1425>`_).
-* Set Homogenous parameter of Advanced Outline as enabled and static by default.
-* Set Animation Speed parameter of Noise Distort Layer as static by default.
-* DashItem Offset and Length units were not consistent when editing them (`issue #1265 <https://github.com/synfig/synfig/issues/1265>`_).
+* Fixed initial value for filename entry in Render Settings dialog.
