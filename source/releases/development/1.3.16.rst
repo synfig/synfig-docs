@@ -5,5 +5,5 @@ Synfig 1.3.16 Release Notes
 ############################
 
 * Fixed crash when right-clicking on any Waypoint in TimeTrack Panel.
-* Fixed incorrect height of Keyframes wdget in Sound Panel (`issue #1601 <https://github.com/synfig/synfig/issues/1601>`_).
+* Fixed incorrect height of Keyframes widget in Sound Panel (`issue #1601 <https://github.com/synfig/synfig/issues/1601>`_).
 * Fixed incorrect visualisation of dashes on Advanced Outline (`issue #1589 <https://github.com/synfig/synfig/issues/1589>`_).
