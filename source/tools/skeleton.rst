@@ -64,14 +64,14 @@ The parent-child relationships of bones can be changed by using the **"Make pare
 
 When you are modifying a skeleton deformation layer using the Skeleton tool, it is to be noted that
 
-* The layer gets disabled
+* The layer gets disabled.
 * Width handles are turned on.
 * Any changes you make to the rest position effects the deformation too.
 
 Options
 =======
 
-You can find the following options in the tool options menu
+You can find the following options in the tool options menu:
 
 * **Name:** The name of the layer that will be created.
 * **Bone Width:** The width of the bone that will be created next.
