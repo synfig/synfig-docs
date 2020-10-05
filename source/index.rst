@@ -23,6 +23,7 @@ Synfig User Manual
    plugins.rst
    releases.rst
    about.rst
+   how_to_help.rst
 
 
 
