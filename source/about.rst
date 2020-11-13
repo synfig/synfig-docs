@@ -41,3 +41,5 @@ Contributors
 
 * Mattia Basaglia (mbasaglia)
 * Jerome Blanchi (D.j.a.y)
+* Konstantin Dmitriev (morevnaproject)
+* Ankit Kumar Dwivedi (ankit-kumar-dwivedi)
