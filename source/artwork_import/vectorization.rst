@@ -1,6 +1,10 @@
 Vectorization of Bitmaps
 ==============================================
 
+.. note::
+
+     Available since Synfig Studio 1.4.0.
+
 Synfig Studio can convert raster (bitmap) images into vector artwork constructed from outlines. The vectorization algorithm is ported from `OpenToonz <https://opentoonz.github.io/e/>`_ animation software by Ankit Kumar Dwivedi.
 
 Video Tutorial
@@ -46,7 +50,7 @@ You will see a dialog box with the following settings:
 
 Click "Convert" button and the image will be converted into a vector outlines (you will see a new Group Layer created).
     
-    .. note::
+.. note::
 
      Synfig currently supports only centerline vectorization
 
