@@ -1,0 +1,48 @@
+.. _release-1.4.0:
+
+############################
+Synfig 1.4.0 Release Notes
+############################
+
+Synfig Studio 1.4.0 is a major stable release, which is introducing many new features and improvements. Please read below for details.
+
+Animation Tools
+===========================
+
+...
+
+
+Rendering & Export
+===========================
+
+...
+
+Render Engine
+===========================
+
+...
+
+Layers
+===========================
+
+...
+
+Settings & Customization
+===========================
+
+...
+
+Other notable improvements
+===========================
+
+...
+
+Minor improvements
+===========================
+
+...
+
+Bugfixes
+===========================
+
+...
