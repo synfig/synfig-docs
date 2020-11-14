@@ -485,7 +485,7 @@ Bugfixes
 .. |image14| image:: http://www.synfig.org/wp-content/uploads/2020/02/screenshot_004.png
 .. |image15| image:: http://www.synfig.org/wp-content/uploads/2020/02/adv-outline.png
 .. |image16| image:: http://www.synfig.org/wp-content/uploads/2020/02/adv-outline.gif
-.. |image17| image:: http://www.synfig.org/wp-content/uploads/2020/02/switch_layer_001.pngg
+.. |image17| image:: http://www.synfig.org/wp-content/uploads/2020/02/switch_layer_001.png
 .. |image18| image:: http://www.synfig.org/wp-content/uploads/2020/02/rectangle-1.png
 .. |image19| image:: http://www.synfig.org/wp-content/uploads/2020/02/rectangle-2.png
 .. |image20| image:: http://www.synfig.org/wp-content/uploads/2020/02/workspaces.png
