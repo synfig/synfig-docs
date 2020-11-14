@@ -16,43 +16,59 @@ Now curves in Graphs Panel have control points, and you can drag to
 change curve shape. Multiple selection for waypoints is also available.
 You can also use arrow keys on keyboard to move points. Double-click on
 a curve creates a new waypoint, Ctrl+A/Ctrl+D shortcuts are
-selecting/deselecting all points. Much thanks to Rodolfo Ribeiro Gomes
-for implementing this!
-https://www.youtube.com/watch?time\_continue=9&v=yd-HtV4PiWY
-https://www.youtube.com/watch?v=2Bi--fpBhsM
+selecting/deselecting all points. Much thanks to Rodolfo Ribeiro Gomes for implementing this!
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yd-HtV4PiWY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2Bi--fpBhsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
 Sound synchronization features
 ------------------------------
 
 We did a major cleanup of code responsible for sound playback, fixed
-non-working volume parameter and eliminated synchronization issues. In
-addition to that, Rodolfo Ribeiro Gomes implemented a special panel to
-display waveform. Now it's so easy to sync your animation with
-soundtrack! |image0|
+non-working volume parameter and eliminated synchronization issues.
+
+In addition to that, Rodolfo Ribeiro Gomes implemented a special panel to display waveform. Now it's so easy to sync your animation with soundtrack!
+
+|image0|
 
 Control point to change Transformation Origin
 ---------------------------------------------
 
-Now transformation widget has a special control point to easily change
-origin of transformation. |image1|
-https://www.youtube.com/watch?v=mz4aXu-flDY
+Now transformation widget has a special control point to easily change origin of transformation.
+
+|image1|
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mz4aXu-flDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
 Animation Baking
 ----------------
 
 Now you can "bake" animation of any parameter! This operation "burns"
-any interpolated curve as a sequence of waypoints. |image2| Result:
+any interpolated curve as a sequence of waypoints. 
+
+|image2|
+
+Result:
+
 |image3|
 
 Improved TimeTrack
 ------------------
 
-TimeTrack Panel got several improvements. Now you can define playback
-range and make playback looped. Hovering mouse cursor over TimeTrack now
-shows frame preview. https://www.youtube.com/watch?v=xwbB0Q20Myo
-[caption id="attachment\_1170" align="aligncenter"
-width="664"]\ |image4| Frame thumbnail shown when cursor hovers
-timeline[/caption]
+TimeTrack Panel got several improvements. Now you can define playback range and make playback looped. Hovering mouse cursor over TimeTrack now shows frame preview.
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xwbB0Q20Myo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+
+.. figure:: http://www.synfig.org/wp-content/uploads/2019/02/screenshot_002.png
+   :scale: 50 %
+
+   Frame thumbnail shown when cursor hovers timeline
 
 Open images in external tool
 ----------------------------
@@ -60,7 +76,11 @@ Open images in external tool
 Ankit Kumar Dwivedi implemented a possibility to open images in external
 editor. Right now it is possible to configure preferred image editor via
 relevant option in Preferences. After that you can right-click any Image
-Layer and choose "Edit image in external tool...". |image5| |image6|
+Layer and choose "Edit image in external tool...".
+
+|image5|
+
+|image6|
 
 Fixes and changes for onion-skin functionality
 ----------------------------------------------
@@ -71,7 +91,9 @@ is restored. At the same time, we have changed functionality of
 onion-skin: in all previous versions it was linked to keyframes only,
 now it is set relatively to ordinary frames. We plan to continue
 improving onion-skin features as part of `issue
-#600 <https://github.com/synfig/synfig/issues/600>`__. |image7|
+#600 <https://github.com/synfig/synfig/issues/600>`__.
+
+|image7|
 
 Importing
 ==============
@@ -80,8 +102,13 @@ Simple import of image sequences
 --------------------------------
 
 Now it is easy to import image sequences - just choose "File" -> "Import
-sequence..." from menu. |image8|
-https://www.youtube.com/watch?v=XoAvm4VmUG4
+sequence..." from menu.
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XoAvm4VmUG4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+
+|image8|
 
 Vectorization of bitmap images
 ------------------------------
@@ -89,9 +116,13 @@ Vectorization of bitmap images
 Synfig Studio now allows to convert raster (bitmap) image into vector
 image constructed from outlines. The vectorization algorithm is ported
 from OpenToonz animation software by Ankit Kumar Dwivedi, as part of
-Google Summer of Code 2019 program. `Read more about this
-feature... <https://synfig.readthedocs.io/en/latest/artwork_import/vectorization.html>`__
-https://www.youtube.com/watch?v=liixFv7TUjA
+Google Summer of Code 2019 program. 
+
+`Read more about this feature... <https://synfig.readthedocs.io/en/latest/artwork_import/vectorization.html>`__
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/liixFv7TUjA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
 Basic video import functionality
 --------------------------------
@@ -100,7 +131,10 @@ This version introduces basic functionality for importing video files.
 At the current state the system is still too slow to work with large AVI
 and MP4 videos, but it is already possible to play with small animated
 GIFs (yes, it can import GIF as well).
-https://www.youtube.com/watch?v=XrAhZKSAOJg  
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XrAhZKSAOJg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
 Rendering and Export
 ====================
@@ -114,10 +148,14 @@ into web pages, play them natively in web browser and on mobile
 platforms. This format is also
 `used <https://github.com/synfig/synfig/issues/704#issuecomment-508974632>`__
 for creating Telegram’s animated stickers! This feature is implemented
-by Anish Gulati as part of Google Summer of Code 2019 program. `Read
-more about this
-feature... <https://synfig.readthedocs.io/en/latest/export/export_for_web_lottie.html>`__
-https://www.youtube.com/watch?v=cJq8yoP8Ji8
+by Anish Gulati as part of Google Summer of Code 2019 program. 
+
+`Read more about this feature... <https://synfig.readthedocs.io/en/latest/export/export_for_web_lottie.html>`__
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cJq8yoP8Ji8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br><br>
 
 Default render settings
 -----------------------
@@ -125,12 +163,18 @@ Default render settings
 Default rendering settings now configured to use AVI format with popular
 mpeg4 codec by default, which resolves issues with playback on most
 systems (`issue #464 <https://github.com/synfig/synfig/issues/464>`__).
-|image9| Still, if you wish to achieve best quality, consider to choose
-"H.264 (Lossless)" codec option. |image10| Other notable changes of
-rendering process:
+
+|image9|
+
+Still, if you wish to achieve best quality, consider to choose
+"H.264 (Lossless)" codec option.
+
+|image10|
+
+Other notable changes regarding rendering process:
 
 -  Changing rendering target now automatically changes extension of
-   output file. Thanks to Ankit Kumar Dwivedi.
+   output file.
 -  Rendering status is now indicated with a progress bar at Info Panel
    (issues `#383 <https://github.com/synfig/synfig/issues/383>`__,
    `#626 <https://github.com/synfig/synfig/issues/626>`__).
@@ -142,15 +186,24 @@ Render engine improvements
 
 Render engine got some major optimizations, which greatly reduces time
 of handling scenes with many layers, comparing to version 1.2.2 (see
-`issue #314 <https://github.com/synfig/synfig/issues/314>`__). In this
-version following layers got special optimizations: Outline Layer
+`issue #314 <https://github.com/synfig/synfig/issues/314>`__).
+
+In this version following layers got special optimizations: Outline Layer
 (completely rewritten), Region Layer, Checkerboard Layer, SuperSample
-Layer. Also, render engine now has downsampling algorithm for bitmaps,
-which greatly improves quality resulting image. [caption
-id="attachment\_1167" align="aligncenter" width="480"]\ |image11|
-Rendering result in Synfig 1.2.2[/caption]   [caption
-id="attachment\_1166" align="aligncenter" width="480"]\ |image12|
-Rendering result in Synfig 1.4.0[/caption]
+Layer.
+
+Also, render engine now has downsampling algorithm for bitmaps,
+which greatly improves quality resulting image.
+
+.. figure:: http://www.synfig.org/wp-content/uploads/2019/02/morevna-shot003-1.2.2.gif
+   :scale: 50 %
+
+   Rendering result in Synfig 1.2.2
+   
+.. figure:: http://www.synfig.org/wp-content/uploads/2019/02/morevna-shot003-1.3.11.gif
+   :scale: 50 %
+
+   Rendering result in Synfig 1.4.0
 
 "Preview" rendering mode for workarea
 -------------------------------------
@@ -159,27 +212,42 @@ Downsampling algorithm for images (mentioned above) greatly improves
 quality if your scene uses big images scaled to smaller size.
 Unfortunately, this operation demands additional CPU resources and you
 will notice general application slowdown when working with such scenes.
+
 There is an option to enable Draft rendering mode (it disables
 downsampling), but this solution doesn't fits for all cases, as it is
-hides many layers, which could be important for you. So, we added one
+hides many layers, which could be important for you.
+
+So, we added one
 more display mode for workarea - "Preview" - which displays all possible
 layers, but with some simplifications - i.e. no downsampling,
 approximations for blur algorithms and some other simplifications.
 "Preview" mode is giving a fair compromise between speed and display
 quality and is used by default in GUI. For more details please check
 `this discussion <https://github.com/synfig/synfig/issues/729>`__.
+
 |image13|
 
 Workarea Cache and Background Rendering
 ---------------------------------------
 
 Synfig now remembers already rendered frames, which is greatly improves
-experience of playback and timeline scrubbing. Also, now it is possible
+experience of playback and timeline scrubbing.
+
+Also, now it is possible
 to have background rendering of all frames in current animation. This
 allows to achieve very smooth playback and timeline scrub. You can
 enable background rendering using a relevant button on toolbar (see
-second video below). https://www.youtube.com/watch?v=\_HI1UAL8cMY
-https://www.youtube.com/watch?v=re79je9nZvw
+second video below). 
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_HI1UAL8cMY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br><br>
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/re79je9nZvw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br><br>	
 
 Gamma handling
 --------------
@@ -187,7 +255,9 @@ Gamma handling
 Since the very beginning of its development, Synfig was handling all
 color calculations with Gamma value set to 2.2. As result, there were a
 lot of issues with color interpolation and blending, like `this
-one <https://github.com/synfig/synfig/issues/933>`__. We decided, that
+one <https://github.com/synfig/synfig/issues/933>`__. 
+
+We decided, that
 it is good moment to get rid of this behavior and changed how Gamma
 handled in Synfig. The tricky part here was to keep compatibility with
 old files. Here's what we did:
@@ -211,6 +281,7 @@ layers from old files to new (and vice versa) - the colors of copied
 layers appear different in destination document. This can be easily
 fixed manually `as described
 here <https://github.com/synfig/synfig/issues/1022#issuecomment-571449482>`__.
+
 |image14|
 
 Layers
@@ -220,11 +291,16 @@ Advanced Outline Layer
 ----------------------
 
 Advanced Outline Layer was completely rewritten and optimized in this
-version. Also, it si now capable to display two new types of tips -
+version. Also, it is now capable to display two new types of tips -
 "Off-Peak Stop" and "Inner Rounded Stop", that can be used to define
-outline start/end for dashes. |image15| With this addition you can
+outline start/end for dashes.
+
+|image15|
+
+With this addition you can
 easily do effects like shown here (`source
 file <http://www.synfig.org/wp-content/uploads/2020/02/adv-outline-1.4.0.sifz>`__):
+
 |image16|
 
 Switch Layer
@@ -232,7 +308,9 @@ Switch Layer
 
 Now it is possible to select visible layer by index in Switch Layer.
 This is done using a new parameter - "Active Layer Depth". The parameter
-takes effect when "Active Layer name" parameter is empty. |image17|
+takes effect when "Active Layer name" parameter is empty.
+
+|image17|
 
 Rectangle Layer
 ---------------
@@ -244,7 +322,10 @@ same as Rectangle Layer), which was a part of Example layers. Now all
 those features are merged into standard Rectangle Layer, and the Filled
 Rectangle Layer is removed. See GitHub's `issue
 #745 <https://github.com/synfig/synfig/issues/745>`__ for details.
-Thanks to Yash Kapoor for this work. |image18| |image19|  
+
+|image18|
+
+|image19|  
 
 Settings & Customization
 ========================
@@ -255,6 +336,7 @@ Saving workspace layouts
 Now it is possible to save your workspace layout - just choose
 "Workspace" - "Save workspace" from menu. Also you can edit list of
 custom workspaces by calling "Workspace" - "Edit workspace list...".
+
 |image20|
 
 Default background for new files
@@ -263,7 +345,9 @@ Default background for new files
 Now it is possible to set default background for newly created documents
 (`issue #636 <https://github.com/synfig/synfig/issues/636>`__). The
 background can be a solid color or image. You can configure this via
-“Edit” -> “Preferences” -> “Document”. |image21|
+“Edit” -> “Preferences” -> “Document”.
+
+|image21|
 
 Other notable improvements
 ==========================
@@ -327,10 +411,8 @@ Bugfixes
 
 -  **Fixed issue when copying skeletons from one file to another.
    Previously this was resulting in corrupted file, but now it isn’t.**
--  **Fixed a very old and annoying
-   `issue <https://github.com/synfig/synfig/issues/257>`__ with
-   Ctrl+C/Ctrl+V shortcuts behavior, which was making impossible to use
-   them for text entries in UI (layers were copy-pasted instead).**
+-  **Fixed a very old and annoying**
+   `issue <https://github.com/synfig/synfig/issues/257>`__ **with Ctrl+C/Ctrl+V shortcuts behavior, which was making impossible to use them for text entries in UI (layers were copy-pasted instead).**
 -  **Fixed behavior “Local Time” parameter of Time Loop layer** (`issue
    #479 <https://github.com/synfig/synfig/issues/479>`__).
 -  **Fixed issues opening and exporting of files with multibyte (i.e.
@@ -390,112 +472,21 @@ Bugfixes
    #1146 <https://github.com/synfig/synfig/issues/1146>`__).
 
 .. |image0| image:: http://www.synfig.org/wp-content/uploads/2020/01/sound_screenshot_002.png
-   :class: wp-image-1374 alignnone
-   :width: 735px
-   :height: 510px
-   :target: http://www.synfig.org/wp-content/uploads/2020/01/sound_screenshot_002.png
 .. |image1| image:: http://www.synfig.org/wp-content/uploads/2020/01/group_origin_screenshot_005.png
-   :class: size-full wp-image-1375 alignnone
-   :width: 791px
-   :height: 320px
-   :target: http://www.synfig.org/wp-content/uploads/2020/01/group_origin_screenshot_005.png
 .. |image2| image:: http://www.synfig.org/wp-content/uploads/2020/02/bake-1.png
-   :class: alignnone size-full wp-image-1380
-   :width: 948px
-   :height: 342px
-   :target: http://www.synfig.org/wp-content/uploads/2020/02/bake-1.png
 .. |image3| image:: http://www.synfig.org/wp-content/uploads/2020/02/bake-2.png
-   :class: alignnone size-full wp-image-1381
-   :width: 945px
-   :height: 351px
-   :target: http://www.synfig.org/wp-content/uploads/2020/02/bake-2.png
-.. |image4| image:: http://www.synfig.org/wp-content/uploads/2019/02/screenshot_002.png
-   :class: size-full wp-image-1170
-   :width: 664px
-   :height: 276px
-   :target: http://www.synfig.org/wp-content/uploads/2019/02/screenshot_002.png
 .. |image5| image:: http://www.synfig.org/wp-content/uploads/2020/02/image-edit-1.png
-   :class: alignnone size-full wp-image-1391
-   :width: 803px
-   :height: 509px
-   :target: http://www.synfig.org/wp-content/uploads/2020/02/image-edit-1.png
 .. |image6| image:: http://www.synfig.org/wp-content/uploads/2020/02/image-edit-2.png
-   :class: alignnone size-full wp-image-1392
-   :width: 631px
-   :height: 326px
-   :target: http://www.synfig.org/wp-content/uploads/2020/02/image-edit-2.png
 .. |image7| image:: http://www.synfig.org/wp-content/uploads/2019/02/onionskin-1.3.11.png
-   :class: aligncenter size-full wp-image-1174
-   :width: 541px
-   :height: 395px
-   :target: http://www.synfig.org/wp-content/uploads/2019/02/onionskin-1.3.11.png
 .. |image8| image:: http://www.synfig.org/wp-content/uploads/2020/02/import-image-sequence.png
-   :class: alignnone size-full wp-image-1382
-   :width: 609px
-   :height: 368px
-   :target: http://www.synfig.org/wp-content/uploads/2020/02/import-image-sequence.png
 .. |image9| image:: http://www.synfig.org/wp-content/uploads/2019/02/render-settings-avi.png
-   :class: aligncenter size-full wp-image-1176
-   :width: 644px
-   :height: 300px
-   :target: http://www.synfig.org/wp-content/uploads/2019/02/render-settings-avi.png
 .. |image10| image:: http://www.synfig.org/wp-content/uploads/2020/11/screenshot_002.png
-   :class: size-full wp-image-2129 aligncenter
-   :width: 652px
-   :height: 441px
-   :target: http://www.synfig.org/wp-content/uploads/2020/11/screenshot_002.png
-.. |image11| image:: http://www.synfig.org/wp-content/uploads/2019/02/morevna-shot003-1.2.2.gif
-   :class: size-full wp-image-1167
-   :width: 480px
-   :height: 272px
-   :target: http://www.synfig.org/wp-content/uploads/2019/02/morevna-shot003-1.2.2.gif
-.. |image12| image:: http://www.synfig.org/wp-content/uploads/2019/02/morevna-shot003-1.3.11.gif
-   :class: size-full wp-image-1166
-   :width: 480px
-   :height: 272px
-   :target: http://www.synfig.org/wp-content/uploads/2019/02/morevna-shot003-1.3.11.gif
 .. |image13| image:: http://www.synfig.org/wp-content/uploads/2020/02/preview.png
-   :class: alignnone size-full wp-image-1394
-   :width: 748px
-   :height: 166px
-   :target: http://www.synfig.org/wp-content/uploads/2020/02/preview.png
 .. |image14| image:: http://www.synfig.org/wp-content/uploads/2020/02/screenshot_004.png
-   :class: alignnone size-full wp-image-1385
-   :width: 1258px
-   :height: 659px
-   :target: http://www.synfig.org/wp-content/uploads/2020/02/screenshot_004.png
 .. |image15| image:: http://www.synfig.org/wp-content/uploads/2020/02/adv-outline.png
-   :class: alignnone size-full wp-image-1386
-   :width: 376px
-   :height: 378px
-   :target: http://www.synfig.org/wp-content/uploads/2020/02/adv-outline.png
 .. |image16| image:: http://www.synfig.org/wp-content/uploads/2020/02/adv-outline.gif
-   :class: alignnone size-full wp-image-1387
-   :width: 480px
-   :height: 270px
-   :target: http://www.synfig.org/wp-content/uploads/2020/02/adv-outline.gif
-.. |image17| image:: http://www.synfig.org/wp-content/uploads/2020/02/switch_layer_001.png
-   :class: alignnone size-full wp-image-1379
-   :width: 437px
-   :height: 154px
-   :target: http://www.synfig.org/wp-content/uploads/2020/02/switch_layer_001.png
+.. |image17| image:: http://www.synfig.org/wp-content/uploads/2020/02/switch_layer_001.pngg
 .. |image18| image:: http://www.synfig.org/wp-content/uploads/2020/02/rectangle-1.png
-   :class: alignnone size-full wp-image-1389
-   :width: 791px
-   :height: 426px
-   :target: http://www.synfig.org/wp-content/uploads/2020/02/rectangle-1.png
 .. |image19| image:: http://www.synfig.org/wp-content/uploads/2020/02/rectangle-2.png
-   :class: alignnone size-full wp-image-1390
-   :width: 1251px
-   :height: 759px
-   :target: http://www.synfig.org/wp-content/uploads/2020/02/rectangle-2.png
 .. |image20| image:: http://www.synfig.org/wp-content/uploads/2020/02/workspaces.png
-   :class: alignnone size-full wp-image-1383
-   :width: 862px
-   :height: 393px
-   :target: http://www.synfig.org/wp-content/uploads/2020/02/workspaces.png
 .. |image21| image:: http://www.synfig.org/wp-content/uploads/2019/02/background.png
-   :class: aligncenter wp-image-1152
-   :width: 819px
-   :height: 468px
-   :target: http://www.synfig.org/wp-content/uploads/2019/02/background.png
