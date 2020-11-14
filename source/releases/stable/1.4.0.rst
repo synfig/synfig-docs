@@ -471,22 +471,22 @@ Bugfixes
 -  Fixed renaming layer set affecting other names (`issue
    #1146 <https://github.com/synfig/synfig/issues/1146>`__).
 
-.. |image0| image:: http://www.synfig.org/wp-content/uploads/2020/01/sound_screenshot_002.png
-.. |image1| image:: http://www.synfig.org/wp-content/uploads/2020/01/group_origin_screenshot_005.png
-.. |image2| image:: http://www.synfig.org/wp-content/uploads/2020/02/bake-1.png
-.. |image3| image:: http://www.synfig.org/wp-content/uploads/2020/02/bake-2.png
-.. |image5| image:: http://www.synfig.org/wp-content/uploads/2020/02/image-edit-1.png
-.. |image6| image:: http://www.synfig.org/wp-content/uploads/2020/02/image-edit-2.png
-.. |image7| image:: http://www.synfig.org/wp-content/uploads/2019/02/onionskin-1.3.11.png
-.. |image8| image:: http://www.synfig.org/wp-content/uploads/2020/02/import-image-sequence.png
-.. |image9| image:: http://www.synfig.org/wp-content/uploads/2019/02/render-settings-avi.png
-.. |image10| image:: http://www.synfig.org/wp-content/uploads/2020/11/screenshot_002.png
-.. |image13| image:: http://www.synfig.org/wp-content/uploads/2020/02/preview.png
-.. |image14| image:: http://www.synfig.org/wp-content/uploads/2020/02/screenshot_004.png
-.. |image15| image:: http://www.synfig.org/wp-content/uploads/2020/02/adv-outline.png
-.. |image16| image:: http://www.synfig.org/wp-content/uploads/2020/02/adv-outline.gif
-.. |image17| image:: http://www.synfig.org/wp-content/uploads/2020/02/switch_layer_001.png
-.. |image18| image:: http://www.synfig.org/wp-content/uploads/2020/02/rectangle-1.png
-.. |image19| image:: http://www.synfig.org/wp-content/uploads/2020/02/rectangle-2.png
-.. |image20| image:: http://www.synfig.org/wp-content/uploads/2020/02/workspaces.png
-.. |image21| image:: http://www.synfig.org/wp-content/uploads/2019/02/background.png
+.. |image0| image:: 1.4.0_dat/sound_screenshot_002.png
+.. |image1| image:: 1.4.0_dat/group_origin_screenshot_005.png
+.. |image2| image:: 1.4.0_dat/bake-1.png
+.. |image3| image:: 1.4.0_dat/bake-2.png
+.. |image5| image:: 1.4.0_dat/image-edit-1.png
+.. |image6| image:: 1.4.0_dat/image-edit-2.png
+.. |image7| image:: 1.4.0_dat/onionskin-1.3.11.png
+.. |image8| image:: 1.4.0_dat/import-image-sequence.png
+.. |image9| image:: 1.4.0_dat/render-settings-avi.png
+.. |image10| image:: 1.4.0_dat/screenshot_002.png
+.. |image13| image:: 1.4.0_dat/preview.png
+.. |image14| image:: 1.4.0_dat2/screenshot_004.png
+.. |image15| image:: 1.4.0_dat/adv-outline.png
+.. |image16| image:: 1.4.0_dat/adv-outline.gif
+.. |image17| image:: 1.4.0_dat/switch_layer_001.png
+.. |image18| image:: 1.4.0_dat/rectangle-1.png
+.. |image19| image:: 1.4.0_dat/rectangle-2.png
+.. |image20| image:: 1.4.0_dat/workspaces.png
+.. |image21| image:: 1.4.0_dat/background.png
