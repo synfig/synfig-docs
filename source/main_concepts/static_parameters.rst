@@ -1,5 +1,6 @@
-.. _waypoints:
+.. _static_parameters:
+
 
 ########################
-    Waypoints
+    Static Parameters
 ########################

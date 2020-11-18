@@ -1,5 +1,8 @@
-.. _waypoints:
+.. _layer_skeleton:
 
 ########################
-    Waypoints
+    Skeleton Layer
 ########################
+
+
+

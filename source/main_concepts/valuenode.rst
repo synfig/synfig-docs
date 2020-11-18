@@ -1,3 +1,5 @@
+.. _valuenode:
+
 ########################
-    Interpolation
+    ValueNode
 ########################

@@ -1,5 +1,8 @@
-.. _waypoints:
+.. _panel_tool_options:
 
 ########################
-    Waypoints
+    Tool Options Panel
 ########################
+
+
+
