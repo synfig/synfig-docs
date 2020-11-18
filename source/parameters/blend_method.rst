@@ -1,5 +1,8 @@
-.. _waypoints:
+.. _blend_method:
 
 ########################
-    Waypoints
+    Blend Method
 ########################
+
+
+

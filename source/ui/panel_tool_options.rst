@@ -1,7 +1,7 @@
-.. _blend_method_composite:
+.. _panel_tool_options:
 
 ########################
-    Composite
+    Tool Options Panel
 ########################
 
 

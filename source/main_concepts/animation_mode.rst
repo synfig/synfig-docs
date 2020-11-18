@@ -1,3 +1,5 @@
+.. _animation_mode:
+
 ########################
-    Animation mode
+    Animation Mode
 ########################

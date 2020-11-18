@@ -1,5 +1,8 @@
-.. _waypoints:
+.. _layer_time_loop:
 
 ########################
-    Waypoints
+    Time Loop Layer
 ########################
+
+
+

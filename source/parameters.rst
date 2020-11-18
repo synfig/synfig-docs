@@ -1,7 +1,7 @@
-.. _blend_methods:
+.. _parameters:
 
 ########################
-    Blend Methods
+    Parameters
 ########################
 
 
@@ -10,4 +10,4 @@
    :maxdepth: 1
    :glob:
 
-   blend_methods/*
+   parameters/*

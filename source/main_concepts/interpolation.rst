@@ -1,5 +1,5 @@
-.. _waypoints:
+.. _interpolation:
 
 ########################
-    Waypoints
+    Interpolation
 ########################

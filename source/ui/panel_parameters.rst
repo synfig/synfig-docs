@@ -1,5 +1,8 @@
-.. _waypoints:
+.. _panel_parameters:
 
 ########################
-    Waypoints
+    Parameters Panel
 ########################
+
+
+
