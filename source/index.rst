@@ -16,7 +16,7 @@ Synfig User Manual
    artwork_import/index.rst
    tools.rst
    layers.rst
-   blend_methods.rst
+   parameters.rst
    converters.rst
    configuration.rst
    export.rst

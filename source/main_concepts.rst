@@ -16,4 +16,4 @@
    main_concepts/exported_parameters.rst
    main_concepts/canvas.rst
    main_concepts/exported_canvases.rst
-
+   main_concepts/blend_methods.rst

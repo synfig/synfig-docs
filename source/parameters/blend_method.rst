@@ -1,7 +1,7 @@
-.. _blend_method_composite:
+.. _blend_method:
 
 ########################
-    Composite
+    Blend Method
 ########################
 
 
