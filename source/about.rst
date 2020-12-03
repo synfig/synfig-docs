@@ -43,7 +43,11 @@ Contributors
 * Mattia Basaglia (mbasaglia)
 * Wiki:D.j.a.y - Jerome Blanchi (D.j.a.y)
 * Wiki:Dooglus - Chris Moore (dooglus)
+* WIki:Genete - Carlos López González (genete)
+* Wiki:Ghosthand - Chris Blount
 * Wiki:Grafika lucian
+* Wiki:HoekstraF
+* Wiki:Pxegeek - Chris Norman
 * Wiki:Rubikcube - Daniel Hornung
 * Wiki:Rylleman - David Rylander (rylleman)
 * Wiki:Want - Aleš Kapica
