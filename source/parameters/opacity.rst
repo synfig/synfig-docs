@@ -19,7 +19,7 @@ Show or hide a layer, or fade the effect of a blur?
 ---------------------------------------------------
 
 In the `Parameters Panel <Parameters_Panel>`__, look for an option
-labeled `Amount <Amount_Parameter>`__ - this controls how much of the
+labeled ``Opacity`` - this controls how much of the
 blended result of the layer is composited with the blend of the layers
 beneath it.
 
@@ -34,13 +34,11 @@ If you want to affect multiple layers at the same time, you have several
 options :
 
 -  You can `Group <Group_Layer>`__ your layers and use the group's
-   `Amount Parameter <Amount_Parameter>`__,
--  `Export <Export>`__ one of the layers `Amount
-   Parameter <Amount_Parameter>`__ and `link <Linking>`__ others layer's
-   `Amount <Amount_Parameter>`__,
--  `Linking <Linking>`__ all layer's `Amount <Amount_Parameter>`__.
+   Opacity Parameter,
+-  `Export <Export>`__ one of the layers Opacity Parameter and `link <Linking>`__ others layer's Opacity Parameter,
+-  `Linking <Linking>`__ all layer's Opacity Parameter.
    Select the layers you want to affect in the `Layers
-   Panel <Layers_Panel>`__, right click to `Amount <Amount_Parameter>`__
+   Panel <Layers_Panel>`__, right click to Opacity Parameter
    in the `Parameters Panel <Parameters_Panel>`__ and choose ``Link``.
 
 Specific cases
