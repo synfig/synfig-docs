@@ -40,6 +40,11 @@ Contributors
 ===============
 
 * Mattia Basaglia (mbasaglia)
-* Jerome Blanchi (D.j.a.y)
-* Konstantin Dmitriev (morevnaproject)
+* Wiki:D.j.a.y - Jerome Blanchi (D.j.a.y)
+* Wiki:Zelgadis - Konstantin Dmitriev (morevnaproject)
 * Ankit Kumar Dwivedi (ankit-kumar-dwivedi)
+* Wiki:Want - Aleš Kapica
+* Wiki:Rylleman - David Rylander (rylleman)
+* Wiki:Dooglus - Chris Moore (dooglus)
+* Wiki:Rubikcube - Daniel Hornung
+* Wiki:Grafika lucian
