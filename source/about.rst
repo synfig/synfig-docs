@@ -39,12 +39,12 @@ However, others can change and improve your text in order to keep the manual con
 Contributors
 ===============
 
+* Ankit Kumar Dwivedi (ankit-kumar-dwivedi)
 * Mattia Basaglia (mbasaglia)
 * Wiki:D.j.a.y - Jerome Blanchi (D.j.a.y)
-* Wiki:Zelgadis - Konstantin Dmitriev (morevnaproject)
-* Ankit Kumar Dwivedi (ankit-kumar-dwivedi)
-* Wiki:Want - Aleš Kapica
-* Wiki:Rylleman - David Rylander (rylleman)
 * Wiki:Dooglus - Chris Moore (dooglus)
-* Wiki:Rubikcube - Daniel Hornung
 * Wiki:Grafika lucian
+* Wiki:Rubikcube - Daniel Hornung
+* Wiki:Rylleman - David Rylander (rylleman)
+* Wiki:Want - Aleš Kapica
+* Wiki:Zelgadis - Konstantin Dmitriev (morevnaproject)
