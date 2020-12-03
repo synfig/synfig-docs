@@ -47,6 +47,7 @@ Contributors
 * Wiki:Ghosthand - Chris Blount
 * Wiki:Grafika lucian
 * Wiki:HoekstraF
+* Wiki:Jcome - Yu Chen (jcome)
 * Wiki:Pxegeek - Chris Norman
 * Wiki:Rubikcube - Daniel Hornung
 * Wiki:Rylleman - David Rylander (rylleman)
