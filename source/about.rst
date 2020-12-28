@@ -41,15 +41,47 @@ Contributors
 
 * Ankit Kumar Dwivedi (ankit-kumar-dwivedi)
 * Mattia Basaglia (mbasaglia)
+* Wiki:1158517325
+* Wiki:AkhIL
+* Wiki:Andrewkay
+* Wiki:BentFX
+* Wiki:Berteh
+* Wiki:Bombe
+* Wiki:Bottye
+* Wiki:Ciaran
+* Wiki:DaveJ
+* Wiki:Darkspace65
+* Wiki:DeanBrettle
+* Wiki:Devilly
 * Wiki:D.j.a.y - Jerome Blanchi (D.j.a.y)
 * Wiki:Dooglus - Chris Moore (dooglus)
+* Wiki:Dustinmoorenet
+* Wiki:Erubin
+* Wiki:FirasH
 * WIki:Genete - Carlos López González (genete)
+* WIki:Gerco
 * Wiki:Ghosthand - Chris Blount
 * Wiki:Grafika lucian
+* Wiki:Hellocatfood
 * Wiki:HoekstraF
 * Wiki:Jcome - Yu Chen (jcome)
+* Wiki:Kaleru
+* Wiki:Mikalaari
+* Wiki:MNeto
+* Wiki:Nikitakit
+* Wiki:Nitrofurano
+* Wiki:Ohoservices
+* Wiki:PaulWise
+* Wiki:Pupazzo
 * Wiki:Pxegeek - Chris Norman
+* Wiki:Rore
+* Wiki:Rosenth
 * Wiki:Rubikcube - Daniel Hornung
 * Wiki:Rylleman - David Rylander (rylleman)
+* Wiki:Saorsa
+* Wiki:SnapSilverlight
+* Wiki:Synme
+* Wiki:VgvAdn
 * Wiki:Want - Aleš Kapica
+* Wiki:YyrR22
 * Wiki:Zelgadis - Konstantin Dmitriev (morevnaproject)
