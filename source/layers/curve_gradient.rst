@@ -45,7 +45,7 @@ The parameters of the ``Curve Gradient Layer`` are:
 +--------------------------------------------------------------------+---------------------------+--------------+
 |     |List\_icon.png| Vertices                                      |   List                    |   spline     |
 +--------------------------------------------------------------------+---------------------------+--------------+
-|     |Gradient\_icon.png| `Gradient <Gradient_Editor_Dialog>`__     |   |p_color_green.png|     |   gradient   |
+|     |Gradient\_icon.png| `Gradient <Gradient_Editor_Dialog>`__     |   |p_gradient.png|        |   gradient   |
 |                                                                    |                           |              |
 |                                                                    |                           |              |
 |                                                                    |                           |              |
@@ -154,4 +154,4 @@ The ``Fast`` option can be turned **Off** in the curve gradient layer's
 .. |Bool_icon.png| image:: images/Type_bool_icon.png
    :width: 16px
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
-.. |p_color_green.png| image:: images/p_color_green.png   
+.. |p_gradient.png| image:: images/p_gradient.png

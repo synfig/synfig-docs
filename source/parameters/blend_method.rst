@@ -258,16 +258,12 @@ Color
 Precisely: the resulting colour is obtained by adjusting B to have the
 same U and V values as A, while keeping Y the same.
 
-http://home.comcast.net/~pxegeek/synfig/straight.png +
-http://home.comcast.net/~pxegeek/synfig/synfigtux.png =
-http://home.comcast.net/~pxegeek/synfig/color.png
+straight.png + synfigtux.png = color.png
 
 As this example looks just like the saturation one, perhaps a yellow
 gradient instead of a white one would be more illustrative
 
-http://home.comcast.net/~pxegeek/synfig/yellowgradient.png +
-http://home.comcast.net/~pxegeek/synfig/synfigtux.png =
-http://home.comcast.net/~pxegeek/synfig/coloryg.png
+yellowgradient.png + synfigtux.png = coloryg.png
 
 Hue
 ---
@@ -295,9 +291,7 @@ vector <http://en.wikipedia.org/wiki/YUV>`__.
 As this example is so similar to the 'Color' blend example, here it is
 with a yellow gradient -
 
-http://home.comcast.net/~pxegeek/synfig/yellowgradient.png +
-http://home.comcast.net/~pxegeek/synfig/synfigtux.png =
-http://home.comcast.net/~pxegeek/synfig/saturationyg.png
+yellowgradient.png + synfigtux.png = saturationyg.png
 
 Luminance
 ---------

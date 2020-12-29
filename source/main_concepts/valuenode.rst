@@ -31,7 +31,7 @@ Constant ValueNodes
 These have a single value for all time, and no waypoints. An example of
 such a `ValueNode <ValueNode>`__ would be:
 
-“``3.4,``\ `` ``\ ``for``\ `` ``\ ``ever``”
+|  ``“3.4, for ever”``
 
 Animated ValueNodes
 -------------------
@@ -41,10 +41,10 @@ particular points in time. For times which don't have a value specified,
 the value is calculated by interpolating between the waypoints. An
 example would be:
 
-| ``"3.4 at the beginning of the animation,``
-| ``move smoothly up to 7.6 at time = 10 seconds,``
-| ``then jump instantly to 2.0``
-| ``and stay there until the end of time"``
+|  ``"3.4 at the beginning of the animation,``
+|  ``move smoothly up to 7.6 at time = 10 seconds,``
+|  ``then jump instantly to 2.0``
+|  ``and stay there until the end of time"``
 
 Converted ValueNodes
 --------------------
@@ -57,7 +57,7 @@ type from the 'convert' sub-menu allows you to convert a
 have waypoints themselves, but their sub-parameters may do. An example
 would be:
 
-`` ``\ “``start``\ `` ``\ ``at``\ `` ``\ ``3.4``\ `` ``\ ``and``\ `` ``\ ``linearly``\ `` ``\ ``increase``\ `` ``\ ``by``\ `` ``\ ``1.2``\ `` ``\ ``per``\ `` ``\ ``second``”
+| ``“start at 3.4 and linearly increase by 1.2 per second”``
 
 Actions on ValueNodes
 =====================

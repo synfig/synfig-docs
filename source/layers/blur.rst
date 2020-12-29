@@ -114,63 +114,87 @@ Gaussian :
 Fast Gaussian
 ~~~~~~~~~~~~~
 
+Fast Gaussian Blur
+~~~~~~~~~~~~~~~~~~
+
++----------------------------------------------+-----------------------------------------------+
+| **Fast Gaussian Blur**                       |                                               |
++----------------------------------------------+-----------------------------------------------+
+| .. figure:: blur_dat/BlursFastGaussian.png   | .. figure:: blur_dat/Blurs2FastGaussian.png   |
+|    :alt: blur_dat/BlursFastGaussian.png      |    :alt: blur_dat/Blurs2FastGaussian.png      |
+|                                              |                                               |
+|                                              |                                               |
++----------------------------------------------+-----------------------------------------------+
+
+Box
+~~~
+
++------------------------------------+--------------------------------------+
+| **Box Blur**                       |                                      |
++------------------------------------+--------------------------------------+
+| .. figure:: blur_dat/BlurBox.png   | .. figure:: blur_dat/Blurs2Box.png   |
+|    :alt: blur_dat/BlurBox.png      |    :alt: blur_dat/Blurs2Box.png      |
+|                                    |                                      |
+|                                    |                                      |
++------------------------------------+--------------------------------------+
+
+Cross Hatch
+~~~~~~~~~~~
+
++-------------------------------------------+---------------------------------------------+
+| **Cross Hatch Blur**                      |                                             |
++-------------------------------------------+---------------------------------------------+
+| .. figure:: blur_dat/BlurCrossHatch.png   | .. figure:: blur_dat/Blurs2CrossHatch.png   |
+|    :alt: blur_dat/BlurCrossHatch.png      |    :alt: blur_dat/Blurs2CrossHatch.png      |
+|                                           |                                             |
+|                                           |                                             |
++-------------------------------------------+---------------------------------------------+
+
+Disc
+~~~~
+
++-------------------------------------+---------------------------------------+
+| **Disc Blur**                       |                                       |
++-------------------------------------+---------------------------------------+
+| .. figure:: blur_dat/BlurDisc.png   | .. figure:: blur_dat/Blurs2Disc.png   |
+|    :alt: blur_dat/BlurDisc.png      |    :alt: blur_dat/Blurs2Disc.png      |
+|                                     |                                       |
+|                                     |                                       |
++-------------------------------------+---------------------------------------+
+
+Gaussian
+~~~~~~~~
+
++-----------------------------------------+-------------------------------------------+
+| **Gaussian Blur**                       |                                           |   
++-----------------------------------------+-------------------------------------------+
+| .. figure:: blur_dat/BlurGaussian.png   | .. figure:: blur_dat/Blurs2Gaussian.png   |
+|    :alt: blur_dat/BlurGaussian.png      |    :alt: blur_dat/Blurs2Gaussian.png      |
+|                                         |                                           |
+|                                         |                                           |
++-----------------------------------------+-------------------------------------------+
+
+Fast Gaussian Blur over all the layers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++----------------------------------------------+
+| **Fast Gaussian Blur over all the layers**   |
++----------------------------------------------+
+| .. figure:: blur_dat/Blur.png                |
+|    :alt: blur_dat/Blur.png                   |
+|                                              |
+|                                              |
++----------------------------------------------+
+
+See also
+--------
+
+-  `Radial Blur Layer <Radial_Blur_Layer>`__ with a radial control of
+   the size of the blur.
+
+-  `Motion Blur Layer <Motion_Blur_Layer>`__ a type of blur that aims to
+   simulate a motion blur (the one that happens when the object's
+   movement is too fast for the exposure time). It is controlled by a
+   single parameter called “Aperture”.
 
 
-=== Fast Gaussian Blur ===
-{| border = "1" 
-| '''Fast Gaussian Blur''' 
-|-
-| {{l|Image:blur_dat/BlursFastGaussian.png}}
-| {{l|Image:blur_dat/Blurs2FastGaussian.png}}
-|}
-
-
-=== Box ===
-{| border = "1" 
-| '''Box Blur''' 
-|-
-| {{l|Image:blur_dat/BlurBox.png}}
-| {{l|Image:blur_dat/Blurs2Box.png}}
-|}
-
-
-=== Cross Hatch ===
-{| border = "1" 
-| '''Cross Hatch Blur''' 
-|-
-| {{l|Image:blur_dat/BlurCrossHatch.png}}
-| {{l|Image:blur_dat/Blurs2CrossHatch.png}}
-|}
-
-
-=== Disc ===
-{| border = "1" 
-| '''Disc Blur''' 
-|-
-| {{l|Image:blur_dat/BlurDisc.png}}
-| {{l|Image:blur_dat/Blurs2Disc.png}}
-|}
-
-
-=== Gaussian ===
-{| border = "1" 
-| '''Gaussian Blur''' 
-|-
-| {{l|Image:blur_dat/BlurGaussian.png}}
-| {{l|Image:blur_dat/Blurs2Gaussian.png}}
-|}
-
-
-=== Fast Gaussian Blur over all the layers ===
-{| border = "1" 
-| '''Fast Gaussian Blur over all the layers''' 
-|-
-| {{l|Image:blur_dat/Blur.png}}
-|}
-
-
-== See also == 
-
-* {{l|Radial Blur Layer}} with a radial control of the size of the blur.
-
-* {{l|Motion Blur Layer}} a type of blur that aims to simulate a motion blur (the one that happens when the object's movement is too fast for the exposure time). It is controlled by a single parameter called "Aperture".

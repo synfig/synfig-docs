@@ -81,6 +81,7 @@ Contributors
 * Wiki:Saorsa
 * Wiki:SnapSilverlight
 * Wiki:Synme
+* Wiki:Ugajin
 * Wiki:VgvAdn
 * Wiki:Want - Aleš Kapica
 * Wiki:YyrR22

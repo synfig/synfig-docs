@@ -32,17 +32,17 @@ Parameters of the Mandelbrot Set Layers
 +------------------------------------------------------------------------------------+---------------------+--------------+
 |     |Real\_icon.png| `Bailout ValueBase <Bailout_ValueBase_Parameter>`__           |   2.000000          |   real       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| `Break Set <Break_Set_Parameter>`__                           |                     |   bool       |
+|     |Bool\_icon.png| `Break Set <Break_Set_Parameter>`__                           | |p_checkbox_off.png||   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| `Distort Inside <Distort_Inside_Parameter>`__                 |                     |   bool       |
+|     |Bool\_icon.png| `Distort Inside <Distort_Inside_Parameter>`__                 | |p_checkbox_off.png||   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| `Shade Inside <Shade_Inside_Parameter>`__                     |                     |   bool       |
+|     |Bool\_icon.png| `Shade Inside <Shade_Inside_Parameter>`__                     | |p_checkbox_on.png| |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
 |     |Bool\_icon.png| `Solid Inside <Solid_Inside_Parameter>`__                     |                     |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
 |     |Bool\_icon.png| `Invert Inside <Invert_Inside_Parameter>`__                   |                     |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Type\_gradient\_icon.png| `Gradient Inside <Gradient_Inside_Parameter>`__     | |p_color_green.png| |   gradient   |
+|     |Type\_gradient\_icon.png| `Gradient Inside <Gradient_Inside_Parameter>`__     |  |p_gradient.png|   |   gradient   |
 +------------------------------------------------------------------------------------+---------------------+--------------+
 |     |Real\_icon.png| `Offset Inside <Offset_Inside_Parameter>`__                   |   0.000000          |   real       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
@@ -56,7 +56,7 @@ Parameters of the Mandelbrot Set Layers
 +------------------------------------------------------------------------------------+---------------------+--------------+
 |     |Bool\_icon.png| `Invert Outside <Invert_Outside_Parameter>`__                 |                     |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Type\_gradient\_icon.png| `Gradient Outside <Gradient_Outside_Parameter>`__   | |p_color_green.png| |   gradient   |
+|     |Type\_gradient\_icon.png| `Gradient Outside <Gradient_Outside_Parameter>`__   |  |p_gradient.png|   |   gradient   |
 +------------------------------------------------------------------------------------+---------------------+--------------+
 |     |Bool\_icon.png| `Smooth Outside <Smooth_Outside_Parameter>`__                 |                     |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
@@ -73,5 +73,7 @@ Parameters of the Mandelbrot Set Layers
    :width: 16px
 .. |Type_gradient_icon.png| image:: images/Type_gradient_icon.png
    :width: 16px
-.. |p_color_green.png| image:: images/p_color_green.png   
+.. |p_gradient.png| image:: images/p_gradient.png
+.. |p_checkbox_off.png| image:: images/p_checkbox_off.png
+.. |p_checkbox_on.png| image:: images/p_checkbox_on.png
    

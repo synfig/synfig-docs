@@ -30,7 +30,7 @@ The parameters of the metaballs layer are:
 +----------------------------------------------------------------------------+----------------------+-------------------------+
 |     |Type\_integer\_icon.png| `Blend Method <Blend_Method>`__              |   Composite          |   integer               |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_gradient\_icon.png| `Gradient <Gradient_Editor_Dialog>`__       |   |p_color_green.png||   gradient              |
+|     |Type\_gradient\_icon.png| `Gradient <Gradient_Editor_Dialog>`__       |   |p_gradient.png|   |   gradient              |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
 |     |Type\_list\_icon.png| `Balls <Balls_Parameter>`__                     |   List               |   list (Dynamic List)   |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
@@ -56,5 +56,5 @@ The parameters of the metaballs layer are:
    :width: 16px
 .. |Type_bool_icon.png| image:: images/Type_bool_icon.png
    :width: 16px
-.. |p_color_green.png| image:: images/p_color_green.png
+.. |p_gradient.png| image:: images/p_gradient.png
 

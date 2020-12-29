@@ -34,7 +34,7 @@ Parameters of the Linear Gradient Layer are:
 +------------------------------------------------------------------+-------------------------+--------------+
 |     |Vector\_icon.png| Point 2                                   |   -1.000000,-1.000000   |   vector     |
 +------------------------------------------------------------------+-------------------------+--------------+
-|     |Gradient\_icon.png| `Gradient <Gradient_Editor_Dialog>`__   |   |p_color_green.png|   |   gradient   |
+|     |Gradient\_icon.png| `Gradient <Gradient_Editor_Dialog>`__   |   |p_gradient.png|      |   gradient   |
 |                                                                  |                         |              |
 |                                                                  |                         |              |
 |                                                                  |                         |              |
@@ -61,5 +61,5 @@ Parameters of the Linear Gradient Layer are:
 .. |Bool_icon.png| image:: images/Type_bool_icon.png
    :width: 16px
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
-.. |p_color_green.png| image:: images/p_color_green.png   
+.. |p_gradient.png| image:: images/p_gradient.png   
 

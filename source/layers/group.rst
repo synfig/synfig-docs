@@ -12,14 +12,14 @@ About Group Layer
 
 The ``Group Layer`` is a special layer that can hold other layers. It is
 generated via the `Group <Group>`__ command accessed via the context
-menu in the {l\|Layers Panel}} or through the in the `Canvas Menu
+menu in the `Layers Panel <Layers Panel>`__ or through the in the `Canvas Menu
 Caret <Canvas_Menu_Caret>`__.
 
 As well as grouping a set of layers, it can also apply transformations
 to the contained layers like translation, scaling, and even modify their
 time offset.
 
-A ``Group Layer`` can also be created through the , using .
+A ``Group Layer`` can also be created through the `New Layer Menu <Category:Layer_Menu#New_Layer_Menu>`__, using ``New Layer -> Other -> Group Layer``.
 
 Parameters of Group Layer
 -------------------------
@@ -99,7 +99,7 @@ user with a text entry box asking for the name of the canvas to use. The
 name typed should have the following format (where [ ] indicates an
 optional part, ( ) is for grouping, and \* means “0 or more times”):
 
-``  [[filename]#][:]``\ *``id``*\ ``(:``\ *``id``*\ ``)*``
+   [[filename]#][:]id(:id)*
 
 In its simplest form, this is just an *id*, ie. the exported name of one
 of the child canvases of the current canvas.
@@ -190,9 +190,6 @@ See Also
 --------
 
 `Switch\_Group\_Layer <Switch_Group_Layer>`__
-
-`Category:Layer Menu <Category:Layer_Menu>`__ `New Layer
-Menu <Category:Layer_Menu#New_Layer_Menu>`__
 
 .. |Type_real_icon.png| image:: images/Type_real_icon.png
    :width: 16px

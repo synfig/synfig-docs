@@ -34,15 +34,15 @@ The parameters of the ``Motion Blur Layer`` are:
 +----------------------------------------------------------------------------------+----------------+-------------+
 | Name                                                                             | Value          | Type        |
 +----------------------------------------------------------------------------------+----------------+-------------+
-| \|\ |Type\_time\_icon.png| `Aperture <#Aperture>`__                              | \|0f           | \|time      |
+|     |Type\_time\_icon.png| `Aperture <#Aperture>`__                              |   0f           |   time      |
 +----------------------------------------------------------------------------------+----------------+-------------+
-| \|\ |Type\_real\_icon.png| `Subsamples Factor <#Subsamples_Parameters>`__        | \|1.000000     | \|real      |
+|     |Type\_real\_icon.png| `Subsamples Factor <#Subsamples_Parameters>`__        |   1.000000     |   real      |
 +----------------------------------------------------------------------------------+----------------+-------------+
-| \|\ |Type\_integer\_icon.png| `Subsampling Type <#Subsamples_Parameters>`__      | \|Hyperbolic   | \|integer   |
+|     |Type\_integer\_icon.png| `Subsampling Type <#Subsamples_Parameters>`__      |   Hyperbolic   |   integer   |
 +----------------------------------------------------------------------------------+----------------+-------------+
-| \|\ |Type\_real\_icon.png| `Subsample Start Amount <#Subsamples_Parameters>`__   | \|0.000000     | \|real      |
+|     |Type\_real\_icon.png| `Subsample Start Amount <#Subsamples_Parameters>`__   |   0.000000     |   real      |
 +----------------------------------------------------------------------------------+----------------+-------------+
-| \|\ |Type\_real\_icon.png| `Subsample End Amount <#Subsamples_Parameters>`__     | \|1.000000     | \|real      |
+|     |Type\_real\_icon.png| `Subsample End Amount <#Subsamples_Parameters>`__     |   1.000000     |   real      |
 +----------------------------------------------------------------------------------+----------------+-------------+
 
 Aperture
@@ -88,30 +88,30 @@ blur.
 Samples
 -------
 
-+--------------+---------------------------------------------------+---------------------------------------------------+
-|              | From Subsample Start 0 to Subsample End 1         | From Subsample Start 1 to Subsample End 0         |
-+==============+===================================================+===================================================+
-| \| 0f–0f     | .. figure:: motion_blur_0-1_aperture_0-0f.gif     |
-|              |    :alt: motion_blur_0-1_aperture_0-0f.gif        |
-|              |                                                   |
-|              |    motion\_blur\_0-1\_aperture\_0-0f.gif          |
-+--------------+---------------------------------------------------+---------------------------------------------------+
-| \| 0f–24f    | .. figure:: motion_blur_0-1_aperture_0-24f.gif    | .. figure:: motion_blur_1-0_aperture_0-24f.gif    |
-|              |    :alt: motion_blur_0-1_aperture_0-24f.gif       |    :alt: motion_blur_1-0_aperture_0-24f.gif       |
-|              |                                                   |                                                   |
-|              |    motion\_blur\_0-1\_aperture\_0-24f.gif         |    motion\_blur\_1-0\_aperture\_0-24f.gif         |
-+--------------+---------------------------------------------------+---------------------------------------------------+
-| \| 24f–24f   | .. figure:: motion_blur_0-1_aperture_24-24f.gif   | .. figure:: motion_blur_1-0_aperture_24-24f.gif   |
-|              |    :alt: motion_blur_0-1_aperture_24-24f.gif      |    :alt: motion_blur_1-0_aperture_24-24f.gif      |
-|              |                                                   |                                                   |
-|              |    motion\_blur\_0-1\_aperture\_24-24f.gif        |    motion\_blur\_1-0\_aperture\_24-24f.gif        |
-+--------------+---------------------------------------------------+---------------------------------------------------+
-| \| 24f–0f    | .. figure:: motion_blur_0-1_aperture_24-0f.gif    | .. figure:: motion_blur_1-0_aperture_24-0f.gif    |
-|              |    :alt: motion_blur_0-1_aperture_24-0f.gif       |    :alt: motion_blur_1-0_aperture_24-0f.gif       |
-|              |                                                   |                                                   |
-|              |    motion\_blur\_0-1\_aperture\_24-0f.gif         |    motion\_blur\_1-0\_aperture\_24-0f.gif         |
-+--------------+---------------------------------------------------+---------------------------------------------------+
-+--------------+---------------------------------------------------+---------------------------------------------------+
++--------------+-------------------------------------------------------------------+-------------------------------------------------------------------+
+|              | From Subsample Start 0 to Subsample End 1                         | From Subsample Start 1 to Subsample End 0                         |
++==============+===================================================================+===================================================================+
+|    0f–0f     | .. figure:: motion_blur_dat/Motion_blur_0-1_aperture_0-0f.gif                                                                         |    
+|              |    :alt: Motion_blur_0-1_aperture_0-0f.gif                                                                                            |
+|              |                                                                                                                                       |
+|              |                                                                                                                                       |
++--------------+-------------------------------------------------------------------+-------------------------------------------------------------------+
+|    0f–24f    | .. figure:: motion_blur_dat/Motion_blur_0-1_aperture_0-24f.gif    | .. figure:: motion_blur_dat/Motion_blur_1-0_aperture_0-24f.gif    |
+|              |    :alt: Motion_blur_0-1_aperture_0-24f.gif                       |    :alt: Motion_blur_1-0_aperture_0-24f.gif                       |
+|              |                                                                   |                                                                   |
+|              |                                                                   |                                                                   |
++--------------+-------------------------------------------------------------------+-------------------------------------------------------------------+
+|    24f–24f   | .. figure:: motion_blur_dat/Motion_blur_0-1_aperture_24-24f.gif   | .. figure:: motion_blur_dat/Motion_blur_1-0_aperture_24-24f.gif   |
+|              |    :alt: Motion_blur_0-1_aperture_24-24f.gif                      |    :alt: Motion_blur_1-0_aperture_24-24f.gif                      |
+|              |                                                                   |                                                                   |
+|              |                                                                   |                                                                   |
++--------------+-------------------------------------------------------------------+-------------------------------------------------------------------+
+|    24f–0f    | .. figure:: motion_blur_dat/Motion_blur_0-1_aperture_24-0f.gif    | .. figure:: motion_blur_dat/Motion_blur_1-0_aperture_24-0f.gif    |
+|              |    :alt: Motion_blur_0-1_aperture_24-0f.gif                       |    :alt: Motion_blur_1-0_aperture_24-0f.gif                       |
+|              |                                                                   |                                                                   |
+|              |                                                                   |                                                                   |
++--------------+-------------------------------------------------------------------+-------------------------------------------------------------------+
+
 
 Notes:
 
@@ -120,7 +120,7 @@ Notes:
 -  Columns in table – ``Subsample Start Amount`` value and
    ``Subsample End Amount`` value
 
-`Sample file <Media:motion_blur.sifz>`__
+:download:`Sample file <motion_blur_dat/Motion_blur.sifz>`
 
 See also
 --------
@@ -131,10 +131,10 @@ See also
    the size of the blur.
 -  `Blur Layer <Blur_Layer>`__ mostly used types of blur.
 
-.. |Type\_time\_icon.png| image:: Type_time_icon.png
+.. |Type_time_icon.png| image:: images/Type_time_icon.png
    :width: 16px
-.. |Type\_real\_icon.png| image:: Type_real_icon.png
+.. |Type_real_icon.png| image:: images/Type_real_icon.png
    :width: 16px
-.. |Type\_integer\_icon.png| image:: Type_integer_icon.png
+.. |Type_integer_icon.png| image:: images/Type_integer_icon.png
    :width: 16px
 

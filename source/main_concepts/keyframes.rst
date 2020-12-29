@@ -203,8 +203,7 @@ You cannot set the time of other keyframe. If you try to set the time of
 a certain keyframe to be the same time of another existing keyframe then
 the program gives you this message:
 
-| ``keyframe_set: Cannot change keyframe time because another keyframe already exists``
-| ``with that time.``
+| ``keyframe_set: Cannot change keyframe time because another keyframe already exists with that time.``
 
 See `the example <#Change_Keyframe_Time>`__ to see how changing the time
 of a keyframe works.
@@ -333,8 +332,9 @@ Before duplicate keyframe at 2s to 6s
    :alt: Keyframe-GraphBeforeDuplicate_0.63.06.png
 
 
-| ``notice that although the interpolation between 0s and 8s is TCB Smooth the real result ``
-| ``is linear due that they are the only two waypoints of the animation for that parameter.``
+.. note::
+   Notice that although the interpolation between 0s and 8s is TCB Smooth the real result 
+   is linear due that they are the only two waypoints of the animation for that parameter.
 
 If you select the keyframe at 2s, place the time cursor at 6s (where
 there isn't a keyframe), set the `default
@@ -556,7 +556,8 @@ have been compressed and expanded in the time line. Also notice that any
 waypoint has been formed in the moved keyframe at the paramter at the
 bottom of the list but yes in the static keyframes.
 
-`` It seems to be a bug (?) - to be verified.``
+.. note::
+   It seems to be a bug (?) - to be verified.
 
 Trying to understand this behaviour I see that also the keyframes keep
 the waypoints between two adjacent keyframes although you move them,
@@ -586,10 +587,11 @@ sync.
 Usage of Onionskin
 ~~~~~~~~~~~~~~~~~~
 
-To properly use the onion skin feature (``Alt+O`` or ) you should
-consider the frame where the keyframes are set. Onion skin will show you
-the before and after keyframes images with a 50% opaque copy of the
-current view. Also the current view is 50% opaque.
+To properly use the onion skin feature (``Alt+O`` or
+``Menu Caret -> View -> Toggle Onion Skin``) you should consider the
+frame where the keyframes are set. Onion skin will show you the before
+and after keyframes images with a 50% opaque copy of the current view.
+Also the current view is 50% opaque.
 
 See `Onion Skin <Onion_Skin>`__ for more detail.
 

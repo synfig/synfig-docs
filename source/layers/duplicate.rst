@@ -60,9 +60,9 @@ to the ``To`` value (most visible).
 How to use
 ----------
 
--  Doc:Snowflake_with_the_Duplicate_Layer : `Duplicate
+-  `Snowflake_with_the_Duplicate_Layer Tutorial <Doc:Snowflake_with_the_Duplicate_Layer>`__ : `Duplicate
    Layer <Duplicate_Layer>`__ + `Rotate Layer <Rotate_Layer>`__
--  Doc:Tiling_object : `Duplicate Layer <Duplicate_Layer>`__ +
+-  `Tiling_object Tutorial <Doc:Tiling_object>`__ : `Duplicate Layer <Duplicate_Layer>`__ +
    `Linking <Linking>`__ `Group Layer <Group_Layer>`__'s
    `Origin\_Parameter <Origin_Parameter>`__
 

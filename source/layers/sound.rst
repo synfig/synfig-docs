@@ -13,7 +13,7 @@ About Sound Layers
 .. note::
    Actually the "Sound Layer" isn't `rendered <Render_dialog>`__!
    
-   You can use `ffmpeg <https://en.wikipedia.org/wiki/FFmpeg>`__/`avconv <https://en.wikipedia.org/wiki/Libav>`__ for manual merging. Read about `simple <https://davidwalsh.name/combine-audio-video>'__ or `advanced <https://wjwoodrow.wordpress.com/2013/02/04/correcting-for-audiovideo-sync-issues-with-the-ffmpeg-programs-itsoffset-switch/>`__ way
+   You can use `ffmpeg <https://en.wikipedia.org/wiki/FFmpeg>`__/`avconv <https://en.wikipedia.org/wiki/Libav>`__ for manual merging. Read about `simple <https://davidwalsh.name/combine-audio-video>`__ or `advanced <https://wjwoodrow.wordpress.com/2013/02/04/correcting-for-audiovideo-sync-issues-with-the-ffmpeg-programs-itsoffset-switch/>`__ way
 
 
 The ``Sound Layer`` ...
