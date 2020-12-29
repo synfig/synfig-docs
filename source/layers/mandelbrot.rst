@@ -38,27 +38,27 @@ Parameters of the Mandelbrot Set Layers
 +------------------------------------------------------------------------------------+---------------------+--------------+
 |     |Bool\_icon.png| `Shade Inside <Shade_Inside_Parameter>`__                     | |p_checkbox_on.png| |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| `Solid Inside <Solid_Inside_Parameter>`__                     |                     |   bool       |
+|     |Bool\_icon.png| `Solid Inside <Solid_Inside_Parameter>`__                     | |p_checkbox_off.png||   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| `Invert Inside <Invert_Inside_Parameter>`__                   |                     |   bool       |
+|     |Bool\_icon.png| `Invert Inside <Invert_Inside_Parameter>`__                   | |p_checkbox_on.png| |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
 |     |Type\_gradient\_icon.png| `Gradient Inside <Gradient_Inside_Parameter>`__     |  |p_gradient.png|   |   gradient   |
 +------------------------------------------------------------------------------------+---------------------+--------------+
 |     |Real\_icon.png| `Offset Inside <Offset_Inside_Parameter>`__                   |   0.000000          |   real       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| `Loop Inside <Loop_Inside_Parameter>`__                       |                     |   bool       |
+|     |Bool\_icon.png| `Loop Inside <Loop_Inside_Parameter>`__                       | |p_checkbox_on.png| |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| `Distort Outside <Distort_Outside_Parameter>`__               |                     |   bool       |
+|     |Bool\_icon.png| `Distort Outside <Distort_Outside_Parameter>`__               | |p_checkbox_off.png||   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| `Shade Outside <Shade_Outside_Parameter>`__                   |                     |   bool       |
+|     |Bool\_icon.png| `Shade Outside <Shade_Outside_Parameter>`__                   | |p_checkbox_on.png| |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| `Solid Outside <Solid_Outside_Parameter>`__                   |                     |   bool       |
+|     |Bool\_icon.png| `Solid Outside <Solid_Outside_Parameter>`__                   | |p_checkbox_off.png||   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| `Invert Outside <Invert_Outside_Parameter>`__                 |                     |   bool       |
+|     |Bool\_icon.png| `Invert Outside <Invert_Outside_Parameter>`__                 | |p_checkbox_on.png| |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
 |     |Type\_gradient\_icon.png| `Gradient Outside <Gradient_Outside_Parameter>`__   |  |p_gradient.png|   |   gradient   |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| `Smooth Outside <Smooth_Outside_Parameter>`__                 |                     |   bool       |
+|     |Bool\_icon.png| `Smooth Outside <Smooth_Outside_Parameter>`__                 | |p_checkbox_off.png||   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
 |     |Real\_icon.png| `Offset Outside <Offset_Outside_Parameter>`__                 |   0.000000          |   real       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
