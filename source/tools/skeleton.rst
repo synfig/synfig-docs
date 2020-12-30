@@ -1,4 +1,4 @@
-.. _tools_skeleton:
+.. _tool_skeleton:
 
 ########################
     Skeleton Tool

@@ -1,4 +1,4 @@
-.. _zdepth:
+.. _parameters_zdepth:
 
 ########################
     Z-Depth
