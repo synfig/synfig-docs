@@ -1,0 +1,641 @@
+<?xml version="1.0"?>
+<canvas version="0.1" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="1m 40s 0f" bgcolor="0.500000 0.500000 0.500000 1.000000">
+  <name>Untitled0</name>
+  <layer type="PasteCanvas" active="true" version="0.1">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0"/>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="canvas">
+      <canvas>
+        <layer type="region" active="true" version="0.1">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="offset">
+            <vector>
+              <x>0.0000000000</x>
+              <y>0.0000000000</y>
+            </vector>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+          <param name="antialias">
+            <bool value="true"/>
+          </param>
+          <param name="feather">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="blurtype">
+            <integer value="1"/>
+          </param>
+          <param name="bline">
+            <bline type="bline_point" loop="false">
+              <entry>
+                <composite type="bline_point" guid="402E646088355426DB8CF513065F8417">
+                  <c1>
+                    <vector>
+                      <x>-1.6133333445</x>
+                      <y>0.4606824815</y>
+                    </vector>
+                  </c1>
+                  <c2>
+                    <real value="1.0000000000"/>
+                  </c2>
+                  <c3>
+                    <real value="0.5000000000"/>
+                  </c3>
+                  <c4>
+                    <bool value="false"/>
+                  </c4>
+                  <c5>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.6743485678"/>
+                      </c0>
+                      <c1>
+                        <angle value="120.349464"/>
+                      </c1>
+                    </radial_composite>
+                  </c5>
+                  <c6>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.6743485678"/>
+                      </c0>
+                      <c1>
+                        <angle value="120.349464"/>
+                      </c1>
+                    </radial_composite>
+                  </c6>
+                </composite>
+              </entry>
+              <entry>
+                <composite type="bline_point" guid="14750EB14859A45D95822F00501BE0B4">
+                  <c1>
+                    <animated type="vector">
+                      <waypoint time="1s">
+                        <vector>
+                          <x>-1.9833333492</x>
+                          <y>-1.3084387779</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="3s" before="constant" after="constant">
+                        <vector>
+                          <x>-2.0799999237</x>
+                          <y>1.0081602335</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="5s" before="linear" after="linear">
+                        <vector>
+                          <x>-2.0000000000</x>
+                          <y>0.9948071241</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="7s" before="halt" after="halt">
+                        <vector>
+                          <x>-2.0133333206</x>
+                          <y>1.0348664522</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="9s" before="manual" after="manual">
+                        <vector>
+                          <x>-1.9866666794</x>
+                          <y>0.9681009054</y>
+                        </vector>
+                      </waypoint>
+                    </animated>
+                  </c1>
+                  <c2>
+                    <real value="1.0000000000"/>
+                  </c2>
+                  <c3>
+                    <real value="0.5000000000"/>
+                  </c3>
+                  <c4>
+                    <bool value="true"/>
+                  </c4>
+                  <c5>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.6743485678"/>
+                      </c0>
+                      <c1>
+                        <angle value="102.124062"/>
+                      </c1>
+                    </radial_composite>
+                  </c5>
+                  <c6>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.7450834162"/>
+                      </c0>
+                      <c1>
+                        <angle value="-24.352694"/>
+                      </c1>
+                    </radial_composite>
+                  </c6>
+                </composite>
+              </entry>
+              <entry>
+                <composite type="bline_point" guid="14EDD2D64FC402427C9B4270CED180C2">
+                  <c1>
+                    <vector>
+                      <x>-1.2400000095</x>
+                      <y>0.7277448177</y>
+                    </vector>
+                  </c1>
+                  <c2>
+                    <real value="1.0000000000"/>
+                  </c2>
+                  <c3>
+                    <real value="0.5000000000"/>
+                  </c3>
+                  <c4>
+                    <bool value="true"/>
+                  </c4>
+                  <c5>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.7450834162"/>
+                      </c0>
+                      <c1>
+                        <angle value="-30.765238"/>
+                      </c1>
+                    </radial_composite>
+                  </c5>
+                  <c6>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.7295129020"/>
+                      </c0>
+                      <c1>
+                        <angle value="122.687111"/>
+                      </c1>
+                    </radial_composite>
+                  </c6>
+                </composite>
+              </entry>
+              <entry>
+                <composite type="bline_point" guid="612C11256B320F17617C7EFB73772555">
+                  <c1>
+                    <animated type="vector">
+                      <waypoint time="1s">
+                        <vector>
+                          <x>-1.6266666651</x>
+                          <y>1.4087537527</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="3s" before="constant">
+                        <vector>
+                          <x>-1.7066667080</x>
+                          <y>1.4488130808</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="5s" before="linear">
+                        <vector>
+                          <x>-1.6266666651</x>
+                          <y>1.4354599714</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="7s" before="halt">
+                        <vector>
+                          <x>-1.6399999857</x>
+                          <y>1.4755192995</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="9s" before="manual">
+                        <vector>
+                          <x>-1.6133333445</x>
+                          <y>1.4087537527</y>
+                        </vector>
+                      </waypoint>
+                    </animated>
+                  </c1>
+                  <c2>
+                    <real value="1.0000000000"/>
+                  </c2>
+                  <c3>
+                    <real value="0.5000000000"/>
+                  </c3>
+                  <c4>
+                    <bool value="false"/>
+                  </c4>
+                  <c5>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.7295129020"/>
+                      </c0>
+                      <c1>
+                        <angle value="44.264545"/>
+                      </c1>
+                    </radial_composite>
+                  </c5>
+                  <c6>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.7295129020"/>
+                      </c0>
+                      <c1>
+                        <angle value="44.264545"/>
+                      </c1>
+                    </radial_composite>
+                  </c6>
+                </composite>
+              </entry>
+              <entry>
+                <composite type="bline_point" guid="9622FC69883595A035E2F82CC0F71AA8">
+                  <c1>
+                    <animated type="vector">
+                      <waypoint time="1s" after="constant">
+                        <vector>
+                          <x>-0.9200000167</x>
+                          <y>0.8345697522</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="3s" before="constant" after="constant">
+                        <vector>
+                          <x>-0.8533333540</x>
+                          <y>0.8479228616</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="5s" before="linear" after="constant">
+                        <vector>
+                          <x>-0.7733333111</x>
+                          <y>0.8345697522</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="7s" before="halt" after="constant">
+                        <vector>
+                          <x>-0.7866666913</x>
+                          <y>0.8746290803</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="9s" before="manual" after="constant">
+                        <vector>
+                          <x>-0.7599999905</x>
+                          <y>0.8078634739</y>
+                        </vector>
+                      </waypoint>
+                    </animated>
+                  </c1>
+                  <c2>
+                    <real value="1.0000000000"/>
+                  </c2>
+                  <c3>
+                    <real value="0.5000000000"/>
+                  </c3>
+                  <c4>
+                    <bool value="true"/>
+                  </c4>
+                  <c5>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.8540517467"/>
+                      </c0>
+                      <c1>
+                        <angle value="-45.195930"/>
+                      </c1>
+                    </radial_composite>
+                  </c5>
+                  <c6>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.6825017534"/>
+                      </c0>
+                      <c1>
+                        <angle value="99.580696"/>
+                      </c1>
+                    </radial_composite>
+                  </c6>
+                </composite>
+              </entry>
+              <entry>
+                <composite type="bline_point" guid="9200C4590075749013629B36790136B5">
+                  <c1>
+                    <animated type="vector">
+                      <waypoint time="1s" after="linear">
+                        <vector>
+                          <x>-1.1733332872</x>
+                          <y>1.6624629498</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="3s" before="constant" after="linear">
+                        <vector>
+                          <x>-1.2266666889</x>
+                          <y>1.6758160591</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="5s" before="linear" after="linear">
+                        <vector>
+                          <x>-1.1466666460</x>
+                          <y>1.6624629498</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="7s" before="halt" after="linear">
+                        <vector>
+                          <x>-1.1599999666</x>
+                          <y>1.7025222778</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="9s" before="manual" after="linear">
+                        <vector>
+                          <x>-1.1333333254</x>
+                          <y>1.6357567310</y>
+                        </vector>
+                      </waypoint>
+                    </animated>
+                  </c1>
+                  <c2>
+                    <real value="1.0000000000"/>
+                  </c2>
+                  <c3>
+                    <real value="0.5000000000"/>
+                  </c3>
+                  <c4>
+                    <bool value="true"/>
+                  </c4>
+                  <c5>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.6825017534"/>
+                      </c0>
+                      <c1>
+                        <angle value="95.523148"/>
+                      </c1>
+                    </radial_composite>
+                  </c5>
+                  <c6>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.6950784267"/>
+                      </c0>
+                      <c1>
+                        <angle value="-43.808758"/>
+                      </c1>
+                    </radial_composite>
+                  </c6>
+                </composite>
+              </entry>
+              <entry>
+                <composite type="bline_point" guid="685BE6E5753A04B4266FB2AE02C057E5">
+                  <c1>
+                    <animated type="vector">
+                      <waypoint time="1s" after="halt">
+                        <vector>
+                          <x>-0.6000000238</x>
+                          <y>0.9280415177</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="3s" before="constant" after="halt">
+                        <vector>
+                          <x>-0.6133333445</x>
+                          <y>0.9413946867</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="5s" before="linear" after="halt">
+                        <vector>
+                          <x>-0.5333333611</x>
+                          <y>0.9280415177</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="7s" before="halt" after="halt">
+                        <vector>
+                          <x>-0.5466666818</x>
+                          <y>0.9681009054</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="9s" before="manual" after="halt">
+                        <vector>
+                          <x>-0.5199999809</x>
+                          <y>0.9013352990</y>
+                        </vector>
+                      </waypoint>
+                    </animated>
+                  </c1>
+                  <c2>
+                    <real value="1.0000000000"/>
+                  </c2>
+                  <c3>
+                    <real value="0.5000000000"/>
+                  </c3>
+                  <c4>
+                    <bool value="true"/>
+                  </c4>
+                  <c5>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.6950784267"/>
+                      </c0>
+                      <c1>
+                        <angle value="-54.628216"/>
+                      </c1>
+                    </radial_composite>
+                  </c5>
+                  <c6>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.5388443605"/>
+                      </c0>
+                      <c1>
+                        <angle value="96.674797"/>
+                      </c1>
+                    </radial_composite>
+                  </c6>
+                </composite>
+              </entry>
+              <entry>
+                <composite type="bline_point" guid="792D07156F1986AF9772770765048D50">
+                  <c1>
+                    <animated type="vector">
+                      <waypoint time="1s" after="manual">
+                        <vector>
+                          <x>-0.8266666532</x>
+                          <y>1.7292284966</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="3s" before="constant" after="manual">
+                        <vector>
+                          <x>-0.8399999738</x>
+                          <y>1.8093471527</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="5s" before="linear" after="manual">
+                        <vector>
+                          <x>-0.7599999905</x>
+                          <y>1.7959940434</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="7s" before="halt" after="manual">
+                        <vector>
+                          <x>-0.7733333111</x>
+                          <y>1.8360533714</y>
+                        </vector>
+                      </waypoint>
+                      <waypoint time="9s" before="manual" after="manual">
+                        <vector>
+                          <x>-0.7466666698</x>
+                          <y>1.7692878246</y>
+                        </vector>
+                      </waypoint>
+                    </animated>
+                  </c1>
+                  <c2>
+                    <real value="1.0000000000"/>
+                  </c2>
+                  <c3>
+                    <real value="0.5000000000"/>
+                  </c3>
+                  <c4>
+                    <bool value="true"/>
+                  </c4>
+                  <c5>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.5388443605"/>
+                      </c0>
+                      <c1>
+                        <angle value="98.951996"/>
+                      </c1>
+                    </radial_composite>
+                  </c5>
+                  <c6>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.6192377459"/>
+                      </c0>
+                      <c1>
+                        <angle value="-39.432350"/>
+                      </c1>
+                    </radial_composite>
+                  </c6>
+                </composite>
+              </entry>
+              <entry>
+                <composite type="bline_point" guid="753438F8B736755C1BEDC20DB1ADFC51">
+                  <c1>
+                    <animated type="vector">
+                      <waypoint time="8s" after="constant">
+                        <vector guid="2B417BF2E64207DE3F94CF6FA8334AC2">
+                          <x>0.0000000000</x>
+                          <y>0.4000000060</y>
+                        </vector>
+                      </waypoint>
+                    </animated>
+                  </c1>
+                  <c2>
+                    <real value="1.0000000000"/>
+                  </c2>
+                  <c3>
+                    <real value="0.5000000000"/>
+                  </c3>
+                  <c4>
+                    <bool value="false"/>
+                  </c4>
+                  <c5>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.4486582659"/>
+                      </c0>
+                      <c1>
+                        <angle value="-117.011444"/>
+                      </c1>
+                    </radial_composite>
+                  </c5>
+                  <c6>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="0.4486582659"/>
+                      </c0>
+                      <c1>
+                        <angle value="-117.011444"/>
+                      </c1>
+                    </radial_composite>
+                  </c6>
+                </composite>
+              </entry>
+              <entry>
+                <composite type="bline_point" guid="C28BD83C9B9B4BDECEE0241142E50A3A">
+                  <c1>
+                    <animated type="vector">
+                      <waypoint time="8s" before="constant">
+                        <vector guid="5561BAF8C8D3730DBE977CBC4CC206B2">
+                          <x>-0.2500000000</x>
+                          <y>0.0500000007</y>
+                        </vector>
+                      </waypoint>
+                    </animated>
+                  </c1>
+                  <c2>
+                    <real value="1.0000000000"/>
+                  </c2>
+                  <c3>
+                    <real value="0.5000000000"/>
+                  </c3>
+                  <c4>
+                    <bool value="false"/>
+                  </c4>
+                  <c5>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="1.1638528640"/>
+                      </c0>
+                      <c1>
+                        <angle value="-121.913506"/>
+                      </c1>
+                    </radial_composite>
+                  </c5>
+                  <c6>
+                    <radial_composite type="vector">
+                      <c0>
+                        <real value="1.1638528640"/>
+                      </c0>
+                      <c1>
+                        <angle value="-121.913506"/>
+                      </c1>
+                    </radial_composite>
+                  </c6>
+                </composite>
+              </entry>
+            </bline>
+          </param>
+        </layer>
+      </canvas>
+    </param>
+    <param name="zoom">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="time_offset">
+      <time value="0s"/>
+    </param>
+    <param name="children_lock">
+      <bool value="false"/>
+    </param>
+  </layer>
+</canvas>

@@ -7,6 +7,8 @@
 .. toctree::
    :maxdepth: 2
 
+   main_concepts/introduction.rst
+   main_concepts/interface.rst
    main_concepts/layer.rst
    main_concepts/parameters.rst
    main_concepts/animation_mode.rst
