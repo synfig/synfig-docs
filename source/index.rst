@@ -11,16 +11,19 @@ Synfig User Manual
    :caption: Contents:
    
    installation.rst
-   interface.rst
+   quick_start.rst
    main_concepts.rst
+   tutorials.rst
    artwork_import/index.rst
    tools.rst
    layers.rst
    parameters.rst
    converters.rst
    configuration.rst
+   ui.rst
    export.rst
    plugins.rst
+   glossary.rst
    releases.rst
    about.rst
    how_to_help.rst
