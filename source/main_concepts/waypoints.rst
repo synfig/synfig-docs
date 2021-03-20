@@ -166,9 +166,14 @@ In the chart above the ``In`` interpolation is shown on the left, and
 the ``Out`` interpolation is shown across the top.
 
 Note: the .sif file used to generate these screenshots is available.
-|Waypoint-examples.sif|
 
-Here is an |experimental .sif file| showing 25 different blobs, and how
+
+:download:`Waypoint-examples.sif <waypoints_dat/Waypoint-examples.sif>`
+
+
+Here is an 
+:download:`Interpolation.sif <waypoints_dat/Interpolation.sif>`
+showing 25 different blobs, and how
 they move with different combinations of Waypoints. It renders to a
 `634K .avi
 file <http://dooglus.rincevent.net/synfig/interpolation.avi>`__, and is
