@@ -25,4 +25,4 @@ You can help developers by giving your feedback about new improvements, which ar
 
 **5. Help to translate user interface**
 
-Translation of Synfig's user interface is takes place online `at Transifex platform <https://www.transifex.com/morevnaproject/synfig/>`_. You can help improve ttranslation to your language.
+Translation of Synfig's user interface takes place online `at Transifex platform <https://www.transifex.com/morevnaproject/synfig/>`_. You can help improve translation to your language.
