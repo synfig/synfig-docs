@@ -1,0 +1,54 @@
+.. _release-1.4.1:
+
+############################
+Synfig 1.4.1 Release Notes
+############################
+
+Synfig Studio 1.4.1 delivers some improvements and critical bugfixes. Please read below for details.
+
+Features
+--------------
+* Synfig now can export videos with sound (`#1623 <https://github.com/synfig/synfig/pull/1623>`_, `#1830 <https://github.com/synfig/synfig/pull/1830>`_). In previous versions Synfig was ignoring all Sound Layers in animation file when doing export to video format. Now all sounds are mixed and added into video file.
+
+|image0|
+
+Windows-specific fixes
+----------------------
+* Fixed Synfig window not showing after closing it in minimized state (`#1973 <https://github.com/synfig/synfig/pull/1973>`_).
+* Fixed issue of rendering to file when using non-Latin filenames (`#2011 <https://github.com/synfig/synfig/pull/2011>`_, `#1940 <https://github.com/synfig/synfig/pull/1940>`_).
+* Fixed incorrect import of lst files when path contains non-Latin characters (`#1924 <https://github.com/synfig/synfig/pull/1924>`_).
+* Fixed non-working command "Edit image editing in external tool..." (`#1912 <https://github.com/synfig/synfig/pull/1912>`_).
+* Fixed problem with non-working plugins when loading them from path containing non-Latin characters (`#1882 <https://github.com/synfig/synfig/pull/1882>`_).
+* Fixed saving/loading palette to file with non-Latin name (`#1889 <https://github.com/synfig/synfig/pull/1889>`_).
+
+MacOS-specific fixes
+----------------------
+* Fixed issue with Synfig not starting if SynfigStudio.app was renamed (`#1834 <https://github.com/synfig/synfig/pull/1834>`_).
+
+Bugfixes
+--------------
+* Fix Duplicate Layer ignoring all layers but the first one (`#1829 <https://github.com/synfig/synfig/pull/1829>`_).
+* Fixed crash when frame fails to render (`#1861 <https://github.com/synfig/synfig/pull/1861>`_).
+* Fix loading of Average Converter type (`#1955 <https://github.com/synfig/synfig/pull/1955>`_).
+* Fixed interpolation for parameters of Boolean type (`#1826 <https://github.com/synfig/synfig/pull/1826>`_).
+* Fixed crash when user attempts to drag-and-drop layer while renaming (`issue #540 <https://github.com/synfig/synfig/issues/540>`_).
+* Do not show "Link to Spline" menu item when a vertex of spline itself is selected (`#1988 <https://github.com/synfig/synfig/pull/1988>`_).
+* Fixed crash when right-clicking on group in the Sets panel (`#1920 <https://github.com/synfig/synfig/pull/1920>`_).
+* Fixed crash in Spline Tangent converter (`#1836 <https://github.com/synfig/synfig/pull/1836>`_).
+* Fixed crash in Spline Vertex converter (`#1802 <https://github.com/synfig/synfig/pull/1802>`_).
+* Fixed crash on unsuccessful action with a clean undo history (`#1643 <https://github.com/synfig/synfig/pull/1643>`_).
+* Fixed issue with duplicating Duplicate Layer (`#1971 <https://github.com/synfig/synfig/pull/1971>`_).
+* Avoid possible random crashes related with non-unique node identifiers (`#2029 <https://github.com/synfig/synfig/pull/2029>`_).
+
+
+UI/UX improvements
+------------------
+* Allow to use Ctrl+C/Ctrl+V/Ctrl+A shortcuts in Color and Gradient Dialogs (`#1821 <https://github.com/synfig/synfig/pull/1821>`_).
+* Fix layer duplication action for cases when group selected together with its children items (`#2050 <https://github.com/synfig/synfig/pull/2050>`_).
+* Waypoint Editor dialog now shows TCB options only if current point has TCB type (`#1182 <https://github.com/synfig/synfig/pull/1182>`_).
+* Change order of Waypoint Editor buttons to match other dialogs (`#1880 <https://github.com/synfig/synfig/pull/1880>`_).
+* Waypoint Editor now properly handles parameters of Enumerated type (`issue #1965 <https://github.com/synfig/synfig/issues/1965>`_).
+* Fix issue with closing some configuration dialogs: changes were applied anyway, as if "OK" button was pressed (`#1573 <https://github.com/synfig/synfig/pull/1573>`_).
+* The "View" -> "Toolbar" menu item now active and usable (`#1386 <https://github.com/synfig/synfig/pull/1386>`_).
+
+.. |image0| image:: 1.4.1_dat/sound-export.png
