@@ -10,6 +10,8 @@ Features
 --------------
 * Synfig now can export videos with sound (`#1623 <https://github.com/synfig/synfig/pull/1623>`_, `#1830 <https://github.com/synfig/synfig/pull/1830>`_). In previous versions Synfig was ignoring all Sound Layers in animation file when doing export to video format. Now all sounds are mixed and added into video file.
 
+|image0|
+
 Windows-specific fixes
 ----------------------
 * Fixed Synfig window not showing after closing it in minimized state (`#1973 <https://github.com/synfig/synfig/pull/1973>`_).
@@ -48,3 +50,5 @@ UI/UX improvements
 * Waypoint Editor now properly handles parameters of Enumerated type (`issue #1965 <https://github.com/synfig/synfig/issues/1965>`_).
 * Fix issue with closing some configuration dialogs: changes were applied anyway, as if "OK" button was pressed (`#1573 <https://github.com/synfig/synfig/pull/1573>`_).
 * The "View" -> "Toolbar" menu item now active and usable (`#1386 <https://github.com/synfig/synfig/pull/1386>`_).
+
+.. |image0| image:: 1.4.1_dat/sound-export.png
