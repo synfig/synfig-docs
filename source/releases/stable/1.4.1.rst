@@ -19,7 +19,7 @@ Windows-specific fixes
 * Fixed problem with non-working plugins when loading them from path containing non-Latin characters (`#1882 <https://github.com/synfig/synfig/pull/1882>`_).
 * Fixed saving/loading palette to file with non-Latin name (`#1889 <https://github.com/synfig/synfig/pull/1889>`_).
 
-OSX-specific fixes
+MacOS-specific fixes
 ----------------------
 * Fixed issue with Synfig not starting if SynfigStudio.app was renamed (`#1834 <https://github.com/synfig/synfig/pull/1834>`_).
 
