@@ -1,0 +1,68 @@
+.. _release-1.4.2:
+
+############################
+Synfig 1.4.2 Release Notes
+############################
+
+Synfig Studio 1.4.2 delivers some improvements and critical bugfixes. Please read below for details.
+
+Raw List to be removed
+----------------------
+
+[Autotools] Fixed problem with missing *.glsl files in distribution (`#1982 <https://github.com/synfig/synfig/pull/1982>`_)
+
+create string_helper.h to avoid code duplication (PR `#1995 <https://github.com/synfig/synfig/pull/1995>`_)
+
+[Synfig Studio] fix format string for synfigapp exception guard (`#2084 <https://github.com/synfig/synfig/pull/2084>`_)
+
+
+
+New features
+--------------
+
+Windows-specific fixes
+----------------------
+
+MacOS-specific fixes
+----------------------
+
+Linux-specific fixes
+----------------------
+
+Bugfixes
+--------------
+* Fixed crash when user drags a group to a child group (`#2110 <https://github.com/synfig/synfig/issues/2110>`_) (PR `#2116 <https://github.com/synfig/synfig/pull/2116>`_)
+* Fixed crash in Spline Width and return of improper type in Spline converters (PR `#1890 <https://github.com/synfig/synfig/pull/1890>`_)
+* Exported canvas can be reopened again after closing (PR `#2092 <https://github.com/synfig/synfig/pull/2092>`_)
+* Fixed action "Duplicate Layer" for Skeleton Layer and their bone links (PR `#2059 <https://github.com/synfig/synfig/pull/2059>`_)
+* Fixed action "Duplicate Layer" for Skeleton Deformation Layer and their bone links (PR `#2071 <https://github.com/synfig/synfig/pull/2071>`_)
+
+UI/UX improvements
+------------------
+[Core] Fix missing is_distance hint for vertex coordinates (PR `#2000 <https://github.com/synfig/synfig/pull/2000>`_)
+
+sometimes Widget_Vector didn't use locale for decimal separator (PR `#2102 <https://github.com/synfig/synfig/pull/2102>`_)
+
+add menu item "Undock panel" to Panel tab (PR `#1929 <https://github.com/synfig/synfig/pull/1929>`_) (PR `#2109 <https://github.com/synfig/synfig/pull/2109>`_)
+
+Close tabs with middle mouse click (PR `#2107 <https://github.com/synfig/synfig/pull/2107>`_) (PR `#2120 <https://github.com/synfig/synfig/pull/2120>`_)
+
+Minor speed up drag'n drop of layers in Layer Panel(PR `#1979 <https://github.com/synfig/synfig/pull/1979>`_)
+
+Don't show extra vertical scrollbar for Dock Sound (PR `#1173 <https://github.com/synfig/synfig/pull/1173>`_)
+
+ LayerTree: remove unused headers (partial PR `#1963 <https://github.com/synfig/synfig/pull/1963>`_)
+ 
+ Remove old commented-out code (gui/layertree) (PR `#1429 <https://github.com/synfig/synfig/pull/1429>`_)
+ 
+single click for edit parameters of any type (PR `#1337 <https://github.com/synfig/synfig/pull/1337>`_) (PR `#1351 <https://github.com/synfig/synfig/pull/1351>`_)
+
+[Synfig Studio] Implemented toggle animate hotkey (PR `#2033 <https://github.com/synfig/synfig/pull/2033>`_)
+
+ [Synfig Studio] Code cleanup on synfigapp::ValueDescSet (PR `#2046 <https://github.com/synfig/synfig/pull/2046>`_)
+ 
+ [Core/Studio] Fix missing const qualifier for some relational operators overrides (PR `#2001 <https://github.com/synfig/synfig/pull/2001>`_)
+ 
+ [Core] LinkableValueNode now provides methods for inverse manipulation (PR `#2057 <https://github.com/synfig/synfig/pull/2057>`_)
+ 
+[Synfig Studio] make TimeLoop valuenode editable via workspace (PR `#2066 <https://github.com/synfig/synfig/pull/2066>`_)
