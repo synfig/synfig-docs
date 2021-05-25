@@ -15,7 +15,7 @@ create string_helper.h to avoid code duplication (PR `#1995 <https://github.com/
 
 [Synfig Studio] fix format string for synfigapp exception guard (`#2084 <https://github.com/synfig/synfig/pull/2084>`_)
 
-
+Fixed 'locale::facet::_S_create_c_locale name not valid' error when compiling with MinGW compiler (`#2157 <https://github.com/synfig/synfig/pull/2157>`_)
 
 New features
 --------------
@@ -36,6 +36,7 @@ Bugfixes
 * Exported canvas can be reopened again after closing (PR `#2092 <https://github.com/synfig/synfig/pull/2092>`_)
 * Fixed action "Duplicate Layer" for Skeleton Layer and their bone links (PR `#2059 <https://github.com/synfig/synfig/pull/2059>`_)
 * Fixed action "Duplicate Layer" for Skeleton Deformation Layer and their bone links (PR `#2071 <https://github.com/synfig/synfig/pull/2071>`_)
+* Fixed error that prevented convert to dot-product valuenode (PR `#1260 <https://github.com/synfig/synfig/pull/1260>`_)
 
 UI/UX improvements
 ------------------
