@@ -39,7 +39,7 @@ Bugfixes
 * Fixed action "Duplicate Layer" for Skeleton Layer and their bone links (PR `#2059 <https://github.com/synfig/synfig/pull/2059>`_)
 * Fixed action "Duplicate Layer" for Skeleton Deformation Layer and their bone links (PR `#2071 <https://github.com/synfig/synfig/pull/2071>`_)
 * Fixed error that prevented convert to dot-product valuenode (PR `#1260 <https://github.com/synfig/synfig/pull/1260>`_)
-* Fixed issue with saving `loop` flag in some dynamic lists (#2165 <https://github.com/synfig/synfig/pull/2165>`_)
+* Fixed issue with saving `loop` flag in some dynamic lists (`#2165 <https://github.com/synfig/synfig/pull/2165>`_)
 
 UI/UX improvements
 ------------------
