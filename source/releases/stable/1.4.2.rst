@@ -19,8 +19,11 @@ Fixed 'locale::facet::_S_create_c_locale name not valid' error when compiling wi
 
 [Core] A little refactoring of loadcanvas.cpp (`#1956 <https://github.com/synfig/synfig/pull/1956>`_)
 
+Improved error reporting (`#2156 <https://github.com/synfig/synfig/pull/2156>`_)
+
 New features
 --------------
+Basic implementation of Keyboard Shortcut Editor (`#2160 <https://github.com/synfig/synfig/pull/2160>`_)
 
 Windows-specific fixes
 ----------------------
