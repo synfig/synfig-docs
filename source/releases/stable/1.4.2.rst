@@ -59,6 +59,8 @@ Don't show extra vertical scrollbar for Dock Sound (PR `#1173 <https://github.co
  
  Remove old commented-out code (gui/layertree) (PR `#1429 <https://github.com/synfig/synfig/pull/1429>`_)
  
+ Allow enum parameter be edited with a double click instead of triple click (PR `#1325 <https://github.com/synfig/synfig/pull/1325>`_)
+ 
 single click for edit parameters of any type (PR `#1337 <https://github.com/synfig/synfig/pull/1337>`_) (PR `#1351 <https://github.com/synfig/synfig/pull/1351>`_)
 
 [Synfig Studio] Implemented toggle animate hotkey (PR `#2033 <https://github.com/synfig/synfig/pull/2033>`_)
@@ -70,3 +72,22 @@ single click for edit parameters of any type (PR `#1337 <https://github.com/synf
  [Core] LinkableValueNode now provides methods for inverse manipulation (PR `#2057 <https://github.com/synfig/synfig/pull/2057>`_)
  
 [Synfig Studio] make TimeLoop valuenode editable via workspace (PR `#2066 <https://github.com/synfig/synfig/pull/2066>`_)
+
+Changed shortcut/hotkeys to improve usability (preferring single keys) and compability with other apps like Inkscape (PR `#1776 <https://github.com/synfig/synfig/pull/1776>`_) (PR `#1811 <https://github.com/synfig/synfig/pull/1811>`_) (PR `#1823 <https://github.com/synfig/synfig/pull/1823>`_) (PR `#1848 <https://github.com/synfig/synfig/pull/1848>`_) (PR `#1855 <https://github.com/synfig/synfig/pull/1855>`_) (PR `#1953 <https://github.com/synfig/synfig/pull/1953>`_) (PR `#2033 <https://github.com/synfig/synfig/pull/2033>`_)
+
+* Added ``=`` to "Zoom in" (as an alternative ``Ctrl =``)
+* Added ``-`` to "Zoom out" (as an alternative ``Ctrl -``)
+* ``Ctrl Shit z`` became ``0`` to "Zoom to fit" (``Ctrl 0`` also works)
+* ``Ctrl <`` became ``Shift <`` to "Go to previous second"
+* ``Ctrl >`` became ``Shift >`` to "Go to next second"
+* Added ``Ctrl Shift <`` to "Go to start"
+* Added ``Ctrl Shift >`` to "Go to end"
+* ``Ctrl p`` became ``Spacebar`` to "Play/Pause"
+* On MacOS, "Undo" now uses ``⌘ z`` (Command key instead of Control) 
+* For "Redo", use ``Ctrl y`` on MS Windows, ``Ctrl Shift z`` on Linux and ``Command Shift z`` on MacOS, instead of ``Ctrl r``
+* All tools shortcuts are remapped to single keys, avoid use of ``Alt`` that led to some UX problems for some locales
+* Added shortcut for Cutout tool (``c``)
+* Added shortcut for toggling Animate mode (``Ctrl Spacebar``)
+
+
+
