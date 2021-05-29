@@ -76,7 +76,7 @@ single click for edit parameters of any type (PR `#1337 <https://github.com/synf
  
 [Synfig Studio] make TimeLoop valuenode editable via workspace (PR `#2066 <https://github.com/synfig/synfig/pull/2066>`_)
 
-Changed shortcut/hotkeys for improving usability (preferring single keys) and compability with other apps like Inkscape (PR `#1776 <https://github.com/synfig/synfig/pull/1776>`_) (PR `#1811 <https://github.com/synfig/synfig/pull/1811>`_) (PR `#1823 <https://github.com/synfig/synfig/pull/1823>`_) (PR `#1848 <https://github.com/synfig/synfig/pull/1848>`_) (PR `#1855 <https://github.com/synfig/synfig/pull/1855>`_) (PR `#1953 <https://github.com/synfig/synfig/pull/1953>`_) (PR `#2033 <https://github.com/synfig/synfig/pull/2033>`_)
+Changed shortcut/hotkeys for improving usability (preferring single keys) and compability with other apps like Inkscape (PR `#1769 <https://github.com/synfig/synfig/pull/1769>`_) (PR `#1776 <https://github.com/synfig/synfig/pull/1776>`_) (PR `#1811 <https://github.com/synfig/synfig/pull/1811>`_) (PR `#1823 <https://github.com/synfig/synfig/pull/1823>`_) (PR `#1848 <https://github.com/synfig/synfig/pull/1848>`_) (PR `#1855 <https://github.com/synfig/synfig/pull/1855>`_) (PR `#1953 <https://github.com/synfig/synfig/pull/1953>`_) (PR `#2033 <https://github.com/synfig/synfig/pull/2033>`_)
 
 * Added ``=`` to "Zoom in" (as an alternative ``Ctrl =``)
 * Added ``-`` to "Zoom out" (as an alternative ``Ctrl -``)
