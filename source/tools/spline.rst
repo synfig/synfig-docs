@@ -9,18 +9,24 @@
 .. |spline_dat/Tool_bline_icon.png| image:: spline_dat/Tool_bline_icon.png
    :width: 64px
 
+.. _tool_spline  Introduction:
+
 Introduction
 ------------
 
-`Splines <Spline>`__ are the most used objects in any normal animation
+|Spline| are the most used objects in any normal animation
 done with Synfig, and the Spline Tool allows you to create them.
+
+.. _tool_spline  Usage:
 
 Usage
 -----
 
 Select the ``Spline Tool`` in the or use keyboard the shortcut ``Alt+b``
 to enable it. To leave that mode just select another from the
-`toolbox <Toolbox>`__.
+|Toolbox|.
+
+.. _tool_spline  It is easy to use this tool:
 
 It is easy to use this tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -38,7 +44,7 @@ It is easy to use this tool
    created until you close it. The next created ``Spline`` will be
    independent of the previously created one.
 -  You can tweak the newly created Vertices by clicking on their
-   `handles <Handle>`__ and dragging them.
+   |Handle| and dragging them.
 -  You can also right click on a ``Vertex`` handle or a ``Tangent``
    handle and it will provide a context menu:
 
@@ -59,18 +65,21 @@ It is easy to use this tool
    Tangents intelligently according to the neighboring Vertices) where
    you clicked.
 
+.. _tool_spline  To finish the Spline:
+
 To finish the Spline
 ~~~~~~~~~~~~~~~~~~~~
 
 #. Select another tool in the .
-#. Or click on the gear button |Gear_icon.png| of the `Tool Options
-   Panel <Tool_Options_Panel>`__.
+#. Or click on the gear button |Gear_icon.png| of the |Tool_Options_Panel|.
 
 To clear out the working Spline, press the ``Esc`` button.
 
 Category:Toolbox
 
 .. |Gear_icon.png| image:: spline_dat/Gear_icon.png
+
+.. _tool_spline  Options:
 
 Options
 -------
@@ -84,35 +93,32 @@ This tool has the following options:
    integer number, this input text box will parse it and increase that
    number for the next created Spline. Otherwise, it will add a three
    digit number while creating the next one.
--  **Layer Type**: Sets whether to create `Region <Region_Layer>`__,
-   `Outline <Outline_Layer>`__, `Advanced
-   Outline <Advanced_Outline_Layer>`__, `Plant <Plant_Layer>`__ and/or
-   `Curve Gradient <Curve_Gradient_Layer>`__ Layers.
--  `Blend Method <Blend_Method_Parameter>`__: Sets the blending
+-  **Layer Type**: Sets whether to create |Region_Layer|,
+   |Outline_Layer|, |Advanced_Outline_Layer|, |Plant_Layer| and/or
+   |Curve_Gradient_Layer| Layers.
+-  |Blend_Method_Parameter|: Sets the blending
    method used to composite on the layers below.
--  **Opacity**: Sets the `Amount Parameter <Amount_Parameter>`__ for new
+-  **Opacity**: Sets the |Amount_Parameter| for new
    layers. Defaults to **1.00** (Completely opaque).
--  **Brush Size**: Sets the size of the line for `Outline
-   Layer <Outline_Layer>`__ and/or `Advanced Outline
-   Layer <Advanced_Outline_Layer>`__.
--  **Feather**: Sets the `feather parameter <Feather_Parameter>`__ of
-   the `Region <Region_Layer>`__ or Outline Layer created.
--  **Link Origin**: If checked, links the `Origin
-   Parameter <Origin_Parameter>`__ for the `Plant <Plant_Layer>`__,
-   `Region <Region_Layer>`__ or Outline if two of them (or all them) are
+-  **Brush Size**: Sets the size of the line for |Outline_Layer| and/or |Advanced_Outline_Layer|.
+-  **Feather**: Sets the |Feather_Parameter| of
+   the |Region_Layer| or Outline Layer created.
+-  **Link Origin**: If checked, links the |Origin_Parameter| for the |Plant_Layer|,
+   |Region_Layer| or Outline if two of them (or all them) are
    checked.
--  **Auto Export**: If checked, exports automatically the `Vertices
-   parameter <Vertices_Parameter>`__ (that's a `Spline <Spline>`__ type
+-  **Auto Export**: If checked, exports automatically the |Vertices_Parameter| (that's a |Spline| type
    parameter)
 
 | 
 
 .. |Spline_Tool_Options.png| image:: spline_dat/Spline_Tool_Options.png
 
+.. _tool_spline  Other sources of information:
+
 Other sources of information
 ----------------------------
 
-See this `video tutorial <Video_Tutorials>`__ to see it in action.
+See this |Video_Tutorials| to see it in action.
 
 Read `Doc:Creating Shapes <Doc:Creating_Shapes>`__ which talks a little
 about the Spline tool.

@@ -5,7 +5,7 @@
 ########################
 
 This parameter can be used to change the 'depth' (order) of a layer in
-the layer stack, or of a Bone in a `Skeleton Layer <Skeleton_Layer>`__.
+the layer stack, or of a Bone in a |Skeleton_Layer|.
 
 By default, each canvas gives its layers zdepths which depend on their
 order in the canvas. The first layer has a depth of 0, the 2nd has a
@@ -40,6 +40,8 @@ file <z-depth_dat/Offset-z-depth-revisited.sifz>`
 .. warning::
 
    This feature is broken in some cases: See `Bug report #868 <http://www.synfig.org/issues/thebuggenie/synfig/issues/868>`__   -  a layer's Z-Depth parameter animation is not affected by a time offset manipulation of the group is included to.
+
+.. _parameters_zdepth  Too Much Detail:
 
 Too Much Detail
 ---------------

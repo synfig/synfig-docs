@@ -4,6 +4,8 @@
     Animation Basics
 ########################
 
+.. _animation_basics  Introduction:
+
 Introduction
 ------------
 
@@ -20,15 +22,17 @@ three 'steps' or 'stages':
 #. The circle is on the right.
 #. The circle is back on the left.
 
+.. _animation_basics  Setting up the workspace:
+
 Setting up the workspace
 ------------------------
 
 Let's do it. Start Synfig Studio. A new file is created at the start
-automatically . Click the `caret menu <Canvas_Menu_Caret>`__ (between
+automatically . Click the |Canvas_Menu_Caret| (between
 the horizontal and vertical rules, in the top left hand corner of the
 canvas), then select ``Canvas|Properties`` or select
 ``Canvas|Properties`` from the menu. The
-`Canvas\_Properties\_Dialog <Canvas_Properties_Dialog>`__ will appear.
+|Canvas_Properties_Dialog| will appear.
 
 Give a name and description for your canvas, then click ``Apply`` (don't
 click ``OK`` yet — we're not quite done with the Properties dialog). Go
@@ -49,7 +53,7 @@ to the ``Time`` tab and make sure to edit ``End Time``. Change “5s” to
    
    Canvas Properties Dialog
 
-Now click “OK”, select the `Rectangle Tool <Rectangle_Tool>`__ and
+Now click “OK”, select the |Rectangle_Tool| and
 create a simple black rectangle that will serve as our background. It's
 not necessary to make it cover the whole canvas.
 
@@ -58,9 +62,8 @@ not necessary to make it cover the whole canvas.
    :width: 450px
 
    
-Now we need a circle. Change the fill color to red, select the `Circle
-Tool <Circle_Tool>`__ and create a circle. It doesn't matter if it's not
-perfect: You can edit it. Select the `Transform Tool <Transform_Tool>`__
+Now we need a circle. Change the fill color to red, select the |Circle_Tool| and create a circle. It doesn't matter if it's not
+perfect: You can edit it. Select the |Transform_Tool|
 and click the circle. It will go into an editing mode which is easy to
 detect by the small green dot in the middle and the white rectangle
 around it. You can move the circle by grabbing it on its green dot (the
@@ -74,13 +77,15 @@ around it. You can move the circle by grabbing it on its green dot (the
 These are the first steps to draw an object and to move it, but not an
 animation yet, you may say. Indeed. Let's have a look how this works.
 
+.. _animation_basics  Adding movement:
+
 Adding movement
 ---------------
 
 In the beginning, you entered a value of 2 seconds in the Properties
 dialog. Because the length of your animation is non-zero, your canvas
 window (the one where you draw) has a grey time slider at the bottom,
-the `Timebar <Timebar>`__. You can click on it, and a small orange
+the |Timebar|. You can click on it, and a small orange
 indicator will appear indicating your position in time. Try clicking in
 several places on the time slider and notice that the entry field on the
 left of the time slider is changing its values to something like “12f”,
@@ -95,24 +100,24 @@ slider, and entering “2s” will move it to the end of the time slider.
    indicator out of view.
 
 You may notice that nothing changes on the canvas at this point. Return
-to “0s” and switch to `Animate Editing Mode <Animate_Editing_Mode>`__ by
+to “0s” and switch to |Animate_Editing_Mode| by
 clicking the green man button to the right of the gray time slider. The
 canvas will display a red outline; it reminds you that changes to your
 objects now affect your animation at the time shown in the time slider.
 
 In animate editing mode, every change to your objects creates a
-`waypoint <Waypoint>`__ that associates the changes with the current
+|Waypoint| that associates the changes with the current
 time. As you will see, Synfig can create smooth intermediate changes
 between waypoints, and you can even choose the way in which the
 intermediate changes take place. You will probably find it helpful to
-associate some or all of your waypoints with `keyframes <Keyframe>`__.
+associate some or all of your waypoints with |Keyframe|.
 
 .. figure:: animation_basics_dat/Animation_Basics_tutorial_4_1.0.png
    :alt: Animation_Basics_tutorial_4_1.0.png
    :width: 450px
 
 Previously, three “steps” or “stages” were mentioned. These are
-represented by `keyframes <Keyframe>`__. (Just in case you're familiar
+represented by |Keyframe|. (Just in case you're familiar
 with video encoding: No, it's not the same!) A keyframe is an image in
 time where something important happens with your objects.
 
@@ -122,7 +127,7 @@ time where something important happens with your objects.
    
    When creating a new project, a default
    ``keyframe`` is already set at 0f. If for any reason you do not have
-   this default keyframe, go to the `Keyframes\_Panel <Keyframes_Panel>`__
+   this default keyframe, go to the |Keyframes_Panel|
    — click on the little tab with the small key icon in the bottom window —
    to edit keyframes. Now press the small button with the “plus” sign and
    you should get a new entry in the list displaying ``0f, 0f, (JMP)``.
@@ -143,6 +148,8 @@ in the list.
 
      
 
+.. _animation_basics  The s's and f's: Understanding the Timeline:
+
 The s's and f's: Understanding the Timeline
 -------------------------------------------
 
@@ -158,10 +165,12 @@ framecount returns to zero.
 For example, when five whole seconds and three frames have passed, using
 this timeline notation would be “5s 3f”.
 
+.. _animation_basics  The Keyframes Panel:
+
 The Keyframes Panel
 -------------------
 
-The `Keyframes Panel <Keyframes_Panel>`__ is rather easy to understand.
+The |Keyframes_Panel| is rather easy to understand.
 It displays ``Time`` which is basically the start time, ``Length`` which
 is self-explanatory, ``Jump`` which we'll cover next, and
 ``Description`` which is, again, self-explanatory.
@@ -191,10 +200,9 @@ Note that you don't need to go to the last keyframe at “2s” and move
 your circle back to the left. Keyframes make Synfig remember the image
 states at particular times. That's why when we modified the circle's
 position at “1s”, it stayed on the left at “2s” (as well as at “0s”). If
-you switch back to the Parameters Panel, and look at the `Timetrack
-Panel <Timetrack_Panel>`__ you will see that three orange diamonds (or
+you switch back to the Parameters Panel, and look at the |Timetrack_Panel| you will see that three orange diamonds (or
 green dots depending on the default interpolation) appeared on the right
-of the ``Origin`` parameter. Those are called `Waypoints <Waypoints>`__,
+of the ``Origin`` parameter. Those are called |Waypoints|,
 and they represent times at which object's parameters, like location or
 color, are instructed to take on specified new values.
 
@@ -203,6 +211,8 @@ color, are instructed to take on specified new values.
 
    Parameters Panel and Time Track Panel with green Waypoints
 
+.. _animation_basics  Rendering your animation:
+
 Rendering your animation
 ------------------------
 
@@ -210,11 +220,9 @@ Before you can see your animation, you need to render your work. There
 are two ways to do so: using the Synfig Studio (what you have been using
 so far) or the command-line program called “synfig”.
 
-Let's try the first way. Leave the `Animate Editing
-Mode <Animate_Editing_Mode>`__ by clicking on the red man icon in the
+Let's try the first way. Leave the |Animate_Editing_Mode| by clicking on the red man icon in the
 timeline editing widget, and save your file; for instance under the name
-“BasicKnightRider.sifz”. Then go to menu in the Canvas Window (`Canvas
-Menu Caret <Canvas_Menu_Caret>`__ button in the upper left corner) and
+“BasicKnightRider.sifz”. Then go to menu in the Canvas Window (|Canvas_Menu_Caret| button in the upper left corner) and
 select ``File|Render`` or click on the render icon. Change the filename
 to “BasicKnightRider.gif” in the same location where you saved
 “BasicKnightRider.sifz” and choose ``gif`` target format instead of
@@ -269,6 +277,8 @@ another program as mentioned above and it should look like this.
    :alt: Rendered Animation
 
    Rendered Animation
+
+.. _animation_basics  Conclusion:
 
 Conclusion
 ----------

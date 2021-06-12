@@ -4,7 +4,7 @@
     Interface
 ########################
 Synfig Studio start in one window, and dock a number of individual
-`panels <Panel>`__ into that window. The default layout of user
+|Panel| into that window. The default layout of user
 interface is divided in three parts : the toolbox, the canvas and the
 other panels.
 
@@ -14,6 +14,8 @@ other panels.
 
 This page tries to give you a short introduction to the different
 elements you will find after opening synfig.
+
+.. _interface  The Toolbox window:
 
 The Toolbox window
 ------------------
@@ -28,7 +30,7 @@ there will only be one Toolbox.
 The toolbox is separated into two areas:
 
 -  The upper palette contains the **tools** which allow you to create
-   and manipulate objects. In synfig we will talk of `layers <layer>`__,
+   and manipulate objects. In synfig we will talk of |layer|,
    as each object lies in its own layer. You can find a detailed
    description of each tool here.
 
@@ -36,7 +38,9 @@ The toolbox is separated into two areas:
    fore- and background colors ([New\_Layer\_Defaults#Brush\_Colors]),
    Brush Size ([New\_Layer\_Defaults#Brush\_Size]) and Current Gradient
    ([New\_Layer\_Defaults#Current\_Gradient]). You can find a detailed
-   description of each default settings `here <New_Layer_Defaults>`__.
+   description of each default settings |New_Layer_Defaults|.
+
+.. _interface  The Canvas window:
 
 The Canvas window
 -----------------
@@ -45,7 +49,7 @@ The Canvas window
 see the Canvas Window. This is where you'll create your animation!
 
 In addition of set of menus at the top of the screen, or the top of the
-drawing window, Synfig has a **`caret <Canvas_Menu_Caret>`__**: the
+drawing window, Synfig has a **|Canvas_Menu_Caret|**: the
 little black triangle in the upper left corner of the canvas. Beneath
 are all the menus you would expect and that allow you to access most of
 Synfig's features.
@@ -53,31 +57,36 @@ Synfig's features.
 The area with the grey check-board pattern is your **working area** in
 which you can create elements/layers and manipulate them.
 
-The `timeline <Timebar>`__ that you can see in the picture here only
+The |Timebar| that you can see in the picture here only
 appears when you have defined a non-zero duration in the
-`properties <Canvas_Properties_Dialog>`__ of your project. To the left
+|Canvas_Properties_Dialog| of your project. To the left
 you can see the number of the current frame and on the right side
-buttons to `lock/unlock <Lock_Keyframes>`__ the keyframes and to switch
-the `animation status <Animate_Editing_Mode>`__. The `Doc:Animation
+buttons to |Lock_Keyframes| the keyframes and to switch
+the |Animate_Editing_Mode|. The `Doc:Animation
 Basics <Doc:Animation_Basics>`__ Tutorial gives a good introduction on
 how to work with this buttons.
 
 In the picture above there are three elements on the canvas, the black
-curve - called `Spline <Spline>`__ - is selected. The little orange and
+curve - called |Spline| - is selected. The little orange and
 brown dots along the spline control the curve and are called
-`handles <handle>`__. Also you can see the
-`Group\_Transformation\_Widget <Group_Transformation_Widget>`__ of the
-selected `Group Layer <Group_Layer>`__.
+|handle|. Also you can see the
+|Group_Transformation_Widget| of the
+selected |Group_Layer|.
+
+.. _interface  Show/Hide Menu Bar:
 
 Show/Hide Menu Bar
 ~~~~~~~~~~~~~~~~~~
 
 With the menu entry \ ``|Show Menu Bar|`` you can hide the menu bar. To
-show again the menu bar use the same entry from the `Canvas Menu
-Caret <Canvas_Menu_Caret>`__.
+show again the menu bar use the same entry from the |Canvas_Menu_Caret|.
+
+.. _interface  The other panels:
 
 The other panels
 ----------------
+
+.. _interface  The Navigator, Tool Options and Layers Panel:
 
 The Navigator, Tool Options and Layers Panel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -85,12 +94,12 @@ The Navigator, Tool Options and Layers Panel
 |Navigator and Layers Panel| 
 
 To the right side, three areas, each of
-which can show different  panels: in this picture the `Navigator
-Panel <Navigator_Panel>`__, the `Tool Options
-Panel <Tool_Options_Panel>`__ and the `Layers Panel <Layers_Panel>`__
+which can show different  panels: in this picture the |Navigator_Panel|, the |Tool_Options_Panel| and the |Layers_Panel|
 are active.
 
 You can access detailed descriptions of the other panels here.
+
+.. _interface  The Parameter and Time Track Panel:
 
 The Parameter and Time Track Panel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -98,11 +107,11 @@ The Parameter and Time Track Panel
 |Parameters and Time Track panels| 
 
 Finally, at the bottom you can see
-the `Parameters Panel <Parameters_Panel>`__, where you can find detailed
-`parameters <Parameter>`__ and settings for the active element like
+the |Parameters_Panel|, where you can find detailed
+|Parameter| and settings for the active element like
 colour, width, opacity, location and so on. To the right is the
-`Timetrack Panel <Timetrack_Panel>`__ that allows you to create and
-modify `waypoints <waypoints>`__.
+|Timetrack_Panel| that allows you to create and
+modify |waypoints|.
 
 
 .. |The Canvas| image:: interface_dat/Canvas_1.0.png

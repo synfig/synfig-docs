@@ -8,6 +8,8 @@
    :width: 64px
 
 
+.. _layer_motion_blur  About Motion Blur Layer:
+
 About Motion Blur Layer
 -----------------------
 Blur is a graphical effect that aims to imitate an unfocused image. In a
@@ -25,6 +27,8 @@ compared to the situation where the aperture is fully closed (f22).
 In a graphical context, blurs are effects that imitate those situations
 (with more or less success). Motion Blur Layer allows to simulate the blur of picture, that arises by
 movement.
+
+.. _layer_motion_blur  Parameters of the Motion Blur Layer:
 
 Parameters of the Motion Blur Layer
 -----------------------------------
@@ -45,6 +49,8 @@ The parameters of the ``Motion Blur Layer`` are:
 |     |Type\_real\_icon.png| `Subsample End Amount <#Subsamples_Parameters>`__     |   1.000000     |   real      |
 +----------------------------------------------------------------------------------+----------------+-------------+
 
+.. _layer_motion_blur  Aperture:
+
 Aperture
 ~~~~~~~~
 
@@ -52,12 +58,16 @@ The ``Aperture`` parameter indicates the number of frames used to
 compute the effect of motion. The concept is analogous to the shutter
 speed or exposure time in photography.
 
+.. _layer_motion_blur  Subsamples Factor:
+
 Subsamples Factor
 ~~~~~~~~~~~~~~~~~
 
 The ``Subsamples Factor`` affects the number of Subsamples to be
 computed. Using a high value, the smudge is finer, but the rendering
 takes longer as it involves much more computations.
+
+.. _layer_motion_blur  Subsampling Type:
 
 Subsampling Type
 ~~~~~~~~~~~~~~~~
@@ -69,6 +79,8 @@ used between:
 -  Linear
 -  Hyperbolic
 
+.. _layer_motion_blur  Subsample Start Amount:
+
 Subsample Start Amount
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -77,6 +89,8 @@ Subsample at the start. For example, if ``Subsample Start Amount`` is
 set to 0, it won't have any blur on start. Otherwise the motion of
 objects from lower layers begin as a smudge.
 
+.. _layer_motion_blur  Subsample End Amount:
+
 Subsample End Amount
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -84,6 +98,8 @@ The ``Subsample End Amount`` parameter indicates the value of Subsample
 at the end. For example, if ``Subsample End Amount`` is set to 0, the
 last state of the objects from lower layers will appear without any
 blur.
+
+.. _layer_motion_blur  Samples:
 
 Samples
 -------
@@ -122,14 +138,16 @@ Notes:
 
 :download:`Sample file <motion_blur_dat/Motion_blur.sifz>`
 
+.. _layer_motion_blur  See also:
+
 See also
 --------
 
 -  A short description of the blur layers can be found here:
-   `Layer <Layer>`__
--  `Radial Blur Layer <Radial_Blur_Layer>`__ with a radial control of
+   |Layer|
+-  |Radial_Blur_Layer| with a radial control of
    the size of the blur.
--  `Blur Layer <Blur_Layer>`__ mostly used types of blur.
+-  |Blur_Layer| mostly used types of blur.
 
 .. |Type_time_icon.png| image:: images/Type_time_icon.png
    :width: 16px

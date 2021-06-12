@@ -1,3 +1,5 @@
+Vectorization of Bitmap  Vectorization of Bitmaps:
+
 Vectorization of Bitmaps
 ==============================================
 
@@ -7,6 +9,8 @@ Vectorization of Bitmaps
 
 Synfig Studio can convert raster (bitmap) images into vector artwork constructed from outlines. The vectorization algorithm is ported from `OpenToonz <https://opentoonz.github.io/e/>`_ animation software by Ankit Kumar Dwivedi.
 
+Vectorization of Bitmap  Video Tutorial:
+
 Video Tutorial
 ~~~~~~~~~~~~~~
 
@@ -14,6 +18,8 @@ Video Tutorial
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/liixFv7TUjA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
+
+Vectorization of Bitmap  What does Vectorization mean?:
 
 What does Vectorization mean?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -29,6 +35,8 @@ In Vector Graphics image is constructed from elements which described by mathema
 For more information about Raster and Vector graphics you can refer to `this page <http://vector-conversions.com/vectorizing/raster_vs_vector.html>`_.
 
 It is very common situation when user have an input artwork as raster image (i.e. scanned sketch) and wants to convert it inot vector graphics. The process of conversion from raster to vector is called vectorization.
+
+Vectorization of Bitmap  Usage:
 
 Usage
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -53,6 +61,8 @@ Click "Convert" button and the image will be converted into a vector outlines (y
 .. note::
 
      Synfig currently supports only centerline vectorization
+
+Vectorization of Bitmap  Examples:
 
 Examples
 ~~~~~~~~~~

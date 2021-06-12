@@ -8,11 +8,15 @@
    :width: 64px
 
  
+.. _layer_plant  About Plant Layers:
+
 About Plant Layers
 ------------------
 
 A short description of the layer can be found here:
-`Layer#Plant <Layer#Plant>`__
+|Layer_Plant|
+
+.. _layer_plant  Parameters of Plant Layers:
 
 Parameters of Plant Layers
 --------------------------
@@ -22,13 +26,13 @@ The parameters of the Plant layers are:
 +-----------------------------------------------------------------+--------------------------+-------------------+
 | **Name**                                                        | **Value**                | **Type**          |
 +-----------------------------------------------------------------+--------------------------+-------------------+
-|     |Type\_real\_icon.png| `Z Depth <Z_Depth_Parameter>`__      |   0.000000               |   real            |
+|     |Type\_real\_icon.png| |Z_Depth_Parameter|                  |   0.000000               |   real            |
 +-----------------------------------------------------------------+--------------------------+-------------------+
-|     |Type\_real\_icon.png| `Amount <Amount_Parameter>`__        |   1.000000               |   real            |
+|     |Type\_real\_icon.png| |Amount_Parameter|                   |   1.000000               |   real            |
 +-----------------------------------------------------------------+--------------------------+-------------------+
-|     |type\_integer\_icon.png| `Blend Method <Blend_Method>`__   |   Composite              |   integer         |
+|     |type\_integer\_icon.png| |Blend_Method|                    |   Composite              |   integer         |
 +-----------------------------------------------------------------+--------------------------+-------------------+
-|     |Type\_vector\_icon.png| `Origin <Origin_Parameter>`__      |   0.000000u,0.000000u    |   vector          |
+|     |Type\_vector\_icon.png| |Origin_Parameter|                 |   0.000000u,0.000000u    |   vector          |
 +-----------------------------------------------------------------+--------------------------+-------------------+
 |     |Type\_list\_icon.png| Vertices                             |   List                   |   list (Spline)   |
 +-----------------------------------------------------------------+--------------------------+-------------------+

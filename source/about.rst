@@ -9,6 +9,8 @@ The Synfig Manual is a community driven effort to which anyone can contribute.
 Whether you like to fix a tiny spelling mistake or rewrite an entire chapter,
 your help with the Synfig manual is most welcome!
 
+.. _about  License:
+
 License
 ===============
 
@@ -35,6 +37,8 @@ See `Best practices for attribution <https://wiki.creativecommons.org/wiki/Marki
 Please, that when contributing to the manual you do not hold exclusive copyright to your text.
 You are, of course, acknowledged and appreciated for your contribution.
 However, others can change and improve your text in order to keep the manual consistent and up to date.
+
+.. _about  Contributors:
 
 Contributors
 ===============

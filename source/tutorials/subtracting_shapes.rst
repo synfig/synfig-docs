@@ -4,11 +4,15 @@
     Subtracting Shapes
 ########################################
 
+.. _tutorial_subtracting_shapes  Introduction :
+
 Introduction 
 ========================
 In this tutorial we are going to draw a shape and subtract another shape 
 from it. We assume that you know how to draw a circle using the {{l|Circle Tool}} 
 and a rectangle using the {{l|Rectangle Tool}}. If not then check {{l|Circle Tool|here}} and {{l|Rectangle Tool|here}}.
+
+.. _tutorial_subtracting_shapes  Drawing the shapes:
 
 Drawing the shapes
 ==========================
@@ -36,6 +40,8 @@ group '''baseShape'''.
    :alt: Layers Panel should look like this
 
    Layers Panel should look like this
+
+.. _tutorial_subtracting_shapes  Subtracting the shape:
 
 Subtracting the shape
 ==========================
@@ -74,6 +80,8 @@ After we adjusted the {{Literal|Outline Width}} of the '''circleOutline''' layer
 .. figure:: subtracting_shapes_dat/Cutoutshape11.png 
 
    Final image
+
+.. _tutorial_subtracting_shapes  Tip:
 
 Tip
 ============

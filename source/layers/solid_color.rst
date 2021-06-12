@@ -8,11 +8,15 @@
    :width: 64px
 
 
+.. _layer_solid_color  About Solid Color Layers:
+
 About Solid Color Layers
 ------------------------
 
-A `Solid Color Layer <Solid_Color_Layer>`__ create a plain color ground.
+A |Solid_Color_Layer| create a plain color ground.
 Usefull for example for scene background.
+
+.. _layer_solid_color  Parameters of Solid Color Layers:
 
 Parameters of Solid Color Layers
 --------------------------------
@@ -22,13 +26,13 @@ The parameters of the solid color layers are:
 +-----------------------------------------------------------------+--------------------+-------------+
 | Name                                                            | Value              | Type        |
 +-----------------------------------------------------------------+--------------------+-------------+
-|     |Type\_real\_icon.png| `Z Depth <Z_Depth_Parameter>`__      |   0.000000         |   real      |
+|     |Type\_real\_icon.png| |Z_Depth_Parameter|                  |   0.000000         |   real      |
 +-----------------------------------------------------------------+--------------------+-------------+
-|     |Type\_real\_icon.png| `Amount <Amount_Parameter>`__        |   1.000000         |   real      |
+|     |Type\_real\_icon.png| |Amount_Parameter|                   |   1.000000         |   real      |
 +-----------------------------------------------------------------+--------------------+-------------+
-|     |Type\_integer\_icon.png| `Blend Method <Blend_Method>`__   |   Composite        |   integer   |
+|     |Type\_integer\_icon.png| |Blend_Method|                    |   Composite        |   integer   |
 +-----------------------------------------------------------------+--------------------+-------------+
-|     |Type\_color\_icon.png| `Color <Color_Editor_Dialog>`__     ||p_color_green.png| |   color     |
+|     |Type\_color\_icon.png| |Color_Editor_Dialog|               ||p_color_green.png| |   color     |
 +-----------------------------------------------------------------+--------------------+-------------+
 
 

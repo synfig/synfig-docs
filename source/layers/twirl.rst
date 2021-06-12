@@ -8,6 +8,8 @@
    :width: 64px
 
 
+.. _layer_twirl  About Twirl Layers:
+
 About Twirl Layers
 ------------------
 
@@ -17,6 +19,8 @@ higher, the more intense.
 
 Size of vortex is determinated by the radius of a circle, and distortion
 can be activate separately for both the sides – inner and outer.
+
+.. _layer_twirl  Sample:
 
 Sample
 ------
@@ -33,6 +37,8 @@ Distort Outside Parameter On
    :alt: Twirl-both.png
 Both Distort Parameters On
 
+.. _layer_twirl  Parameters of Twirl Layers:
+
 Parameters of Twirl Layers
 --------------------------
 
@@ -41,15 +47,15 @@ The parameters of the twirl layers are:
 +------------------------------------------------------------------------------+------------------------+------------+
 | Name                                                                         | Value                  | Type       |
 +------------------------------------------------------------------------------+------------------------+------------+
-|     |Type\_vector\_icon.png| `Center <Center_Parameter>`__                   |   0.00000u,0.000000u   |   vector   |
+|     |Type\_vector\_icon.png| |Center_Parameter|                              |   0.00000u,0.000000u   |   vector   |
 +------------------------------------------------------------------------------+------------------------+------------+
-|     |Type\_real\_icon.png| `Radius <Radius_Parameter>`__                     |   1.00000u             |   real     |
+|     |Type\_real\_icon.png| |Radius_Parameter|                                |   1.00000u             |   real     |
 +------------------------------------------------------------------------------+------------------------+------------+
-|     |Type\_angle\_icon.png| `Rotations <Rotations_Parameter>`__              |   0.00                 |   angle    |
+|     |Type\_angle\_icon.png| |Rotations_Parameter|                            |   0.00                 |   angle    |
 +------------------------------------------------------------------------------+------------------------+------------+
-|     |Type\_bool\_icon.png| `Distort Inside <Distort_Inside_Parameter>`__     |                        |   bool     |
+|     |Type\_bool\_icon.png| |Distort_Inside_Parameter|                        |                        |   bool     |
 +------------------------------------------------------------------------------+------------------------+------------+
-|     |Type\_bool\_icon.png| `Distort Outside <Distort_Outside_Parameter>`__   |                        |   bool     |
+|     |Type\_bool\_icon.png| |Distort_Outside_Parameter|                       |                        |   bool     |
 +------------------------------------------------------------------------------+------------------------+------------+
 
 .. |Type_vector_icon.png| image:: images/Type_vector_icon.png

@@ -6,28 +6,33 @@
 
 |Tool_scale.png| \ **ALT-S**\ 
 
+.. _tool_scale  Introduction:
+
 Introduction
 ------------
 
 The ``Scale Tool`` permit to scale the selected handles. It works much
-like to `Transform Tool <Transform_Tool>`__ except for when multiple
-`Handles <Handle>`__ are selected.
+like to |Transform_Tool| except for when multiple
+|Handle| are selected.
+
+.. _tool_scale  Options:
 
 Options
 -------
 
 |Scale_Tool_Options.png| 
 
-The `Tool Options
-Panel <Tool_Options_Panel>`__ allows you to specify:
+The |Tool_Options_Panel| allows you to specify:
 
 -  **Lock Aspect Ratio** : Prevent from changing the ratio x:y of the
    bounding box of the selected Handles.
 
+.. _tool_scale  Usage:
+
 Usage
 -----
 
-`Select multiple Handles <Handle#Choose_your_handles>`__, by either:
+|Handle_Choose_your_handles|, by either:
 
 -  Pressing ``Ctrl+A`` to select all Handles.
 -  Dragging a rectangle around a group of Handles.

@@ -3,13 +3,15 @@
 ########################
     Blend Method Parameter
 ########################
+.. _parameters_blend_method  General informations:
+
 General informations
 ====================
 
 You can select the ``Blend Method`` of a layer during his creation in
-`Tool\_Options\_Panel <Tool_Options_Panel>`__ and change it from
-`Parameters Panel <Parameters_Panel>`__. By default, ``Blend Method``
-parameter is `Static <Static_Parameters>`__. To animate it over the
+|Tool_Options_Panel| and change it from
+|Parameters_Panel|. By default, ``Blend Method``
+parameter is |Static_Parameters|. To animate it over the
 time, right click on it and choose ``Enable animation``.
 
 Selecting a layer ``Blend Method`` changes the appearance of the layer
@@ -20,8 +22,7 @@ at least two layers in the composition to be able to use blend method.
 In the following descriptions, 'A' refers to the color on the layer with
 the blend method setting, and 'B' refers to the color on the layers
 beneath it. Note that in almost all layers, the alpha channel of the
-colors will have a scaling effect on the blending. The `Amount
-Parameter <Amount_Parameter>`__ will also have a scaling effect. In most
+colors will have a scaling effect on the blending. The |Amount_Parameter| will also have a scaling effect. In most
 descriptions these 2 details have been glossed over.
 
 In the examples that follow a gradient (A) is blended on the image of
@@ -32,8 +33,12 @@ checkerboard pattern.
  
  B |Tux.png|
 
+.. _parameters_blend_method  List of available blend methods:
+
 List of available blend methods
 ===============================
+
+.. _parameters_blend_method  Composite:
 
 Composite
 ---------
@@ -47,6 +52,8 @@ found in 2D programs.
 
 .. figure:: blend_method_dat/Composite.png
    :alt: Composite.png
+
+.. _parameters_blend_method  Straight:
 
 Straight
 --------
@@ -65,6 +72,8 @@ color is used.
 .. figure:: blend_method_dat/Straight.png
    :alt: Straight.png
 
+.. _parameters_blend_method  Onto:
+
 Onto
 ----
 
@@ -77,6 +86,8 @@ transparency level of layer B.
 
 .. figure:: blend_method_dat/Onto.png
    :alt: Onto.png
+
+.. _parameters_blend_method  Straight Onto:
 
 Straight Onto
 -------------
@@ -107,6 +118,8 @@ very transparent, none of B's color is used in the result.
 .. figure:: blend_method_dat/Straight_onto.png
    :alt: Straight_onto.png
 
+.. _parameters_blend_method  Behind:
+
 Behind
 ------
 
@@ -122,6 +135,8 @@ B.
 .. figure:: blend_method_dat/Behind.png
    :alt: Behind.png
    
+.. _parameters_blend_method  Screen:
+
 Screen
 ------
 
@@ -131,6 +146,8 @@ behind it, and gives a lighter result in general.
 
 .. figure:: blend_method_dat/Screen.png
    :alt: Screen.png
+
+.. _parameters_blend_method  Overlay:
 
 Overlay
 -------
@@ -148,6 +165,8 @@ like 'add', but maintaining the overall brightness of the image
 .. figure:: blend_method_dat/Overlay.png
    :alt: Overlay.png
 
+.. _parameters_blend_method  Hard Light:
+
 Hard Light
 ----------
 
@@ -162,6 +181,8 @@ Is this aiming to make bright colours brighter and dark colours darker?
 .. figure:: blend_method_dat/Hard_light.png
    :alt: Hard_light.png
 
+.. _parameters_blend_method  Multiply:
+
 Multiply
 --------
 
@@ -174,6 +195,8 @@ simplifies to A\*B.
 
 .. figure:: blend_method_dat/Multiply.png
    :alt: Multiply.png
+
+.. _parameters_blend_method  Divide:
 
 Divide
 ------
@@ -193,6 +216,8 @@ toward positive values, but the effect is really negligible.
 .. figure:: blend_method_dat/Divide.png
    :alt: Divide.png
 
+.. _parameters_blend_method  Add:
+
 Add
 ---
 
@@ -205,6 +230,8 @@ components. The resulting color's alpha is B.alpha.
 .. figure:: blend_method_dat/Add.png
    :alt: Add.png
 
+.. _parameters_blend_method  Subtract:
+
 Subtract
 --------
 
@@ -215,6 +242,8 @@ independently on red, green, and blue components.
 
 .. figure:: blend_method_dat/Subtract.png
    :alt: Subtract.png
+
+.. _parameters_blend_method  Difference:
 
 Difference
 ----------
@@ -228,6 +257,8 @@ components.
 .. figure:: blend_method_dat/Difference.png
    :alt: Difference.png
 
+.. _parameters_blend_method  Brighten:
+
 Brighten
 --------
 
@@ -239,6 +270,8 @@ value with B's value and use the higher of the pair.
 .. figure:: blend_method_dat/Brighten.png
    :alt: Brighten.png
 
+.. _parameters_blend_method  Darken:
+
 Darken
 ------
 
@@ -249,6 +282,8 @@ value with B's value and use the lower of the pair.
 
 .. figure:: blend_method_dat/Darken.png
    :alt: Darken.png
+
+.. _parameters_blend_method  Color:
 
 Color
 -----
@@ -265,6 +300,8 @@ gradient instead of a white one would be more illustrative
 
 yellowgradient.png + synfigtux.png = coloryg.png
 
+.. _parameters_blend_method  Hue:
+
 Hue
 ---
 
@@ -275,6 +312,8 @@ same hue as A.
 
 .. figure:: blend_method_dat/Hue.png
    :alt: Hue.png
+
+.. _parameters_blend_method  Saturation:
 
 Saturation
 ----------
@@ -293,6 +332,8 @@ with a yellow gradient -
 
 yellowgradient.png + synfigtux.png = saturationyg.png
 
+.. _parameters_blend_method  Luminance:
+
 Luminance
 ---------
 
@@ -304,13 +345,15 @@ same Y (luma) value as A, while keeping U and V the same.
 .. figure:: blend_method_dat/Luminance.png
    :alt: Luminance.png
 
+.. _parameters_blend_method  Alpha over:
+
 Alpha over
 ----------
 
 Layer A act like a mask on B.
 
 Have a look to Doc:Basic_Masking and
-`Subtracting\_Shapes <Subtracting_Shapes>`__ tutorials for usage
+|Subtracting_Shapes| tutorials for usage
 example.
 
 Precisely : multiply alphas and then straight blends using the amount.
@@ -318,11 +361,15 @@ Precisely : multiply alphas and then straight blends using the amount.
 .. figure:: blend_method_dat/Alpha_over.png
    :alt: Alpha_over.png
 
+.. _parameters_blend_method  Alpha Brighten:
+
 Alpha Brighten
 --------------
 
 .. figure:: blend_method_dat/Alpha_brighten.png
    :alt: Alpha_brighten.png
+
+.. _parameters_blend_method  Alpha Darken:
 
 Alpha Darken
 ------------
@@ -330,16 +377,19 @@ Alpha Darken
 .. figure:: blend_method_dat/Alpha_darken.png
    :alt: Alpha_darken.png
 
+.. _parameters_blend_method  Use cases of the Blend Method Parameter:
+
 Use cases of the Blend Method Parameter
 =======================================
+
+.. _parameters_blend_method  Hide behind a shape:
 
 Hide behind a shape
 -------------------
 
-`Import\_Image\_Layer <Import_Image_Layer>`__ a picture, add a
-`Star\_Layer <Star_Layer>`__ up of the image, set the Stars Layer's
-`Blend Method Parameter <Blend_Method_Parameter>`__ to `Alpha
-over <Blend_Method_Parameter#Alpha_over>`__ and finally check
+|Import_Image_Layer| a picture, add a
+|Star_Layer| up of the image, set the Stars Layer's
+|Blend_Method_Parameter| to |Blend_Method_Parameter_Alpha_over| and finally check
 ``invert``.
 
 .. figure:: blend_method_dat/Fusion-shape.png

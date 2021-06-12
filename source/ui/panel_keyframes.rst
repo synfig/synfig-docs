@@ -8,14 +8,14 @@
    :width: 64px
 
 
-The ``Keyframes`` panel is where you make new `keyframes <Keyframe>`__
+The ``Keyframes`` panel is where you make new |Keyframe|
 for the animation.
 
 .. figure:: panel_keyframes_dat/Keyframes_Panel_filled-0.63.06.png
    :alt: Keyframes_Panel_filled-0.63.06.png
 
  
-These will show up in the `Timetrack <Timetrack>`__ dialog. To jump to a
+These will show up in the |Timetrack| dialog. To jump to a
 specific keyframe, double click on the ``(JMP)`` column.
 
 The Add keyframe ([Keyframe#Add\_a\_keyframe]) button adds a new
@@ -34,8 +34,12 @@ window.
 Right click in keyframe list open the keyframe contextual menu for the
 selected keyframe.
 
+.. _panel_keyframes  Adding, duplicating and removing keyframes:
+
 Adding, duplicating and removing keyframes
 ------------------------------------------
+
+.. _panel_keyframes  Add a keyframe:
 
 Add a keyframe
 ~~~~~~~~~~~~~~
@@ -53,14 +57,15 @@ press the button then a new entry is added to the list of keyframes and
 a vertical dashed line is added in the time line. No waypoint is
 created.
 
+.. _panel_keyframes  Duplicate a keyframe:
+
 Duplicate a keyframe
 ~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: panel_keyframes_dat/KeyframeButton_Duplicate_0.63.06.png
    :alt: KeyframeButton_Duplicate_0.63.06.png
 
-Select a keyframe in the keyframe list of the `Keyframes
-Panel <Keyframes_Panel>`__ and place the cursor at a frame where there
+Select a keyframe in the keyframe list of the |Keyframes_Panel| and place the cursor at a frame where there
 isn't currently any keyframe. Then press the ``Duplicate Keyframe``
 button. This would have two separated effects:
 
@@ -86,6 +91,8 @@ the same description than the original, plus a ``(Duplicate)`` at the
 end.
 
 `video explanation <https://youtu.be/qvRt3ITSkrQ>`__
+
+.. _panel_keyframes  Remove a keyframe:
 
 Remove a keyframe
 ~~~~~~~~~~~~~~~~~

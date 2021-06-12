@@ -10,6 +10,8 @@
 
 images outdated!
 
+.. _panel_sets  Introduction:
+
 Introduction
 ============
 
@@ -21,16 +23,20 @@ them, you can use sets.
 |Set\_Panel.png| 
 
 To add some layers to a set
-select them in the `Layers Panel <Layers_Panel>`__, right click, and
+select them in the |Layers_Panel|, right click, and
 choose ``Add to Set``. It will prompt you for a Set name. Type a name
 for a new, or existing set and click ``OK``.
 
 Now you can select that set and animate all those layers together (for
-instance, change all their `amounts <Amount_Parameter>`__, or move their
-`origins <Origin_Parameter>`__).
+instance, change all their |Amount_Parameter|, or move their
+|Origin_Parameter|).
+
+.. _panel_sets  Digging deeper:
 
 Digging deeper
 ==============
+
+.. _panel_sets  Action over Sets:
 
 Action over Sets
 ----------------
@@ -60,12 +66,13 @@ described in following terms:
    the effect on subsequent commands only affect the layer that you
    right-click on.
 
+.. _panel_sets  Action over Layers:
+
 Action over Layers
 ------------------
 
 Single right click over a layer in a set pops up the context menu with
-the same elements as you have for each layer in the `Layers
-Panel <Layers_Panel>`__:
+the same elements as you have for each layer in the |Layers_Panel|:
 
 -  `Command:Select All Children <Command:Select_All_Children>`__: This
    menu entry appears only if the layer from the set is a Group layer.
@@ -101,6 +108,8 @@ Panel <Layers_Panel>`__:
 Notice, that a layer can only belong to one Set at a time. Adding a
 layer to a Set when it's already in previous set will remove it from the
 previous set.
+
+.. _panel_sets  Sets can be nested:
 
 Sets can be nested
 ------------------
@@ -144,6 +153,8 @@ name is dragged out also.
 
 .. figure:: panel_sets_dat/Groups_panel_exported_canvas_group.png
    :alt: Groups_panel_exported_canvas_group.png
+
+.. _panel_sets   :
 
  
 --------------

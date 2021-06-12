@@ -4,15 +4,18 @@
     Creating Shapes
 ########################
 
+.. _creating_shapes  Introduction:
+
 Introduction
 ------------
 
-Basic `primitives <Primitive_Layer>`__ such as
-`circles <Circle_Layer>`__ or `rectangles <Rectangle_Layer>`__, that we
+Basic |Primitive_Layer| such as
+|Circle_Layer| or |Rectangle_Layer|, that we
 have learn to work with `previously <Doc:Adding_Layers>`__, are all
 great but they are pretty much geometrically inflexible. What about
-creating more complex shapes? To do this, we use the `Spline
-Tool <Spline_Tool>`__.
+creating more complex shapes? To do this, we use the |Spline_Tool|.
+
+.. _creating_shapes  Spline Tool:
 
 Spline Tool
 -----------
@@ -26,10 +29,9 @@ spline <https://en.wikipedia.org/wiki/Cubic_Hermite_spline>`__.
 
 Before we start with the Spline
 tutorial, let's look at some additional notes on how Synfig works. When
-you click on the `Spline Tool <Spline_Tool>`__, you will see that the
+you click on the |Spline_Tool|, you will see that the
 handles from your currently selected object (if there was one) will
-disappear, but the layer(s) will still remain selected in the `Layers
-Panel <Layers_Panel>`__. This is normal. Anything you create with the
+disappear, but the layer(s) will still remain selected in the |Layers_Panel|. This is normal. Anything you create with the
 Spline Tool will be inserted above the currently selected layer. Keep in
 mind that if you want to insert a shape somewhere, you should select
 where you want to insert it before you go into the Spline Tool —
@@ -37,13 +39,12 @@ changing the selection afterward will automatically swap you back to the
 Transform Tool.
 
 Now, go ahead and click on the ``Reset Colors`` button in the lower left
-corner of the FG/BG color widget in the `toolbox <Toolbox>`__. This will
+corner of the FG/BG color widget in the |Toolbox|. This will
 reset us back to the default black and white. Also, set the line width
 ([Spline Tool#Options]) to something nice and thick — 10pt should do the
 trick.
 
-After you switched to Spline Tool, take a look at the `Tool Options
-Panel <Tool_Options_Panel>`__. Make sure that only ``Create Region``,
+After you switched to Spline Tool, take a look at the |Tool_Options_Panel|. Make sure that only ``Create Region``,
 ``Create Outline`` and ``Link Origins`` are checked.
 
 Clicking with your mouse in the canvas will place vertices. While you
@@ -69,12 +70,13 @@ this:
 #. Press the ``Create`` button at the bottom of the Tool Options Panel
    (it's the icon that looks like a gear).
 
-For now, just go ahead and switch to the `Transform
-Tool <Transform_Tool>`__, because we are done with the Spline Tool.
+For now, just go ahead and switch to the |Transform_Tool|, because we are done with the Spline Tool.
 
 .. figure:: creating_shapes_dat/Creating-shapes-3-bline-region-outline.png
    :alt: Creating-shapes-3-bline-region-outline.png
 
+
+.. _creating_shapes  Editing Splines:
 
 Editing Splines
 ---------------
@@ -82,9 +84,9 @@ Editing Splines
 Ok, we now have a nice pretty white region with a thick black outline.
 Since we checked ``Create Region`` and ``Create Outline`` in previous
 steps, you'll notice that there are two layers that we have created —
-the `Outline <Outline_Layer>`__ and the `Region <Region_Layer>`__ in the
+the |Outline_Layer| and the |Region_Layer| in the
 Layers Panel. Despite the fact that they are two separate layers, their
-vertices parameter has already been `linked <Linking>`__ — so you can
+vertices parameter has already been |Linking| — so you can
 select either one and move its handles around and the other one will
 also change.
 
@@ -98,7 +100,7 @@ on the segment where you want to insert something and hit
 This may appear to be leading to a mess of layers. And yes, if you
 aren't using the software properly, that is exactly what you will get.
 But there is a way to make this more sane. As mentioned in the `previous
-tutorial <Doc:Adding_Layers>`__, you can `group <group>`__ layers into
+tutorial <Doc:Adding_Layers>`__, you can |group| layers into
 hierarchy.
 
 One quick thing to mention before I finish up. You can change the width
@@ -107,8 +109,9 @@ of an outline at each vertex. You do this by selecting the outline layer
 data) and tweaking with the width handles. By default, these are masked.
 To show them, press ``Alt+5`` or click ``Toggle width handles`` button
 at the top of the canvas window (the fifth one from the left). Repeat to
-hide them again. You can also see other things to mask via the `Canvas
-Menu Caret <Canvas_Menu_Caret>`__: ``View|Show/Hide Handles``.
+hide them again. You can also see other things to mask via the |Canvas_Menu_Caret|: ``View|Show/Hide Handles``.
+
+.. _creating_shapes  Using tablet to draw shapes:
 
 Using tablet to draw shapes
 ---------------------------
@@ -215,6 +218,8 @@ If you don't want width handles to be displayed, during usage of the
 Width Tool, just turn them off by pressing the ``Toggle width handles``
 button at the top of the canvas window.
 
+.. _creating_shapes  Other ways to create Splines:
+
 Other ways to create Splines
 ----------------------------
 
@@ -230,6 +235,8 @@ then use the Transform Tool to deform it.
 
 Now you are ready for the `last tutorial <Doc:Flower_Animation>`__ in
 this section. Hang on!
+
+.. _creating_shapes  Links:
 
 Links
 -----

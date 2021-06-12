@@ -4,6 +4,8 @@
    Basic Bone Morphing
 #################################
 
+.. _tutorial__bones_morphing  Example1 (easy understanding):
+
 Example1 (easy understanding)
 =============================
 
@@ -16,6 +18,8 @@ In this tutorial, we will learn how to move a character with the
    A puppet animation.
    
  
+.. _tutorial__bones_morphing  Preparation:
+
 Preparation
 -----------
 
@@ -75,6 +79,8 @@ Once finished and that your puppet is covered with bones, you have this:
    Puppet covered with bones.
 
 
+.. _tutorial__bones_morphing  Linking bones to members:
+
 Linking bones to members
 ------------------------
 
@@ -87,6 +93,8 @@ one of the handles of the skeleton and make ``Link to the skeleton``.
 
 You just have to create your animation.
 
+.. _tutorial__bones_morphing  Project file:
+
 Project file
 ------------
 
@@ -94,11 +102,15 @@ The zip file containing parts of this tutorial may be found here:
 :download:`Skeleton-puppet <bones_morphing_dat/Skeleton-puppet.zip>`
 
 
+.. _tutorial__bones_morphing  See also:
+
 See also
 --------
 
 Here's a video using the same technique on a character dispute:
 `Development: Bones (part7) <https://www.youtube.com/watch?v=NbI6TeAHbgs>`__
+
+.. _tutorial__bones_morphing  Example 2 (more detailed understanding):
 
 Example 2 (more detailed understanding)
 =======================================
@@ -195,6 +207,8 @@ will have something like this:
 
 All you have to do is animate your man.
 
+.. _tutorial__bones_morphing  “Linked to the skeleton” OR “linked to the bone”:
+
 “Linked to the skeleton” OR “linked to the bone”
 ------------------------------------------------
 
@@ -214,6 +228,8 @@ limb will remain straight as a piece of wood.
 A cartoon character, will appear more alive with a few “Links to the
 skeleton”. So use the one that best fits the end use.
 
+.. _tutorial__bones_morphing  Important:
+
 Important
 ---------
 
@@ -224,12 +240,16 @@ Example for a leg that is composed of 3 parts:
 Create a bone for the foot, link, check. For the calf, link, check. For
 the thigh, link, check. (They are all to be done separately).
 
+.. _tutorial__bones_morphing  Project File:
+
 Project File
 ------------
 
 The zip file containing the parts of this tutorial can be found here:
 :download:`Man-vagabon-archive.zipz <bones_morphing_dat/Man-vagabon-archive.zip>`
 
+
+.. _tutorial__bones_morphing  Example 3 - Skeleton for Walking:
 
 Example 3 - Skeleton for Walking
 ================================
@@ -272,12 +292,16 @@ the child bones 11,14,17.
 “unintentionally” during the animation, this is why it is better to use
 this type of skeleton if you want to move the lower body.**
 
+.. _tutorial__bones_morphing  Project File:
+
 Project File
 ------------
 
 The zip file containing the parts of this tutorial can be found here:
 :download:`Skeleton-to-walk-archive.zip <bones_morphing_dat/Skeleton-to-walk-archive.zip>`
 
+
+.. _tutorial__bones_morphing  Example 4 - Skeleton general (default):
 
 Example 4 - Skeleton general (default)
 ======================================
@@ -307,6 +331,8 @@ to use to move the whole character.
 
 Then we create only “bones children”: we must use the schema to create
 the bones in the right direction.
+
+.. _tutorial__bones_morphing  Project File:
 
 Project File
 ------------

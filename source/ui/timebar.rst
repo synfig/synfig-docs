@@ -4,8 +4,7 @@
     Timebar
 ########################
 
-The ``Timebar`` is the area above the `Timetrack
-Panel <Timetrack_Panel>`__, the `Graphs Panel <Graphs_Panel>`__ and
+The ``Timebar`` is the area above the |Timetrack_Panel|, the |Graphs_Panel| and
 optionally at the bottom of the Canvas Window.
 
 In the Timebar you could find informations about :
@@ -13,8 +12,8 @@ In the Timebar you could find informations about :
 -  ``Project duration`` : as a frame ruler.
 -  ``Current Time`` : The horizontal orange/blue line. You can click and
    drag within it to scrub your timeline.
--  `Keyframes <Keyframe>`__ : Their time, activation state and the
-   selected one (not in the `Graphs Panel <Graphs_Panel>`__'s Timebar).
+-  |Keyframe| : Their time, activation state and the
+   selected one (not in the |Graphs_Panel|'s Timebar).
 
 .. figure:: timebar_dat/Synfig_timebar_0.63.06.png
    :alt: Synfig_timebar_0.63.06.png
@@ -30,7 +29,9 @@ The Timebar at the bottom of the Canvas Window is optionally displayed by toggli
    Good to know : Timeline visibility
    
    The timeline at the bottom of the Canvas Window will not appear when you have defined
-   zero duration in the `Canvas Properties Dialog <Canvas_Properties_Dialog>`__.
+   zero duration in the |Canvas_Properties_Dialog|.
+
+.. _timebar  Keyframes in the Timebar:
 
 Keyframes in the Timebar
 ------------------------
@@ -48,7 +49,7 @@ During a keyframe drag and drop operation a tooltip indicator will be
 displayed with some time informations.
 
 Right click over a keyframe or in upper part of the ``Timebar`` open the
-`keyframe contextual menu <Keyframe_Menu>`__ giving access to the
+|Keyframe_Menu| giving access to the
 keyframes actions.
 
 

@@ -3,6 +3,8 @@
 ########################
     Keyframes
 ########################
+.. _keyframes  What is a keyframe?:
+
 What is a keyframe?
 -------------------
 
@@ -17,20 +19,22 @@ reused later*.
 Each keyframe is associated with a particular frame and a frame can only
 have one keyframe.
 
+.. _keyframes  What does a keyframe looks like?:
+
 What does a keyframe looks like?
 --------------------------------
 
 A keyframe looks like a light brown vertical dashed line in the
-`Timetrack Panel <Timetrack_Panel>`__ placed at the corresponding frame.
-You can distinguish it from the `Time\_Cursor <Time_Cursor>`__ by its
+|Timetrack_Panel| placed at the corresponding frame.
+You can distinguish it from the |Time_Cursor| by its
 color (the time cursor is blue).
 
 .. figure:: keyframes_dat/KeyframesLook-TimeTrack_0.63.06.png
    :alt: KeyframesLook-TimeTrack_0.63.06.png
 
-The symbols shown in the image are `waypoints <Waypoints>`__.
+The symbols shown in the image are |Waypoints|.
 
-The keyframe representation in the `Timebar <Timebar>`__ change
+The keyframe representation in the |Timebar| change
 according their states : ``Normal``, ``Selected`` or ``Deactivated``
 
 .. figure:: keyframes_dat/Keyframe_State_Representation.png
@@ -38,14 +42,15 @@ according their states : ``Normal``, ``Selected`` or ``Deactivated``
 Three keyframes with three different states : **Normal**, **Selected**
 and **Deactivated**
 
-Keyframes also appear as entries in a list in the `Keyframes
-Panel <Keyframes_Panel>`__ 
+Keyframes also appear as entries in a list in the |Keyframes_Panel| 
 
 .. figure:: keyframes_dat/KeyframesLook-KeyframePanel_0.63.06.png
    :alt: KeyframesLook-KeyframePanel_0.63.06.png
    
 **Documentation writers note:** You can download the project to generate the screenshot: 
 :download:`Keyframe-lookslike.sifz<keyframes_dat/Keyframe-lookslike.sifz>`
+
+.. _keyframes  Keyframes and waypoints:
 
 Keyframes and waypoints
 -----------------------
@@ -64,20 +69,21 @@ frame but does not keep them static at that frame. To maintain a
 parameter's value static in a certain frame you must use a waypoint.
 
 The creation of a waypoint can cause the creation of new waypoints on
-the neighboring keyframes depending on the current value of the `Lock
-Keyframes <Lock_Keyframes>`__ state. So, maybe, the creation of a
+the neighboring keyframes depending on the current value of the |Lock_Keyframes| state. So, maybe, the creation of a
 waypoint (modifying a parameter or pasting or moving a waypoint or even
 duplicating a keyframe) can lead to the creation of a waypoint in the
 keyframes that are immediately before and after the inserted waypoint's
 frame. The waypoints created in the neighboring keyframes are created
-according to the `default interpolation
-value <New_Layer_Defaults#Default_Interpolation>`__ in the `toolbox
-window <Toolbox>`__.
+according to the |New_Layer_Defaults_Default_Interpolation| in the |Toolbox|.
 
 See the `examples <#Examples>`__ to understand how this works.
 
+.. _keyframes  Adding, duplicating and removing keyframes:
+
 Adding, duplicating and removing keyframes
 ------------------------------------------
+.. _keyframes  Add a keyframe:
+
 Add a keyframe
 ~~~~~~~~~~~~~~
 
@@ -94,6 +100,8 @@ press the button then a new entry is added to the list of keyframes and
 a vertical dashed line is added in the time line. No waypoint is
 created.
 
+.. _keyframes  Duplicate a keyframe:
+
 Duplicate a keyframe
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -101,8 +109,7 @@ Duplicate a keyframe
    :alt: KeyframeButton_Duplicate_0.63.06.png
 
 
-Select a keyframe in the keyframe list of the `Keyframes
-Panel <Keyframes_Panel>`__ and place the cursor at a frame where there
+Select a keyframe in the keyframe list of the |Keyframes_Panel| and place the cursor at a frame where there
 isn't currently any keyframe. Then press the ``Duplicate Keyframe``
 button. This would have two separated effects:
 
@@ -129,6 +136,8 @@ end.
 
 `video explanation <https://youtu.be/qvRt3ITSkrQ>`__
 
+.. _keyframes  Remove a keyframe:
+
 Remove a keyframe
 ~~~~~~~~~~~~~~~~~
 
@@ -147,6 +156,8 @@ considered a feature if you really want to keep the waypoints and not
 the keyframe.*\ 
 
 
+.. _keyframes  Editing keyframes: time, length & description:
+
 Editing keyframes: time, length & description
 ---------------------------------------------
 
@@ -164,12 +175,16 @@ related to keyframe activation : enabled or disabled.
 -  Jump
 -  Description
 
+.. _keyframes  Activation:
+
 Activation
 ~~~~~~~~~~
 
 By changing the state of the checkbox you can activate or disable the
 keyframe. A visual information about the keyframe state is displayed in
-the `Timebar <Timebar>`__.
+the |Timebar|.
+
+.. _keyframes  Time:
 
 Time
 ~~~~
@@ -177,18 +192,16 @@ Time
 You can modify the time (frame) where the keyframe is placed just making
 a click in the corresponding ``Time`` cell. It will allow modify the
 time forward or backward the amount that you want. You can also manually
-place a keyframe at the desired time using the `Timebar <Timebar>`__.
+place a keyframe at the desired time using the |Timebar|.
 
 Modifying the Time of a keyframe has the following effects:
 
-#. The existing `Waypoints <Waypoints>`__ in the keyframe will move to
+#. The existing |Waypoints| in the keyframe will move to
    the new position.
 #. If any parameter have a a waypoint in the time line, then the moved
-   keyframe will have a new waypoint set to `default
-   interpolation <New_Layer_Defaults#Default_Interpolation>`__ on those
+   keyframe will have a new waypoint set to |New_Layer_Defaults_Default_Interpolation| on those
    paramter(s).
-#. According to the default interpolation method and the `Lock
-   Keyframes <Lock_Keyframes>`__ status and to the parameters that have
+#. According to the default interpolation method and the |Lock_Keyframes| status and to the parameters that have
    any waypoint in the time line, new waypoints will be created on the
    neighbouring keyframes of the destiny time (frame). The original
    neighbouring keyframes will be untouched if don't coincide with the
@@ -208,29 +221,37 @@ the program gives you this message:
 See `the example <#Change_Keyframe_Time>`__ to see how changing the time
 of a keyframe works.
 
+.. _keyframes  Length:
+
 Length
 ~~~~~~
 
 Length parameter sets the time the keyframe is exposed in the timeline
 until next keyframe. You can also manually change the length parameter
-using the `Timebar <Timebar>`__ and holding ``alt`` key on releasing the
+using the |Timebar| and holding ``alt`` key on releasing the
 mouse button.
 
 Changing the parameter shifts all following keyframes and
-`Waypoints <Waypoints>`__ forward or backwards.
+|Waypoints| forward or backwards.
+
+.. _keyframes  Jump:
 
 Jump
 ~~~~
 
 The Jump column is only a short cut to place the
-`Time\_Cursor <Time_Cursor>`__ at the keyframe where you make a click in
+|Time_Cursor| at the keyframe where you make a click in
 the ``(JMP)`` label.
+
+.. _keyframes  Description:
 
 Description
 ~~~~~~~~~~~
 
 This cell allow the user insert a short description of the meaning of
 the keyframe. Just make click on it and change the text.
+
+.. _keyframes  Editing Keyframe Properties:
 
 Editing Keyframe Properties
 ---------------------------
@@ -258,13 +279,12 @@ The dialog have the following parameters:
   
 -  In: Checking this value you can change the interpolation method of
    the left part of the waypoints of the current selected keyframe of
-   all the layers of the canvas to the selected `interpolation
-   method <Waypoints#Interpolation>`__ in the drop down menu.
+   all the layers of the canvas to the selected |Waypoints_Interpolation| in the drop down menu.
 -  Out: Same but for the right part of the waypoint.
--  Tension: See `TCB <TCB>`__
--  Bias: See `TCB <TCB>`__
--  Continuity: See `TCB <TCB>`__
--  Temporal Tension: See `TCB <TCB>`__
+-  Tension: See |TCB|
+-  Bias: See |TCB|
+-  Continuity: See |TCB|
+-  Temporal Tension: See |TCB|
 
 You can check only one of both ``In`` or ``Out`` check boxes to only
 affect the change to the left or right part of the waypoints. The non
@@ -277,15 +297,14 @@ and ``Temporal Tension``)
 
  
 This dialog would not affect what's the interpolation method for a new
-waypoint created by the user, automatically created by the `keyframe
-duplication <Keyframe#Duplicate_a_keyframe>`__ or by the `lock
-keyframe <Lock_Keyframes>`__ state. The interpolation methods for new
+waypoint created by the user, automatically created by the |Keyframe_Duplicate_a_keyframe| or by the |Lock_Keyframes| state. The interpolation methods for new
 waypoints created in those cases will be both the same (``In`` and
-``Out`` or Left and Right) and depend only on the `Default
-interpolation <New_Layer_Defaults#Default_Interpolation>`__ method of
+``Out`` or Left and Right) and depend only on the |New_Layer_Defaults_Default_Interpolation| method of
 the `Toolbox <:Category:Toolbox>`__ window.
 
 See the `examples <#Examples>`__ to understand better how it works.
+
+.. _keyframes  Edit a keyframe from the timebar:
 
 Edit a keyframe from the timebar
 --------------------------------
@@ -293,20 +312,24 @@ Edit a keyframe from the timebar
    :alt: Keyframe_State_Representation.png 
 Three keyframes with three different states : **Normal**, **Selected** and **Deactivated**
 
-You can adjust the `Time <Keyframe#Time>`__ of a keyframe by a normal
-drag and drop. To adjust it's `Length <Keyframe#Length>`__, hold ``Alt``
+You can adjust the |Keyframe_Time| of a keyframe by a normal
+drag and drop. To adjust it's |Keyframe_Length|, hold ``Alt``
 key when releasing the mouse button.
 
 During a keyframe drag and drop operation a tooltip indicator will be
 displayed with some time informations.
 
 Right click over a keyframe or in upper part of the ``Timebar`` open the
-`keyframe contextual menu <Keyframe_Menu>`__ giving access to the
+|Keyframe_Menu| giving access to the
 keyframes actions.
 
 
+.. _keyframes  Examples:
+
 Examples
 --------
+
+.. _keyframes  Duplicate a keyframe with no waypoint on it:
 
 Duplicate a keyframe with no waypoint on it
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -337,9 +360,7 @@ Before duplicate keyframe at 2s to 6s
    is linear due that they are the only two waypoints of the animation for that parameter.
 
 If you select the keyframe at 2s, place the time cursor at 6s (where
-there isn't a keyframe), set the `default
-interpolation <New_Layer_Defaults#Default_interpolation>`__ to `TCB
-Smooth <TCB>`__, and have the `lock keyframe status <Lock_Keyframes>`__
+there isn't a keyframe), set the |New_Layer_Defaults_Default_interpolation| to |TCB|, and have the |Lock_Keyframes|
 to ``All keyframes locked`` and press the ``Duplicate keyframe`` button,
 then the result is the following:
 
@@ -389,9 +410,9 @@ You can see that:
    waypoint so nothing is expected to change.
 
 Return to the previous state before you duplicate the keyframe with the
-`History Panel <History_Panel>`__, and imagine now that you do the same
+|History_Panel|, and imagine now that you do the same
 operations but you choose the default interpolation set to
-`Constant <Constant>`__. Then the result is the following:
+|Constant|. Then the result is the following:
 
 After duplicate keyframe at 2s to 6s (constant interpolation)
 
@@ -428,6 +449,8 @@ that keyframe before duplicate it.
 **Documentation writers note:** You can download the project to generate the screenshot: 
 :download:`Keyframe-example1.sifz<keyframes_dat/Keyframe-example1.sifz>`
 
+.. _keyframes  Editing Keyframe Properties:
+
 Editing Keyframe Properties
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -443,9 +466,9 @@ keyframe.
 
 Now consider that you have the following default values:
 
--  `Default Interpolation <New_Layer_Defaults#Default_Interpolation>`__
+-  |New_Layer_Defaults_Default_Interpolation|
    method set to ``Ease in/out``
--  `Lock Keyframes <Lock_Keyframes>`__ status set to
+-  |Lock_Keyframes| status set to
    ``All Keyframes Locked``
 
 Now select the keyframe at frame 4s in the keyframe list. Press the
@@ -474,9 +497,8 @@ You can see the following effects:
 #. New waypoints have been created for the neighbouring keyframes to 4s
    (2s and 6s) for all the parameters that have any waypoint in the time
    line. The waypoints are created in the neighbouring keyframes
-   according to the `Lock Keyframes <Lock_Keyframes>`__ status. Also the
-   created waypoints interpolation method responds to the `default
-   interpolation <New_Layer_Defaults#Default_Interpolation>`__ method
+   according to the |Lock_Keyframes| status. Also the
+   created waypoints interpolation method responds to the |New_Layer_Defaults_Default_Interpolation| method
    you have set.
 
 If in the ``Keyframe Properties`` dialog you were checked off the
@@ -501,8 +523,12 @@ In this sample it was only checked on the ``In`` check box.
 :download:`Keyframe-example2.sifz<keyframes_dat/Keyframe-example2.sifz>`
 
 
+.. _keyframes  Change Keyframe Time:
+
 Change Keyframe Time
 ~~~~~~~~~~~~~~~~~~~~
+
+.. _keyframes  Without waypoints between keyframes:
 
 Without waypoints between keyframes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -515,9 +541,9 @@ Consider again this situation for a certain layer:
  
 Now consider that you have the following default values:
 
--  `Default Interpolation <New_Layer_Defaults#Default_Interpolation>`__
+-  |New_Layer_Defaults_Default_Interpolation|
    method set to ``Ease in/out``
--  `Lock Keyframes <Lock_Keyframes>`__ status set to
+-  |Lock_Keyframes| status set to
    ``All Keyframes Locked``
 
 Now select the keyframe at frame 4s in the keyframe list. Make a click
@@ -528,6 +554,8 @@ this:
    :alt: KeyframeTime-After_0.63.06.png
 
  
+.. _keyframes  With waypoints between keyframes:
+
 With waypoints between keyframes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -539,9 +567,9 @@ Consider now this situation for a certain layer:
  
 Now consider that you have the following default values:
 
--  `Default Interpolation <New_Layer_Defaults#Default_Interpolation>`__
+-  |New_Layer_Defaults_Default_Interpolation|
    method set to ``Ease in/out``
--  `Lock Keyframes <Lock_Keyframes>`__ status set to
+-  |Lock_Keyframes| status set to
    ``All Keyframes Locked``
 
 Now select the keyframe at 4s in the keyframe list. Make a click in the
@@ -571,8 +599,12 @@ there are some bugs and any information is welcome
 **Documentation writers note:** You can download the project to generate the screenshot: 
 :download:`Keyframe-example3.sifz<keyframes_dat/Keyframe-example3.sifz>`
 
+.. _keyframes  Advanced uses of keyframes:
+
 Advanced uses of keyframes
 --------------------------
+
+.. _keyframes  Reusing keyframes:
 
 Reusing keyframes
 ~~~~~~~~~~~~~~~~~
@@ -582,7 +614,9 @@ tutorial about reusing animations. Keyframes can be like stored “poses”
 that can be reused several time in the animation. Very useful for lip
 sync.
 
-`Reuse Animations <Reuse_Animations>`__
+|Reuse_Animations|
+
+.. _keyframes  Usage of Onionskin:
 
 Usage of Onionskin
 ~~~~~~~~~~~~~~~~~~
@@ -593,7 +627,9 @@ frame where the keyframes are set. Onion skin will show you the before
 and after keyframes images with a 50% opaque copy of the current view.
 Also the current view is 50% opaque.
 
-See `Onion Skin <Onion_Skin>`__ for more detail.
+See |Onion_Skin| for more detail.
+
+.. _keyframes  Quickly creating/importing Keyframes:
 
 Quickly creating/importing Keyframes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

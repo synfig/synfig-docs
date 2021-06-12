@@ -7,11 +7,13 @@
  |bone.gif|
 
 
+.. _bones_cutout  Introduction  :
+
 Introduction  
 ------------------
 
 In this tutorial we are going to rig an arm with
-fixed joints using the `Skeleton Layer <Skeleton_Layer>`__ and three
+fixed joints using the |Skeleton_Layer| and three
 bones. The arm consists of three parts: the **upperArm**, the
 **lowerArm** and the **hand**. (pic.1) Each part is grouped in its own
 layer and the three groups are again grouped in a layer that is called
@@ -25,6 +27,8 @@ layer and the three groups are again grouped in a layer that is called
       
    PICTURE 2: The layers  
 
+
+.. _bones_cutout  Prepare the joints:
 
 Prepare the joints
 -------------------
@@ -52,17 +56,14 @@ the top curved outline of the lower arm.
 The same principle is applied to the hand and the bottom part of the
 lower arm. The crosshairs also mark the centre of the rotation point
 that will later be used when placing the bones. Before placing the bones
-we can align the `Group Transformation
-Widget <Group_Transformation_Widget>`__ (press control and move the left
-corner handle of the `Group Transformation
-Widget <Group_Transformation_Widget>`__ to move it.) of the **lowerArm**
+we can align the |Group_Transformation_Widget| (press control and move the left
+corner handle of the |Group_Transformation_Widget| to move it.) of the **lowerArm**
 group and the **hand** group with the crosshairs of the elbow and the
 wrist to check if the joints rotate correctly.
 
 | Don’t forget to bring the arm into its original position by pressing
   undo. (Don’t worry if the hand does not rotate with the elbow when you
-  check the elbow joint by using the `Group Transformation
-  Widget <Group_Transformation_Widget>`__.)
+  check the elbow joint by using the |Group_Transformation_Widget|.)
   
 .. figure:: bones_cutout_dat/Bonestut07.png
 
@@ -74,6 +75,8 @@ wrist to check if the joints rotate correctly.
   
 
 
+.. _bones_cutout  Adding the bones:
+
 Adding the bones
 ----------------
 
@@ -81,14 +84,12 @@ Adding the bones
    
    PICTURE 6: Adding bone   
 
-| Now it’s time to add a `Skeleton Layer <Skeleton_Layer>`__ that will
+| Now it’s time to add a |Skeleton_Layer| that will
   provide the bones we need to rig the arm.
 
-| Right-click on any layer in the `Layers Panel <Layers_Panel>`__ and
-  choose ``New Layer -> Other -> Skeleton``. A new `Skeleton
-  Layer <Skeleton_Layer>`__ (pic. 7) will appear in the `Layers
-  Panel <Layers_Panel>`__ alongside with a small bone in the canvas
-  (pic.6). Put the `Skeleton Layer <Skeleton_Layer>`__ above the **arm**
+| Right-click on any layer in the |Layers_Panel| and
+  choose ``New Layer -> Other -> Skeleton``. A new |Skeleton_Layer| (pic. 7) will appear in the |Layers_Panel| alongside with a small bone in the canvas
+  (pic.6). Put the |Skeleton_Layer| above the **arm**
   group if it is not already there. The green handle of the bone is the
   origin of the bone and is used to move the bone in place and is also
   its centre of rotation. The blue handle is used to rotate the bone.
@@ -114,6 +115,8 @@ Adding the bones
    PICTURE 8: Green origin point hand
    
  
+.. _bones_cutout  Attaching the bones:
+
 Attaching the bones
 -------------------
 
@@ -121,22 +124,21 @@ Attaching the bones
 
    PICTURE 8: Attaching hand to second child bone
    
-Now that the `Skeleton
-Layer <Skeleton_Layer>`__ is in place we have to attach the bones to the
+Now that the |Skeleton_Layer| is in place we have to attach the bones to the
 parts of the arm.
 
-In the `Layers Panel <Layers_Panel>`__ click on the **upperArm** group,
+In the |Layers_Panel| click on the **upperArm** group,
 right-click and ``Select All Child Layers``. Then press ``ctrl|A`` in
 the canvas window. With everything in the **upperArm** group
 highlighted, ``ctrl``-click on any bone in the canvas window and
 right-click on any of the handles of the parent bone and click
 ``Link to Bone``. The **upperArm** group is now linked to the parent
-bone. Go the `Layers Panel <Layers_Panel>`__ again and select the
+bone. Go the |Layers_Panel| again and select the
 **lowerArm** group. Right-click and ``Select All Child Layers``. Press
 ``ctrl|A`` in the canvas window and ``ctrl``-click on one of the bones.
 Then right-click on any of the handles of the first child bone and
 select ``Link to bone``. The **lowerArm** group is now linked to the
-second child bone. In the `Layers Panel <Layers_Panel>`__ select all the
+second child bone. In the |Layers_Panel| select all the
 child layers of the **hand** group and press ``ctrl|A`` in the canvas
 window. ``ctrl``-click on any bone and then right-click on any of the
 handles of the second child bone and select ``Link to bone`` (pic.8).
@@ -153,18 +155,21 @@ Then use the blue handle of the bone to apply the rotation.
 
 | 
 
+.. _bones_cutout  Tip for making a crosshair:
+
 Tip for making a crosshair
 --------------------------
 
 | Making a crosshair in Synfig is easy. Draw a circle. Draw the outlines
   of a square and align them with the circle. Draw an X using the
   corners of the square as a reference. Delete the square. Group the
-  circle and the X. Rotate 45 degrees using the `Group Transformation
-  Widget <Group_Transformation_Widget>`__. 
+  circle and the X. Rotate 45 degrees using the |Group_Transformation_Widget|. 
   
 .. figure:: bones_cutout_dat/Bonestut18.png
 
    PICTURE 9: Drawing a crosshair
+
+.. _bones_cutout  Project file:
 
 Project file
 ------------
@@ -173,8 +178,12 @@ The sif file containing the parts of this tutorial can be found
 :download:`here <bones_cutout_dat/Rigarm.zip>`
 
 
+.. _bones_cutout  Explanation n°2 additional:
+
 Explanation n°2 additional
 ==========================
+
+.. _bones_cutout  To transform 2 sticks into 1 leg:
 
 To transform 2 sticks into 1 leg
 --------------------------------
@@ -241,11 +250,15 @@ To transform 2 sticks into 1 leg
 
    Animated Leg.
 
+.. _bones_cutout  Important:
+
 Important
 ---------
 
 **The crosshair must stay with our 2 sticks, for the duration of the
 limb's creation.**
+
+.. _bones_cutout  Project File:
 
 Project File
 ------------
@@ -253,6 +266,8 @@ Project File
 The zip file containing the parts of this tutorial can be found here:
 :download:`Crosshair-leg.zip <bones_cutout_dat/Crosshair-leg.zip>`
 
+
+.. _bones_cutout  Next Steps:
 
 Next Steps
 ----------

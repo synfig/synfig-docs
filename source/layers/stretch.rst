@@ -7,10 +7,14 @@
    :alt: Layer_distortion_stretch_icon.png
    :width: 64px
 
+.. _layer_stretch  About Stretch Layers:
+
 About Stretch Layers
 --------------------
 
 ``Stretch Layer`` distorts objects of the lower layers in both axis.
+
+.. _layer_stretch  Sample:
 
 Sample
 ------
@@ -19,10 +23,11 @@ Sample
    :alt: Stretch.png
 
 
--  Center image is default size of Stretch Layer with `Amount
-   Parameter <Amount_Parameter>`__ – 1u,1u
--  `Amount Parameter <Amount_Parameter>`__ for left image – 1u,0.5u
--  `Amount Parameter <Amount_Parameter>`__ for right image – 0.5u,1u
+-  Center image is default size of Stretch Layer with |Amount_Parameter| – 1u,1u
+-  |Amount_Parameter| for left image – 1u,0.5u
+-  |Amount_Parameter| for right image – 0.5u,1u
+
+.. _layer_stretch  Parameters of Stretch Layers:
 
 Parameters of Stretch Layers
 ----------------------------

@@ -7,22 +7,26 @@
    :alt: History_panel.png
    :width: 60px
 
+.. _panel_layers  Summary:
+
 Summary
 -------
 
 The Layers Dialog allows you to view and manipulate the layer hierarchy
 in your scene. This is where you can determine which objects get drawn
-first, and create `groups of layers <Group_Layer>`__ for the purpose of
+first, and create |Group_Layer| for the purpose of
 applying effects.
 
 .. figure:: panel_layers_dat/Layers_0.63.06.png
    :alt: Layers_0.63.06.png
 
 
+.. _panel_layers  Elements of the Layers Dialog:
+
 Elements of the Layers Dialog
 -----------------------------
 
-The Layers Dialog contains a detailed list of the `Layers <Layer>`__ in
+The Layers Dialog contains a detailed list of the |Layer| in
 your scene. Each row represents a layer, and the columns are:
 
 **Show/Hide checkbox**
@@ -30,11 +34,10 @@ your scene. Each row represents a layer, and the columns are:
     keyable.
 **Icon**
     The icon representing the layer type. For
-    `Regions <Region_Layer>`__, `Outlines <Outline_Layer>`__, and , the
-    icons will be those of the `Spline Tool <Spline_Tool>`__, the `Width
-    Tool <Width_Tool>`__, and the `Gradient Tool <Gradient_Tool>`__,
-    respectively. For both `Group\_Layer <Group_Layer>`__ and
-    `Switch\_Group\_Layer <Switch_Group_Layer>`__, an expand icon
+    |Region_Layer|, |Outline_Layer|, and , the
+    icons will be those of the |Spline_Tool|, the |Width_Tool|, and the |Gradient_Tool|,
+    respectively. For both |Group_Layer| and
+    |Switch_Group_Layer|, an expand icon
     (generally an arrow) precede the layer icon. This expander can be
     controlled with ``+`` and ``-`` respectively to open or close the
     group.
@@ -46,14 +49,16 @@ your scene. Each row represents a layer, and the columns are:
     example, if the time of the canvas is “0”, this column will
     disappear.
 
+.. _panel_layers  Layer Commands:
+
 Layer Commands
 ~~~~~~~~~~~~~~
 
 Below the layer list, are buttons (and a drop down menu containing any
 buttons that don't fit on the palette). These expose the most useful
-layers' commands, more commands can be found in the `Canvas Layer
-Menu <Canvas_Layer_Menu>`__ from the `Canvas Menu
-Caret <Canvas_Menu_Caret>`__, or in the context menu of the Layer Panel.
+layers' commands, more commands can be found in the |Canvas_Layer_Menu| from the |Canvas_Menu_Caret|, or in the context menu of the Layer Panel.
+
+.. _panel_layers  Moving layers:
 
 Moving layers
 ~~~~~~~~~~~~~

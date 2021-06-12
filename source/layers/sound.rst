@@ -7,21 +7,25 @@
    :alt: Layer_other_sound_icon.png
    :width: 64px
 
+.. _layer_sound  About Sound Layers:
+
 About Sound Layers
 ------------------
 
 .. note::
-   Actually the "Sound Layer" isn't `rendered <Render_dialog>`__!
+   Actually the "Sound Layer" isn't |Render_dialog|!
    
    You can use `ffmpeg <https://en.wikipedia.org/wiki/FFmpeg>`__/`avconv <https://en.wikipedia.org/wiki/Libav>`__ for manual merging. Read about `simple <https://davidwalsh.name/combine-audio-video>`__ or `advanced <https://wjwoodrow.wordpress.com/2013/02/04/correcting-for-audiovideo-sync-issues-with-the-ffmpeg-programs-itsoffset-switch/>`__ way
 
 
 The ``Sound Layer`` ...
 
+.. _layer_sound  Parameters of Sound Layers:
+
 Parameters of Sound Layers
 --------------------------
 
-The parameters of the `Sound Layer <Sound_Layer>`__ are:
+The parameters of the |Sound_Layer| are:
 
 +------------------------------------------+---------------------+------------+
 | **Name**                                 | **Value**           | **Type**   |
@@ -34,6 +38,8 @@ The parameters of the `Sound Layer <Sound_Layer>`__ are:
 +------------------------------------------+---------------------+------------+
 | |Type_real_icon.png| Volume              | 1.000000            | real       |
 +------------------------------------------+---------------------+------------+
+
+.. _layer_sound  How to use Sound Layer:
 
 How to use Sound Layer
 ----------------------

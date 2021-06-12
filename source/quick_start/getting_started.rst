@@ -4,6 +4,8 @@
     Getting Started
 ########################
 
+.. _getting_started  User interface:
+
 User interface
 --------------
 
@@ -17,10 +19,10 @@ The screenshot below displays Synfig Studio's window layout:
 
 Synfig Studio main interface components are:
 
--  `Toolbox <Toolbox>`__ — is the main Synfig Studio window. It contains
+-  |Toolbox| — is the main Synfig Studio window. It contains
    tools and more to create and edit your artwork.
--  `Canvas <Canvas>`__ — displays your artwork and animation.
--  `Panels <Panels>`__ — contain tools and information about certain elements of your
+-  |Canvas| — displays your artwork and animation.
+-  |Panels| — contain tools and information about certain elements of your
    project. Some panels will allow you to modify those elements.
 
 .. note::
@@ -28,47 +30,48 @@ Synfig Studio main interface components are:
    In the ``File`` menu select``Window -> Workspace -> Default``.
 
 The center of the window is the  `Canvas Window <Canvas Window>`__. A new Canvas Window appears each time
-Synfig Studio starts. The window represents the `Root
-Canvas <Root_Canvas>`__, not that it means much to you at the moment,
+Synfig Studio starts. The window represents the |Root_Canvas|, not that it means much to you at the moment,
 but that's OK — we're just trying to show you around. In the upper left
 corner of the Canvas Window, you'll see a button with a
-`caret <Canvas_Menu_Caret>`__. If you click on this caret button, the
-`canvas window menu <Canvas_Menu_Caret>`__ will pop up. If you
-right-click in the canvas area and there is no `layer <layer>`__ under
+|Canvas_Menu_Caret|. If you click on this caret button, the
+|Canvas_Menu_Caret| will pop up. If you
+right-click in the canvas area and there is no |layer| under
 the mouse position, this menu will also appear. So now you know where
 the most important canvas menu is. Good.
 
 The other part of the window (on the bottom/top, to the right/left) are
-customizable `dock panel <dock panel>`__. Each dock contains a set of `Panels <Panels>`__, arranged horizontally or
+customizable `dock panel <dock panel>`__. Each dock contains a set of |Panels|, arranged horizontally or
 vertically. Some panels share the same space inside the dock and you can
-switch between them by clicking on their `tabs <panel_tab>`__. You can
+switch between them by clicking on their |panel_tab|. You can
 rearrange the contents of dock panels as you wish by dragging the panel
 tab to where you want it. You can even create a new dock by dragging a
 tab out.
 
-If you accidentally close a `panel <panel>`__ (by dragging it out, and
+If you accidentally close a |panel| (by dragging it out, and
 closing the new dock that gets created), no worries. Simply go to the `Main Menu <Main Menu>`__,
 select `Window Menu <Window Menu>`__ there and then click on the name of the panel you need.
 
 The most important panels are:
 
--  `Layers Panel <Layers_Panel>`__ — shows you the hierarchy of the
+-  |Layers_Panel| — shows you the hierarchy of the
    layer of your working canvas. It also allows you to manipulate these
    layers.
--  `Parameters Panel <Parameters_Panel>`__ — shows you the parameters of
+-  |Parameters_Panel| — shows you the parameters of
    the layer currently selected. When multiple layers are selected, only
    the parameters that the selected layers have in common are displayed.
--  `Tool Options Panel <Tool_Options_Panel>`__ — shows you any options
+-  |Tool_Options_Panel| — shows you any options
    specific to the currently selected tool.
--  `Navigator <Navigator>`__ — shows a thumbnail image of what the
+-  |Navigator| — shows a thumbnail image of what the
    currently selected canvas looks like. You can also zoom in and move
    the focus around with this panel.
--  `History Panel <History_Panel>`__ — shows you the history stack for
+-  |History_Panel| — shows you the history stack for
    the current composition. You can also edit the actions in history.
 
-There are also many other `panels <panel>`__ in Synfig Studio. If you
+There are also many other |panel| in Synfig Studio. If you
 have no idea what a panel does, simply hold your mouse over its icon and
 a tooltip will pop up describing its function.
+
+.. _getting_started  Under the hood:
 
 Under the hood
 --------------
@@ -79,8 +82,8 @@ Under the hood
    Layers Panel
 
 Synfig Studio, like most every other competent graphics program, breaks
-down individual elements of a `canvas <canvas>`__ into
-`layers <layer>`__. However, it differs from other programs in two major
+down individual elements of a |canvas| into
+|layer|. However, it differs from other programs in two major
 ways:
 
 #. An individual layer in Synfig usually represents a single
@@ -92,28 +95,26 @@ ways:
 #. A layer can not only add information on top of the image below it, it
    can also distort and/or modify it in some other way. In this sense,
    Synfig's Layers act much like filters do in Adobe Photoshop or GIMP.
-   For example, we have a `Blur Layer <Blur_Layer>`__, `Radial Blur
-   Layer <Radial_Blur_Layer>`__, `Spherize Layer <Spherize_Layer>`__,
-   `Color Correct Layer <Color_Correct_Layer>`__, `Bevel
-   Layer <Bevel_Layer>`__, etc...
+   For example, we have a |Blur_Layer|, |Radial_Blur_Layer|, |Spherize_Layer|,
+   |Color_Correct_Layer|, |Bevel_Layer|, etc...
 
 Each layer has a set of parameters which determine how it behaves. When
 you click on a layer (either in the Canvas Window, or in the illustrated
-`Layers Panel <Layers_Panel>`__), you will see its parameters in the
-`Parameters Panel <Parameters_Panel>`__.
+|Layers_Panel|), you will see its parameters in the
+|Parameters_Panel|.
+
+.. _getting_started  First steps:
 
 First steps
 -----------
 
 Let's create something fun so that we can play with it!
 
-First, go over to the toolbox and click on the `Circle
-Tool <Circle_Tool>`__ (if you don't know which one it is, just mouse
+First, go over to the toolbox and click on the |Circle_Tool| (if you don't know which one it is, just mouse
 over them until you find the one with the tooltip that says “Circle
 Tool”).
 
-When you click on the Circle Tool, you should notice that the `Tool
-Options Panel <Tool_Options_Panel>`__ changed. But we'll get to that
+When you click on the Circle Tool, you should notice that the |Tool_Options_Panel| changed. But we'll get to that
 later.
 
 With the Circle Tool selected, you can now create circles in the . This
@@ -138,17 +139,16 @@ later.
    change Synfig will work as expected. 
 
 Now go back to the toolbox and
-click on the `Transform Tool <Transform_Tool>`__ (the button with the
+click on the |Transform_Tool| (the button with the
 arrow on it). After you do this, click on one of your circles. You will
-see a “`bounding box <bounding_box>`__” (which is kind of useless at
+see a “|bounding_box|” (which is kind of useless at
 this point in time, but we digress), a green dot at the center, and a
-cyan dot on the radius. Those dots are called “`handles <handle>`__”. If
+cyan dot on the radius. Those dots are called “|handle|”. If
 you want to modify the circle, grab a handle and drag it around. Easy!
 
-You can select a `layer <layer>`__ by clicking on it. If you want to
+You can select a |layer| by clicking on it. If you want to
 select more than one layer, hold down ``ctrl`` key while you are
-clicking — this works in both the Canvas Window and the `Layers
-Panel <Layers_Panel>`__. Try it!
+clicking — this works in both the Canvas Window and the |Layers_Panel|. Try it!
 
 You can also select multiple handles. You can do this in several ways.
 First, you can hold down ``ctrl`` and individually click the handles
@@ -165,7 +165,7 @@ several handles selected, moving one handle will move all of them.
    5 minutes of work. At restart it will automatically prompt to recover 
    the unsaved changes. Unfortunately history isn't recovered yet. 
 
-The `rotate <Rotate_Tool>`__ and `scale <Scale_Tool>`__ tools work much like
+The |Rotate_Tool| and |Scale_Tool| tools work much like
 the Transform Tool, except in the case where you have multiple handles
 selected. It is much easier just to try, than read about it. Select a
 few circles, select all of their handles, and try using the rotate and
@@ -173,12 +173,14 @@ scale tools.
 
 Note that tools manipulating with handles have options associated with
 them. If a particular tool isn't doing what you want, take a look at the
-`Tool Options Panel <Tool_Options_Panel>`__ to see available options.
+|Tool_Options_Panel| to see available options.
+
+.. _getting_started  Linking:
 
 Linking
 -------
 
-Now let's try `linking <linking>`__. Suppose we always want these two
+Now let's try |linking|. Suppose we always want these two
 circles to be the same size. Select two circles, and then select both of
 their radius handles (the cyan dots).
 
@@ -189,13 +191,15 @@ either of them and a menu will pop up. Select ``Link``. Boom. The
 parameters are linked together. You can prove it to yourself by
 selecting just one of the circles and changing its radius — the other
 one will change as well. Neat stuff, eh? This is how
-`outlines <Outline_Layer>`__ are attached to their
-`regions <Region_Layer>`__ — but we're getting ahead of to the chapter.
+|Outline_Layer| are attached to their
+|Region_Layer| — but we're getting ahead of to the chapter.
 
 Linking is a fundamental concept in Synfig. You can create links not
 only for handles, but also between parameters as well by selecting
 multiple layers, right clicking on the parameter in the Parameters
 panel, and selecting ``Link``.
+
+.. _getting_started  Color selection:
 
 Color selection
 ---------------
@@ -228,7 +232,9 @@ selector dialog will show up, and you can just tweak away.
 
 Try playing around with the circles for a bit. Muck around with the
 parameters, and see what happens. To get you started, try out to set the
-`Feather Parameter <Feather_Parameter>`__ to 5.
+|Feather_Parameter| to 5.
+
+.. _getting_started  Digging deeper:
 
 Digging deeper
 --------------

@@ -5,11 +5,15 @@
 ########################
 |Tool_mirror.png| \ **ALT-M**\ 
 
+.. _tool_mirror  Introduction:
+
 Introduction
 ------------
 
-The Mirror Tool will mirror all the selected `handles <Handle>`__ about
+The Mirror Tool will mirror all the selected |Handle| about
 a horizontal or vertical axis passing through the mouse cursor.
+
+.. _tool_mirror  Options:
 
 Options
 -------
@@ -23,15 +27,16 @@ Options
 
 | 
 
+.. _tool_mirror  Usage:
+
 Usage
 -----
 
 For example, to mirror a spline horizontally:
 
 -  select the Mirror Tool, either by clicking in the
-   `toolbox <Toolbox>`__ or hitting ``Alt+m``
--  check ``Horizontal`` in the `Tool Options
-   Panel <Tool_Options_Panel>`__
+   |Toolbox| or hitting ``Alt+m``
+-  check ``Horizontal`` in the |Tool_Options_Panel|
 -  select the Spline Layer
 -  select all handles in the spline by hitting ``Ctrl+a``
 -  drag one of the selected handles a little

@@ -16,7 +16,7 @@ present in the currently selected document:
    :alt: Canvas-Browser-0.64.1.png
 
 
-`Exporting <Export>`__ a canvas parameter of a `Group <Group>`__ Layer
+|Export| a canvas parameter of a |Group| Layer
 will cause the canvas to be added to the ``Canvas Browser`` dialog.
 Double-clicking on a sub-canvas in the dialog will open a new Work Area
 window allowing you to work on the sub-canvas separately.

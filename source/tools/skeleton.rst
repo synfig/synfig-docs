@@ -5,10 +5,14 @@
 ########################
 
 
+.. _tool_skeleton  Introduction:
+
 Introduction
 ============
 
 Synfig also supports animating objects using bones and the Skeleton tool makes it easy to build skeletons of Bones.
+
+.. _tool_skeleton  Usage:
 
 Usage
 =====
@@ -67,6 +71,8 @@ When you are modifying a skeleton deformation layer using the Skeleton tool, it 
 * The layer gets disabled.
 * Width handles are turned on.
 * Any changes you make to the rest position effects the deformation too.
+
+.. _tool_skeleton  Options:
 
 Options
 =======

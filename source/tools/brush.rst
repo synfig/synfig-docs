@@ -9,21 +9,24 @@
 
 |Tool_brush_icon.png| \ **ALT-?**\ 
 
+.. _tool_brush  Introduction:
+
 Introduction
 ------------
 
-The ``Brush Tool`` allows you to draw freehand over the top of a `raster
-image <Import_Image_Layer>`__ using the
+The ``Brush Tool`` allows you to draw freehand over the top of a |Import_Image_Layer| using the
 `MyPaint <http://mypaint.intilinux.com/>`__ brushes. Combined with
-`Switch Group Layer <Switch_Group_Layer>`__ you can create frame by
+|Switch_Group_Layer| you can create frame by
 frame animations.
 
--  It is possible to paint on the `Image Layer <Import_Image_Layer>`__
+-  It is possible to paint on the |Import_Image_Layer|
 -  Basic pressure sensitivity is supported.
 -  Image size is automatically expanded when you paint outside of image
    boundaries.
--  An `Image Layer <Import_Image_Layer>`__ is automatically created if
-   the current layer isn't an `Image Layer <Import_Image_Layer>`__.
+-  An |Import_Image_Layer| is automatically created if
+   the current layer isn't an |Import_Image_Layer|.
+
+.. _tool_brush  Options:
 
 Options
 -------
@@ -37,15 +40,15 @@ Options
    default, Synfig is installed with a selected set of brushes from
    “Concept Design (C\_D)” pack by `Ramon
    Miranda <http://www.ramonmiranda.com/2011/09/mypaint-concept-design-set-es.html>`__.
-   From the `Preferences\_Dialog#System <Preferences_Dialog#System>`__,
+   From the |Preferences_Dialog_System|,
    you can configure the ``Brush Presets Path`` to use other brushes
    package (for example the ones listed by
    `MyPaint <https://github.com/mypaint/mypaint/wiki/Brush-Packages>`__)
 
-| The ``Brush Tool`` uses the color of the `Outline
-  Color <New_Layer_Defaults#Brush_Colors>`__ and the `Brush
-  Size <New_Layer_Defaults#Brush_Size>`__ set in the
-  `Toolbox <Toolbox>`__ to paint.
+| The ``Brush Tool`` uses the color of the |New_Layer_Defaults_Brush_Colors| and the |New_Layer_Defaults_Brush_Size| set in the
+  |Toolbox| to paint.
+
+.. _tool_brush  Other sources of information:
 
 Other sources of information
 ----------------------------

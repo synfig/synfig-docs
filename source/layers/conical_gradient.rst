@@ -7,16 +7,20 @@
    :alt: Layer_gradient_conical_icon.png
    :width: 64px
 
+.. _layer_conical_gradient  About Conical Gradient Layer:
+
 About Conical Gradient Layer
 ----------------------------
 
-The `Conical Gradient Layer <Conical_Gradient_Layer>`__ gives the
+The |Conical_Gradient_Layer| gives the
 sensation of looking down at the tip of a cone, which appears to be
 illuminated with the background color from a direction determined by the
 direction of the drawn line.
 
 Conical (asymmetric) is similar to Conical (symmetric) except that the
 “cone” appears to have a ridge where the line is drawn.
+
+.. _layer_conical_gradient  Parameters of Conical Gradient Layer:
 
 Parameters of Conical Gradient Layer
 ------------------------------------
@@ -26,13 +30,13 @@ The parameters of the ``Conical Gradient Layers`` are:
 +------------------------------------------------------------------------+---------------------------+--------------+
 | **Name**                                                               | **Value**                 | **Type**     |
 +------------------------------------------------------------------------+---------------------------+--------------+
-|     |Real\_icon.png| `Z Depth <Z_Depth_Parameter>`__                   |   0.000000                |   real       |
+|     |Real\_icon.png| |Z_Depth_Parameter|                               |   0.000000                |   real       |
 +------------------------------------------------------------------------+---------------------------+--------------+
-|     |Real\_icon.png| `Amount <Amount_Parameter>`__                     |   1.000000                |   real       |
+|     |Real\_icon.png| |Amount_Parameter|                                |   1.000000                |   real       |
 +------------------------------------------------------------------------+---------------------------+--------------+
-|     |Integer\_icon.png| `Blend Method <Blend_Method>`__                |   Composite               |   integer    |
+|     |Integer\_icon.png| |Blend_Method|                                 |   Composite               |   integer    |
 +------------------------------------------------------------------------+---------------------------+--------------+
-|     |gradient\_icon.png| `Gradient <Gradient_Editor_Dialog>`__         |   |p_gradient.png|        |   gradient   |
+|     |gradient\_icon.png| |Gradient_Editor_Dialog|                      |   |p_gradient.png|        |   gradient   |
 +------------------------------------------------------------------------+---------------------------+--------------+
 |     |Vector\_icon.png|\ Center                                         |   0.000000pt,0.000000pt   |   vector     |
 +------------------------------------------------------------------------+---------------------------+--------------+

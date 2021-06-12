@@ -5,7 +5,9 @@
 ########################
 
 Convert **SWF** in **SVG** and can edit in inkscape with
-`svg2sif <svg2sif>`__
+|svg2sif|
+
+.. _swf  Example:
 
 Example
 -------
@@ -22,6 +24,8 @@ Mattered in Inkscape afterwards to export it with
 
 Yes it degrade them export in first black export in PDF, matter the PDF
 and afterwards go back to export in SIF.
+
+.. _swf  License:
 
 License
 -------

@@ -8,13 +8,16 @@
    :width: 64px
 
 
+.. _layer_gradient  About Linear Gradient Layer:
+
 About Linear Gradient Layer
 ---------------------------
 
 FIXME!!!
 
-A short description of the layer can be found here: `Layer#Linear
-Gradient <Layer#Linear_Gradient>`__
+A short description of the layer can be found here: |Layer_Linear_Gradient|
+
+.. _layer_gradient  Parameters of the Linear Gradient Layer:
 
 Parameters of the Linear Gradient Layer
 ---------------------------------------
@@ -34,7 +37,7 @@ Parameters of the Linear Gradient Layer are:
 +------------------------------------------------------------------+-------------------------+--------------+
 |     |Vector\_icon.png| Point 2                                   |   -1.000000,-1.000000   |   vector     |
 +------------------------------------------------------------------+-------------------------+--------------+
-|     |Gradient\_icon.png| `Gradient <Gradient_Editor_Dialog>`__   |   |p_gradient.png|      |   gradient   |
+|     |Gradient\_icon.png| |Gradient_Editor_Dialog|                |   |p_gradient.png|      |   gradient   |
 |                                                                  |                         |              |
 |                                                                  |                         |              |
 |                                                                  |                         |              |

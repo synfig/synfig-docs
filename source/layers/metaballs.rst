@@ -9,12 +9,16 @@
 
 FIXME!!!
 
+.. _layer_metaball  About Metaballs Layer:
+
 About Metaballs Layer
 ---------------------
 
 Metaballs is effect of the interaction of the circular surfaces ­–
 balls. Every from balls has any radius from center on the vertex of the
 curve and the weight.
+
+.. _layer_metaball  Parameters of the Metaballs Layers:
 
 Parameters of the Metaballs Layers
 ----------------------------------
@@ -24,25 +28,25 @@ The parameters of the metaballs layer are:
 +----------------------------------------------------------------------------+----------------------+-------------------------+
 | Name                                                                       | Value                | Type                    |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_real\_icon.png| `Z Depth <Z_Depth_Parameter>`__                 |   0.000000           |   real                  |
+|     |Type\_real\_icon.png| |Z_Depth_Parameter|                             |   0.000000           |   real                  |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_real\_icon.png| `Amount <Amount_Parameter>`__                   |   1.000000           |   real                  |
+|     |Type\_real\_icon.png| |Amount_Parameter|                              |   1.000000           |   real                  |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_integer\_icon.png| `Blend Method <Blend_Method>`__              |   Composite          |   integer               |
+|     |Type\_integer\_icon.png| |Blend_Method|                               |   Composite          |   integer               |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_gradient\_icon.png| `Gradient <Gradient_Editor_Dialog>`__       |   |p_gradient.png|   |   gradient              |
+|     |Type\_gradient\_icon.png| |Gradient_Editor_Dialog|                    |   |p_gradient.png|   |   gradient              |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_list\_icon.png| `Balls <Balls_Parameter>`__                     |   List               |   list (Dynamic List)   |
+|     |Type\_list\_icon.png| |Balls_Parameter|                               |   List               |   list (Dynamic List)   |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_list\_icon.png| `Radii <Radii_Parameter>`__                     |   List               |   list (Dynamic List)   |
+|     |Type\_list\_icon.png| |Radii_Parameter|                               |   List               |   list (Dynamic List)   |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_list\_icon.png| `Weights <Weights_parameter>`__                 |   List               |   list (Dynamic List)   |
+|     |Type\_list\_icon.png| |Weights_parameter|                             |   List               |   list (Dynamic List)   |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_real\_icon.png| `Gradient Left <Gradient_Left_Parameter>`__     |   0.000000           |   real                  |
+|     |Type\_real\_icon.png| |Gradient_Left_Parameter|                       |   0.000000           |   real                  |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_real\_icon.png| `Gradient Right <Gradient_Right_Parameter>`__   |   1.000000           |   real                  |
+|     |Type\_real\_icon.png| |Gradient_Right_Parameter|                      |   1.000000           |   real                  |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_bool\_icon.png| `Positive Only <Positive_Only_Parameter>`__     |                      |   bool                  |
+|     |Type\_bool\_icon.png| |Positive_Only_Parameter|                       |                      |   bool                  |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
 +----------------------------------------------------------------------------+----------------------+-------------------------+
 

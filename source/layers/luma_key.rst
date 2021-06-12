@@ -7,6 +7,8 @@
    :alt: Layer_filter_lumakey_icon.png
    :width: 64px
 
+.. _layer_luma_key  About Luma Key Layer:
+
 About Luma Key Layer
 --------------------
 
@@ -17,6 +19,8 @@ assigns the alpha value, based on its Luminosity. For example, black
 pixels become 100% transparent. White pixels are absolutely opaque. Gray
 pixels are semi-transparent.
 
+.. _layer_luma_key  Parameters of the Luma Key Layers:
+
 Parameters of the Luma Key Layers
 ---------------------------------
 
@@ -25,11 +29,11 @@ Parameters of the Luma Key Layers are:
 +---------------------------------------------------------------------+---------------+-------------+
 | Name                                                                | Value         | Type        |
 +---------------------------------------------------------------------+---------------+-------------+
-|     |Real\_icon.png| `Z Depth <Z_Depth_Parameter>`__                |   0.000000    |   real      |
+|     |Real\_icon.png| |Z_Depth_Parameter|                            |   0.000000    |   real      |
 +---------------------------------------------------------------------+---------------+-------------+
-|     |Real\_icon.png| `Amount <Amount_Parameter>`__                  |   1.000000    |   real      |
+|     |Real\_icon.png| |Amount_Parameter|                             |   1.000000    |   real      |
 +---------------------------------------------------------------------+---------------+-------------+
-|     |Integer\_icon.png| `Blend Method <Blend_Method_Parameter>`__   |   Composite   |   integer   |
+|     |Integer\_icon.png| |Blend_Method_Parameter|                    |   Composite   |   integer   |
 +---------------------------------------------------------------------+---------------+-------------+
 +---------------------------------------------------------------------+---------------+-------------+
 

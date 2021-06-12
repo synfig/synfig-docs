@@ -8,28 +8,32 @@
    :width: 64px
 
 
+.. _layer_spiral_gradient  About Spiral Gradient Layers:
+
 About Spiral Gradient Layers
 ----------------------------
 
-The `Spiral Gradient Layer <Spiral_Gradient_Layer>`__ draw a gradient
+The |Spiral_Gradient_Layer| draw a gradient
 following spirals, clockwise or anticlockwise, at determined center,
 radius and start angle.
+
+.. _layer_spiral_gradient  Parameters of Spiral Gradient Layers:
 
 Parameters of Spiral Gradient Layers
 ------------------------------------
 
-The `parameters <Parameter>`__ of the spiral gradient layers are:
+The |Parameter| of the spiral gradient layers are:
 
 +------------------------------------------------------------------------+-------------------------+--------------+
 | **Name**                                                               | **Value**               | **Type**     |
 +------------------------------------------------------------------------+-------------------------+--------------+
-|     |Type\_real\_icon.png| `Z Depth <Z_Depth_Parameter>`__             |   0.000000              |   real       |
+|     |Type\_real\_icon.png| |Z_Depth_Parameter|                         |   0.000000              |   real       |
 +------------------------------------------------------------------------+-------------------------+--------------+
-|     |Type\_real\_icon.png| `Amount <Amount_Parameter>`__               |   1.000000              |   real       |
+|     |Type\_real\_icon.png| |Amount_Parameter|                          |   1.000000              |   real       |
 +------------------------------------------------------------------------+-------------------------+--------------+
-|     |Type\_integer\_icon.png| `Blend Method <Blend_Method>`__          |   Composite             |   integer    |
+|     |Type\_integer\_icon.png| |Blend_Method|                           |   Composite             |   integer    |
 +------------------------------------------------------------------------+-------------------------+--------------+
-|     |Type\_gradient\_icon.png| `Gradient <Gradient_Editor_Dialog>`__   |  |p_gradient.png|       |   gradient   |
+|     |Type\_gradient\_icon.png| |Gradient_Editor_Dialog|                |  |p_gradient.png|       |   gradient   |
 +------------------------------------------------------------------------+-------------------------+--------------+
 |     |Type\_vector\_icon.png| Center                                    |   0.500000u,0.000000u   |   vector     |
 +------------------------------------------------------------------------+-------------------------+--------------+

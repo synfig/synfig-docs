@@ -7,13 +7,16 @@
    :alt: Layer_transform_zoom_icon.png
    :width: 64px
 
+.. _layer_scale  About Scale Layers:
+
 About Scale Layers
 ------------------
 
-A ``Scale Layer`` scales the size of any `primitive
-layers <Primitive_Layer>`__ (`regions <Region_Layer>`__,
-`gradients <Layer#Gradients>`__, etc.) below it. ``Scale Layer`` is part
-of `Transform Layers <Layers#Transform>`__ category.
+A ``Scale Layer`` scales the size of any |Primitive_Layer| (|Region_Layer|,
+|Layer_Gradients|, etc.) below it. ``Scale Layer`` is part
+of |Layers_Transform| category.
+
+.. _layer_scale  Parameters of Scale Layers:
 
 Parameters of Scale Layers
 --------------------------
@@ -23,9 +26,9 @@ The parameters of the Scale Layers are:
 +--------------------------------------------------------------+-------------------------+------------+
 | **Name**                                                     | **Value**               | **Type**   |
 +--------------------------------------------------------------+-------------------------+------------+
-|     |Type\_real\_icon.png| `Amount <Amount_Parameter>`__     |   1.000000              |   real     |
+|     |Type\_real\_icon.png| |Amount_Parameter|                |   1.000000              |   real     |
 +--------------------------------------------------------------+-------------------------+------------+
-|     |Type\_vector\_icon.png| `Origin <Origin_Parameter>`__   |   0.000000u,0.000000u   |   vector   |
+|     |Type\_vector\_icon.png| |Origin_Parameter|              |   0.000000u,0.000000u   |   vector   |
 +--------------------------------------------------------------+-------------------------+------------+
 
 The Amount parameter may take the inverse of the exponential function
@@ -39,7 +42,7 @@ The Amount parameter may take the inverse of the exponential function
 -  the natural log of 0.01 is -4.605170185988091, which down-scales to
    1.0%
 
-The `Origin <Origin_Parameter>`__ is the center of the scale.
+The |Origin_Parameter| is the center of the scale.
 
 In versions prior to 0.63.05 Scale Layer was called  “Zoom layer”.
 

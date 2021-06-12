@@ -7,6 +7,8 @@
 **This tutorial gives you an overview of how masking can be done in
 Synfig.**
 
+.. _masking  About masking:
+
 About masking
 -------------
 
@@ -16,7 +18,9 @@ can probably just place the character behind the object in your layer
 stack but if your background is an image you need to do this by masking.
 
 This tutorial will show you two basic ways of masking; hiding and
-revealing using differents `blend methods <Blend_Method_Parameter>`__
+revealing using differents |Blend_Method_Parameter|
+
+.. _masking  Hiding:
 
 Hiding
 ------
@@ -41,11 +45,15 @@ In this masking mode everything covered by the mask shape is hidden.
    :alt: Basic_Masking-tutorial_03_0.63.06.png
 
 
+.. _masking  Revealing:
+
 Revealing
 ---------
 
 A revealing mask can be achieved by two different approaches using
 different blend modes.
+
+.. _masking  Revealing mask method 1.:
 
 Revealing mask method 1.
 ------------------------
@@ -79,6 +87,8 @@ Revealing mask method 1.
    :alt: Basic_Masking-tutorial_05_0.63.06.png
 
 
+.. _masking  Revealing mask method 2.:
+
 Revealing mask method 2.
 ------------------------
 
@@ -100,11 +110,15 @@ many layers. |Basic\_Masking-tutorial\_06\_0.63.06.png|
    :alt: Basic_Masking-tutorial_07_0.63.06.png
 
 
+.. _masking  Revealing mask method 3.:
+
 Revealing mask method 3.
 ------------------------
 
 Using one 'mask' and one 'full mask'. To be describe (using the linked
 project)
+
+.. _masking  Tutorial files:
 
 Tutorial files
 --------------

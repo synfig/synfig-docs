@@ -7,6 +7,8 @@
    :alt: Layer_other_duplicate_icon.png
    :width: 64px
 
+.. _layer_duplicate  About Duplicate Layer:
+
 About Duplicate Layer
 ---------------------
 
@@ -15,8 +17,10 @@ real time.
 
 The Duplicate Layer works like a loop over the content below it and
 provides a changing variable to that content. This variable (the
-`Exported <Export>`__ Index) can now be used (`Connected <Connect>`__)
+|Export| Index) can now be used (|Connect|)
 within that content.
+
+.. _layer_duplicate  Parameters of Duplicate Layer:
 
 Parameters of Duplicate Layer
 -----------------------------
@@ -26,22 +30,24 @@ The parameters of the Duplicate Layers are:
 +-----------------------------------------------------------+---------------+---------------+
 | **Name**                                                  | **Value**     | **Type**      |
 +-----------------------------------------------------------+---------------+---------------+
-|     |Real\_icon.png| `Z Depth <Z_Depth_Parameter>`__      |   0.000000    |   real        |
+|     |Real\_icon.png| |Z_Depth_Parameter|                  |   0.000000    |   real        |
 +-----------------------------------------------------------+---------------+---------------+
-|     |Real\_icon.png| `Amount <Amount_Parameter>`__        |   1.000000    |   real        |
+|     |Real\_icon.png| |Amount_Parameter|                   |   1.000000    |   real        |
 +-----------------------------------------------------------+---------------+---------------+
-|     |Integer\_icon.png| `Blend Method <Blend_Method>`__   |   Composite   |   integer     |
+|     |Integer\_icon.png| |Blend_Method|                    |   Composite   |   integer     |
 +-----------------------------------------------------------+---------------+---------------+
 |     |Real\_icon.png| Index |Valuenode\_icon.png|          |   3.000000    |   Duplicate   |
 +-----------------------------------------------------------+---------------+---------------+
 
+.. _layer_duplicate  The Index Parameter:
+
 The Index Parameter
 ~~~~~~~~~~~~~~~~~~~
 
-The ``Index`` is automatically `exported <Export>`__. This is the only
+The ``Index`` is automatically |Export|. This is the only
 ValueNode that will change from one copy to the next. This exported
-value can then be selected in the `Library Panel <Library_Panel>`__ and
-`Connected <Connect>`__ to the parameter(s) in the layer under the
+value can then be selected in the |Library_Panel| and
+|Connect| to the parameter(s) in the layer under the
 duplicate dialog which should change in the copies.
 
 The ``Index`` parameter has 3 sub-parameters, ``From``, ``To``, and
@@ -57,14 +63,17 @@ those corresponding to the ``From`` value will appear lower down (i.e.
 least visible with normal composite blend mode) than those corresponding
 to the ``To`` value (most visible).
 
+.. _layer_duplicate  How to use:
+
 How to use
 ----------
 
--  `Snowflake_with_the_Duplicate_Layer Tutorial <Doc:Snowflake_with_the_Duplicate_Layer>`__ : `Duplicate
-   Layer <Duplicate_Layer>`__ + `Rotate Layer <Rotate_Layer>`__
--  `Tiling_object Tutorial <Doc:Tiling_object>`__ : `Duplicate Layer <Duplicate_Layer>`__ +
-   `Linking <Linking>`__ `Group Layer <Group_Layer>`__'s
-   `Origin\_Parameter <Origin_Parameter>`__
+-  `Snowflake_with_the_Duplicate_Layer Tutorial <Doc:Snowflake_with_the_Duplicate_Layer>`__ : |Duplicate_Layer| + |Rotate_Layer|
+-  `Tiling_object Tutorial <Doc:Tiling_object>`__ : |Duplicate_Layer| +
+   |Linking| |Group_Layer|'s
+   |Origin_Parameter|
+
+.. _layer_duplicate  Known Problems:
 
 Known Problems
 --------------

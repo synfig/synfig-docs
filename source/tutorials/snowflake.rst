@@ -4,15 +4,15 @@
     Snowflake with the Duplicate Layer
 ########################################
 
-**This tutorial explain a simple example of the use of the `Duplicate
-Layer <Duplicate_Layer>`__, to create a snowflake.**
+**This tutorial explain a simple example of the use of the |Duplicate_Layer|, to create a snowflake.**
+
+.. _tutorial_snowflake  First branch of the snowflake:
 
 First branch of the snowflake
 -----------------------------
 
 The 1st part is very simple : We'll create a single snowflake branch
-with the `Spline Tool <Spline_Tool>`__ (or the `Polygon
-Tool <Polygon_Tool>`__).
+with the |Spline_Tool| (or the |Polygon_Tool|).
 
 Select the ``Spline tool``, and in the tools options, make sure that
 only ``Create Region`` is checked. (If you use the ``Polygon tool``,
@@ -24,10 +24,12 @@ select the newly created layer (I will refer to it as the “Branch
 layer”) and make sure that the bottom of the branch is more or less at
 the same place as the green dot showing the center of the image. You can
 move your branch by selecting all the points ``Ctrl|A`` and using the
-`Transform Tool <Transform_Tool>`__
+|Transform_Tool|
 
 .. figure:: snowflake_dat/Snow_Duplicate_Tutorial_Step1_0.63.06.png
    :alt: Snow_Duplicate_Tutorial_Step1_0.63.06.png
+
+.. _tutorial_snowflake  Adding the Rotate and Duplicate Layers:
 
 Adding the Rotate and Duplicate Layers
 --------------------------------------
@@ -37,7 +39,7 @@ Adding the Rotate and Duplicate Layers
 To make a whole 6-branches snowflake, we need to make several copies of the branch, and
 rotate them.
 
-First, we need a `Rotation layer <Rotate_Layer>`__. Right click on the
+First, we need a |Rotate_Layer|. Right click on the
 image and select \ ``|New Layer|Transform|Rotate``. You should now have
 a Rotate Layer on top of the Branch layer.
 
@@ -46,15 +48,16 @@ Then, we'll use the Duplicate Layer. Right click on the image and select
 
 So far, no change is visible on our image, it's normal :).
 
-In the `Layers Panel <Layers_Panel>`__, make sure that the layers are in
+In the |Layers_Panel|, make sure that the layers are in
 the following order : Duplicate on top, Rotate in the middle, and the
 “Branch” layer on the bottom.
+
+.. _tutorial_snowflake  Connecting everything together:
 
 Connecting everything together
 ------------------------------
 
-Select the Duplicate layer and look at the `Parameters
-Panel <Parameters_Panel>`__. There's an ``Index`` value that is
+Select the Duplicate layer and look at the |Parameters_Panel|. There's an ``Index`` value that is
 automatically exported. Its name is ``Index 1``. (It looks like
 ``Index (Index 1)`` in the panel).
 
@@ -68,7 +71,7 @@ and ``Step`` to 1).
    :alt: Snow_Duplicate_Tutorial_Step3_0.63.06.png
 
 
-Now move to the `Library Panel <Library_Panel>`__, and select our
+Now move to the |Library_Panel|, and select our
 ``Index 1`` value. (Unfold the ``ValueBase Node`` if necessary).
 
 In order to have 6 rotated branches, we need to link the duplication and
@@ -97,10 +100,12 @@ to the Scalar parameter.
    :alt: Snow_Duplicate_Tutorial_Step4_0.63.06.png
 
 You should now have a complete snowflake, yay! (maybe you will need to
-adjust Rotate Layer's `Origin\_Parameter <Origin_Parameter>`__)
+adjust Rotate Layer's |Origin_Parameter|)
 
 .. figure:: snowflake_dat/Snow_Duplicate_Tutorial_Step5_0.63.06.png
    :alt: Snow_Duplicate_Tutorial_Step5_0.63.06.png
+
+.. _tutorial_snowflake  What happened?:
 
 What happened?
 --------------

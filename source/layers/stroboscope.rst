@@ -7,6 +7,8 @@
    :alt: Layer_icon.png
    :width: 64px
 
+.. _layer_stroboscope  About Stroboscope Layers:
+
 About Stroboscope Layers
 ------------------------
 
@@ -18,6 +20,8 @@ second), which determines how often samples are taken. A frequency of
 exactly the frames per second of your project will not affect your
 animation, while smaller frequencies will appear as if you had lowered
 the frame rate to that amount.
+
+.. _layer_stroboscope  Parameters of Stroboscope Layers:
 
 Parameters of Stroboscope Layers
 --------------------------------

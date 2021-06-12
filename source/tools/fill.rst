@@ -10,6 +10,8 @@ The ``Fill Tool`` allows you to change the color of some of the geometry
 type layers very quickly. It uses the default ``foreground color`` to be
 applied to the color of the layer you click on.
 
+.. _tool_fill  Usage:
+
 Usage
 -----
 
@@ -26,20 +28,22 @@ message from the ``Fill Tool`` it complains and shows a message error.
 
 Those are the layers that currently are affected by the Fill Tool:
 
--  `Region Layer <Region_Layer>`__
--  `Outline Layer <Outline_Layer>`__
--  `Circle Layer <Circle_Layer>`__
--  `Rectangle Layer <Rectangle_Layer>`__
--  `Polygon Layer <Polygon_Layer>`__
--  `Star Layer <Star_Layer>`__
--  `Checkerboard Layer <Checkerboard_Layer>`__
+-  |Region_Layer|
+-  |Outline_Layer|
+-  |Circle_Layer|
+-  |Rectangle_Layer|
+-  |Polygon_Layer|
+-  |Star_Layer|
+-  |Checkerboard_Layer|
 
 The rest of visual layers doesn't accept the ``Fill Tool`` usage over
 them because they use a gradient to fill the visual area (like the
-Gradient Layers, the `Plant Layer <Plant_Layer>`__ and others) or simply
+Gradient Layers, the |Plant_Layer| and others) or simply
 it is not possible determine if you're clicking over the layer or over a
 transparent area although it has a single color definition for the
-visual area (`Text Layer <Text_Layer>`__ for example).
+visual area (|Text_Layer| for example).
+
+.. _tool_fill  Options:
 
 Options
 -------
