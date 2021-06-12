@@ -41,7 +41,7 @@ Bugfixes
 * Fixed action "Duplicate Layer" for Skeleton Deformation Layer and their bone links (PR `#2071 <https://github.com/synfig/synfig/pull/2071>`_)
 * Fixed error that prevented convert to dot-product valuenode (PR `#1260 <https://github.com/synfig/synfig/pull/1260>`_)
 * Fixed issue with saving `loop` flag in some dynamic lists (`#2165 <https://github.com/synfig/synfig/pull/2165>`_)
-* Fixed SVG importer ignoring some style properties set as attributes (`#2137 <https://github.com/synfig/synfig/pull/2137>`_)
+* Fixed SVG importer ignoring some style properties set as attributes and fixed a lot of memory leaks (`#2137 <https://github.com/synfig/synfig/pull/2137>`_)
 
 UI/UX improvements
 ------------------
