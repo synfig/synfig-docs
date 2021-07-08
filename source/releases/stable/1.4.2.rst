@@ -19,7 +19,7 @@ create string_helper.h to avoid code duplication (PR `#1995 <https://github.com/
 
 Improved error reporting (`#2156 <https://github.com/synfig/synfig/pull/2156>`_)
 
-etl::clock refactored to use std::chrono. Fix an issue with animation playback in CMake builds (`#1853 https://github.com/synfig/synfig/pull/1853`_)
+etl::clock refactored to use std::chrono. Fix an issue with animation playback in CMake builds (`#1853 <https://github.com/synfig/synfig/pull/1853>`_)
 
 New features
 --------------
