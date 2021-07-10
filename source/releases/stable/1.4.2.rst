@@ -21,6 +21,15 @@ Improved error reporting (`#2156 <https://github.com/synfig/synfig/pull/2156>`_)
 
 etl::clock refactored to use std::chrono. Fix an issue with animation playback in CMake builds (`#1853 <https://github.com/synfig/synfig/pull/1853>`_)
 
+Lottie Exporter plugin:
+- Fix converter methods not working with radius of simple circle layer (#1101)
+- Add support for variable gamma correction (#1174)
+- Add support for converters: sine, cos, integer, linear gradient, aTan2, Vector angle, radial_composite, radial gradient, vector x, vector y, power, dot product, logarithm, reciprocal, range, vector length, not (#1236 #1254 #1286 #1363 #1409 #1447 #1446 #1516 #1515 #1593 #1586 #1619 #1606 #1650 #1587)
+- Add support for blur layers (#1505)
+- Add support for Outline layer without variable widths (#1647)
+- Add support for Advanced Outline layer (#2199)
+- Improve support for exported values (#2182)
+
 New features
 --------------
 Basic implementation of Keyboard Shortcut Editor (`#2160 <https://github.com/synfig/synfig/pull/2160>`_)(`#2173 <https://github.com/synfig/synfig/pull/2173>`_)
@@ -53,7 +62,7 @@ sometimes Widget_Vector didn't use locale for decimal separator (PR `#2102 <http
 
 add menu item "Undock panel" to Panel tab (PR `#1929 <https://github.com/synfig/synfig/pull/1929>`_) (PR `#2109 <https://github.com/synfig/synfig/pull/2109>`_)
 
-Close tabs with middle mouse click (PR `#2107 <https://github.com/synfig/synfig/pull/2107>`_) (PR `#2120 <https://github.com/synfig/synfig/pull/2120>`_)
+Close tabs with middle mouse click (PR `#2107 <https://github.com/synfig/synfig/pull/2107>`_) (PR `#2120 <https://github.com/synfig/synfig/pull/2120>`_) (PR `#2210  <https://github.com/synfig/synfig/pull/2120>`_)
 
 Minor speed up drag'n drop of layers in Layer Panel(PR `#1979 <https://github.com/synfig/synfig/pull/1979>`_)
 
