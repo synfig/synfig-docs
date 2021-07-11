@@ -45,7 +45,7 @@ Linux-specific fixes
 
 Bugfixes
 --------------
-* Fixed crash when user drags a group to a child group (`#2110 <https://github.com/synfig/synfig/issues/2110>`_) (PR `#2116 <https://github.com/synfig/synfig/pull/2116>`_)
+* Fixed crash when user drags a Group layer to a child group (`#2110 <https://github.com/synfig/synfig/issues/2110>`_) (PR `#2116 <https://github.com/synfig/synfig/pull/2116>`_)
 * Fixed crash in Spline Width and return of improper type in Spline converters (PR `#1890 <https://github.com/synfig/synfig/pull/1890>`_)
 * Exported canvas can be reopened again after closing (PR `#2092 <https://github.com/synfig/synfig/pull/2092>`_)
 * Fixed action "Duplicate Layer" for Skeleton Layer and their bone links (PR `#2059 <https://github.com/synfig/synfig/pull/2059>`_)
@@ -53,6 +53,8 @@ Bugfixes
 * Fixed error that prevented convert to dot-product valuenode (PR `#1260 <https://github.com/synfig/synfig/pull/1260>`_)
 * Fixed issue with saving `loop` flag in some dynamic lists (`#2165 <https://github.com/synfig/synfig/pull/2165>`_)
 * Fixed SVG importer ignoring some style properties set as attributes and fixed a lot of memory leaks (`#2137 <https://github.com/synfig/synfig/pull/2137>`_)
+* Fixed crash in rare cases caused by race condition when rebuilding LayerTreeStore (`#2209 <https://github.com/synfig/synfig/pull/2209>`_)
+
 
 UI/UX improvements
 ------------------
