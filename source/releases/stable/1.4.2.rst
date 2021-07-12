@@ -22,14 +22,15 @@ Improved error reporting (`#2156 <https://github.com/synfig/synfig/pull/2156>`_)
 etl::clock refactored to use std::chrono. Fix an issue with animation playback in CMake builds (`#1853 <https://github.com/synfig/synfig/pull/1853>`_)
 
 Lottie Exporter plugin:
-* Fix converter methods not working with radius of simple circle layer (`##1101 <https://github.com/synfig/synfig/pull/#1101>`_)
-* Add support for variable gamma correction (`##1174 <https://github.com/synfig/synfig/pull/#1174>`_)
-* Add support for converters: sine, cos, integer, linear gradient, aTan2, Vector angle, radial_composite, radial gradient, vector x, vector y, power, dot product, logarithm, reciprocal, range, vector length, not (`##1236 <https://github.com/synfig/synfig/pull/#1236>`_ `##1254 <https://github.com/synfig/synfig/pull/#1254>`_ `##1286 <https://github.com/synfig/synfig/pull/#1286>`_ `##1363 <https://github.com/synfig/synfig/pull/#1363>`_ `##1409 <https://github.com/synfig/synfig/pull/#1409>`_ `##1447 <https://github.com/synfig/synfig/pull/#1447>`_ `##1446 <https://github.com/synfig/synfig/pull/#1446>`_ `##1516 <https://github.com/synfig/synfig/pull/#1516>`_ `##1515 <https://github.com/synfig/synfig/pull/#1515>`_ `##1593 <https://github.com/synfig/synfig/pull/#1593>`_ `##1586 <https://github.com/synfig/synfig/pull/#1586>`_ `##1619 <https://github.com/synfig/synfig/pull/#1619>`_ `##1606 <https://github.com/synfig/synfig/pull/#1606>`_ `##1650 <https://github.com/synfig/synfig/pull/#1650>`_ `##1587 <https://github.com/synfig/synfig/pull/#1587>`_)
-* Add support for blur layers (`##1505 <https://github.com/synfig/synfig/pull/#1505>`_)
-* Add support for Outline layer without variable widths (`##1647 <https://github.com/synfig/synfig/pull/#1647>`_)
-* Add support for Advanced Outline layer (`##2199 <https://github.com/synfig/synfig/pull/#2199>`_)
-* Improve support for exported values (`##2182 <https://github.com/synfig/synfig/pull/#2182>`_)
-* Add non-minified bodymovin.js (`##2202 <https://github.com/synfig/synfig/pull/#2202>`_)
+
+* Fix converter methods not working with radius of simple circle layer (`#1101 <https://github.com/synfig/synfig/pull/1101>`_)
+* Add support for variable gamma correction (`#1174 <https://github.com/synfig/synfig/pull/1174>`_)
+* Add support for converters: sine, cos, integer, linear gradient, aTan2, Vector angle, radial_composite, radial gradient, vector x, vector y, power, dot product, logarithm, reciprocal, range, vector length, not (`#1236 <https://github.com/synfig/synfig/pull/1236>`_ `#1254 <https://github.com/synfig/synfig/pull/1254>`_ `#1286 <https://github.com/synfig/synfig/pull/1286>`_ `#1363 <https://github.com/synfig/synfig/pull/1363>`_ `#1409 <https://github.com/synfig/synfig/pull/1409>`_ `#1447 <https://github.com/synfig/synfig/pull/1447>`_ `#1446 <https://github.com/synfig/synfig/pull/1446>`_ `#1516 <https://github.com/synfig/synfig/pull/1516>`_ `#1515 <https://github.com/synfig/synfig/pull/1515>`_ `#1593 <https://github.com/synfig/synfig/pull/1593>`_ `#1586 <https://github.com/synfig/synfig/pull/1586>`_ `#1619 <https://github.com/synfig/synfig/pull/1619>`_ `#1606 <https://github.com/synfig/synfig/pull/1606>`_ `#1650 <https://github.com/synfig/synfig/pull/1650>`_ `#1587 <https://github.com/synfig/synfig/pull/1587>`_)
+* Add support for blur layers (`#1505 <https://github.com/synfig/synfig/pull/1505>`_)
+* Add support for Outline layer without variable widths (`#1647 <https://github.com/synfig/synfig/pull/1647>`_)
+* Add support for Advanced Outline layer (`#2199 <https://github.com/synfig/synfig/pull/2199>`_)
+* Improve support for exported values (`#2182 <https://github.com/synfig/synfig/pull/2182>`_)
+* Add non-minified bodymovin.js (`#2202 <https://github.com/synfig/synfig/pull/2202>`_)
 
 New features
 --------------
