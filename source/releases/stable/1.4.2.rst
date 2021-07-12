@@ -29,6 +29,7 @@ Lottie Exporter plugin:
 - Add support for Outline layer without variable widths (#1647)
 - Add support for Advanced Outline layer (#2199)
 - Improve support for exported values (#2182)
+- Add non-minified bodymovin.js (#2202)
 
 New features
 --------------
