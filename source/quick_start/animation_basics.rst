@@ -30,8 +30,8 @@ Setting up the workspace
 Let's do it. Start Synfig Studio. A new file is created at the start
 automatically . Click the |Canvas_Menu_Caret| (between
 the horizontal and vertical rules, in the top left hand corner of the
-canvas), then select ``Canvas|Properties`` or select
-``Canvas|Properties`` from the menu. The
+canvas), then select "Canvas ➔ Properties" or select
+"Canvas ➔ Properties" from the menu. The
 |Canvas_Properties_Dialog| will appear.
 
 Give a name and description for your canvas, then click ``Apply`` (don't
@@ -43,7 +43,7 @@ to the ``Time`` tab and make sure to edit ``End Time``. Change “5s” to
 .. note:: Good to know: Synfig and time representation
    Synfig Studio can display the time in various formats (Timestamp). 
    You can configure the Timestamp in Preferences. If the endtime is not
-   displayed in seconds then go to <tt>Edit|Preferences|Misc</tt> and 
+   displayed in seconds then go to "Edit➔Preferences➔Misc"and 
    change the Timestamp into: (HHh MMm SSs) FFf. 
    More about the Timestamp and its settings can be found
    here ([Preferences_Dialog#Time_Stamp]).
@@ -202,7 +202,7 @@ states at particular times. That's why when we modified the circle's
 position at “1s”, it stayed on the left at “2s” (as well as at “0s”). If
 you switch back to the Parameters Panel, and look at the |Timetrack_Panel| you will see that three orange diamonds (or
 green dots depending on the default interpolation) appeared on the right
-of the ``Origin`` parameter. Those are called |Waypoints|,
+of the ``Origin`` parameter. Those are called |Waypoint| ,
 and they represent times at which object's parameters, like location or
 color, are instructed to take on specified new values.
 
@@ -223,7 +223,7 @@ so far) or the command-line program called “synfig”.
 Let's try the first way. Leave the |Animate_Editing_Mode| by clicking on the red man icon in the
 timeline editing widget, and save your file; for instance under the name
 “BasicKnightRider.sifz”. Then go to menu in the Canvas Window (|Canvas_Menu_Caret| button in the upper left corner) and
-select ``File|Render`` or click on the render icon. Change the filename
+select "File➔Render" or click on the render icon. Change the filename
 to “BasicKnightRider.gif” in the same location where you saved
 “BasicKnightRider.sifz” and choose ``gif`` target format instead of
 ``Auto``, then click ``Render``. Depending on your processor speed it
@@ -255,11 +255,11 @@ right and back, congratulations! You just made your first animation!
 .. note::
    You can also preview your animation. Press the “caret” menu
    button in the upper left corner of the Canvas Window and choose
-   ``File|Preview``. 
+   "File➔Preview". 
 
 If you would rather use the command line instead of
 the menu to render your animation, then open a terminal (on Windows, go
-to ``Start|Run``, type ``cmd`` and press ``enter``), change to the
+to "Start➔Run", type ``cmd`` and press ``enter``), change to the
 directory you saved the file in, and type something like this:
 
 ``synfig -t gif BasicKnightRider.sifz``
@@ -288,8 +288,7 @@ change with Synfig Studio. Other possibilities include its size, its
 outline, its color, etc. Synfig comes with several example files that
 should let you dig deeper into the possibilities.
 
-Now, let's continue with the next manual chapter: `Adding
-Layers <Doc:Adding_Layers>`__
+Now, let's continue with the next manual chapter: :ref:`Working with layers <working_with_layers>`
 
 You can download the project used : 
 :download:`BasicKnightRider.sifz <animation_basics_dat/BasicKnightRider.sifz>`
@@ -300,4 +299,14 @@ You can download the project used : 
 
 
 
-
+.. |Canvas_Menu_Caret| replace:: :ref:`canvas window menu <canvas>`
+.. |Canvas_Properties_Dialog| replace:: :ref:`Canvas Properties Dialog <canvas>`
+.. |Rectangle_Tool| replace:: :ref:`Rectangle Tool <tool_rectangle>`
+.. |Circle_Tool| replace:: :ref:`Circle Tool <tool_circle>`
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_transform>`
+.. |Timebar| replace:: :ref:`Timebar <ui>`
+.. |Animate_Editing_Mode| replace:: :ref:`Animate Editing Mode <canvas>`
+.. |Waypoint| replace:: :ref:`Waypoint <waypoints>`
+.. |Keyframe| replace:: :ref:`Keyframe <keyframes>`
+.. |Keyframes_Panel| replace:: :ref:`Keyframe Panel <panel_keyframes>`
+.. |Timetrack_Panel| replace:: :ref:`Timetrack Panel <panel_timetrack>`

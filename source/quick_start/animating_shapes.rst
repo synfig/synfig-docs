@@ -12,7 +12,7 @@ Basic settings
 In the `previous tutorial <Doc:Creating_Shapes>`__, you have learned to
 create shapes with the |Spline_Tool|, in this tutorial
 we will learn how to create a simple animation of a growing flower using
-`Splines <Doc:Creating_Shapes>`__.
+:ref:`Splines <creating_shapes>`.
 
 |FlowerTutorial_0.png| 
 
@@ -244,7 +244,7 @@ size on every frame from 0s to 4s, or we could make them invisible on
 this interval.
 
 Let's choose the second solution. To make things easier, we are going to
-|Group| the petal layers into an |Group_Layer|. With all the petal layers selected, right-click
+group the petal layers into an |Group_Layer|. With all the petal layers selected, right-click
 on them on the Layers Panel and select ``Group``. You can rename the
 layers to make things more understandable.
 
@@ -312,7 +312,22 @@ a basic skeleton.
 .. |FlowerTutorial_1_Canvas.png| image:: animating_shapes_dat/FlowerTutorial_1_Canvas.png
 
 
-
-
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |Toolbox| replace:: :ref:`Toolbox <panel_toolbox>`
+.. |Gradient_Tool| replace:: :ref:`Gradient Tool <tool_gradient>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_transform>`
+.. |Origin_Parameter| replace:: :ref:`Origin Parameter <parameters>`
+.. |Caret| replace:: :ref:`Canvas Menu Caret <canvas>`
+.. |Keyframes_Panel| replace:: :ref:`Keyframes Panel <panel_keyframes>`
+.. |Keyframe| replace:: :ref:`Keyframes <keyframes>`
+.. |Animate_Editing_Mode| replace:: :ref:`Animate Editing Mode <canvas>`
+.. |Parameters_Panel| replace:: :ref:`Paramters Panel <panel_parameters>`
+.. |Timetrack_Panel| replace:: :ref:`Timetrack Panel <panel_timetrack>`
+.. |Waypoints| replace:: :ref:`Waypoints <waypoints>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Scale_Tool| replace:: :ref:`Scale Tool <tool_scale>`
+.. |Group_Layer| replace:: :ref:`Group layer <layer_group>` 
+.. |Skeleton_Layer| replace:: :ref:`Skeleton Layer <layer_skeleton>`
 
 

@@ -100,7 +100,7 @@ canvas although we wanted it to be restricted on the rectangle. To do
 so, activate the gradient layer in the Layers Panel. Now go to the
 |Parameters_Panel| (by default it resides in the
 bottom window), and search for the attribute called |Blend_Method_Parameter|. Double-click the entry and select
-Onto ([Blend\_Method\_Parameter#Onto]) from the drop-down menu.
+Onto |Blend_Method_Parameter_onto| from the drop-down menu.
 
 .. figure:: working_with_layers_dat/Adding_Layer-tutorial-4_0.63.06.png
    :alt: Adding_Layer-tutorial-4_0.63.06.png
@@ -170,7 +170,7 @@ It blurred! Has the blend method for newly created blur is ``Straight``
 (if the default blend method in the Toolbox is set to
 ``By Layer Default``) it blurred all around the outside edge of the
 contents of the group layer. You can change the default blend method
-([New Layer Defaults#Default Blend Method]) for new layers from the |New_Layer_Defaults| section of the Toolbox.
+|New_Layer_Defaults_Default_Blend_Method| for new layers from the |New_Layer_Defaults| section of the Toolbox.
 
 
 .. note:: 
@@ -200,20 +200,38 @@ you will note quite a lot of different possibilities for making layers.
 Several of them sound rather unusual, like ``Transform|Rotate`` for
 example. You can use this to add new attributes to your objects. And
 just like other, basic attributes in the `previous animation
-tutorial <Doc:Animation_Basics>`__, you can change them to be different
+tutorial |Animation_Basics|, you can change them to be different
 on certain |Keyframe|. Synfig will take care of
 interpolating the steps in between.
 
-For example, you could create a `shape <Doc:Creating_Shapes>`__ and add
+For example, you could create a shape and add
 a |Rotate_Layer| over it. Combine this with the lesson
-learned in the `last tutorial <Doc:Animation_Basics>`__ and you will
+learned in the |Animation_Basics| and you will
 obtain a rotating effect. This technique is used for the creation of
-`Doc:Cut-out Animation <Doc:Cut-out_Animation>`__.
+|Cut_Out_Animation|.
 
-Let's continue digging further on `shapes
-creation <Doc:Creating_Shapes>`__.
-
-
+Let's continue digging further on shapes
+creation |Creating_Shape|.
 
 
-
+.. |Animation_Basics| replace:: :ref:`Previous Tutorial <animation_basics>`
+.. |Primitive_Layer| replace:: :ref:`Primitive Layer <layers>`
+.. |Layer| replace:: :ref:`Layer <layers>`
+.. |Filter_Layer| replace:: :ref:`Filter Layer <layers>`
+.. |Rectangle_Tool| replace:: :ref:`Rectangle Tool <tool_rectangle>`
+.. |Gradient_Tool| replace:: :ref:`Gradient Tool <tool_gradient>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_transform>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Group_Layer| replace:: :ref:`Group Layer <layer_group>`
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
+.. |Blend_Method_Parameter| replace:: :ref:`Blend Method Parameter <parameters_blend_method>`
+.. |Blend_Method_Parameter_onto| replace:: :ref:`Blende Method Parameter:Onto <parameters_blend_method  Onto>`
+.. |Blur_Layer| replace:: :ref:`Blur Layer <layer_blur>`
+.. |Circle_Tool| replace:: :ref:`Circle Tool <tool_circle>`
+.. |New_Layer_Defaults| replace:: :ref:`New Layer Defaults <layers>`
+.. |New_Layer_Defaults_Default_Blend_Method| replace:: :ref:`New Layer Defaults:Blend Mehtod <layers>`
+.. |Keyframe| replace:: :ref:`Keyframe <keyframes>`
+.. |Creating_Shape| replace:: :ref:`Creating Shape <creating_shapes>`
+.. |Rotate_Layer| replace:: :ref:`Rotate Layer <layer_rotate>`
+.. |Cut_Out_Animation| replace:: :ref:`Cut out animation <quick_start>`

@@ -11,7 +11,7 @@ Introduction
 
 Basic |Primitive_Layer| such as
 |Circle_Layer| or |Rectangle_Layer|, that we
-have learn to work with `previously <Doc:Adding_Layers>`__, are all
+have learn to work with |previous_tutorial|, are all
 great but they are pretty much geometrically inflexible. What about
 creating more complex shapes? To do this, we use the |Spline_Tool|.
 
@@ -99,8 +99,7 @@ on the segment where you want to insert something and hit
 
 This may appear to be leading to a mess of layers. And yes, if you
 aren't using the software properly, that is exactly what you will get.
-But there is a way to make this more sane. As mentioned in the `previous
-tutorial <Doc:Adding_Layers>`__, you can |group| layers into
+But there is a way to make this more sane. As mentioned in the |previous_tutorial|, you can |group| layers into
 hierarchy.
 
 One quick thing to mention before I finish up. You can change the width
@@ -233,7 +232,7 @@ it's shape and look. For example, if you want a deformed star, then you
 can use the Star Tool to create it as outline and region Splines and
 then use the Transform Tool to deform it.
 
-Now you are ready for the `last tutorial <Doc:Flower_Animation>`__ in
+Now you are ready for the |last_tutorial| in
 this section. Hang on!
 
 .. _creating_shapes  Links:
@@ -251,3 +250,19 @@ A video on this subject is available
 
 
 
+
+.. |Primitive_Layer| replace:: :ref:`Primitive Layer <layers>`
+.. |Circle_Layer| replace:: :ref:`Circle Layer <layer_circle>`
+.. |Rectangle_Layer| replace:: :ref:`Rectangle Layer <layer_rectangle>`
+.. |previous_tutorial| replace:: :ref:`previous tutorial <working_with_layers>`
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Toolbox| replace:: :ref:`Toolbox <panel_toolbox>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_transform>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Region_Layer| replace:: :ref:`Region Layer <layer_region>`
+.. |Linking| replace:: :ref:`Linking <linking>`
+.. |group| replace:: :ref:`Group <layer_group>`
+.. |Canvas_Menu_Caret| replace:: :ref:`Canvas Menu Caret <canvas>`
+.. |last_tutorial| replace:: :ref:`last tutorial <working_with_layers>`

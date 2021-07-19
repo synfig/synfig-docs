@@ -29,18 +29,18 @@ Synfig Studio main interface components are:
    Synfig Studio can be reset to its default window arrangement (as shown in the screenshot).
    In the ``File`` menu select``Window -> Workspace -> Default``.
 
-The center of the window is the  `Canvas Window <Canvas Window>`__. A new Canvas Window appears each time
-Synfig Studio starts. The window represents the |Root_Canvas|, not that it means much to you at the moment,
+The center of the window is the |Canvas|. A new Canvas Window appears each time
+Synfig Studio starts. The window represents the Root Canvas, not that it means much to you at the moment,
 but that's OK — we're just trying to show you around. In the upper left
 corner of the Canvas Window, you'll see a button with a
-|Canvas_Menu_Caret|. If you click on this caret button, the
+|Canvas_Menu_Caret_caret|. If you click on this caret button, the
 |Canvas_Menu_Caret| will pop up. If you
 right-click in the canvas area and there is no |layer| under
 the mouse position, this menu will also appear. So now you know where
-the most important canvas menu is. Good.
+the most important canvas menu is.
 
 The other part of the window (on the bottom/top, to the right/left) are
-customizable `dock panel <dock panel>`__. Each dock contains a set of |Panels|, arranged horizontally or
+customizable |dock_Panels|. Each dock contains a set of |Panels|, arranged horizontally or
 vertically. Some panels share the same space inside the dock and you can
 switch between them by clicking on their |panel_tab|. You can
 rearrange the contents of dock panels as you wish by dragging the panel
@@ -48,8 +48,8 @@ tab to where you want it. You can even create a new dock by dragging a
 tab out.
 
 If you accidentally close a |panel| (by dragging it out, and
-closing the new dock that gets created), no worries. Simply go to the `Main Menu <Main Menu>`__,
-select `Window Menu <Window Menu>`__ there and then click on the name of the panel you need.
+closing the new dock that gets created), no worries. Simply go to the |Main_Menu|,
+select |Window_Menu| there and then click on the name of the panel you need.
 
 The most important panels are:
 
@@ -96,7 +96,7 @@ ways:
    can also distort and/or modify it in some other way. In this sense,
    Synfig's Layers act much like filters do in Adobe Photoshop or GIMP.
    For example, we have a |Blur_Layer|, |Radial_Blur_Layer|, |Spherize_Layer|,
-   |Color_Correct_Layer|, |Bevel_Layer|, etc...
+   |Bevel_Layer|, etc...
 
 Each layer has a set of parameters which determine how it behaves. When
 you click on a layer (either in the Canvas Window, or in the illustrated
@@ -117,7 +117,7 @@ Tool”).
 When you click on the Circle Tool, you should notice that the |Tool_Options_Panel| changed. But we'll get to that
 later.
 
-With the Circle Tool selected, you can now create circles in the . This
+With the Circle Tool selected, you can now create circles in the |Canvas_Window| . This
 works as you might expect — click on the canvas, drag to change length
 of the radius, and release the mouse button when you are done. Go ahead
 and create two circles (or more, if you fancy). If you accidentally
@@ -141,9 +141,9 @@ later.
 Now go back to the toolbox and
 click on the |Transform_Tool| (the button with the
 arrow on it). After you do this, click on one of your circles. You will
-see a “|bounding_box|” (which is kind of useless at
+see a “bounding_box” (which is kind of useless at
 this point in time, but we digress), a green dot at the center, and a
-cyan dot on the radius. Those dots are called “|handle|”. If
+cyan dot on the radius. Those dots are called “handle". If
 you want to modify the circle, grab a handle and drag it around. Easy!
 
 You can select a |layer| by clicking on it. If you want to
@@ -180,7 +180,7 @@ them. If a particular tool isn't doing what you want, take a look at the
 Linking
 -------
 
-Now let's try |linking|. Suppose we always want these two
+Now let's try |Linking|. Suppose we always want these two
 circles to be the same size. Select two circles, and then select both of
 their radius handles (the cyan dots).
 
@@ -241,7 +241,7 @@ Digging deeper
 
 Of course, so far you just found out how to use the basic features of
 Synfig Studio but not how you animate a drawing. This is covered in the
-`next section <Doc:Animation_Basics>`__.
+next section .
 
 .. raw:: mediawiki
 
@@ -257,3 +257,33 @@ You can download the project used for the illustration of the illustr
 
 
 
+.. |Toolbox| replace:: :ref:`panel_toolbox`
+.. |Canvas| replace:: :ref:`canvas`
+.. |Panels| replace:: :ref:`Panels <ui>`
+.. |Root_Canvas| replace:: :ref:``
+.. |Canvas_Window| replace:: :ref:`interface The Canvas window`
+.. |Canvas_Menu_Caret_caret| replace:: :ref:`caret <canvas>`
+.. |Canvas_Menu_Caret| replace:: :ref:`canvas window menu <canvas>`
+.. |dock_Panels| replace:: :ref:`dock panels <ui>`
+.. |panel| replace:: :ref:`panel <ui>`
+.. |layer| replace:: :ref:`layers`
+.. |panel_tab| replace:: :ref:`panel tab <ui>`
+.. |Main_Menu| replace:: :ref:`Main Menu <ui>`
+.. |Window_Menu| replace:: :ref:`Window Menu <ui>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Navigator| replace:: :ref:`Navigator panel <panel_navigator>`
+.. |History_Panel| replace:: :ref:`History Panel <panel_history>`
+.. |Blur_Layer| replace:: :ref:`Blur Layer <layer_blur>`
+.. |Radial_Blur_Layer| replace:: :ref:`Radial Blur Layer <layer_radial_blur>`
+.. |Spherize_Layer| replace:: :ref:`Spherize Layer <layer_spherize>`
+.. |Bevel_Layer| replace:: :ref:`Bevel Layer <layer_bevel>`
+.. |Circle_Tool| replace:: :ref:`Circle Tool <tool_circle>`
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_transform>`
+.. |Rotate_Tool| replace:: :ref:`Rotate Tool <tool_rotate>`
+.. |Scale_Tool| replace:: :ref:`Scale Tool <tool_scale>`
+.. |Linking| replace:: :ref:`Linking <linking>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Region_Layer| replace:: :ref:`Region Layer<layer_region>`
+.. |Feather_Parameter| replace:: :ref:`Feather Parameter <main_concepts>`
