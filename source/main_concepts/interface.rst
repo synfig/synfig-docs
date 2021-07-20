@@ -35,10 +35,10 @@ The toolbox is separated into two areas:
    description of each tool here.
 
 -  The lowest palette contains the **default settings** for new layers:
-   fore- and background colors ([New\_Layer\_Defaults#Brush\_Colors]),
-   Brush Size ([New\_Layer\_Defaults#Brush\_Size]) and Current Gradient
-   ([New\_Layer\_Defaults#Current\_Gradient]). You can find a detailed
-   description of each default settings |New_Layer_Defaults|.
+   fore- and background colors |New_Layer_Defaults#Brush_Colors|,
+   |New_Layer_Defaults#Brush_Size| and Current Gradient
+   |New_Layer_Defaults#Current_Gradient|. You can find a detailed
+   description of each default settings at |New_Layer_Defaults|.
 
 .. _interface  The Canvas window:
 
@@ -49,7 +49,7 @@ The Canvas window
 see the Canvas Window. This is where you'll create your animation!
 
 In addition of set of menus at the top of the screen, or the top of the
-drawing window, Synfig has a **|Canvas_Menu_Caret|**: the
+drawing window, Synfig has a |Canvas_Menu_Caret|: the
 little black triangle in the upper left corner of the canvas. Beneath
 are all the menus you would expect and that allow you to access most of
 Synfig's features.
@@ -62,8 +62,7 @@ appears when you have defined a non-zero duration in the
 |Canvas_Properties_Dialog| of your project. To the left
 you can see the number of the current frame and on the right side
 buttons to |Lock_Keyframes| the keyframes and to switch
-the |Animate_Editing_Mode|. The `Doc:Animation
-Basics <Doc:Animation_Basics>`__ Tutorial gives a good introduction on
+the |Animate_Editing_Mode|. The |Animation_Basics| Tutorial gives a good introduction on
 how to work with this buttons.
 
 In the picture above there are three elements on the canvas, the black
@@ -122,5 +121,26 @@ modify |waypoints|.
    :width: 600px
 
 
-
-
+.. |Panel| replace:: :ref:`Panels <ui>`
+.. |layer| replace:: :ref:`Layer <layers>`
+.. |New_Layer_Defaults#Brush_Colors| replace:: :ref:`Brush Colors <new_layer_defaults Brush Colors>`
+.. |New_Layer_Defaults#Current_Gradient| replace:: :ref:`Current Gradient <new_layer_defaults Current Gradient>`
+.. |New_Layer_Defaults#Brush_Size| replace:: :ref:`Current Gradient <new_layer_defaults Brush Size>`
+.. |New_Layer_Defaults| replace:: :ref:`New Layer Defaults <new_layer_defaults>`
+.. |Canvas_Menu_Caret| replace:: :ref:`Canvas Menu Caret <canvas_caret>`
+.. |Timebar| replace:: :ref:`Timebar <timebar>`
+.. |Canvas_Properties_Dialog| replace:: :ref:`Canvas Properties Dialog <canvas>`
+.. |Lock_Keyframes| replace:: :ref:`Lock Keyframes <canvas_editing_lock_keyframe>`
+.. |Animate_Editing_Mode| replace:: :ref:`Animate Editing Mode <animation_mode>`
+.. |Animation_Basics| replace:: :ref:`Animations Basics <animation_basics>`
+.. |Spline| replace:: `Spline <https://en.wikipedia.org/wiki/Spline_(mathematics)>`__
+.. |handle| replace:: :ref:`handles`
+.. |Group_Transformation_Widget| replace:: :ref:`Group Transformation Widget <group_transformation_widget>`
+.. |Group_Layer| replace:: :ref:`group <layer_group>`
+.. |Navigator_Panel| replace:: :ref:`Navigator Panel <panel_navigator>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <parameters>`
+.. |Parameter| replace:: :ref:`Parameters <parameters>`
+.. |Timetrack_Panel| replace:: :ref:`Timetrack Panel <panel_timetrack>`
+.. |waypoints| replace:: :ref:`waypoints <waypoints>`

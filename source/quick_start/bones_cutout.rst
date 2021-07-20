@@ -47,7 +47,7 @@ curved with an outline.
 
 To make sure that the joint parts of the arm rotate correctly, we made
 them with the help of a couple of crosshairs
-([Doc:Basic\_Bone\_Tutorial#Tip\_for\_making\_a\_crosshair]) (picture
+|Basic_Bone_Tutorial#Tip_for_making_a_crosshair| (picture
 3). In *picture 4* and *picture 5* we can see how the horizontal
 crosshair line matches the straight line of the bottom of the upper arm
 and at the same time the outline of the circle of the crosshair matches
@@ -273,7 +273,7 @@ Next Steps
 ----------
 
 This is the end of the introductory tutorials. From here you can take a
-look at the `Interface <Doc:Interface>`__ page, or continue reading or
+look at the :ref:`Interface <ui>` page, or continue reading or
 doing the rest of . The gives you a list of the available articles to
 read for a more complete understanding of Synfig.
 
@@ -299,5 +299,7 @@ read for a more complete understanding of Synfig.
 
 
 
-
-
+.. |Skeleton_Layer| replace:: :ref:`Skeleton Layer <layer_skeleton>`
+.. |Group_Transformation_Widget| replace:: :ref:`Group Transformation Widget <group_transformation_widget>`
+.. |Basic_Bone_Tutorial#Tip_for_making_a_crosshair| replace:: :ref:`crosshair <bones_cutout  Tip for making a crosshair>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`

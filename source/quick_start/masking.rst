@@ -77,7 +77,7 @@ Revealing mask method 1.
  
 -  Set the blend method of the elements you want to mask (robot layer in
    this case) to “Straight Onto”
-   ([Blend\_Method\_Parameter#Straight\_Onto]). You can only use this
+   |Blend_Method_Parameter#Straight_Onto|. You can only use this
    method on one layer at a time so if you have several objects you need
    to group those into one group layer.
 -  Everything above the mask will be visible, everything outside will be
@@ -100,7 +100,7 @@ many layers. |Basic\_Masking-tutorial\_06\_0.63.06.png|
 -  Create a mask shape above the objects you want to mask.
 -  Tick the “Invert” option of the mask.
 -  Set blend method of mask to “Alpha Over”
-   ([Blend\_Method\_Parameter#Alpha\_over]). Everything below the mask
+   |Blend_Method_Parameter#Alpha_over|. Everything below the mask
    shape will be visible and the rest is masked off.
 -  You can group the mask and the objects that should be masked.
    Anything outside of this group layer is not masked so leave the
@@ -132,5 +132,7 @@ Download :download:`tutorial files <masking_dat/Basic_masking_tutorial_files.zip
 
 
 
-
+.. |Blend_Method_Parameter| replace:: :ref:`Blend Method Parameter <parameters_blend_method>`
+.. |Blend_Method_Parameter#Straight_Onto| replace:: :ref:`Blend Method Parameter: Straight Onto <parameters_blend_method  Straight Onto>`
+.. |Blend_Method_Parameter#Alpha_over| replace:: :ref:`Blend Method Parameter: Alpha Over <parameters_blend_method  Alpha over>`
 

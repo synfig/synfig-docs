@@ -1,7 +1,7 @@
 .. _animation_mode:
 
 #####################
-Animation Mode
+Animate Editing Mode
 #####################
 
 
@@ -49,14 +49,3 @@ When toggling the Animate Editing Mode ON, the |Canvas_Window| will be highlight
 
 .. |Animate_Editing_Mode_Off_Icon| image:: animate_editing_mode_dat/Animate_mode_off_icon.png
 .. |Animate_Editing_Mode_On_Icon| image:: animate_editing_mode_dat/Animate_mode_on_icon.png
-
-.. |Canvas| replace:: :ref:`Canvas <canvas>`
-.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
-.. |Waypoint| replace:: :ref:`Waypoint <waypoints>`
-.. |Timetrack_Panel| replace:: :ref:`Timetrack Panel <panel_timetrack>`
-.. |Editing_Lock_Keyframes| replace:: :ref:`Lock Keyframes <editing_lock_keyframe>`
-.. |Keyframe| replace:: :ref:`Keyframes <keyframes>`
-.. |ValueNodes| replace:: :ref:`ValueNodes <valuenode>`
-.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
-.. |Draw_Tool| replace:: :ref:`Draw Tool <tool_draw>`
-.. |Canvas_Window| replace:: :ref:`Canvas Window <canvas>`

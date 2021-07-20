@@ -76,7 +76,7 @@ keyframes that are immediately before and after the inserted waypoint's
 frame. The waypoints created in the neighboring keyframes are created
 according to the |New_Layer_Defaults_Default_Interpolation| in the |Toolbox|.
 
-See the `examples <#Examples>`__ to understand how this works.
+See the |examples| to understand how this works.
 
 .. _keyframes  Adding, duplicating and removing keyframes:
 
@@ -218,7 +218,7 @@ the program gives you this message:
 
 | ``keyframe_set: Cannot change keyframe time because another keyframe already exists with that time.``
 
-See `the example <#Change_Keyframe_Time>`__ to see how changing the time
+See :ref:`the example <keyframes  Change Keyframe Time>` to see how changing the time
 of a keyframe works.
 
 .. _keyframes  Length:
@@ -320,7 +320,7 @@ During a keyframe drag and drop operation a tooltip indicator will be
 displayed with some time informations.
 
 Right click over a keyframe or in upper part of the ``Timebar`` open the
-|Keyframe_Menu| giving access to the
+Keyframe Menu giving access to the
 keyframes actions.
 
 
@@ -637,7 +637,7 @@ Quickly creating/importing Keyframes
 Using a `Synfig
 plug-in <https://github.com/berteh/import-audacity-labels-keyframes>`__
 it is possible to quickly import keyframes from a list of timings, as
-explained in the `Audio Synchronisation <Doc:Audio_Synchronisation>`__
+explained in the |Audio_Synchronisation|
 tutorial.
 
 .. |KeyframesLook-TimeTrack\_0.63.06.png| image:: KeyframesLook-TimeTrack_0.63.06.png
@@ -648,3 +648,25 @@ tutorial.
 .. |``Keyframe-example2.sifz``| image:: Keyframe-example2.sifz
 .. |``Keyframe-example3.sifz``| image:: Keyframe-example3.sifz
 
+.. |Timetrack_Panel| replace:: :ref:`Timetrack Panel <panel_timetrack>`
+.. |Time_Cursor| replace:: :ref:`Time Cursor <glossary_time_cursor>`
+.. |Waypoints| replace:: :ref:`Waypoints <waypoints>`
+.. |Timebar| replace:: :ref:`Timebar <timebar>`
+.. |Keyframes_Panel| replace:: :ref:`Keyframes Panel <panel_keyframes>`
+.. |Lock_Keyframes| replace:: :ref:`Lock Keyframes <editing_lock_keyframe>`
+.. |New_Layer_Defaults_Default_Interpolation| replace:: :ref:`New Layer Defaults: Default Interpolation <new_layer_defaults Default Interpolation>`
+.. |Toolbox| replace:: :ref:`Toolbox <panel_toolbox>`
+.. |examples| replace:: :ref:`examples <keyframes  Examples>`
+.. |Waypoints_Interpolation| replace:: :ref:`Waypoints Interpolations <waypoints  Interpolation>`
+.. |TCB| replace:: :ref:`TCB <interpolations_TCB>`
+.. |Clamped_interpolation| replace:: :ref:`Clamped <interpolations_Clamped>`
+.. |Constant| replace:: :ref:`Constant <interpolations_Constant>`
+.. |Ease_In_Out| replace:: :ref:`EaseIn/Out <interpolations_EaseIn_Out>`
+.. |Linear| replace:: :ref:`Linear <interpolations_Linear>`
+.. |Keyframe_Duplicate_a_keyframe| replace:: :ref:`Keyframe duplication <keyframes  Duplicate a keyframe>`
+.. |Keyframe_Time| replace:: :ref:`Keyframe time <keyframes  Time>`
+.. |Keyframe_Length| replace:: :ref:`Keyframe Length <keyframes  Length>`
+.. |History_Panel| replace:: :ref:`History Panel <panel_history>`
+.. |Reuse_Animations| replace:: :ref:`Reuse Animations <reuse_animations>`
+.. |Onion_Skin| replace:: :ref:`Onion Skin <onion_skin>`
+.. |Audio_Synchronisation| replace:: :ref:`Audio Synchronisation <audio_synchronisation>`

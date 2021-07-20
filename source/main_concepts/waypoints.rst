@@ -9,7 +9,7 @@ Introduction
 ------------
 
 ``Waypoints`` are the graphical symbols that show up on the
-|Timetrack| panel. Each time the value of a parameter is
+|Timetrack_Panel|. Each time the value of a parameter is
 edited in |Animate_Editing_Mode|, a Waypoint
 will be created. For example, when you adjust a ``Tangent``
 |Handle| of a vertex in a |Spline|, a ``Waypoint``
@@ -72,7 +72,7 @@ Move some
 
 You can select multiple Waypoints using ``Ctrl|Click``, and then they
 can be dragged left or right has moving single waypoint
-([Waypoint#Move\_it]).
+|Waypoint#Move_it|.
 
 .. _waypoints  More actions:
 
@@ -117,7 +117,7 @@ Default Interpolation
 ~~~~~~~~~~~~~~~~~~~~~
 
 The default type of interpolation
-([New\_Layer\_Defaults#Default\_Interpolation]) for new waypoints is
+|New_Layer_Defaults#Default_Interpolation| for new waypoints is
 defined by a dropdown list at bottom of the  Canvas Window.
 
 It is possible to fix interpolation by parameter. Right-click any and
@@ -147,7 +147,7 @@ are as follows:
    never “overshoots” (or “undershoots”) the values you set in the
    |Parameters_Panel|.
 -  |Constant|: Stops the animation.
--  `Ease In/Out <Ease_In/Out>`__: The graph is horizontal as it leaves
+-  |Ease_In_Out|: The graph is horizontal as it leaves
    the Waypoint.
 -  |Linear|: The graph of parameter value against time is a
    straight line.
@@ -247,3 +247,19 @@ Ease in - Normal - Ease out
   
 
 
+.. |Timetrack_Panel| replace:: :ref:`Timetrack Panel <panel_timetrack>`
+.. |Animate_Editing_Mode| replace:: :ref:`Animate Editing Mode <animation_mode>`
+.. |Handle| replace:: :ref:`Handle <handles>`
+.. |Spline| replace:: `Spline <https://en.wikipedia.org/wiki/Spline_(mathematics)>`
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
+.. |Waypoint#Move_it| replace:: :ref:`Waypoint: Move It <waypoints  Move it>`
+.. |Waypoint#Interpolation| replace:: :ref:`Waypoint Interpolation <waypoints  Interpolation>`
+.. |Linking| replace:: :ref:`Linking <linking>`
+.. |New_Layer_Defaults#Default_Interpolation| replace:: :ref:`Default Interpolation <new_layer_defaults Default Interpolation>`
+.. |TCB| replace:: :ref:`TCB <interpolations_TCB>`
+.. |Clamped_interpolation| replace:: :ref:`Clamped <interpolations_Clamped>`
+.. |Constant| replace:: :ref:`Constant <interpolations_Constant>`
+.. |Ease_In_Out| replace:: :ref:`EaseIn/Out <interpolations_EaseIn_Out>`
+.. |Linear| replace:: :ref:`Linear <interpolations_Linear>`
+.. |Timetrack| replace:: :ref:`Timetrack <panel_timetrack>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
