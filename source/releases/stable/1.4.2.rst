@@ -31,6 +31,8 @@ Lottie Exporter plugin:
 * Add support for Advanced Outline layer (`#2199 <https://github.com/synfig/synfig/pull/2199>`_)
 * Improve support for exported values (`#2182 <https://github.com/synfig/synfig/pull/2182>`_)
 * Add non-minified bodymovin.js (`#2202 <https://github.com/synfig/synfig/pull/2202>`_)
+* Remove minor error (`#2229 <https://github.com/synfig/synfig/pull/2229>`_)
+* Resolved 'nan' exception (`#2227 <https://github.com/synfig/synfig/pull/2227>`_)
 
 New features
 --------------
