@@ -155,3 +155,10 @@ animation is defined to start at frame 6.
 All comments are welcome.
 
 
+
+
+.. |Keyframe| replace:: :ref:`Keyframe <keyframes>`
+.. |Time_Cursor| replace:: :ref:`Time Cursor <glossary_time_cursor>`
+.. |Group_Layer| replace:: :ref:`Group Layer <layer_group>`
+.. |Canvas| replace:: :ref:`Canvas <canvas>`
+.. |Canvas_Browser_Panel| replace:: :ref:`Canvas Browser Panel <panel_canvas_browser>`

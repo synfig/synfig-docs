@@ -20,3 +20,9 @@ parameter, unless you know what you're doing!
 
 .. |Animate_mode_off_icon.png| image:: static_parameters_dat/Animate_mode_off_icon.png
    :width: 16px
+
+
+.. |Parameter| replace:: :ref:`Parameter <parameters>`
+.. |ValueNode| replace:: :ref:`ValueNode <valuenode>`
+.. |Animate_Editing_Mode| replace:: :ref:`Animate Editing Mode <animation_mode>`
+.. |Time_Loop_Layer| replace:: :ref:`Time Loop Layer <layer_time_loop>`

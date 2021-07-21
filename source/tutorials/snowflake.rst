@@ -132,5 +132,12 @@ you could link a single value to a parameter.
 
 
 
-
-
+.. |Duplicate_Layer| replace:: :ref:`Duplicate Layer <layer_duplicate>`
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |Polygon_Tool| replace:: :ref:`Polygon Tool <tool_polygon>`
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_transform>`
+.. |Rotate_Layer| replace:: :ref:`Rotate Layer <layer_rotate>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
+.. |Library_Panel| replace:: :ref:`Library Panel <panel_library>`
+.. |Origin_Parameter| replace:: :ref:`Origin Parameter <parameters>`
