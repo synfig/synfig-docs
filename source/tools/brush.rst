@@ -60,3 +60,11 @@ Here you can find a video about brush usage and frame by frame anim
 
 .. |Tool_brush_icon.png| image:: brush_dat/Tool_brush_icon.png
    :width: 64px
+
+
+.. |Import_Image_Layer| replace:: :ref:`Image Layer <import_image_layer>`
+.. |Switch_Group_Layer| replace:: :ref:`Switch Group Layer <layer_switch_group>`
+.. |Preferences_Dialog_System| replace:: :ref:`Preferences Dialog System <preferences_dialog_system>`
+.. |New_Layer_Defaults_Brush_Colors| replace:: :ref:`New Layer Defaults: Brush Color <new_layer_defaults Brush Colors>`
+.. |New_Layer_Defaults_Brush_Size| replace:: :ref:`New Layer Defaults: Brush Size <new_layer_defaults Brush Size>`
+.. |Toolbox| replace:: :ref:`Toolbox <panel_toolbox>`

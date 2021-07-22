@@ -37,3 +37,5 @@ Video howto
 
 .. |Tool_cutout_icon.png| image:: cutout_dat/Tool_cutout_icon.png
    :width: 64px
+
+.. |Feather_Parameter| replace:: :ref:`Feather Parameter <parameters_feather>`

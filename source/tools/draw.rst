@@ -87,3 +87,19 @@ last trace you have drawn.
    :width: 20px
 
 
+.. |Region_Layer| replace:: :ref:`Region Layer <layer_region>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Advanced_Outline_Layer| replace:: :ref:`Advanced Outline Layer <layer_advanced_outline>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Blend_Method_Parameter| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <parameters_opacity>`
+.. |Outline_Layer_Outline_width| replace:: :ref:`Outline Layer: Outline Width <layer_outline  Outline width>`
+.. |Curve_Gradient_Layer| replace:: :ref:`Curve Gradient Layer <layer_curve_gradient>`
+.. |New_Layer_Defaults_Brush_Size| replace:: :ref:`New Layer Defaults: Brush Size <new_layer_defaults Brush Size>`
+.. |Toolbox| replace:: :ref:`Toolbox <panel_toolbox>`
+.. |Handle| replace:: :ref:`Handle <handles>`
+.. |Linking| replace:: :ref:`Linking <linking>`
+.. |Feather_Parameter| replace:: :ref:`Feather Parameter <parameters_feather>`
+.. |Export| replace:: :ref:`Export <exported_parameters>`
+.. |Library_Panel| replace:: :ref:`Library Panel <panel_library>`
+.. |New_Layer_Defaults_Brush_Colors| replace:: :ref:`New Layer Defaults: Brush Colors <new_layer_defaults Brush Colors>`

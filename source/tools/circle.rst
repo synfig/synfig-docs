@@ -69,3 +69,21 @@ when you are done.
    :width: 64px
 .. |Circle_Tool_Options.png| image:: circle_dat/Circle_Tool_Options.png
 
+
+.. |Circle_Layer| replace:: :ref:`Circle Layer <layer_circle>`
+.. |Circle_Layer_Origin| replace:: :ref:`Circle Layer: Origin <layer_circle  Origin>`
+.. |Circle_Layer_Radius| replace:: :ref:`Circle Layer: Radius <layer_circle  Radius>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Region_Layer| replace:: :ref:`Region Layer <layer_region>`
+.. |Curve_Gradient_Layer| replace:: :ref:`Curve Gradient Layer <layer_curve_gradient>`
+.. |Plant_Layer| replace:: :ref:`Plant Layer <layer_plant>`
+.. |Spline| replace:: :ref:`Spline <tool_spline>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Star_Layer| replace:: :ref:`Star Layer <layer_star>`
+.. |Advanced_Outline_Layer| replace:: :ref:`Advanced Outline Layer <layer_advanced_outline>`
+.. |Blend_Method_Parameter| replace:: :ref:`Blend Method Parameter <parameters_blend_method>`
+.. |Amount_Parameter| replace:: :ref:`Amount Parameter <opacity>`
+.. |Outline_Layer_Outline_width| replace:: :ref:`Outline Layer: Outline Width <layer_outline>`
+.. |Invert_Parameter| replace:: :ref:`Invert <parameters_invert>`
+.. |Feather_Parameter| replace:: :ref:`Feather Parameter <parameters_feather>`
+.. |Canvas| replace:: :ref:`Canvas <canvas>`
