@@ -6,94 +6,27 @@ Synfig 1.4.2 Release Notes
 
 Synfig Studio 1.4.2 delivers some improvements and critical bugfixes. Please read below for details.
 
-Raw List to be removed
-----------------------
+Improved Lottie Exporter plugin
+----------------------------------------
 
-[Autotools] Fixed problem with missing \*.glsl files in distribution (`#1982 <https://github.com/synfig/synfig/pull/1982>`_)
+* Added support for exporting Advanced Outline layer (`#2199 <https://github.com/synfig/synfig/pull/2199>`_).
+* Added support for exporting Blur layers (`#1505 <https://github.com/synfig/synfig/pull/1505>`_).
+* Added support for exporting Outline layer without variable widths (`#1647 <https://github.com/synfig/synfig/pull/1647>`_).
+* Fix converter methods not working with radius of simple circle layer (`#1101 <https://github.com/synfig/synfig/pull/1101>`_).
+* Added support for variable gamma correction (`#1174 <https://github.com/synfig/synfig/pull/1174>`_).
+* Added support for converters: sine, cos, integer, linear gradient, aTan2, Vector angle, radial_composite, radial gradient, vector x, vector y, power, dot product, logarithm, reciprocal, range, vector length, not (`#1236 <https://github.com/synfig/synfig/pull/1236>`_ `#1254 <https://github.com/synfig/synfig/pull/1254>`_ `#1286 <https://github.com/synfig/synfig/pull/1286>`_ `#1363 <https://github.com/synfig/synfig/pull/1363>`_ `#1409 <https://github.com/synfig/synfig/pull/1409>`_ `#1447 <https://github.com/synfig/synfig/pull/1447>`_ `#1446 <https://github.com/synfig/synfig/pull/1446>`_ `#1516 <https://github.com/synfig/synfig/pull/1516>`_ `#1515 <https://github.com/synfig/synfig/pull/1515>`_ `#1593 <https://github.com/synfig/synfig/pull/1593>`_ `#1586 <https://github.com/synfig/synfig/pull/1586>`_ `#1619 <https://github.com/synfig/synfig/pull/1619>`_ `#1606 <https://github.com/synfig/synfig/pull/1606>`_ `#1650 <https://github.com/synfig/synfig/pull/1650>`_ `#1587 <https://github.com/synfig/synfig/pull/1587>`_).
+* Improved support for exported values (`#2182 <https://github.com/synfig/synfig/pull/2182>`_).
+* Use non-minified `bodymovin.js` script to avoid code obfuscation (`#2202 <https://github.com/synfig/synfig/pull/2202>`_).
 
-create string_helper.h to avoid code duplication (PR `#1995 <https://github.com/synfig/synfig/pull/1995>`_)
+Better handling of shortcuts
+----------------------------
+* Basic implementation of Keyboard Shortcut Editor (`#2160 <https://github.com/synfig/synfig/pull/2160>`_)(`#2173 <https://github.com/synfig/synfig/pull/2173>`_)
 
-[Synfig Studio] fix format string for synfigapp exception guard (`#2084 <https://github.com/synfig/synfig/pull/2084>`_)
+TODO: Screenshot here
 
-[Core] A little refactoring of loadcanvas.cpp (`#1956 <https://github.com/synfig/synfig/pull/1956>`_)
+* Changed shortcut/hotkeys for improving usability (preferring single keys) and compability with other apps like Inkscape (PR `#1769 <https://github.com/synfig/synfig/pull/1769>`_) (PR `#1776 <https://github.com/synfig/synfig/pull/1776>`_) (PR `#1811 <https://github.com/synfig/synfig/pull/1811>`_) (PR `#1823 <https://github.com/synfig/synfig/pull/1823>`_) (PR `#1848 <https://github.com/synfig/synfig/pull/1848>`_) (PR `#1855 <https://github.com/synfig/synfig/pull/1855>`_) (PR `#1953 <https://github.com/synfig/synfig/pull/1953>`_) (PR `#2033 <https://github.com/synfig/synfig/pull/2033>`_) (PR `#2172 <https://github.com/synfig/synfig/pull/2172>`_)
 
-Improved error reporting (`#2156 <https://github.com/synfig/synfig/pull/2156>`_)
-
-etl::clock refactored to use std::chrono. Fix an issue with animation playback in CMake builds (`#1853 <https://github.com/synfig/synfig/pull/1853>`_)
-
-Lottie Exporter plugin:
-
-* Fix converter methods not working with radius of simple circle layer (`#1101 <https://github.com/synfig/synfig/pull/1101>`_)
-* Add support for variable gamma correction (`#1174 <https://github.com/synfig/synfig/pull/1174>`_)
-* Add support for converters: sine, cos, integer, linear gradient, aTan2, Vector angle, radial_composite, radial gradient, vector x, vector y, power, dot product, logarithm, reciprocal, range, vector length, not (`#1236 <https://github.com/synfig/synfig/pull/1236>`_ `#1254 <https://github.com/synfig/synfig/pull/1254>`_ `#1286 <https://github.com/synfig/synfig/pull/1286>`_ `#1363 <https://github.com/synfig/synfig/pull/1363>`_ `#1409 <https://github.com/synfig/synfig/pull/1409>`_ `#1447 <https://github.com/synfig/synfig/pull/1447>`_ `#1446 <https://github.com/synfig/synfig/pull/1446>`_ `#1516 <https://github.com/synfig/synfig/pull/1516>`_ `#1515 <https://github.com/synfig/synfig/pull/1515>`_ `#1593 <https://github.com/synfig/synfig/pull/1593>`_ `#1586 <https://github.com/synfig/synfig/pull/1586>`_ `#1619 <https://github.com/synfig/synfig/pull/1619>`_ `#1606 <https://github.com/synfig/synfig/pull/1606>`_ `#1650 <https://github.com/synfig/synfig/pull/1650>`_ `#1587 <https://github.com/synfig/synfig/pull/1587>`_)
-* Add support for Blur layers (`#1505 <https://github.com/synfig/synfig/pull/1505>`_)
-* Add support for Outline layer without variable widths (`#1647 <https://github.com/synfig/synfig/pull/1647>`_)
-* Add support for Advanced Outline layer (`#2199 <https://github.com/synfig/synfig/pull/2199>`_)
-* Improve support for exported values (`#2182 <https://github.com/synfig/synfig/pull/2182>`_)
-* Add non-minified bodymovin.js (`#2202 <https://github.com/synfig/synfig/pull/2202>`_)
-* Remove minor error (`#2229 <https://github.com/synfig/synfig/pull/2229>`_)
-* Resolved 'nan' exception (`#2227 <https://github.com/synfig/synfig/pull/2227>`_)
-
-New features
---------------
-Basic implementation of Keyboard Shortcut Editor (`#2160 <https://github.com/synfig/synfig/pull/2160>`_)(`#2173 <https://github.com/synfig/synfig/pull/2173>`_)
-
-Windows-specific fixes
-----------------------
-
-MacOS-specific fixes
-----------------------
-
-Linux-specific fixes
-----------------------
-
-Bugfixes
---------------
-* Fixed crash when user drags a Group layer to a child group (`#2110 <https://github.com/synfig/synfig/issues/2110>`_) (PR `#2116 <https://github.com/synfig/synfig/pull/2116>`_)
-* Fixed crash in Spline Width and return of improper type in Spline converters (PR `#1890 <https://github.com/synfig/synfig/pull/1890>`_)
-* Exported canvas can be reopened again after closing (PR `#2092 <https://github.com/synfig/synfig/pull/2092>`_)
-* Fixed action "Duplicate Layer" for Skeleton Layer and their bone links (PR `#2059 <https://github.com/synfig/synfig/pull/2059>`_)
-* Fixed action "Duplicate Layer" for Skeleton Deformation Layer and their bone links (PR `#2071 <https://github.com/synfig/synfig/pull/2071>`_)
-* Fixed error that prevented convert to dot-product valuenode (PR `#1260 <https://github.com/synfig/synfig/pull/1260>`_)
-* Fixed issue with saving `loop` flag in some dynamic lists (`#2165 <https://github.com/synfig/synfig/pull/2165>`_)
-* Fixed SVG importer ignoring some style properties set as attributes and fixed a lot of memory leaks (`#2137 <https://github.com/synfig/synfig/pull/2137>`_)
-* Fixed crash in rare cases caused by race condition when rebuilding LayerTreeStore (`#2209 <https://github.com/synfig/synfig/pull/2209>`_)
-* Fixed incorrect background restoration on animated GIFs with transparent background (`#2134  <https://github.com/synfig/synfig/pull/2134>`_)
-
-
-UI/UX improvements
-------------------
-[Core] Fix missing is_distance hint for vertex coordinates (PR `#2000 <https://github.com/synfig/synfig/pull/2000>`_)
-
-sometimes Widget_Vector didn't use locale for decimal separator (PR `#2102 <https://github.com/synfig/synfig/pull/2102>`_) (`#2157 <https://github.com/synfig/synfig/pull/2157>`_)
-
-add menu item "Undock panel" to Panel tab (PR `#1929 <https://github.com/synfig/synfig/pull/1929>`_) (PR `#2109 <https://github.com/synfig/synfig/pull/2109>`_)
-
-Close tabs with middle mouse click (PR `#2107 <https://github.com/synfig/synfig/pull/2107>`_) (PR `#2120 <https://github.com/synfig/synfig/pull/2120>`_) (PR `#2210  <https://github.com/synfig/synfig/pull/2120>`_)
-
-Minor speed up drag'n drop of layers in Layer Panel(PR `#1979 <https://github.com/synfig/synfig/pull/1979>`_)
-
-Don't show extra vertical scrollbar for Dock Sound (PR `#1173 <https://github.com/synfig/synfig/pull/1173>`_)
-
- LayerTree: remove unused headers (partial PR `#1963 <https://github.com/synfig/synfig/pull/1963>`_)
- 
- Remove old commented-out code (gui/layertree) (PR `#1429 <https://github.com/synfig/synfig/pull/1429>`_)
- 
- Allow enum parameter be edited with a double click instead of triple click (PR `#1325 <https://github.com/synfig/synfig/pull/1325>`_)
- 
-single click for edit parameters of any type (PR `#1337 <https://github.com/synfig/synfig/pull/1337>`_) (PR `#1351 <https://github.com/synfig/synfig/pull/1351>`_)
-
-[Synfig Studio] Implemented toggle animate hotkey (PR `#2033 <https://github.com/synfig/synfig/pull/2033>`_)
-
- [Synfig Studio] Code cleanup on synfigapp::ValueDescSet (PR `#2046 <https://github.com/synfig/synfig/pull/2046>`_)
- 
- [Core/Studio] Fix missing const qualifier for some relational operators overrides (PR `#2001 <https://github.com/synfig/synfig/pull/2001>`_)
- 
- [Core] LinkableValueNode now provides methods for inverse manipulation (PR `#2057 <https://github.com/synfig/synfig/pull/2057>`_)
- 
-[Synfig Studio] make TimeLoop valuenode editable via workspace (PR `#2066 <https://github.com/synfig/synfig/pull/2066>`_)
-
-Changed shortcut/hotkeys for improving usability (preferring single keys) and compability with other apps like Inkscape (PR `#1769 <https://github.com/synfig/synfig/pull/1769>`_) (PR `#1776 <https://github.com/synfig/synfig/pull/1776>`_) (PR `#1811 <https://github.com/synfig/synfig/pull/1811>`_) (PR `#1823 <https://github.com/synfig/synfig/pull/1823>`_) (PR `#1848 <https://github.com/synfig/synfig/pull/1848>`_) (PR `#1855 <https://github.com/synfig/synfig/pull/1855>`_) (PR `#1953 <https://github.com/synfig/synfig/pull/1953>`_) (PR `#2033 <https://github.com/synfig/synfig/pull/2033>`_) (PR `#2172 <https://github.com/synfig/synfig/pull/2172>`_)
+TODO: Screenshots for menus with shortcuts
 
 * Added ``=`` to "Zoom in" (as an alternative ``Ctrl =``)
 * Added ``-`` to "Zoom out" (as an alternative ``Ctrl -``)
@@ -107,7 +40,32 @@ Changed shortcut/hotkeys for improving usability (preferring single keys) and co
 * For "Redo", use ``Ctrl y`` on MS Windows, ``Ctrl Shift z`` on Linux and ``Command Shift z`` on MacOS, instead of ``Ctrl r``
 * All tools shortcuts are remapped to single keys, avoid use of ``Alt`` that led to some UX problems for some locales
 * Added shortcut for Cutout tool (``c``)
-* Added shortcut for toggling Animate mode (``Ctrl Spacebar``)
+* Added shortcut for toggling Animate mode (``Ctrl Spacebar``) (PR `#2033 <https://github.com/synfig/synfig/pull/2033>`_)
+
+UI/UX improvements
+------------------
+* single click for edit parameters of any type (PR `#1337 <https://github.com/synfig/synfig/pull/1337>`_) (PR `#1351 <https://github.com/synfig/synfig/pull/1351>`_), (PR `#1325 <https://github.com/synfig/synfig/pull/1325>`_).
+* TimeLoop valuenode now editable via workspace (PR `#2066 <https://github.com/synfig/synfig/pull/2066>`_)
+* Close tabs with middle mouse click (PR `#2107 <https://github.com/synfig/synfig/pull/2107>`_) (PR `#2120 <https://github.com/synfig/synfig/pull/2120>`_) (PR `#2210  <https://github.com/synfig/synfig/pull/2120>`_)
+* LinkableValueNode now provides methods for inverse manipulation (PR `#2057 <https://github.com/synfig/synfig/pull/2057>`_)
+* add menu item "Undock panel" to Panel tab (PR `#1929 <https://github.com/synfig/synfig/pull/1929>`_) (PR `#2109 <https://github.com/synfig/synfig/pull/2109>`_)
+
+Bugfixes
+--------------
+* Fixed incorrect background restoration on animated GIFs with transparent background (`#2134  <https://github.com/synfig/synfig/pull/2134>`_).
+* Fixed crash when user drags a Group layer to a child group (`#2110 <https://github.com/synfig/synfig/issues/2110>`_) (PR `#2116 <https://github.com/synfig/synfig/pull/2116>`_).
+* Fixed crash in Spline Width and return of improper type in Spline converters (PR `#1890 <https://github.com/synfig/synfig/pull/1890>`_).
+* Exported canvas can be reopened again after closing (PR `#2092 <https://github.com/synfig/synfig/pull/2092>`_).
+* Fixed action "Duplicate Layer" for Skeleton Layer and their bone links (PR `#2059 <https://github.com/synfig/synfig/pull/2059>`_).
+* Fixed action "Duplicate Layer" for Skeleton Deformation Layer and their bone links (PR `#2071 <https://github.com/synfig/synfig/pull/2071>`_).
+* Fixed error that prevented convert to dot-product valuenode (PR `#1260 <https://github.com/synfig/synfig/pull/1260>`_).
+* Fixed issue with saving `loop` flag in some dynamic lists (`#2165 <https://github.com/synfig/synfig/pull/2165>`_).
+* Fixed SVG importer ignoring some style properties set as attributes and fixed a lot of memory leaks (`#2137 <https://github.com/synfig/synfig/pull/2137>`_).
+* Fixed crash in rare cases caused by race condition when rebuilding LayerTreeStore (`#2209 <https://github.com/synfig/synfig/pull/2209>`_).
+* Fixed issue when Widget_Vector do not uses locale for decimal separator (PR `#2102 <https://github.com/synfig/synfig/pull/2102>`_) (`#2157 <https://github.com/synfig/synfig/pull/2157>`_).
+* Don't show extra vertical scrollbar for Dock Sound (PR `#1173 <https://github.com/synfig/synfig/pull/1173>`_).
+* Fix missing is_distance hint for vertex coordinates (PR `#2000 <https://github.com/synfig/synfig/pull/2000>`_).
+* Fixed problem with missing \*.glsl files in distribution (`#1982 <https://github.com/synfig/synfig/pull/1982>`_).
 
 
 
