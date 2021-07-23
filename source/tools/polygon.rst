@@ -73,3 +73,18 @@ The ``Clear Current Polygon`` button at the bottom of the
    :width: 24px
 .. |Polygon_Tool_Options.png| image:: polygon_dat/Polygon_Tool_Options.png
 
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |Winding_Style_Parameter| replace:: :ref:`Winding Style Parameter <winding_style_parameter>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Polygon_Layer| replace:: :ref:`Polygon Layer <tool_polygon>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Advanced_Outline_Layer| replace:: :ref:`Advanced Outline Layer <layer_advanced_outline>`
+.. |Region_Layer| replace:: :ref:`Region Layer <layer_region>`
+.. |Plant_Layer| replace:: :ref:`Plant Layer <layer_plant>`
+.. |Curve_Gradient_Layer| replace:: :ref:`Curve Gradient Layer <layer_curve_gradient>`
+.. |Blend_Method_Parameter| replace:: :ref:`Blend Method Parameter <parameters_blend_method>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Outline_Layer_Outline_width| replace:: :ref:`Outline Layer: Outline Width <layer_outline  Outline width>`
+.. |Invert_Parameter| replace:: :ref:`Invert Parameter <parameters_invert>`
+.. |Feather_Parameter| replace:: :ref:`Feather Parameter <parameters_feather>`
+.. |Toolbox_Panel| replace:: :ref:`Toolbox Panel <panel_toolbox>`

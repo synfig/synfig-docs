@@ -56,3 +56,15 @@ Options
 
 .. |Tool_fill_icon.png| image:: fill_dat/Tool_fill_icon.png
    :width: 64px
+
+
+.. |Region_Layer| replace:: :ref:`Region Layer <layer_region>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Circle_Layer| replace:: :ref:`Circle Layer <layer_circle>`
+.. |Rectangle_Layer| replace:: :ref:`Rectangle Layer <layer_rectangle>`
+.. |Polygon_Layer| replace:: :ref:`Polygon Layer <layer_polygon>`
+.. |Star_Layer| replace:: :ref:`Star Layer <layer_star>`
+.. |Checkerboard_Layer| replace:: :ref:`Checkerboard Layer <layer_checkerboard>`
+.. |Plant_Layer| replace:: :ref:`Plant Layer <layer_plant>`
+.. |Text_Layer| replace:: :ref:`Text Layer <layer_text>`
+

@@ -32,3 +32,7 @@ Options
    :width: 64px
 .. |Swap_colors_icon.png| image:: eyedrop_dat/Swap_colors_icon.png
    :width: 16px
+
+
+.. |WorkArea| replace:: :ref:`WorkArea <canvas_workarea>`
+.. |Toolbox| replace:: :ref:`Toolbox <panel_toolbox>`

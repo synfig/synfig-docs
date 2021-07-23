@@ -48,3 +48,7 @@ move left and right.
 
 .. |Tool_mirror.png| image:: mirror_dat/Tool_mirror.png
    :width: 64px
+
+.. |Handle| replace:: :ref:`Handle <handles>`
+.. |Toolbox| replace:: :ref:`Toolbox <panel_toolbox>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`

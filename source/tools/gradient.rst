@@ -100,3 +100,12 @@ Documentation writers note: You can download the project to generate the�
 .. |Spiral_gradient.png| image:: gradient_dat/Spiral_gradient.png
 
 
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Blend_Method_Parameter| replace:: :ref:`Blend Method Parameter <parameters_blend_method>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Gradient_Editor_Dialog| replace:: :ref:`Gradient Editor Dialog <gradient_editor_dialog>`
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_transform>`
+.. |Radial_Gradient_Layer| replace:: :ref:`Radial Gradient Layer <layer_radial_gradient>`
+.. |Conical_Gradient_Layer| replace:: :ref:`Conical Gradient Layer <layer_conical_gradient>`
+.. |Spiral_Gradient_Layer| replace:: :ref:`Spiral Gradient Layer <layer_spiral_gradient>`
