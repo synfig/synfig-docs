@@ -6,11 +6,12 @@ Synfig 1.4.2 Release Notes
 
 Synfig Studio 1.4.2 delivers some improvements and critical bugfixes. Please read below for details.
 
-Improved Lottie Exporter plugin
-----------------------------------------
+Improved export for Web
+------------------------
 
-* Added support for exporting Advanced Outline layer (`#2199 <https://github.com/synfig/synfig/pull/2199>`_).
-* Added support for exporting Blur layers (`#1505 <https://github.com/synfig/synfig/pull/1505>`_).
+The Lottie exporter plugin has gained new capabiilities and includes all improvements made during Google Summer of Code 2020. Here is what's new:
+
+* Added support for exporting Advanced Outline layer (`#2199 <https://github.com/synfig/synfig/pull/2199>`_) and Blur layer (`#1505 <https://github.com/synfig/synfig/pull/1505>`_).
 * Added support for exporting Outline layer without variable widths (`#1647 <https://github.com/synfig/synfig/pull/1647>`_).
 * Fix converter methods not working with radius of simple circle layer (`#1101 <https://github.com/synfig/synfig/pull/1101>`_).
 * Added support for variable gamma correction (`#1174 <https://github.com/synfig/synfig/pull/1174>`_).
