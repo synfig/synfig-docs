@@ -41,3 +41,8 @@ The Sketch Tool has the following in its |Tool_Options_Panel| :
 
 .. |Tool_sketch_icon.png| image:: sketch_dat/Tool_sketch_icon.png
    :width: 64px
+
+
+.. |Canvas| replace:: :ref:`Canvas <canvas>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Toolbox| replace:: :ref:`Toolbox <panel_toolbox>`

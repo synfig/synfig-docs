@@ -109,3 +109,4 @@ Documentation writers note: You can download the project to generate the�
 .. |Radial_Gradient_Layer| replace:: :ref:`Radial Gradient Layer <layer_radial_gradient>`
 .. |Conical_Gradient_Layer| replace:: :ref:`Conical Gradient Layer <layer_conical_gradient>`
 .. |Spiral_Gradient_Layer| replace:: :ref:`Spiral Gradient Layer <layer_spiral_gradient>`
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`

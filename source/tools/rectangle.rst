@@ -62,3 +62,18 @@ button when you are done.
    :width: 64px
 .. |Rectangle_Tool_Options.png| image:: rectangle_dat/Rectangle_Tool_Options.png
 
+
+.. |Rectangle_Layer| replace:: :ref:`Rectangle Layer <layer_rectangle>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Advanced_Outline_Layer| replace:: :ref:`Advanced Outline Layer <layer_advanced_outline>`
+.. |Region_Layer| replace:: :ref:`Region Layer <layer_region>`
+.. |Plant_Layer| replace:: :ref:`Plant Layer <layer_plant>`
+.. |Curve_Gradient_Layer| replace:: :ref:`Curve Gradient Layer <layer_curve_gradient>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Blend_Method_Parameter| replace:: :ref:`Blend Method Parameter <parameters_blend_method>`
+.. |Amount_Parameter| replace:: :ref:`Opcaity <opacity>`
+.. |Outline_Layer_Outline_width| replace:: :ref:`Outline Layer: Outline Width <layer_outline  Outline width>`
+.. |Expansion_Amount_Parameter| replace:: Expansion Amount Parameter
+.. |Feather_Parameter| replace:: :ref:`Feather Parameter <parameters_feather>`
+.. |Invert_Parameter| replace:: :ref:`Invert Parameter <parameters_invert>`
+.. |Canvas| replace:: :ref:`Canvas <canvas>`

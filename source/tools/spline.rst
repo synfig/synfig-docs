@@ -106,7 +106,7 @@ This tool has the following options:
 -  **Link Origin**: If checked, links the |Origin_Parameter| for the |Plant_Layer|,
    |Region_Layer| or Outline if two of them (or all them) are
    checked.
--  **Auto Export**: If checked, exports automatically the |Vertices_Parameter| (that's a |Spline| type
+-  **Auto Export**: If checked, exports automatically the Vertices Parameter (that's a |Spline| type
    parameter)
 
 | 
@@ -118,17 +118,8 @@ This tool has the following options:
 Other sources of information
 ----------------------------
 
-See this |Video_Tutorials| to see it in action.
+``TODO: Add sources``
 
-Read `Doc:Creating Shapes <Doc:Creating_Shapes>`__ which talks a little
-about the Spline tool.
-
-Read Dev:Spline_Bline about tangent internals computation.
-
-Read Dev:Bline_Speed which explains about variations in the Amount
-parameter of Splines.
-
-Category:Toolbox `tool <Category:Tools>`__ Category:Toolbox
 
 .. |Bline\_icon.png| image:: Bline_icon.png
    :width: 64px
@@ -136,3 +127,17 @@ Category:Toolbox `tool <Category:Tools>`__ Category:Toolbox
 
 
 
+.. |Spline| replace:: `Spline <https://en.wikipedia.org/wiki/Spline_(mathematics)>`__
+.. |Toolbox| replace:: :ref:`Toolbox <panel_toolbox>`
+.. |Handle| replace:: :ref:`Handle <handles>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Advanced_Outline_Layer| replace:: :ref:`Advanced Outline Layer <layer_advanced_outline>`
+.. |Region_Layer| replace:: :ref:`Region Layer <layer_region>`
+.. |Plant_Layer| replace:: :ref:`Plant Layer <layer_plant>`
+.. |Curve_Gradient_Layer| replace:: :ref:`Curve Gradient Layer <layer_curve_gradient>`
+.. |Blend_Method_Parameter| replace:: :ref:`Blend Method Parameter <parameters_blend_method>`
+.. |Amount_Parameter| replace:: :ref:`Opcaity <opacity>`
+.. |Feather_Parameter| replace:: :ref:`Feather Parameter <parameters_feather>`
+.. |Origin_Parameter| replace:: :ref:`Origin Parameter <parameters_origin>`
+.. |Video_Tutorials| replace:: 

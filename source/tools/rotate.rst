@@ -45,3 +45,8 @@ move, rotating about the center of the selected handles group.
 
 .. |Tool_rotate.png| image:: rotate_dat/Tool_rotate.png
    :width: 64px
+
+
+.. |Handle| replace:: :ref:`Handle <handles>`
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_transform>`
+.. |Handle_Choose_your_handles| replace:: :ref:`Handles: Choose your handles <handles>`

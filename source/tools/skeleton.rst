@@ -86,3 +86,5 @@ You can find the following options in the tool options menu:
 .. image:: ./skeleton_dat/tool_options.png
     :align: left
     :alt: Make parent to active bone
+
+

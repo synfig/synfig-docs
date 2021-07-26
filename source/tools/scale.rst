@@ -56,3 +56,7 @@ pulling anchors to allow make a correct scaling).
    :width: 64px
 .. |Scale_Tool_Options.png| image:: scale_dat/Scale_Tool_Options.png
 
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_transform>`
+.. |Handle| replace:: :ref:`Handle <handles>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Handle_Choose_your_handles| replace:: :ref:`Handles: Choose your handles <handles>`
