@@ -18,7 +18,7 @@ handle (move, rotate or scale).
 Usage
 -----
 
-| Clicking an object in the `canvas window <:Category:Canvas_Window>`__
+| Clicking an object in the |Canvas_Window|
   with the ``Transform tool`` selects it. You can select multiple
   objects by holding down the ``Control`` key and clicking on the
   additional objects.
@@ -76,3 +76,9 @@ Options
 
 .. |Tool_normal.png| image:: transform_dat/Tool_normal.png
    :width: 64px
+
+.. |Canvas_Window| replace:: :ref:`Canvas Window <canvas>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Handle| replace:: :ref:`Handle <handles>`
+.. |Selection_box| replace:: Selection box 
+.. |Text_Layer| replace:: :ref:`Text Layer <layer_text>`

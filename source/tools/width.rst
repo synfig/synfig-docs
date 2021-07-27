@@ -72,3 +72,10 @@ them on again with the same keybinding.
 
 .. |Tool_width_icon.png| image:: width_dat/Tool_width_icon.png
    :width: 64px
+
+
+
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_trasnform>`
+.. |Handle| replace:: :ref:`Handle <handles>`
+.. |Draw_Tool| replace:: :ref:`Draw Tool <tool_draw>`

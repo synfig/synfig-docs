@@ -46,3 +46,10 @@ The |Tool_Options_Panel| allows you to specify:
 
 .. |Tool_text_icon.png| image:: text_dat/Tool_text_icon.png
    :width: 64px
+
+
+.. |Toolbox| replace:: :ref:`Toolbox <panel_toolbox>`
+.. |Canvas| replace:: :ref:`Canvas <canvas>`
+.. |Text_Layer| replace:: :ref:`Text Layer <layer_text>`
+
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`

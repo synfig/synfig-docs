@@ -57,3 +57,6 @@ Options
 
 .. |Tool_zoom_icon.png| image:: zoom_dat/Tool_zoom_icon.png
    :width: 64px
+
+.. |render_options| replace:: :ref:`Render Options <canvas_render>`
+.. |Mouse_Shortcuts| replace:: :ref:`Mouse Shortcuts <mouse_shortcuts>`
