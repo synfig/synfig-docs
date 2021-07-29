@@ -22,6 +22,12 @@ Here is what's new:
 * Improved support for exported values (`#2182 <https://github.com/synfig/synfig/pull/2182>`_).
 * Use non-minified `bodymovin.js` script to avoid code obfuscation (`#2202 <https://github.com/synfig/synfig/pull/2202>`_).
 
+.. raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cJq8yoP8Ji8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+  
+For more information about Lottie Exporter please check :ref:`this page<export_for_web>`.
+
 Better handling of shortcuts
 ----------------------------
 
