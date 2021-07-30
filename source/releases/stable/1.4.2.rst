@@ -70,6 +70,7 @@ Bugfixes
 * Don't show extra vertical scrollbar for Dock Sound (`#1173 <https://github.com/synfig/synfig/pull/1173>`_).
 * Fix missing ``is_distance`` hint for vertex coordinates (`#2000 <https://github.com/synfig/synfig/pull/2000>`_).
 * Fixed problem with missing \*.glsl files in distribution (`#1982 <https://github.com/synfig/synfig/pull/1982>`_).
+* Fixed issue with AppImage taking too long to start at first run (`#1340 <https://github.com/synfig/synfig/pull/1340>`_ `#1849 <https://github.com/synfig/synfig/pull/1849>`_). 
 
 
 .. |image0| image:: 1.4.2_dat/lottie.png
