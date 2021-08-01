@@ -46,3 +46,11 @@ The parameters of the Checkboard Layers are:
 .. |Type_vector_icon.png| image:: images/Type_vector_icon.png
    :width: 16px
 .. |p_color_green.png| image:: images/p_color_green.png  
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method_Parameter| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Color_Parameter| replace:: :ref:`Color Parameter <parameters_color>`
+.. |Origin_Parameter| replace:: :ref:`Origin Parameter <parameters_origin>`
+.. |Color_Parameter| replace:: :ref:`Color Parameter <parameters_color>`
+.. |Size_Parameter| replace:: Size Parameter

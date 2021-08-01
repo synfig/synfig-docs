@@ -44,9 +44,9 @@ The parameters of the ``Blur Layer`` are:
 +---------------------------------------------------------+-------------------------+------------------------------------------------+
 | |Type_integer_icon.png| |Blend_Method|                  | Composite               | integer                                        |
 +---------------------------------------------------------+-------------------------+------------------------------------------------+
-| |Type_vector_icon.png| `Size <#Size>`__                 | 6.000000pt,6.000000pt   | vector                                         |
+| |Type_vector_icon.png| :ref:`Size <layer_blur  Size>`   | 6.000000pt,6.000000pt   | vector                                         |
 +---------------------------------------------------------+-------------------------+------------------------------------------------+
-| |Type_integer_icon.png| `Type <#Types>`__               | Fast Gaussian Blur      | integer                                        |
+| |Type_integer_icon.png| :ref:`Type <layer_blur  Type>`  | Fast Gaussian Blur      | integer                                        |
 +---------------------------------------------------------+-------------------------+------------------------------------------------+
 
 .. |Type_real_icon.png| image:: images/Type_real_icon.png
@@ -75,13 +75,11 @@ Type
 
 There are 5 types of blur:
 
--  `Fast Gaussian Blur <#Fast_Gaussian>`__
--  `Box Blur <#Box>`__ (See
-   `1 <http://en.wikipedia.org/wiki/Box_blur>`__)
--  `Cross Hatch Blur <#Cross_Hatch>`__
--  `Disc Blur <#Disc>`__
--  `Gaussian Blur <#Gaussian>`__ (See
-   `2 <http://en.wikipedia.org/wiki/Gaussian_blur>`__)
+-  :ref:`Fast Gaussian Blur <layer_blur  Fast Gaussian>`
+-  :ref:`Box Blur <layer_blur Box>` (`More info <http://en.wikipedia.org/wiki/Box_blur>`__)
+-  :ref:`Cross Hatch Blur <layer_blur Cross Hatch>`
+-  :ref:`Disc Blur <layer_blur Disc>`
+-  :ref:`Gaussian Blur <layer_blur Gaussian>` (`More info <http://en.wikipedia.org/wiki/Gaussian_blur>`__)
 
 .. _layer_blur  Samples:
 
@@ -226,3 +224,12 @@ See also
    single parameter called “Aperture”.
 
 
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Star_Layer| replace:: :ref:`Star Layer <layer_star>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Render_dialog| replace:: :ref:`Render Dialog <canvas_render>`
+.. |Radial_Blur_Layer| replace:: :ref:`Radial Blur Layer <layer_radial_blur>`
+.. |Motion_Blur_Layer| replace:: :ref:`Motion Blur Layer <layer_motion_blur>`

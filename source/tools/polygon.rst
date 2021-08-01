@@ -74,7 +74,7 @@ The ``Clear Current Polygon`` button at the bottom of the
 .. |Polygon_Tool_Options.png| image:: polygon_dat/Polygon_Tool_Options.png
 
 .. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
-.. |Winding_Style_Parameter| replace:: :ref:`Winding Style Parameter <winding_style_parameter>`
+.. |Winding_Style_Parameter| replace:: :ref:`Winding Style Parameter <parameters_winding_style>`
 .. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
 .. |Polygon_Layer| replace:: :ref:`Polygon Layer <tool_polygon>`
 .. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`

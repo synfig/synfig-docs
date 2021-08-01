@@ -246,8 +246,7 @@ When smoothness is **zero** interpolation is lineal, when smoothness is
 Homogeneous
 ~~~~~~~~~~~
 
-Enabling ``Homogeneous`` changes the way the position of the `width
-points <#widthpoint>`__ change according modification of the outline.
+Enabling ``Homogeneous`` changes the way the position of the :ref:`widthpoint <layer_outline  Outline width>` change according modification of the outline.
 
 -  When false, the “Position” parameter for a width point is equally
    distributed **among the vertices**. For example, in a spline with
@@ -451,8 +450,6 @@ actions:
    of coincidence. So access the width Handle it is needed to have a
    quick action to set it to its default value (1.0).
 
-`Tools <Category:Tools>`__
-
 .. |Type_real_icon.png| image:: images/Type_real_icon.png
    :width: 16px
 .. |Type_integer_icon.png| image:: images/Type_integer_icon.png
@@ -467,3 +464,38 @@ actions:
    :width: 16px
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
 .. |p_color_green.png| image:: images/p_color_green.png
+
+
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |New_Layer_Defaults_Brush_Colors| replace:: :ref:`New Layer Defaults: Brush Color <new_layer_defaults Brush Colors>`
+.. |Star_Tool| replace:: :ref:`Star Tool <tool_star>`
+.. |Circle_Tool| replace:: :ref:`Circle Tool <tool_circle>`
+.. |Canvas_Layer_Menu| replace:: :ref:`Canvas Layer Menu <canvas_layer_menu>`
+.. |Handle| replace:: :ref:`Handle <handles>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Spline| replace:: :ref:`Spline <https://en.wikipedia.org/wiki/Spline_(mathematics)>__`
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Colors_Dialog| replace:: :ref:`Color <colors_dialog>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
+.. |Invert_Parameter| replace:: :ref:`Invert Parameter <parameters_invert>`
+.. |Antialiasing_Parameter| replace:: :ref:`Antialiasing Parameter <parameters_anitialiasing>`
+.. |Feather_Parameter| replace:: :ref:`Feather Parameter <parameters_feather>`
+.. |Feather_Parameter_Type_of_Feather| replace:: :ref:`Feather Parameter: Type of Feather <parameters_feather Type of Feather>`
+.. |Winding_Style_Parameter| replace:: :ref:`Winding Style Parameter <parameters_winding_style>`
+.. |Outline_Layer_Outline_width| replace:: :ref:`Outline Layer: Outline Width <layer_outline  Outline width>`
+.. |Outline_Layer_Expand| replace:: :ref:`Outline Layer: Expand <layer_outline Expand>`
+.. |Advanced_Outline_Layer#Tip_type_at_start_.2F_end| replace:: :ref:`Tip type at start/end <layer_advanced_outline  Tip Type at Start / End>`
+.. |Advanced_Outline_Layer_Cusps_Type| replace:: :ref:`Cusps Type <layer_advanced_outline  Cusp Type>`
+.. |Advanced_Outline_Layer_Smoothness| replace:: :ref:`Smoothness <layer_advanced_outline  Smoothness>`
+.. |Advanced_Outline_Layer_Homogeneous| replace:: :ref:`Homogeneous <layer_advanced_outline  Homogeneous>`
+.. |Advanced_Outline_Layer_Width_Point_List| replace:: :ref:`Width Point List <layer_advanced_outline  Width Point List>`
+.. |Advanced_Outline_Layer_Fast| replace:: :ref:`Fast <layer_advanced_outline  Fast>`
+.. |Advanced_Outline_Layer_Dashed_Outline| replace:: :ref:`Dashed Outline <layer_advanced_outline  Dashed Outline>`
+.. |Draw_Tool| replace:: :ref:`Draw Tool <tool_draw>`
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |Layers_Geometry| replace:: :ref:`Layer <layers>`
+.. |Width_Tool| replace:: :ref:`Width Tool <tool_width>`
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_transform>`
+.. |Export| replace:: :ref:`Export <export>`

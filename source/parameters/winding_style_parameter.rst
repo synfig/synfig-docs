@@ -1,4 +1,4 @@
-.. _winding_style_parameter:
+.. _parameters_winding_style:
 
 ########################
 Winding Sytle Parameter

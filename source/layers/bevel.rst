@@ -36,17 +36,17 @@ The parameters of the Bevel Layers are:
 +----------------------------------------------------------------------+------------------------+-------------+
 |  |Integer\_icon.png| |Blur_Layer|                                    | Fast Gaussian Blur     | integer     |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Color\_icon.png| |Colors_Dialog|                                   |                        | color       |
+|  |Color\_icon.png| :ref:`Hi-Color <colors_dialog>`                   |                        | color       |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Color\_icon.png| |Colors_Dialog|                                   |                        | color       |
+|  |Color\_icon.png| :ref:`Lo-Color <colors_dialog>`                   |                        | color       |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Angle\_icon.png| |Light_Angle_Parameter|                           | 135.00°                | angle       |
+|  |Angle\_icon.png| |Light_Angle|                                     | 135.00°                | angle       |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Real\_icon.png| |Depth_of_Bevel_Parameter|                         | 12.000000pt            | real        |
+|  |Real\_icon.png|  |Depth_of_Bevel|                                  | 12.000000pt            | real        |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Real\_icon.png| |Softeness_Parameter|                              | 6.000000pt             | real        |
+|  |Real\_icon.png|  |Softeness_Parameter|                             | 6.000000pt             | real        |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Bool\_icon.png| |Use_Luma_Parameter|                               |                        | bool        |
+|  |Bool\_icon.png|  |Use_Luma_Parameter|                              |                        | bool        |
 +----------------------------------------------------------------------+------------------------+-------------+
 |  |Bool\_icon.png| |Solid_Parameter|                                  |                        | bool        |
 +----------------------------------------------------------------------+------------------------+-------------+
@@ -157,3 +157,15 @@ the resulting bevel over the gradient.
    :width: 16px
 .. |Bool_icon.png| image:: images/Type_bool_icon.png
    :width: 16px
+
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Blur_Layer| replace:: :ref:`Blur Type <layer_blur>`
+.. |Use_Luma_Parameter| replace:: :ref:`Luma <layer_bevel  Use Luma>`
+.. |Solid_Parameter| replace:: :ref:`Solid <layer_bevel  Solid>`
+.. |Blur_Layer_Types| replace:: :ref:`Blur Layer: Types <layer_blur Type>`
+.. |Light_Angle| replace:: :ref:`Light Angle <layer_bevel  Light Angle>`
+.. |Depth_of_Bevel| replace:: :ref:`Depth Of Bevel <layer_bevel  Depth of Bevel>`
+.. |Softeness_Parameter| replace:: :ref:`Softness <layer_bevel Softness>`

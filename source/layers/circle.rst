@@ -100,3 +100,12 @@ drag the green handle to change this value.
    :width: 16px
 .. |p_color_green.png| image:: images/p_color_green.png  
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png 
+
+
+.. |Circle_Tool| replace:: :ref:`Circle Tool <tool_circle>`
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Blur_Layer| replace:: :ref:`Blur <layer_blur>`
+.. |Colors_Dialog| replace:: :ref:`Color <colors_dialog>`
+.. |Vector_Parameter| replace:: Vector

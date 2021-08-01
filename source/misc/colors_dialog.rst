@@ -1,5 +1,5 @@
-.. _parameters_origin:
+.. _colors_dialog:
 
 ########################
-Origin Parameter
+Colors Dialog
 ########################
