@@ -60,3 +60,8 @@ The parameters of the ``Conical Gradient Layers`` are:
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
 .. |p_gradient.png| image:: images/p_gradient.png
 
+.. |Conical_Gradient_Layer| replace:: :ref:`Conical Gradient Layer <layer_conical_gradient>`
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Gradient_Editor_Dialog| replace:: :ref:`Gradient <gradient_editor_dialog>`

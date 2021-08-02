@@ -68,10 +68,7 @@ to the ``To`` value (most visible).
 How to use
 ----------
 
--  `Snowflake_with_the_Duplicate_Layer Tutorial <Doc:Snowflake_with_the_Duplicate_Layer>`__ : |Duplicate_Layer| + |Rotate_Layer|
--  `Tiling_object Tutorial <Doc:Tiling_object>`__ : |Duplicate_Layer| +
-   |Linking| |Group_Layer|'s
-   |Origin_Parameter|
+-  :ref:`Snowflake with the Duplicate Layer Tutorial <tutorial_snowflake>` : |Duplicate_Layer| + |Rotate_Layer|
 
 .. _layer_duplicate  Known Problems:
 
@@ -100,3 +97,13 @@ Known Problems
    :width: 16px
 .. |Valuenode_icon.png| image:: images/Type_valuenode_icon.png
    :width: 16px
+
+.. |Export| replace:: :ref:`Export <export>`
+.. |Connect| replace:: :ref:`Connect <valuenode  Connect>`
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Library_Panel| replace:: :ref:`Library Panel <panel_library>`
+.. |Duplicate_Layer| replace:: :ref:`Duplicate Layer <layer_duplicate>`
+.. |Rotate_Layer| replace:: :ref:`Rotate Layer <layer_rotate>`

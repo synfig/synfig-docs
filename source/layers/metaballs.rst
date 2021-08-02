@@ -36,20 +36,18 @@ The parameters of the metaballs layer are:
 +----------------------------------------------------------------------------+----------------------+-------------------------+
 |     |Type\_gradient\_icon.png| |Gradient_Editor_Dialog|                    |   |p_gradient.png|   |   gradient              |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_list\_icon.png| |Balls_Parameter|                               |   List               |   list (Dynamic List)   |
+|     |Type\_list\_icon.png|  Balls Parameter                                |   List               |   list (Dynamic List)   |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_list\_icon.png| |Radii_Parameter|                               |   List               |   list (Dynamic List)   |
+|     |Type\_list\_icon.png|  Radii Parameter                                |   List               |   list (Dynamic List)   |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_list\_icon.png| |Weights_parameter|                             |   List               |   list (Dynamic List)   |
+|     |Type\_list\_icon.png|  Weights parameter                              |   List               |   list (Dynamic List)   |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_real\_icon.png| |Gradient_Left_Parameter|                       |   0.000000           |   real                  |
+|     |Type\_real\_icon.png|  Gradient Left Parameter                        |   0.000000           |   real                  |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_real\_icon.png| |Gradient_Right_Parameter|                      |   1.000000           |   real                  |
+|     |Type\_real\_icon.png|  Gradient Right Parameter                       |   1.000000           |   real                  |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-|     |Type\_bool\_icon.png| |Positive_Only_Parameter|                       |                      |   bool                  |
+|     |Type\_bool\_icon.png|  Positive Only Parameter                        |                      |   bool                  |
 +----------------------------------------------------------------------------+----------------------+-------------------------+
-+----------------------------------------------------------------------------+----------------------+-------------------------+
-
 .. |Type_real_icon.png| image:: images/Type_real_icon.png
    :width: 16px
 .. |Type_integer_icon.png| image:: images/Type_integer_icon.png
@@ -62,3 +60,8 @@ The parameters of the metaballs layer are:
    :width: 16px
 .. |p_gradient.png| image:: images/p_gradient.png
 
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Gradient_Editor_Dialog| replace:: :ref:`Gradient <gradient_editor_dialog>`

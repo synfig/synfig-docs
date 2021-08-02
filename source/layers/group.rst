@@ -79,9 +79,9 @@ Transformation Parameter
 The ``Transformation`` parameter is a composite parameter, it holds an
 Offset, a rotation Angle, a Skew Angle and a Scale value for the group.
 The ``Transformation`` parameter is already |Convert_Composite| when the |Group_Layer|
-is created and so directly exposes the |Offset_Parameter|,
-|Rotation_Parameter|, |Skew_Parameter| and
-|Scale_Parameter| subparameters.
+is created and so directly exposes the Offset Parameter,
+Rotation Parameter, Skew Parameter and
+Scale Parameter subparameters.
 
 See also |Group_Transformation_Widget|
 
@@ -227,3 +227,27 @@ See Also
    :width: 16px 
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
    
+.. |Group| replace:: :ref:`Group <group>`
+.. |Canvas_Menu_Caret| replace:: :ref:`Canvas: Menu Caret <canvas_caret>`
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Origin_Parameter| replace:: :ref:`Origin Parameter <parameters_origin>`
+.. |Group_Layer_Transformation_Parameter| replace:: :ref:`Transformation <layer_group  Transformation Parameter>`
+.. |Group_Layer_Canvas_Parameter| replace:: :ref:`Cavans <layer_group  Canvas Parameter>`
+.. |Group_Layer_Speed| replace:: :ref:`Speed <layer_group  Speed>`
+.. |Zoom_Parameter| replace:: :ref:`Zoom Parameter <parameters_zoom>`
+.. |Time_Offset_Parameter| replace:: :ref:`Time Offset <parameters_time_offset>`
+.. |Lock_Selection| replace:: :ref:`Lock Selection <lock_selection>`
+.. |Focus_Point| replace:: :ref:`Focus Point <parameters_focus_point>`
+.. |Group_Layer_Outline_Grow_Parameter| replace:: :ref:`Outline Grow <layer_group  Outline Grow Parameter>`
+.. |Group_Layer_Z_Depth_Range_Enabled| replace:: :ref:`Z Range <layer_group  Z Depth Range Enabled>`
+.. |Group_Layer_Z_Depth_Range_Position| replace:: :ref:`Z Range Position <layer_group  Z Depth Range Position>`
+.. |Group_Layer_Z_Depth_Range_Depth| replace:: :ref:`Z Range Depth <layer_group  Z Depth Range Depth>`
+.. |Group_Layer_Z_Depth_Range_Transition| replace:: :ref:`Z Range Blur <layer_group  Z Depth Range Transition>`
+.. |Convert_Composite| replace:: :ref:`Convert <converter_composite>`
+.. |Group_Layer| replace:: :ref:`Group Layer <layer_group>`
+.. |Group_Transformation_Widget| replace:: :ref:`Group Transformation Widget <group_transformation_widget>`
+.. |New_Layer_Menu| replace:: :ref:`New Layer <layers>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Switch_Group_Layer| replace:: :ref:`Switch Group Layer <layer_switch_group>`

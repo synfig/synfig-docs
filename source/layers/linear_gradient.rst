@@ -66,3 +66,5 @@ Parameters of the Linear Gradient Layer are:
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
 .. |p_gradient.png| image:: images/p_gradient.png   
 
+.. |Layer_Linear_Gradient| replace:: `Linear Gradient Layer`
+.. |Gradient_Editor_Dialog| replace:: :ref:`Gradient Editor Dialog <gradient_editor_dialog>`

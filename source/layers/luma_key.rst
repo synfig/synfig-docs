@@ -41,3 +41,8 @@ Parameters of the Luma Key Layers are:
    :width: 16px
 .. |Integer_icon.png| image:: images/Type_integer_icon.png
    :width: 16px
+
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method_Parameter| replace:: :ref:`Blend Method <parameters_blend_method>`

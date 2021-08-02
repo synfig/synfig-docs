@@ -161,3 +161,22 @@ The ``Fast`` option can be turned **Off** in the curve gradient layer's
    :width: 16px
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
 .. |p_gradient.png| image:: images/p_gradient.png
+
+.. |Conical_Gradient_Layer| replace:: :ref:`Conical Gradient Layer <layer_conical_gradient>`
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Gradient_Editor_Dialog| replace:: :ref:`Gradient <gradient_editor_dialog>`
+.. |Origin_Parameter| replace:: :ref:`Origin Parameter <parameters_origin>`
+.. |Curve_Gradient_Layer_Fast_Option| replace:: :ref:`Fast <layer_curve_gradient  Fast Option>`
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Canvas_Layer_Menu_New_Layer_Menu| replace:: :ref:`Canvas: Menu <canvas_layer_menu>`
+.. |Parameter| replace:: :ref:`Parameter <parameters>`
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
+.. |Canvas_Menu_Caret| replace:: :ref:`Canvas: Menu Caret <canvas_caret>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Region_Layer| replace:: :ref:`Region Layer <layer_region>`
+.. |Library_Panel| replace:: :ref:`Library Panel <panel_library>`
+.. |Handle| replace:: :ref:`Handle <handles>`

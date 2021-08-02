@@ -34,41 +34,41 @@ Parameters of the Mandelbrot Set Layers
 +------------------------------------------------------------------------------------+---------------------+--------------+
 | Name                                                                               | Value               | Type         |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Integer\_icon.png| |Iterations_Parameter|                                     |   256               |   integer    |
+|     |Integer\_icon.png| Iterations_Parameter                                       |   256               |   integer    |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Real\_icon.png| |Bailout_ValueBase_Parameter|                                 |   2.000000          |   real       |
+|     |Real\_icon.png| Bailout_ValueBase_Parameter                                   |   2.000000          |   real       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| |Break_Set_Parameter|                                         | |p_checkbox_off.png||   bool       |
+|     |Bool\_icon.png| Break_Set_Parameter                                           | |p_checkbox_off.png||   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| |Distort_Inside_Parameter|                                    | |p_checkbox_off.png||   bool       |
+|     |Bool\_icon.png| Distort_Inside_Parameter                                      | |p_checkbox_off.png||   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| |Shade_Inside_Parameter|                                      | |p_checkbox_on.png| |   bool       |
+|     |Bool\_icon.png| Shade_Inside_Parameter                                        | |p_checkbox_on.png| |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| |Solid_Inside_Parameter|                                      | |p_checkbox_off.png||   bool       |
+|     |Bool\_icon.png| Solid_Inside_Parameter                                        | |p_checkbox_off.png||   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| |Invert_Inside_Parameter|                                     | |p_checkbox_on.png| |   bool       |
+|     |Bool\_icon.png| Invert_Inside_Parameter                                       | |p_checkbox_on.png| |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Type\_gradient\_icon.png| |Gradient_Inside_Parameter|                         |  |p_gradient.png|   |   gradient   |
+|     |Type\_gradient\_icon.png| Gradient_Inside_Parameter                           |  |p_gradient.png|   |   gradient   |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Real\_icon.png| |Offset_Inside_Parameter|                                     |   0.000000          |   real       |
+|     |Real\_icon.png| Offset_Inside_Parameter                                       |   0.000000          |   real       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| |Loop_Inside_Parameter|                                       | |p_checkbox_on.png| |   bool       |
+|     |Bool\_icon.png| Loop_Inside_Parameter                                         | |p_checkbox_on.png| |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| |Distort_Outside_Parameter|                                   | |p_checkbox_off.png||   bool       |
+|     |Bool\_icon.png| Distort_Outside_Parameter                                     | |p_checkbox_off.png||   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| |Shade_Outside_Parameter|                                     | |p_checkbox_on.png| |   bool       |
+|     |Bool\_icon.png| Shade_Outside_Parameter                                       | |p_checkbox_on.png| |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| |Solid_Outside_Parameter|                                     | |p_checkbox_off.png||   bool       |
+|     |Bool\_icon.png| Solid_Outside_Parameter                                       | |p_checkbox_off.png||   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| |Invert_Outside_Parameter|                                    | |p_checkbox_on.png| |   bool       |
+|     |Bool\_icon.png| Invert_Outside_Parameter                                      | |p_checkbox_on.png| |   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Type\_gradient\_icon.png| |Gradient_Outside_Parameter|                        |  |p_gradient.png|   |   gradient   |
+|     |Type\_gradient\_icon.png| Gradient_Outside_Parameter                          |  |p_gradient.png|   |   gradient   |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Bool\_icon.png| |Smooth_Outside_Parameter|                                    | |p_checkbox_off.png||   bool       |
+|     |Bool\_icon.png| Smooth_Outside_Parameter                                      | |p_checkbox_off.png||   bool       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Real\_icon.png| |Offset_Outside_Parameter|                                    |   0.000000          |   real       |
+|     |Real\_icon.png| Offset_Outside_Parameter                                      |   0.000000          |   real       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
-|     |Real\_icon.png| |Scale_Outside_Parameter|                                     |   0.000000          |   real       |
+|     |Real\_icon.png| Scale_Outside_Parameter                                       |   0.000000          |   real       |
 +------------------------------------------------------------------------------------+---------------------+--------------+
 
 .. |Integer_icon.png| image:: images/Type_integer_icon.png
@@ -83,3 +83,4 @@ Parameters of the Mandelbrot Set Layers
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
 .. |p_checkbox_on.png| image:: images/p_checkbox_on.png
    
+.. |Parameter| replace:: :ref:`Parameter <parameters>`
