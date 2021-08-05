@@ -13,8 +13,6 @@
 About Plant Layers
 ------------------
 
-A short description of the layer can be found here:
-|Layer_Plant|
 
 .. _layer_plant  Parameters of Plant Layers:
 
@@ -87,3 +85,10 @@ The parameters of the Plant layers are:
    :width: 16px
 .. |p_gradient.png| image:: images/p_gradient.png 
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
+
+
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`

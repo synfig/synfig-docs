@@ -320,3 +320,27 @@ Note : :download:`File used <outline_dat/Outline_Layer.sifz>`
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
 .. |Outline\_Layer.sifz| image:: Outline_Layer.sifz
 
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |New_Layer_Defaults_Brush_Colors| replace:: :ref:`New Layer Defaults: Brush Colors <new_layer_defaults Brush Colors>`
+.. |Star_Tool| replace:: :ref:`Star Tool <tool_start>`
+.. |Canvas_Layer_Menu| replace:: :ref:`Canvas: Layer Menu <canvas_layer_menu>`
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Colors_Dialog| replace:: :ref:`Color <colors_dialog>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
+.. |Invert_Parameter| replace:: :ref:`Invert <parameters_invert>`
+.. |Antialiasing_Parameter| replace:: :ref:`Antialiasing <parameters_anitialiasing>`
+.. |Feather_Parameter| replace:: :ref:`Feather Parameter <parameters_feather>`
+.. |Feather_Parameter_Type_of_Feather| replace:: :ref:`Type of Feather <parameters_feather Type of Feather>`
+.. |Winding_Style_Parameter| replace:: :ref:`Winding Style Parameter <parameters_winding_style>`
+.. |Outline_Layer_Outline_width| replace:: :ref:`Outline Width <layer_outline  Outline width>`
+.. |Outline_Layer_Expand| replace:: :ref:`Expand <layer_outline  Expand>`
+.. |Outline_Layer_Sharp_Cusps| replace:: :ref:`Sharp Cusps <layer_outline  Sharp cups>`
+.. |Outline_Layer_Rounded_Begin| replace:: :ref:`Rounded Begin <layer_outline  Rounded Begin>`
+.. |Outline_Layer_Rounded_End| replace:: :ref:`Rounded End <layer_outline Rounded End>`
+.. |Outline_Layer_Loopyness| replace:: :ref:`Loopyness <layer_outline  Loopyness>`
+.. |Outline_Layer_Homogeneous| replace:: :ref:`Homogeneous <layer_outline  Homogeneous>`
+.. |Handle| replace:: :ref:`handle <handles>`

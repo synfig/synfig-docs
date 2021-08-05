@@ -156,3 +156,7 @@ See also
 .. |Type_integer_icon.png| image:: images/Type_integer_icon.png
    :width: 16px
 
+
+.. |Layer| replace:: :ref:`Layer <layers>`
+.. |Radial_Blur_Layer| replace:: :ref:`Radial Blur Layer <layer_radial_blur>`
+.. |Blur_Layer| replace:: :ref:`Blur Layer <layer_blur>`
