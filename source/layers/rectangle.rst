@@ -33,13 +33,13 @@ The parameters of the rectangle layers are:
 +--------------------------------------------------------------------------+-------------------------+-------------+
 |     |Type\_color\_icon.png| |Colors_Dialog|                              | |p_color_green.png|     |   color     |
 +--------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_vector\_icon.png| |Point_Parameter|                           |   0.000000u,0.000000u   |   vector    |
+|     |Type\_vector\_icon.png| Point 1                                     |   0.000000u,0.000000u   |   vector    |
 +--------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_vector\_icon.png| |Point_Parameter|                           |   1.000000u,1.000000u   |   vector    |
+|     |Type\_vector\_icon.png|  Point 2                                    |   1.000000u,1.000000u   |   vector    |
 +--------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_real\_icon.png| |Expand_Amount_Parameter|                     |   0.000000u             |   real      |
+|     |Type\_real\_icon.png|  Expand Parameter                             |   0.000000u             |   real      |
 +--------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_bool\_icon.png| |Invert_Parameter|                            |                         |   bool      |
+|     |Type\_bool\_icon.png|  Invert                                       |                         |   bool      |
 +--------------------------------------------------------------------------+-------------------------+-------------+
 
 .. |Type_real_icon.png| image:: images/Type_real_icon.png
@@ -53,3 +53,9 @@ The parameters of the rectangle layers are:
 .. |Type_bool_icon.png| image:: images/Type_bool_icon.png
    :width: 16px
 .. |p_color_green.png| image:: images/p_color_green.png   
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Colors_Dialog| replace:: :ref:`Color <colors_dialog>`
+.. |Invert_Parameter| replace:: :ref:`Inver Parameter <parameters_invert>`

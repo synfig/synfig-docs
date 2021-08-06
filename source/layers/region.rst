@@ -98,3 +98,19 @@ following 7 parameters, which are all specific to outlines:
    :width: 16px
 .. |p_color_green.png| image:: images/p_color_green.png
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
+
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Colors_Dialog| replace:: :ref:`Color <colors_dialog>`
+.. |Invert_Parameter| replace:: :ref:`Inver Parameter <parameters_invert>`
+
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Outline_Layer_Outline_width| replace:: :ref:`Outline Width <layer_outline  Outline width>`
+.. |Outline_Layer_Expand| replace:: :ref:`Expand <layer_outline  Expand>`
+.. |Outline_Layer_Sharp_cups| replace:: :ref:`Sharp Cusps <layer_outline  Sharp cups>`
+.. |Outline_Layer_Rounded_Begin| replace:: :ref:`Rounded Begin <layer_outline  Rounded Begin>`
+.. |Outline_Layer_Rounded_End| replace:: :ref:`Rounded End <layer_outline Rounded End>`
+.. |Outline_Layer_Loopyness| replace:: :ref:`Loopyness <layer_outline  Loopyness>`
+.. |Outline_Layer_Homogeneous| replace:: :ref:`Homogeneous <layer_outline  Homogeneous>`

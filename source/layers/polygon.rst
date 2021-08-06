@@ -49,7 +49,7 @@ The parameters of the Polygon layers are:
 +-----------------------------------------------------------------------------------------+-------------------------+--------------------+
 |     |Type\_integer\_icon.png| |Winding_Style_Parameter|                                 |   Non Zero              |   integer          |
 +-----------------------------------------------------------------------------------------+-------------------------+--------------------+
-|     |Type\_list\_icon.png| |Vector_List_Parameter|                                      |   List                  |   list (Dynamic)   |
+|     |Type\_list\_icon.png|  Vector List Parameter                                       |   List                  |   list (Dynamic)   |
 +-----------------------------------------------------------------------------------------+-------------------------+--------------------+
 
 
@@ -81,3 +81,18 @@ Note that the edges can cross each other. When they do, the |Winding_Style_Param
    :width: 16px
 .. |Polygons.png| image:: Polygons.png
 .. |p_color_green.png| image:: images/p_color_green.png
+
+.. |Polygon_Tool| replace:: :ref:`Polygon Tool <tool_polygon>`
+.. |Region_Layer| replace:: :ref:`Region Layer <layer_region>`
+.. |Star_Layer#Regular_2N-sided_Polygons| replace:: :ref:`Star Layer: 2N-sided Polygons <layer_star  Regular 2N-sided Polygons>`
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Color_Editor_Dialog| replace:: :ref:`Color <colors_dialog>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
+.. |Invert_Parameter| replace:: :ref:`Invert <parameters_invert>`
+.. |Antialiasing_Parameter| replace:: :ref:`Antialiasing <parameters_anitialiasing>`
+.. |Feather_Parameter| replace:: :ref:`Feather Parameter <parameters_feather>`
+.. |Feather_Parameter_Type_of_Feather| replace:: :ref:`Type of Feather <parameters_feather Type of Feather>`
+.. |Winding_Style_Parameter| replace:: :ref:`Winding Style Parameter <parameters_winding_style>`

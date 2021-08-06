@@ -54,3 +54,8 @@ The parameters of the radial gradient layers are:
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
 .. |p_gradient.png| image:: images/p_gradient.png   
 
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
+.. |Gradient_Editor_Dialog| replace:: :ref:`Gradient Editor Dialog <gradient_editor_dialog>`

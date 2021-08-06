@@ -32,9 +32,9 @@ The parameters of the ``Radial Blur Layer`` are:
 +-----------------------------------------------------------------+-------------------------+-------------+
 |     |Type\_vector\_icon.png| |Origin_Parameter|                 |   0.000000u,0.000000u   |   vector    |
 +-----------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_real\_icon.png| |Size_Parameter|                     |   0.200000              |   real      |
+|     |Type\_real\_icon.png|  Size                                |   0.200000              |   real      |
 +-----------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_bool\_icon.png| |Fade_Out_Parameter|                 |                         |   bool      |
+|     |Type\_bool\_icon.png|  Fade Out Parameter                  |                         |   bool      |
 +-----------------------------------------------------------------+-------------------------+-------------+
 
 .. _layer_radial_blur  Samples:
@@ -48,7 +48,7 @@ If you wonder how the animations were made
 
 -  a |Star_Layer| is positioned at center of the Frame,
    with an |Outline_Layer| of width 0.05u
--  the animations have 120 frames, and the `Size <#Size>`__ parameter of
+-  the animations have 120 frames, and the Size parameter of
    the blur goes from 0u,0u to 1u,1u
 -  the |Render_dialog| settings are set to Quality 9 and
    Anti-Aliasing 1
@@ -85,6 +85,13 @@ See also
 
 
 
-
-
-
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
+.. |Star_Layer| replace:: :ref:`Star Layer <layer_star>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_star>`
+.. |Render_dialog| replace:: :ref:`Render Dialog <canvas_render>`
+.. |Blur_Layer| replace:: :ref:`Blur Layer <layer_blur>`
+.. |Motion_Blur_Layer| replace:: :ref:`Motion Blur Layer <layer_motion_blur>`
+.. |Layer| replace:: :ref:`Layer <layers>`
