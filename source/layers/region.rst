@@ -105,7 +105,12 @@ following 7 parameters, which are all specific to outlines:
 .. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
 .. |Colors_Dialog| replace:: :ref:`Color <colors_dialog>`
 .. |Invert_Parameter| replace:: :ref:`Inver Parameter <parameters_invert>`
-
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |New_Layer_Defaults_Brush_Colors| replace:: :ref:`New Layer Defaulst: Brush Color <new_layer_defaults Brush Colors>`
+.. |Star_Tool| replace:: :ref:`Star Tool <tool_star>`
+.. |Circle_Tool| replace:: :ref:`Cicle Tool <tool_circle>`
+.. |Canvas_Layer_Menu| replace:: :ref:`Canvas Layer: Menu <canvas_layer_menu>`
 .. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
 .. |Outline_Layer_Outline_width| replace:: :ref:`Outline Width <layer_outline  Outline width>`
 .. |Outline_Layer_Expand| replace:: :ref:`Expand <layer_outline  Expand>`

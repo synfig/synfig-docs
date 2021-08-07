@@ -12,9 +12,9 @@
 About Scale Layers
 ------------------
 
-A ``Scale Layer`` scales the size of any |Primitive_Layer| (|Region_Layer|,
-|Layer_Gradients|, etc.) below it. ``Scale Layer`` is part
-of |Layers_Transform| category.
+A ``Scale Layer`` scales the size of any Primitive Layer (|Region_Layer|,
+Layer Gradients, etc.) below it. ``Scale Layer`` is part
+of Layers Transform category.
 
 .. _layer_scale  Parameters of Scale Layers:
 
@@ -30,6 +30,9 @@ The parameters of the Scale Layers are:
 +--------------------------------------------------------------+-------------------------+------------+
 |     |Type\_vector\_icon.png| |Origin_Parameter|              |   0.000000u,0.000000u   |   vector   |
 +--------------------------------------------------------------+-------------------------+------------+
+
+
+.. _layer_scale Amount Parameter:
 
 The Amount parameter may take the inverse of the exponential function
 (the natural log), as a raw value. For example:
@@ -50,3 +53,7 @@ In versions prior to 0.63.05 Scale Layer was called  “Zoom layer”.
    :width: 16px
 .. |Type_vector_icon.png| image:: images/Type_vector_icon.png
    :width: 16px
+
+.. |Amount_Parameter| replace:: :ref:`Amount <layer_scale Amount Parameter>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
+.. |Region_Layer| replace:: :ref:`Region Layer <layer_region>`

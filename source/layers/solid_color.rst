@@ -13,7 +13,7 @@
 About Solid Color Layers
 ------------------------
 
-A |Solid_Color_Layer| create a plain color ground.
+A Solid Color Layer create a plain color ground.
 Usefull for example for scene background.
 
 .. _layer_solid_color  Parameters of Solid Color Layers:
@@ -43,3 +43,8 @@ The parameters of the solid color layers are:
 .. |Type_color_icon.png| image:: images/Type_color_icon.png
    :width: 16px
 .. |p_color_green.png| image:: images/p_color_green.png    
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Color_Editor_Dialog| replace:: :ref:`Color <colors_dialog>`

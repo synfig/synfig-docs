@@ -34,7 +34,7 @@ The parameters of the Shade Layer are:
 +-------------------------------------------------------------------------------------+--------------------------+-------------+
 |     |Type\_vector\_icon.png| |Origin_Parameter|                                     |   0.200000u,-0.200000u   |   vector    |
 +-------------------------------------------------------------------------------------+--------------------------+-------------+
-|     |Type\_vector\_icon.png| |Size_Parameter|                                       |   0.100000u,0.100000u    |   vector    |
+|     |Type\_vector\_icon.png| Size                                                   |   0.100000u,0.100000u    |   vector    |
 +-------------------------------------------------------------------------------------+--------------------------+-------------+
 |     |Type\_integer\_icon.png| |Type_Parameter|                                      |   Fast Gaussian Blur     |   integer   |
 +-------------------------------------------------------------------------------------+--------------------------+-------------+
@@ -55,3 +55,11 @@ The parameters of the Shade Layer are:
 .. |Type_bool_icon.png| image:: images/Type_bool_icon.png
    :width: 16px
 .. |p_color_green.png| image:: images/p_color_green.png 
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method_Parameter| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Color_Parameter| replace:: :ref:`Color <colors_dialog>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
+.. |Type_Parameter| replace:: :ref:`Type <layer_blur  Type>`
+.. |Invert_Parameter| replace:: :ref:`Invert <parameters_invert>`

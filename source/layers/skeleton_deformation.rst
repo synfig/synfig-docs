@@ -12,7 +12,7 @@
 About Skeleton Deformation Layers
 ---------------------------------
 
-|Skeleton_Deformation_Layer| is for
+Skeleton Deformation Layer is for
 raster deformation (pixel level) and can be used to image layers or
 whatever is in the context of the skeleton deformation layer (the
 rendered result of what's below it).
@@ -45,7 +45,7 @@ The parameters of the Skeleton Deformation Layers are:
 +-----------------------------------------------------------+------------------------+-------------+
 | |Type_integer_icon.png| |Blur_Layer|                      |   Fast Gaussian Blur   |   integer   |
 +-----------------------------------------------------------+------------------------+-------------+
-| |Type\_list\_icon.png| |Bones|                            |                        |   list      |
+| |Type\_list\_icon.png|  Bones                             |                        |   list      |
 +-----------------------------------------------------------+------------------------+-------------+
 |  |Type\_vector\_icon.png| Point 1                         |                        |   vector    |
 +-----------------------------------------------------------+------------------------+-------------+
@@ -92,7 +92,7 @@ Reset the Pose
 ~~~~~~~~~~~~~~
 
 Once you have terminated to setup the bones of your skeleton, from the
-|Layers_Panel|, right click on the |Skeleton_Deformation_Layer| and from the
+|Layers_Panel|, right click on the Skeleton Deformation Layer and from the
 contextual menu choose ``Reset Pose`` to create the initial pose
 (without deformation) of the skeleton.
 
@@ -111,7 +111,7 @@ Video Howto
 Why using skeleton deformation layer parts of the image are disappearing?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If parts of the image are disappearing when you enable the |Skeleton_Deformation_Layer| (and have checked that
+If parts of the image are disappearing when you enable the Skeleton Deformation Layer (and have checked that
 you don't have Cairo rendering ([Setup\_Dialog#Render\_Tab]) enabled),
 is't surely because the image is cropped by bone influence area. You
 need to turn off bone distortion layer (from the |Layers_Panel|, select it, enable width handles (``Alt+5``) and
@@ -142,23 +142,23 @@ The parameters of a ``Bone`` are:
 +--------------------------------------------------------------------------------------------+----------------------+---------------------+
 |     |Type\_string\_icon.png| Name                                                          |   Bone 1             |   string            |
 +--------------------------------------------------------------------------------------------+----------------------+---------------------+
-|    |Parent_Parameter|                                                                      |   No Parent          |   bone\_valuenode   |
+|     Parent                                                                                 |   No Parent          |   bone\_valuenode   |
 +--------------------------------------------------------------------------------------------+----------------------+---------------------+
 |     |Type\_vector\_icon.png| |Origin_Parameter|                                            |   0.00000, 0.00000   |   vector            |
 +--------------------------------------------------------------------------------------------+----------------------+---------------------+
-|     |Type\_angle\_icon.png| |Angle_Parameter|                                              |   0.00°              |   angle             |
+|     |Type\_angle\_icon.png|  Angle                                                         |   0.00°              |   angle             |
 +--------------------------------------------------------------------------------------------+----------------------+---------------------+
-|     |Type\_real\_icon.png| |Local_Length_Scale_Parameter|                                  |   1.00000            |   real              |
+|     |Type\_real\_icon.png|  Local Length Scale                                             |   1.00000            |   real              |
 +--------------------------------------------------------------------------------------------+----------------------+---------------------+
-|     |Type\_real\_icon.png| |Bone_Width_Parameter|                                          |   0.10000            |   real              |
+|     |Type\_real\_icon.png|  Bone Width                                                     |   0.10000            |   real              |
 +--------------------------------------------------------------------------------------------+----------------------+---------------------+
-|     |Type\_real\_icon.png| |Recursive_Length_Scale_Parameter|                              |   1.00000            |   real              |
+|     |Type\_real\_icon.png|  Recursive Length Scale                                         |   1.00000            |   real              |
 +--------------------------------------------------------------------------------------------+----------------------+---------------------+
-|     |Type\_real\_icon.png| |Tip_Width_Parameter|                                           |   0.10000            |   real              |
+|     |Type\_real\_icon.png|  Tip Width                                                      |   0.10000            |   real              |
 +--------------------------------------------------------------------------------------------+----------------------+---------------------+
-|     |Type\_real\_icon.png| |Z_Depth_Parameter|                                             |   0.00000            |   real              |
+|     |Type\_real\_icon.png|  Z Depth                                                        |   0.00000            |   real              |
 +--------------------------------------------------------------------------------------------+----------------------+---------------------+
-|     |Type\_real\_icon.png| |Length_Setup_Parameter|                                        |   1.00000            |   real              |
+|     |Type\_real\_icon.png|  Length Setup                                                   |   1.00000            |   real              |
 +--------------------------------------------------------------------------------------------+----------------------+---------------------+
 
 .. _layer_skeleton_deformation  Name:
@@ -277,3 +277,13 @@ See also
    :width: 16px
 .. |Type_list_icon.png| image:: images/Type_list_icon.png
    :width: 16px
+
+.. |Skeleton_Layer| replace:: :ref:`Skeleton Layer <layer_skeleton>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Blur_Layer| replace:: :ref:`Blur Layer <layer_blur>`
+.. |Width_Handle| replace:: :ref:`Width Handle <handles>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
+.. |Cutout_Tool| replace:: :ref:`Cutout Tool <tool_cutout>`

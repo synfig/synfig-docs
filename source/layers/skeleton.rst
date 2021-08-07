@@ -23,7 +23,7 @@ The parameters of the skeleton layers are:
 +--------------------------------------------------------------+------------------------+------------+
 |     |Type\_string\_icon.png| Name                            |   skeleton             |   string   |
 +--------------------------------------------------------------+------------------------+------------+
-|     |Type\_list\_icon.png| |Bones|                           |   list (Static List)   |   list     |
+|     |Type\_list\_icon.png|  Bones                            |   list (Static List)   |   list     |
 +--------------------------------------------------------------+------------------------+------------+
 
 .. _layer_skeleton  Summary:
@@ -93,11 +93,11 @@ The parameters of a bone are:
 +--------------------------------------------------------------------------------------------------+----------------------+---------------------+
 |     |Type\_string\_icon.png| Name                                                                |   Bone 1             |   string            |
 +--------------------------------------------------------------------------------------------------+----------------------+---------------------+
-|    |Parent_Parameter|                                                                            |   No Parent          |   bone\_valuenode   |
+|     Parent                                                                                       |   No Parent          |   bone\_valuenode   |
 +--------------------------------------------------------------------------------------------------+----------------------+---------------------+
 |     |Type\_vector\_icon.png| |Origin_Parameter|                                                  |   0.00000, 0.00000   |   vector            |
 +--------------------------------------------------------------------------------------------------+----------------------+---------------------+
-|     |Type\_angle\_icon.png| |Angle_Parameter|                                                    |   0.00°              |   angle             |
+|     |Type\_angle\_icon.png| Angle                                                                |   0.00°              |   angle             |
 +--------------------------------------------------------------------------------------------------+----------------------+---------------------+
 |     |Type\_real\_icon.png| Local Length Scale                                                    |   1.00000            |   real              |
 +--------------------------------------------------------------------------------------------------+----------------------+---------------------+
@@ -222,7 +222,7 @@ Disconnect
 If you want to disconnect / unlink a bone from the part of the artwork
 it is linked to.
 
--  From the |Layers_Panel|, select the |Skeleton_Layer|
+-  From the |Layers_Panel|, select the Skeleton Layer
 -  From the |Parameters_Panel|, open the ``Bones``
    list
 -  Select the corresponding ``Item`` (the according bone's
@@ -237,7 +237,7 @@ Change parent
 You can also change the parent of a bone in the skeleton, even during
 animation.
 
--  From the |Layers_Panel|, select the |Skeleton_Layer|
+-  From the |Layers_Panel|, select the Skeleton Layer
 -  From the |Parameters_Panel|, open the ``Bones``
    list
 -  Select the corresponding ``Item`` (the according bone's
@@ -269,5 +269,15 @@ See Also
    :width: 16px
 
 
-
-
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Canvas| replace:: :ref:`Canvas <canvas>`
+.. |Caret| replace:: :ref:`Canvas: Caret <canvas_caret>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Handle| replace:: :ref:`Handle <handles>`
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
+.. |WorkArea| replace:: :ref:`Workarea <canvas_workarea>`
+.. |Canvas_Layer_Menu| replace:: :ref:`Canvas: Layer Menu <canvas_layer_menu>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |Skeleton_Deformation_Layer| replace:: :ref:`Skeleton Deformation Layer <layer_skeleton_deformation>`
