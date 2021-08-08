@@ -176,5 +176,12 @@ regular |Polygon_Layer|, where **N** is the number of points
 .. |Type_angle_icon.png| image:: images/Type_angle_icon.png
    :width: 16px
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png 
-.. |p_color_green.png| image:: images/p_color_green.png       
+.. |p_color_green.png| image:: images/p_color_green.png      
 
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Color_Editor_Dialog| replace:: :ref:`Color <colors_dialog>`
+.. |Invert_Parameter| replace:: :ref:`Inver Parameter <parameters_invert>`
+.. |Linking| replace:: :ref:`Linking <linking>`
+.. |Polygon_Layer| replace:: :ref:`Polygon Layer <layer_polygon>`

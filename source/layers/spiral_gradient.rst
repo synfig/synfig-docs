@@ -13,7 +13,7 @@
 About Spiral Gradient Layers
 ----------------------------
 
-The |Spiral_Gradient_Layer| draw a gradient
+The Spiral Gradient Layer draw a gradient
 following spirals, clockwise or anticlockwise, at determined center,
 radius and start angle.
 
@@ -58,3 +58,9 @@ The |Parameter| of the spiral gradient layers are:
    :width: 16px
 .. |p_gradient.png| image:: images/p_gradient.png  
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png 
+
+.. |Parameter| replace:: :ref:`Parameter <parameters>`
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Gradient_Editor_Dialog| replace:: :ref:`Gradient <gradient_editor_dialog>`

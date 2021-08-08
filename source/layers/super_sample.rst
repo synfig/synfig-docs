@@ -54,7 +54,7 @@ without a supersample layer:
    :alt: Supersample-none.png
 
 
-The 'Use Parametric' checkbox makes it use the |parametric_renderer| rather than the default |accelerated_renderer|.
+The 'Use Parametric' checkbox makes it use the parametric renderer rather than the default accelerated renderer.
 
 The 'Be Alpha Safe' checkbox makes the averaging process aware of the
 alpha channel. When 'Alpha Safe', the average is sum(color \*

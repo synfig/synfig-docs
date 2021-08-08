@@ -45,3 +45,4 @@ The parameters of the Stretch Layers are:
 .. |Type_vector_icon.png| image:: images/Type_vector_icon.png
    :width: 16px
 
+.. |Amount_Parameter| replace:: :ref:`Amount <opacity>`

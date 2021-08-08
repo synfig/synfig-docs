@@ -25,7 +25,7 @@ The ``Sound Layer`` ...
 Parameters of Sound Layers
 --------------------------
 
-The parameters of the |Sound_Layer| are:
+The parameters of the Sound Layer are:
 
 +------------------------------------------+---------------------+------------+
 | **Name**                                 | **Value**           | **Type**   |
@@ -55,3 +55,4 @@ Check this simple tutorial : `Sound Layer (part
    :width: 16px
 
 
+.. |Render_dialog| replace:: :ref:`rendered <canvas_render>`
