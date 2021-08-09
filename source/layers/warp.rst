@@ -223,3 +223,4 @@ handles.
 .. |Type_real_icon.png| image:: images/Type_real_icon.png
    :width: 16px
 
+.. |Checkerboard_Layer| replace:: :ref:`Checkerboard Layer <layer_checkerboard>`

@@ -72,7 +72,7 @@ Here's what you need:
 
 -  Put your font (`ttf <https://en.wikipedia.org/wiki/TrueType>`__) file
    in the same dir as your Synfig (sif or sifz) file.
--  Create |Text_Layer| and in the ``Font Family``
+-  Create Text Layer and in the ``Font Family``
    parameter put full filename of font file (i.e.
    “LobsterTwo-Regular.ttf”, without quotes).
 
@@ -108,3 +108,10 @@ absolute or relative path to it (i.e. “../fonts/LobsterTwo-Bold.ttf”).
    :width: 16px
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png   
 .. |p_color_green.png| image:: images/p_color_green.png   
+
+.. |Text_Tool| replace:: :ref:`Text Tool <tool_text>`
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Color_Dialog| replace:: :ref:`Color Dialog <colors_dialog>`
+.. |Invert_Parameter| replace:: :ref:`Inver <parameters_invert>`

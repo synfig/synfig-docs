@@ -49,13 +49,13 @@ The parameters of the twirl layers are:
 +------------------------------------------------------------------------------+------------------------+------------+
 |     |Type\_vector\_icon.png| |Center_Parameter|                              |   0.00000u,0.000000u   |   vector   |
 +------------------------------------------------------------------------------+------------------------+------------+
-|     |Type\_real\_icon.png| |Radius_Parameter|                                |   1.00000u             |   real     |
+|     |Type\_real\_icon.png| Radius                                            |   1.00000u             |   real     |
 +------------------------------------------------------------------------------+------------------------+------------+
-|     |Type\_angle\_icon.png| |Rotations_Parameter|                            |   0.00                 |   angle    |
+|     |Type\_angle\_icon.png| Rotations                                        |   0.00                 |   angle    |
 +------------------------------------------------------------------------------+------------------------+------------+
-|     |Type\_bool\_icon.png| |Distort_Inside_Parameter|                        |                        |   bool     |
+|     |Type\_bool\_icon.png| Distort Inside                                    |                        |   bool     |
 +------------------------------------------------------------------------------+------------------------+------------+
-|     |Type\_bool\_icon.png| |Distort_Outside_Parameter|                       |                        |   bool     |
+|     |Type\_bool\_icon.png| Distort Outside                                   |                        |   bool     |
 +------------------------------------------------------------------------------+------------------------+------------+
 
 .. |Type_vector_icon.png| image:: images/Type_vector_icon.png
@@ -67,3 +67,4 @@ The parameters of the twirl layers are:
 .. |Type_bool_icon.png| image:: images/Type_bool_icon.png
    :width: 16px
 
+.. |Center_Parameter| replace:: :ref:`Center <parameters_origin>`

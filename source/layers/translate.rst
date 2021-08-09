@@ -12,7 +12,7 @@
 About Translate Layers
 ----------------------
 
-``Translate Layer`` change the position of any |Primitive_Layer| below it. It apply an offset to the
+``Translate Layer`` change the position of any Primitive Layer below it. It apply an offset to the
 resulting calculated points to render the shape, it doesn't modify the
 values of the underlying layers. ``Translate Layer`` is part of
 Transform Layers ([Layers#Transform]) category.
@@ -33,3 +33,4 @@ The parameters of the translate layers are:
 .. |Type_vector_icon.png| image:: images/Type_vector_icon.png
    :width: 16px
 
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`

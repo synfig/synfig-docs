@@ -26,7 +26,7 @@ Parameters of Time Loop Layers
 ------------------------------
 
 These parameters, to **prevent undesired modification**, by default are
-|Static_Parameters|.
+Static Parameters.
 
 The parameters of the time loop layers are:
 
@@ -111,7 +111,7 @@ Breaking loop
 #. In the layer's parameters of the time loop, you need to remove the
    'green guy' (|Animate\_mode\_off\_icon.png|), indicating that the
    parameter is ``Static``, from |Time_Loop_Layer#Duration_.28time.29|. Just right-click
-   on him and set ``Allow animation``. See |Static_Parameters| for more informations.
+   on him and set ``Allow animation``. See Static Parameters for more informations.
 #. On the |Timebar| navigate to a place where you want to
    break the animation. And now enter the |Animate_Editing_Mode|.
 #. In the time loop parameters, set 'Duration' to ``EOT`` (End-of-Time).
@@ -129,7 +129,7 @@ Breaking loop
 Detailed explanation
 ~~~~~~~~~~~~~~~~~~~~
 
-'Green guy' (|Animate\_mode\_off\_icon.png|) - |Static_Parameters| - is a guard that says “You shall not
+'Green guy' (|Animate\_mode\_off\_icon.png|) - Static Parameters - is a guard that says “You shall not
 pass!” to the animation. So when you attempt to change such parameter in
 animation mode it just changes the usual way. It's done to prevent
 unnecessary parameters to be animated, e.g. |Blend_Method_Parameter|.
@@ -269,3 +269,14 @@ available for download:
 
 
 
+.. |Convert_Time_Loop| replace:: :ref:`Convert: Time Loop <converters>`
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Time_Loop_Layer#Link_Time_.28time.29| replace:: :ref:`Link Time <layer_time_loop  Link Time (time)>`
+.. |Time_Loop_Layer#Local_Time_.28time.29| replace:: :ref:`Local Time <layer_time_loop  Local Time (time)>`
+.. |Time_Loop_Layer#Duration_.28time.29| replace:: :ref:`Duration <layer_time_loop  Duration (time)>`
+.. |Time_Loop_Layer#Only_For_Positive_Duration_.28bool.29| replace:: :ref:`Only for positive duration <layer_time_loop  Only For Positive Duration (bool)>`
+.. |Time_Loop_Layer#Symmetrical_.28bool.29| replace:: :ref:`Symmetrical <layer_time_loop  Symmetrical (bool)>`
+.. |Animate_Editing_Mode| replace:: :ref:`Animate Editing Mode <animation_mode>`
+.. |Timebar| replace:: :ref:`Timebar <canvas_timebar>`
+.. |Waypoint| replace:: :ref:`Waypoint <waypoints>`
+.. |Convert| replace:: :ref:`Convert <converters>`
