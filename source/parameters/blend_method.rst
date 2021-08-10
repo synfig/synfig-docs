@@ -11,7 +11,7 @@ General informations
 You can select the ``Blend Method`` of a layer during his creation in
 |Tool_Options_Panel| and change it from
 |Parameters_Panel|. By default, ``Blend Method``
-parameter is |Static_Parameters|. To animate it over the
+parameter is Static Parameters. To animate it over the
 time, right click on it and choose ``Enable animation``.
 
 Selecting a layer ``Blend Method`` changes the appearance of the layer
@@ -398,6 +398,10 @@ Hide behind a shape
 .. |Gradient.png| image:: blend_method_dat/Gradient.png
 .. |Tux.png| image:: blend_method_dat/Tux.png
 
-
-
-
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Import_Image_Layer| replace:: :ref:`Import Image <import_image_layer>`
+.. |Star_Layer| replace:: :ref:`Star Layer <layer_star>`
+.. |Blend_Method_Parameter| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Blend_Method_Parameter_Alpha_over| replace:: :ref:`Blend Method: Alpha Over <parameters_blend_method  Alpha over>`

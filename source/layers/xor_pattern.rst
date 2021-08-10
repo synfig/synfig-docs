@@ -32,7 +32,7 @@ The parameters of the XOR pattern layers are:
 +-----------------------------------------------------------------+-------------------------+-------------+
 |     |Type\_vector\_icon.png| |Origin_Parameter|                 |   0.125000u,0.125000u   |   vector    |
 +-----------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_vector\_icon.png| |Size_Parameter|                   |   0.250000u,0.250000u   |   vector    |
+|     |Type\_vector\_icon.png| Size                               |   0.250000u,0.250000u   |   vector    |
 +-----------------------------------------------------------------+-------------------------+-------------+
 
 .. figure:: xor_pattern_dat/XOR_pattern.png
@@ -46,3 +46,7 @@ The parameters of the XOR pattern layers are:
 .. |Type_vector_icon.png| image:: images/Type_vector_icon.png
    :width: 16px
 
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Origin_Parameter| replace:: :ref:`Origin Parameter <parameters_origin>`
