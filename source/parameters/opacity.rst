@@ -34,3 +34,13 @@ options:
 -  |Linking| all layer's Opacity Parameter.
    Select the layers you want to affect in the |Layers_Panel|, right click to Opacity Parameter
    in the |Parameters_Panel| and choose ``Link``.
+
+
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
+.. |Blur_Layer| replace:: :ref:`Blur Layer <layer_blur>`
+.. |Blend_Method_Straight| replace:: :ref:`Blend Method: Straight <parameters_blend_method  Straight>`
+.. |Blur_Layer_Size| replace:: :ref:`Blur Layer: Size <layer_blur  Size>`
+.. |Group_Layer| replace:: :ref:`Group Layer <layer_group>`
+.. |Export| replace:: :ref:`Export <export>`
+.. |Linking| replace:: :ref:`Linking <linking>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`

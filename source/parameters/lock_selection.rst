@@ -33,3 +33,11 @@ If the ``Lock Selection`` parameter is turned *'On*, then:
 The effect of these three behaviors is for a group layer to act as if it
 was a primitive layer, hiding the details of its contents from selection
 or manipulation.
+
+.. |Group_Layer| replace:: :ref:`Group Layer <layer_group>`
+.. |Group| replace:: :ref:`Group <layer_group>`
+.. |WorkArea| replace:: :ref:`WorkArea <canvas_workarea>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Handle| replace:: :ref:`handle <handles>`
+.. |Group_Transformation_Widget| replace:: :ref:`Group Transformation Widget <group_transformation_widget>`
+
