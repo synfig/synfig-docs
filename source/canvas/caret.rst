@@ -15,3 +15,6 @@ Beneath this button are all the |menus| you would expect, from which you can acc
    :align: center
 
 In v.1.0.2 it may appear as a blank button in the top left.
+
+.. |Canvas_Window| replace:: :ref:`Canvas Window <canvas>`
+.. |menus| replace:: :ref:`Main Menu <canvas_main_menu>`

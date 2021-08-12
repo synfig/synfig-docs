@@ -60,3 +60,4 @@ Same file but ODT format:
 http://www.darthfurby.com/genete/synfig/Ballsv2.odt
 
 .. |Offset-z-depth-revisited.gif| image:: z-depth_dat/Offset-z-depth-revisited.gif
+.. |Skeleton_Layer| replace:: :ref:`Skeleton Layer <layer_skeleton>`
