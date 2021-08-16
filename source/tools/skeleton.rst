@@ -10,6 +10,14 @@ Introduction
 
 Synfig also supports animating objects using bones and the Skeleton tool makes it easy to build skeletons of Bones.
 
+
+Video Tutorial
+==============
+
+.. raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8qawMmSN55o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+
 Usage
 =====
 
