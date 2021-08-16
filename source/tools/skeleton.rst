@@ -4,11 +4,14 @@
     Skeleton Tool
 ########################
 
+.. note::
+
+     Available since Synfig Studio 1.5.0.
 
 Introduction
 ============
 
-Synfig also supports animating objects using bones and the Skeleton tool makes it easy to build skeletons of Bones.
+Synfig supports animating objects using bones and the Skeleton tool makes it easy to build any bone structure.
 
 
 Video Tutorial
@@ -28,7 +31,7 @@ Select "Skeleton Tool" in the Toolbox Panel or use the keyboard shortcut <Alt><o
     :align: center
     :alt: Select tool
 
-There are two types of layers in Synfig that are built with bones: Skeleton Layer and Skeleton deformation layer. We can build any of these layers.
+There are two types of layers in Synfig that are built with bones: Skeleton Layer and Skeleton Deformation Layer. We can build any of these layers.
 
 You can create a bone by either
 
