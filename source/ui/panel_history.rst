@@ -40,3 +40,4 @@ Finally the ``Clear Undo`` and ``Clear Redo`` buttons clean the history
 list of ``Undo`` and ``Redo`` actions. The Clear Undo and Clear Redo
 actions cannot be undone.
 
+.. |Handle| replace:: :ref:`Handle <handles>`

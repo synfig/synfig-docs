@@ -74,20 +74,20 @@ Action over Layers
 Single right click over a layer in a set pops up the context menu with
 the same elements as you have for each layer in the |Layers_Panel|:
 
--  `Command:Select All Children <Command:Select_All_Children>`__: This
+-  Command:Select All Children : This
    menu entry appears only if the layer from the set is a Group layer.
    The behavior is the same as in the Layers Panel - all layers inside
    of the Group layer are selected.
--  `Command:Add Layers to Set <Command:Add_Layers_to_Set>`__: Displays a
+-  Command:Add Layers to Set : Displays a
    dialog to enter a Set name and moves the select layer to the new set.
    Only works for the layer below the cursor when multiple selection is
    done.
--  `Command:Remove Layers from a
-   Set <Command:Remove_Layers_from_a_Set>`__: Removes the selected layer
+-  Command:Remove Layers from a
+   Set : Removes the selected layer
    from the set. Only one layer at a time can be removed. Even if
    multiple layers are selected only the layer below the cursor when
    right clicking is removed.
--  `Command:Duplicate layer <Command:Duplicate_layer>`__: Works the same
+-  Command:Duplicate layer : Works the same
    as duplicate layer from the Layers Panel and also add the duplicated
    layer to the current Set. It works partially because you cannot
    duplicate multiple layers as in the Layers Panel. It only acts over
@@ -95,13 +95,13 @@ the same elements as you have for each layer in the |Layers_Panel|:
 -  Command:Group: It works the same as the Command:Group layers from the
    Layers Panel but only affects to the layer where the right click is
    done.
--  `Command:Remove Layer <Command:Remove_Layer>`__: It works the same as
-   the `Command:Remove Layers <Command:Remove_Layers>`__ from the Layers
+-  Command:Remove Layer : It works the same as
+   the Command:Remove Layers from the Layers
    Panel but only affects to the layer where the right click is done.
--  `Command:Set Layer Description <Command:Set_Layer_Description>`__:
+-  Command:Set Layer Description :
    Displays a dialog for renaming the layer.
--  `Command:Raise Layer <Command:Raise_Layer>`__ / `Command:Lower
-   Layer <Command:Lower_Layer>`__: Does the same than in the Layers
+-  Command:Raise Layer / Command:Lower
+   Layer : Does the same than in the Layers
    Panel. It doesn't modify the position of the layer in the Set but the
    position in the Layers Panel hierarchy is modified as expected.
 
@@ -178,3 +178,6 @@ complex file:
 .. |Groups_sample2_doubleclick_effect.png| image:: panel_sets_dat/ Groups_sample2_doubleclick_effect.png 
    
 
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`

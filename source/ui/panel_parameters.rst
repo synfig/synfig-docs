@@ -84,3 +84,12 @@ Right-click any parameter and choose its default interpolation from a
 submenu. The defined interpolation is indicated in the Parameters Panel
 with corresponding icon near the parameter value.
 
+.. |Parameter| replace:: :ref:`Parameter <panel_parameters>`
+.. |Layer| replace:: :ref:`Layer <layers>`
+.. |Geometry_Layer_Category| replace:: :ref:`Geometry Layer <layers>`
+.. |Timetrack_Panel| replace:: :ref:`Timetrack Panel <panel_timetrack>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Linking| replace:: :ref:`Linking <linking>`

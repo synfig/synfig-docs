@@ -1,9 +1,9 @@
-.. _panel_children:
+.. _panel_library:
 
 ########################
-    Children Panel
+    Library Panel
 ########################
-.. figure:: panel_children_dat/Library_icon.png
+.. figure:: panel_library_dat/Library_icon.png
    :alt: Library_icon.png
    :width: 64px
 
@@ -42,5 +42,11 @@ It is possible, using drag and drop, to organise the values in the
 structure you create isn't saved into the .sifz file, so any
 organisation you do will be lost when you next open the document.
 
-.. figure:: panel_children_dat/Library-panel.png
+.. figure:: panel_library_dat/Library-panel.png
    :alt: Library-panel.png
+
+.. |ValueNode| replace:: :ref:`ValueNode <valuenode>`
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
+.. |Export| replace:: :ref:`Export <export>`
+.. |Connect| replace:: :ref:`Connect <linking>`
+.. |Work_Area_Window| replace:: :ref:`Work Area Window <canvas_workarea>`

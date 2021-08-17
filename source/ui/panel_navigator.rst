@@ -37,3 +37,5 @@ can cause Synfig Studio to hang or crash in some situations.
 
 
 
+.. |WorkArea| replace:: :ref:`Workarea <canvas_workarea>`
+.. |Canvas| replace:: :ref:`Canvas <canvas>`

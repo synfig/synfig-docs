@@ -41,15 +41,15 @@ Keyframes in the Timebar
    Three keyframes with three different states : **Normal**,
    **Selected** and **Deactivated**
 
-You can adjust the Time ([Keyframe#Time]) of a keyframe by a normal drag
-and drop. To adjust it's Length ([Keyframe#Length]), hold ``Alt`` key
+You can adjust the Time |Keyframe#Time| of a keyframe by a normal drag
+and drop. To adjust it's Length |Keyframe#Length|, hold ``Alt`` key
 when releasing the mouse button.
 
 During a keyframe drag and drop operation a tooltip indicator will be
 displayed with some time informations.
 
 Right click over a keyframe or in upper part of the ``Timebar`` open the
-|Keyframe_Menu| giving access to the
+Keyframe Menu giving access to the
 keyframes actions.
 
 
@@ -59,3 +59,9 @@ keyframes actions.
 
 
 
+.. |Timetrack_Panel| replace:: :ref:`Timetrack Panel <panel_timetrack>`
+.. |Graphs_Panel| replace:: :ref:`Graphs Panel <panel_graphs>`
+.. |Keyframe| replace:: :ref:`Keyframe <keyframes>`
+.. |Canvas_Properties_Dialog| replace:: :ref:`Canvas: Properties Dialog <canvas_properties_dialog>`
+.. |Keyframe#Length| replace:: :ref:`Keyframe: Length <keyframes  Length>`
+.. |Keyframe#Time| replace:: :ref:`Keyframe: Time <keyframes Time>`

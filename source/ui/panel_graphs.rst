@@ -16,3 +16,4 @@ Displays the parameter currently selected in the |Parameters_Panel| as a functio
    
 ``ctrl`` + mouse wheel : Change zoom factor
 
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`

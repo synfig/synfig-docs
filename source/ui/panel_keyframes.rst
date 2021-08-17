@@ -18,13 +18,13 @@ for the animation.
 These will show up in the |Timetrack| dialog. To jump to a
 specific keyframe, double click on the ``(JMP)`` column.
 
-The Add keyframe ([Keyframe#Add\_a\_keyframe]) button adds a new
+The Add keyframe |Keyframe#Add_a_keyframe| button adds a new
 keyframe to the current frame - a frame where there is no keyframe set
-already. Remove keyframe ([Keyframe#Remove\_a\_keyframe]) removes a
-keyframe. The Duplicate keyframe ([Keyframe#Duplicate\_a\_keyframe])
+already. Remove keyframe |Keyframe#Remove_a_keyframe| removes a
+keyframe. The Duplicate keyframe |Keyframe#Duplicate_a_keyframe|
 button copies the keyframe to the current frame. The Keyframe Properties
-([Keyframe#Editing\_Keyframe\_Properties]) button display the Keyframe
-Dialog ([Keyframe#Editing\_Keyframe\_Properties]) of the selected
+|Keyframe#Editing_Keyframe_Properties| button display the Keyframe
+Dialog |Keyframe#Editing_Keyframe_Properties| of the selected
 keyframe.
 
 Don't forget to set the ``Description`` of your keyframes, this
@@ -111,3 +111,11 @@ all parameters for all layers that are currently there.
    then the waypoints are not deleted. It seems to be a bug but also can be
    considered a feature if you really want to keep the waypoints and not
    the keyframe.*\ 
+
+.. |Keyframe| replace:: :ref:`Keyframe <keyframes>`
+.. |Timetrack| replace:: :ref:`Timetrack <panel_timetrack>`
+.. |Keyframe#Add_a_keyframe| replace:: :ref:`Keyframe: Add a keyframe <keyframes  Add a keyframe>`
+.. |Keyframe#Remove_a_keyframe| replace:: :ref:`Keyfram: Remove a keyframe <keyframes  Remove a keyframe>`
+.. |Keyframe#Duplicate_a_keyframe| replace:: :ref:`Keyframe: Duplicate a keyframe <keyframes Duplicate a keyframe>`
+.. |Keyframe#Editing_Keyframe_Properties| replace:: :ref:`Keyframe: Editing Keyframe Properties <keyframes  Editing Keyframe Properties>`
+.. |Keyframes_Panel| replace:: :ref:`Keyframes Panel <panel_keyframes>`

@@ -57,7 +57,8 @@ Further reading:
 -  |Waypoint|
 -  |Timebar|
 
-Interested in futur things ? ``Waypoints ... what could be the future of...?`` <http://www.synfig.org/forums/viewtopic.php?f=14&t=5013>` in the synfig forum.
+Interested in future things ?
+ `Waypoints ... what could be the future of...? <https://forums.synfig.org/t/waypoints-what-could-be-the-future-of/2944>`__ in the synfig forum.
 
 
 .. |Time_track_icon.png| image:: panel_timetrack_dat/Time_track_icon.png
@@ -65,3 +66,11 @@ Interested in futur things ? ``Waypoints ... what could be the future of...
 
 
 
+.. |Waypoint| replace:: :ref:`Waypoint <waypoints>`
+.. |Keyframe| replace:: :ref:`Keyframe <keyframes>`
+.. |Time_Cursor| replace:: :ref:`Time Cursor <glossary_time_cursor>`
+.. |Animate_Editing_Mode| replace:: :ref:`Animate Editing Mode <animation_mode>`
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
+.. |New_Layer_Defaults| replace:: :ref:`New Layer Defaults <new_layer_defaults>`
+.. |Clamped| replace:: :ref:`Clamped <interpolations_Clamped>`
+.. |Timebar| replace:: :ref:`Timebar <timebar>`

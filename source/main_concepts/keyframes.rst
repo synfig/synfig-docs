@@ -254,7 +254,7 @@ the keyframe. Just make click on it and change the text.
 .. _keyframes  Editing Keyframe Properties:
 
 Editing Keyframe Properties
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: keyframes_dat/KeyframeButton_Properties_0.63.06.png
    :alt: KeyframeButton_Properties_0.63.06.png

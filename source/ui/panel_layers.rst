@@ -71,3 +71,13 @@ them, release mouse button to drop the layers in place.
 
 `Gradients <Category:Gradients>`__
 
+.. |Group_Layer| replace:: :ref:`Group Layer <layer_group>`
+.. |Layer| replace:: :ref:`Layer <layers>`
+.. |Region_Layer| replace:: :ref:`Region Layer <layer_region>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |Width_Tool| replace:: :ref:`Width Tool <tool_width>`
+.. |Gradient_Tool| replace:: :ref:`Gradient Tool <tool_gradient>`
+.. |Switch_Group_Layer| replace:: :ref:`Switch Group Layer <layer_switch_group>`
+.. |Canvas_Layer_Menu| replace:: :ref:`Canvas: Layer Menu <canvas_layer_menu>`
+.. |Canvas_Menu_Caret| replace:: :ref:`Canvas: Menu Caret <canvas_caret>`
