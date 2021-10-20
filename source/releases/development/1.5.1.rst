@@ -6,6 +6,7 @@ Synfig 1.5.1 Release Notes
 
 Features
 --------
+- Merge PR ([#2362](https://github.com/synfig/synfig/issues/2362)): Text Layer ported to Cobra render engine [core]
 - Merge PR [#2232](https://github.com/synfig/synfig/issues/2232): Add better support for RTL text to Text Layer
 - Merge PR [#2166](https://github.com/synfig/synfig/issues/2166): Add Onion Skin ability to choose between Keyframes and Frames
 - Use Widget_FontFamily in Text Tool toolbox and reorder widgets ([#2355](https://github.com/synfig/synfig/issues/2355))
