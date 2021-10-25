@@ -8,8 +8,14 @@ This version features major improvements for Text Layer, fixes for Skeleton Tool
 
 Rewritten Text Layer
 --------------------
+
+|image0|
+
 - Text Layer fully rewritten and optimized, which results in much faster rendering ([#2362](https://github.com/synfig/synfig/issues/2362)).
-- Text Layer now have proper support for RTL languages (i.e. Arabic) ([#2232](https://github.com/synfig/synfig/issues/2232)).
+- Text Layer now have proper support for RTL languages (i.e. Arabic) ([#2232](https://github.com/synfig/synfig/issues/2232)). Please notice that if you use a string which mixes RTL and LTR text, then you might need to set a “Direction” parameter in Text Layer to indicate the proper order.
+
+|image1|
+
 - Text Layers now visible when workarea displays its content in Draft mode ([#631](https://github.com/synfig/synfig/issues/631)).
 - Fixed issue with "jumping" letters in animated text ([#389](https://github.com/synfig/synfig/issues/389)).
 - Fixed issue with quality regression under Text Layer ([#831](https://github.com/synfig/synfig/issues/831)).
@@ -18,6 +24,9 @@ Rewritten Text Layer
 
 Improvements
 ------------
+
+|image2|
+
 - New option for Onion Skin allows to choose between Keyframes and Frames ([#2166](https://github.com/synfig/synfig/issues/2166)).
 - The "Keep aspect ratio for width and height" option is now enabled by default in Render Settings ([#2351](https://github.com/synfig/synfig/issues/2351)).
 - When the user imports the file the imported layer becomes selected ([#2308](https://github.com/synfig/synfig/issues/2308))
@@ -54,6 +63,8 @@ Other changes
 - Advanced Outline Layer: Improve hints for Dash Item Parameters ([#2314](https://github.com/synfig/synfig/issues/2314)).
 - Added support for building with MLT++-7 (Autotools) ([#2306](https://github.com/synfig/synfig/issues/2306)).
 
-
+.. |image0| image:: 1.5.1_dat/text-layer-rewritten.png
+.. |image1| image:: 1.5.1_dat/text-rtl-option.png
+.. |image2| image:: 1.5.1_dat/onionskin.png
 
 
