@@ -92,7 +92,7 @@ Other changes
 .. _#2329: https://github.com/synfig/synfig/issues/2329
 .. _#2317: https://github.com/synfig/synfig/issues/2317
 .. _#2252: https://github.com/synfig/synfig/issues/2252
-.. _#2320: https://github.com/synfig/synfig/issues/23204
+.. _#2320: https://github.com/synfig/synfig/issues/2320
 .. _#2366: https://github.com/synfig/synfig/issues/2366
 .. _#2350: https://github.com/synfig/synfig/issues/2350
 .. _#2332: https://github.com/synfig/synfig/issues/2332
