@@ -4,42 +4,46 @@
 Synfig 1.5.1 Release Notes
 ############################
 
-This version features major improvements for Text Layer, fixes for Skeleton Tool, better onion-skin and other important fixes and usability improvements. Please check full list below.
+This version features major improvements for Text Layer, fixes for Skeleton Tool, better onion-skin,as well as other important fixes and usability improvements. Please check the full list below.
+
+Rewritten Text Layer
+--------------------
+- Text Layer fully rewritten and optimized, which results in much faster rendering ([#2362](https://github.com/synfig/synfig/issues/2362)).
+- Text Layer now have proper support for RTL languages (i.e. Arabic) ([#2232](https://github.com/synfig/synfig/issues/2232)).
+- Text Layers now visible when workarea displays its content in Draft mode ([#631](https://github.com/synfig/synfig/issues/631)).
+- Fixed issue with "jumping" letters in animated text ([#389](https://github.com/synfig/synfig/issues/389)).
+- Fixed issue with quality regression under Text Layer ([#831](https://github.com/synfig/synfig/issues/831)).
+- Fixed glitched rendering output when Text Layer is combined with Perspective Layer ([#1566](https://github.com/synfig/synfig/issues/1566)).
+- Use Widget_FontFamily in Text Tool toolbox and reorder widgets ([#2355](https://github.com/synfig/synfig/issues/2355))
 
 Improvements
 ------------
-- Text Layer fully rewritten and much faster now ([#2362](https://github.com/synfig/synfig/issues/2362))
-- Merge PR [#2232](https://github.com/synfig/synfig/issues/2232): Text Layer now have proper support for RTL languages (i.e. Arabic).
-- Merge PR [#2166](https://github.com/synfig/synfig/issues/2166): Add Onion Skin ability to choose between Keyframes and Frames
-- Use Widget_FontFamily in Text Tool toolbox and reorder widgets ([#2355](https://github.com/synfig/synfig/issues/2355))
-- Enable "Link width and height" by default in Render Settings ([#2351](https://github.com/synfig/synfig/issues/2351))
+- New option for Onion Skin allows to choose between Keyframes and Frames ([#2166](https://github.com/synfig/synfig/issues/2166)).
+- The "Keep aspect ratio for width and height" option is now enabled by default in Render Settings ([#2351](https://github.com/synfig/synfig/issues/2351)).
 - When the user imports the file the imported layer becomes selected ([#2308](https://github.com/synfig/synfig/issues/2308))
-- Create a new vertex on a Spline on double-click ([#2312](https://github.com/synfig/synfig/issues/2312))
+- Now it is possible to create a new vertex on a Spline with double-click ([#2312](https://github.com/synfig/synfig/issues/2312)).
 
 Fixes for Skeleton Tool
 -----------------------
-- Fix active bone selection for Skeleton Deformation Layer ([#2340](https://github.com/synfig/synfig/issues/2340))
-- Fix broken bone selection for Skeleton Deformation Layer ([#2365](https://github.com/synfig/synfig/issues/2365))
-- Fix crash when moving origin point of child bone in Skeleton Deformation Layer using Bone Tool ([#2049](https://github.com/synfig/synfig/issues/2049))
-- Fix crash when undoing Child Bone until first one ([#2341](https://github.com/synfig/synfig/issues/2341))
-- Bone Tool: fix default bone width preference loading ([#2343](https://github.com/synfig/synfig/issues/2343))
+- Fix active bone selection for Skeleton Deformation Layer ([#2340](https://github.com/synfig/synfig/issues/2340), [#2365](https://github.com/synfig/synfig/issues/2365)).
+- Fix crash when moving origin point of child bone in Skeleton Deformation Layer using Bone Tool ([#2049](https://github.com/synfig/synfig/issues/2049)).
+- Fix crash when undoing Child Bone until first one ([#2341](https://github.com/synfig/synfig/issues/2341)).
+- Fix loading of default bone width preference value ([#2343](https://github.com/synfig/synfig/issues/2343)).
 
 
 Fixes
 -----------
-- TimeTrack: Fix missing context menu for waypoints at Canvas Parameter ([#2363](https://github.com/synfig/synfig/issues/2363)). Closes [#2357](https://github.com/synfig/synfig/issues/2357).
-- TimeTrack: Update time track area when keyframe is changed from keyframe header ([#2289](https://github.com/synfig/synfig/issues/2289))
-- Fixed soundwave for some audio files that couldn't be loaded ([#2301](https://github.com/synfig/synfig/issues/2301))
-- Fixed incorrect framerate when importing image sequence ([#2219](https://github.com/synfig/synfig/issues/2219))
-- Refresh Widget_RendDesc on width/height link toggling ([#2368](https://github.com/synfig/synfig/issues/2368))
-- Fix crash on ValueDescSet action: not every list is a dynamic one ([#2354](https://github.com/synfig/synfig/issues/2354))
-- Apply action to all selected layers from pop-over menu ([#2352](https://github.com/synfig/synfig/issues/2352))
-- Fix regression on Link To Spline: Vertex should be linkable ([#2345](https://github.com/synfig/synfig/issues/2345)). Closes [#2344](https://github.com/synfig/synfig/issues/2344).
-- Fix dialog responses for user pressing Esc key ([#2309](https://github.com/synfig/synfig/issues/2309)) ([#2329](https://github.com/synfig/synfig/issues/2329))
-- Don't let inner layer be duplicated twice when copying ([#2317](https://github.com/synfig/synfig/issues/2317))
-- Fix magick++ target missing in AppImage (issue [#2320](https://github.com/synfig/synfig/issues/2320)) ([#2324](https://github.com/synfig/synfig/issues/2324))
-- Fix image size when importing onto canvas with non-standard size ([#2252](https://github.com/synfig/synfig/issues/2252))
-- Fix possible crash on get_local_name() of Layer_PasteCanvas ([#2300](https://github.com/synfig/synfig/issues/2300))
+- TimeTrack Panel: Fix missing context menu for waypoints at Canvas Parameter ([#2363](https://github.com/synfig/synfig/issues/2363)). Closes [#2357](https://github.com/synfig/synfig/issues/2357).
+- TimeTrack Panel: Update time track area when keyframe is moved ([#2289](https://github.com/synfig/synfig/issues/2289)).
+- Sound Panel: Fix loading of some audio files ([#2301](https://github.com/synfig/synfig/issues/2301)).
+- Fixed incorrect framerate when importing image sequence ([#2219](https://github.com/synfig/synfig/issues/2219))).
+- Fixed Link To Spline action ([#2345](https://github.com/synfig/synfig/issues/2345)). Closes [#2344](https://github.com/synfig/synfig/issues/2344).
+- Fix workarea context menu action not affecting all layers ([#2352](https://github.com/synfig/synfig/issues/2352)).
+- Fix crash when list of vertices is converted into Switch ([#2354](https://github.com/synfig/synfig/issues/2354)).
+- Fix dialog responses for user pressing Esc key ([#2309](https://github.com/synfig/synfig/issues/2309)) ([#2329](https://github.com/synfig/synfig/issues/2329)).
+- Don't let inner layer be duplicated twice when copying ([#2317](https://github.com/synfig/synfig/issues/2317)).
+- Fix image size when importing onto canvas with non-standard size ([#2252](https://github.com/synfig/synfig/issues/2252)).
+- Fix magick++ target missing in AppImage (issue [#2320](https://github.com/synfig/synfig/issues/2320)), ([#2324](https://github.com/synfig/synfig/issues/2324)).
 
 
 Other changes
