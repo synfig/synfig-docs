@@ -39,7 +39,7 @@ to the ``Time`` tab and make sure to edit ``End Time``. Change “5s” to
 .. note:: Good to know: Synfig and time representation
    Synfig Studio can display the time in various formats (Timestamp). 
    You can configure the Timestamp in Preferences. If the endtime is not
-   displayed in seconds then go to <tt>Edit|Preferences|Misc</tt> and 
+   displayed in seconds then go to ``Edit|Preferences|System`` and 
    change the Timestamp into: (HHh MMm SSs) FFf. 
    More about the Timestamp and its settings can be found
    here ([Preferences_Dialog#Time_Stamp]).
