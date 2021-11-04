@@ -247,6 +247,9 @@ The crosshair must stay with our 2 sticks, for the duration of the
 limb's creation.
 
 
+Now you are ready for the **last tutorial** in this section. Hang on!
+
+
 Project File
 ------------
 
