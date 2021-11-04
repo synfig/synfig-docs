@@ -231,9 +231,6 @@ their look and shape. For example, if you want a deformed star, then you
 can use the Star Tool to create it as outline and region Splines and
 then use the Transform Tool to deform it.
 
-Now you are ready for the **last tutorial** in
-this section. Hang on!
-
 .. |Reset Colors button in the Toolbox| image:: creating_shapes_dat/Toolbox_Reset_Colors_Button_1_0.png
 
 
