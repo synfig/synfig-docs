@@ -241,11 +241,11 @@ To transform 2 sticks into 1 leg
 
    Animated Leg.
 
-Important
----------
 
-**The crosshair must stay with our 2 sticks, for the duration of the
-limb's creation.**
+.. admonition:: Important
+The crosshair must stay with our 2 sticks, for the duration of the
+limb's creation.
+
 
 Project File
 ------------
