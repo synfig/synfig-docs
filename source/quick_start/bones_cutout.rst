@@ -241,26 +241,20 @@ To transform 2 sticks into 1 leg
 
    Animated Leg.
 
-Important
----------
 
-**The crosshair must stay with our 2 sticks, for the duration of the
-limb's creation.**
+.. admonition:: Important
+The crosshair must stay with our 2 sticks, for the duration of the
+limb's creation.
+
+
+Now you are ready for the **last tutorial** in this section. Hang on!
+
 
 Project File
 ------------
 
 The zip file containing the parts of this tutorial can be found here:
 :download:`Crosshair-leg.zip <bones_cutout_dat/Crosshair-leg.zip>`
-
-
-Next Steps
-----------
-
-This is the end of the introductory tutorials. From here you can take a
-look at the `Interface <Doc:Interface>`__ page, or continue reading or
-doing the rest of . The gives you a list of the available articles to
-read for a more complete understanding of Synfig.
 
 
 .. |bone.gif| image:: bones_cutout_dat/Bone.gif

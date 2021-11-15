@@ -106,6 +106,7 @@ Revealing mask method 3.
 Using one 'mask' and one 'full mask'. To be describe (using the linked
 project)
 
+
 Tutorial files
 --------------
 
@@ -116,7 +117,10 @@ Download :download:`tutorial files <masking_dat/Basic_masking_tutorial_files.zip
 .. |Basic_Masking-tutorial_06_0.63.06.png| image:: masking_dat/Basic_Masking-tutorial_06_0.63.06.png
 
 
+Next Steps
+----------
 
-
-
-
+This is the end of the introductory tutorials. From here you can take a
+look at the `Interface <Doc:Interface>`__ page, or continue reading or
+doing the rest of . The gives you a list of the available articles to
+read for a more complete understanding of Synfig.
