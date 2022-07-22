@@ -269,12 +269,10 @@ See also
    :width: 16px
 .. |Type_string_icon.png| image:: images/Type_string_icon.png
    :width: 16px
-.. |Type_vector_icon.png| image:: images/Type_vector_icon.png
-   :width: 16px
+
 .. |Type_angle_icon.png| image:: images/Type_angle_icon.png
    :width: 16px
-.. |Type_real_icon.png| image:: images/Type_real_icon.png
-   :width: 16px
+
 .. |Type_list_icon.png| image:: images/Type_list_icon.png
    :width: 16px
 

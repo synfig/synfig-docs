@@ -344,3 +344,4 @@ Note : :download:`File used <outline_dat/Outline_Layer.sifz>`
 .. |Outline_Layer_Loopyness| replace:: :ref:`Loopyness <layer_outline  Loopyness>`
 .. |Outline_Layer_Homogeneous| replace:: :ref:`Homogeneous <layer_outline  Homogeneous>`
 .. |Handle| replace:: :ref:`handle <handles>`
+.. |Circle_Tool| replace:: :ref:`Cicle Tool <tool_circle>`

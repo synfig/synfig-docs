@@ -62,8 +62,8 @@ To finish the creation of the spline you have different options :
 -  Using the gear ``Make Polygon`` button at the bottom of the |Tool_Options_Panel|.
 -  Select any other tool from the |Toolbox_Panel|.
 
-The ``Clear Current Polygon`` button at the bottom of the
-``Tool Options Panel`` could be used to clear the current polygon.
+
+The ``Clear Current Polygon`` button at the bottom of the ``Tool Options Panel`` could be used to clear the current polygon.
 
 
 

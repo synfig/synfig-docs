@@ -12,3 +12,7 @@ drag along the |Timebar|.
    :alt: Synfig_time_cursor_0.63.06.png
 
   
+
+.. |Timetrack_Panel| replace:: :ref:`Timetrack Panel <panel_timetrack>`
+.. |Graphs_Panel| replace:: :ref:`Graphs Panel <panel_graphs>`
+.. |Timebar| replace:: :ref:`Timebar <ui>`

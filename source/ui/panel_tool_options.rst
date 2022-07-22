@@ -23,9 +23,9 @@ may times as you like.
 
 This is the list of available options for each tool:
 
-.. _panel_tool_options  |Tool\_Normal.png| |Transform_tool|:
+.. _panel_tool_options  |Tool\_Normal.png| |Transform_Tool|:
 
-|Tool\_Normal.png| |Transform_tool|
+|Tool\_Normal.png| |Transform_Tool|
 ------------------------------------------------------
 
 * None
@@ -489,4 +489,49 @@ and the Brush Size ([New\_Layer\_Defaults#Brush\_Size]) set in the |Toolbox| to 
 .. |Tool_zoom_icon.png| image:: panel_tool_options_dat/Tool_zoom_icon.png
    :width: 30px
 
-
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_transform>`
+.. |Smooth_Move_Tool| replace:: Smooth Move Tool
+.. |Scale_Tool| replace:: :ref:`Scale Tool <tool_scale>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Rotate_Tool| replace:: :ref:`Rotate Tool <tool_rotate>`
+.. |Mirror_Tool| replace:: Mirror Tool
+.. |Circle_Tool| replace:: :ref:`Circle Tool <tool_circle>`
+.. |Star_Layer| replace:: :ref:`Star Layer <layer_star>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Advanced_Outline_Layer| replace:: :ref:`Advanced Outline Layer <layer_advanced_outline>`
+.. |Region_Layer| replace:: :ref:`Region Layer<layer_region>`
+.. |Plant_Layer| replace:: :ref:`Plant Layer <layer_plant>`
+.. |Curve_Gradient_Layer| replace:: :ref:`Curve Gradient Layer <layer_curve_gradient>`
+.. |Amount_Parameter| replace:: :ref:`Amount Parameter <opacity>`
+.. |Circle_Layer| replace:: :ref:`Circle Layer <layer_circle>`
+.. |Invert_Parameter| replace:: :ref:`Invert <parameters_invert>`
+.. |Canvas| replace:: :ref:`Canvas <canvas>`
+.. |Rectangle_Tool| replace:: :ref:`Rectangle Tool <tool_rectangle>`
+.. |Star_Tool| replace:: :ref:`Star Tool <tool_star>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
+.. |Rectangle_Layer| replace:: :ref:`Rectangle Layer <layer_rectangle>`
+.. |Expansion_Amount_Parameter| replace:: Expansion Amount Parameter
+.. |Polygon_Tool| replace:: :ref:`Polygon Tool <tool_polygon>`
+.. |Polygon_Layer| replace:: :ref:`Polygon Layer <layer_polygon>`
+.. |Gradient_Tool| replace:: :ref:`Gradient Tool <tool_gradient>`
+.. |Gradient_Editor_Dialog| replace:: :ref:`Gradient <gradient_editor_dialog>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |Vertices_Parameter| replace:: Vertices Parameter
+.. |Spline| replace:: :ref:`Spline <https://en.wikipedia.org/wiki/Spline_(mathematics)>`
+.. |Feather_Parameter| replace:: :ref:`Feather Parameter <main_concepts>`
+.. |Draw_Tool| replace:: :ref:`Draw Tool <tool_draw>`
+.. |Toolbox| replace:: :ref:`panel_toolbox`
+.. |Handle| replace:: :ref:`Handle <handles>`
+.. |Library_Panel| replace:: :ref:`Library Panel <panel_library>`
+.. |Export| replace:: :ref:`Export <export>`
+.. |Cutout_Tool| replace:: :ref:`Cutout Tool <tool_cutout>`
+.. |Width_Tool| replace:: :ref:`Width Tool <tool_width>`
+.. |Fill_Tool| replace:: :ref:`Fill Tool <tool_fill>`
+.. |Eyedrop_Tool| replace:: :ref:`Eyedrop Tool <tool_eyedrop>`
+.. |Text_Tool| replace:: :ref:`Text Tool <tool_text>`
+.. |Sketch_Tool| replace:: :ref:`Sketch Tool <tool_sketch>`
+.. |Brush_Tool| replace:: :ref:`Brush_Tool <tool_brush>`
+.. |Preferences_Dialog_System| replace:: :ref:`Preferences Dialog System <preferences_dialog_system>`
+.. |Zoom_Tool| replace:: :ref:`Zoom Tool <tool_zoom>`

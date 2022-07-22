@@ -25,3 +25,5 @@ Features of the Toolbox:
 .. |Synfig_icon.png| image:: panel_toolbox_dat/Synfig_icon.png
    :width: 64px
 
+.. |Panel| replace:: :ref:`Panels <ui>`
+.. |New_Layer_Defaults| replace:: :ref:`New Layer Defaults <new_layer_defaults>`

@@ -61,27 +61,33 @@ listed with examples below:
 
 .. figure:: advanced_outline_dat/Variable-width-without-blinepoints.png 
    :alt: Variable-width-without-blinepoints.png
+
 No need to place a vertex to change the width.
 
 .. figure:: advanced_outline_dat/Lots-of-blinepoints-width-just-two_width-controls.png 
    :alt: Lots-of-blinepoints-width-just-two_width-controls.png 
+
 The width is controlled just by two points, while the Spline is constructed of many vertices. 
 
 .. figure:: advanced_outline_dat/Different-types_of_tips.png 
    :alt: Different-types_of_tips.png
+   
 Different types of tips: Rounded, Squared, Peak, Flat. 
 
 
 .. figure:: advanced_outline_dat/Segments_of_outlines.png 
    :alt: Segments_of_outlines.png 
+
 Segmented outline. 
 
 .. figure:: advanced_outline_dat/Different_cusps_types.png 
    :alt: Different_cusps_types.png
+
 Three global cusps types: Sharp, Rounded, Bevel.
 
 .. figure:: advanced_outline_dat/Smoothness_control.png 
    :alt: Smoothness_control.png
+
 Control of smoothness from linear (0.0) to smooth (1.0).
 
 .. _layer_advanced_outline  Parameters of Advanced Outline Layers:

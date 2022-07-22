@@ -35,3 +35,8 @@ See Also
 
 Project for illustration : 
 :download:`Spline_of_spline.sifz <spline_dat/Spline_of_spline.sifz>`
+
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |WorkArea| replace:: :ref:`WorkArea <canvas_workarea>`
+.. |Handle| replace:: :ref:`Handle <handles>`
+.. |Draw_Tool| replace:: :ref:`Draw Tool <tool_draw>`
