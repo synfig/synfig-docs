@@ -21,7 +21,7 @@ Linux
 ===============
 
 #. Download the AppImage file.
-#. Left-click on the file and select properties.
+#. Right-click on the file and select Properties on the context menu.
 #. Navigate to Permissions tab and enable checkbox that says "Allow executing file as program". 
 #. Close the dialog.
 #. Double-click on the AppImage file to run the application. 
@@ -34,7 +34,7 @@ MacOS / OSX
 
 #. Download the .dmg file.
 #. Open downloaded dmg file.
-#. Drag the Synfig Studio icon file into your Applications directory. Wit for copy process to complete.
+#. Drag the Synfig Studio icon file into your Applications directory. Wait for the copy process to be completed.
 #. Run Synfig Studio from your Applications directory.
 
 If you get an error message like "can't be opened because it comes from a non identified developer", then do the following:
