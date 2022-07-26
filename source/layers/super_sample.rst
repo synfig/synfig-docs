@@ -9,12 +9,16 @@
    :width: 64px
 
 
+.. _layer_super_sample  About Super Sample Layers:
+
 About Super Sample Layers
 -------------------------
 
 The Super Sample layer is used to anti-alias all the layers under it.
 
 It isn't often needed, since most layers produce smooth output already.
+
+.. _layer_super_sample  Parameters of Supersample Layer:
 
 Parameters of Supersample Layer
 -------------------------------
@@ -50,9 +54,7 @@ without a supersample layer:
    :alt: Supersample-none.png
 
 
-The 'Use Parametric' checkbox makes it use the `parametric
-renderer <parametric_renderer>`__ rather than the default `accelerated
-renderer <accelerated_renderer>`__.
+The 'Use Parametric' checkbox makes it use the parametric renderer rather than the default accelerated renderer.
 
 The 'Be Alpha Safe' checkbox makes the averaging process aware of the
 alpha channel. When 'Alpha Safe', the average is sum(color \*
@@ -87,6 +89,8 @@ outline and turn off it's anti-aliasing parameter. It will look jagged
 around the edges. Add a Super Sample layer over the top of it, save the
 file and render it to an image. Rendering with 'synfig -Q 10 file.sif'
 will leave it jagged, and 'synfig -Q 9 file.sif' will make it smoother.
+
+.. _layer_super_sample  Examples:
 
 Examples
 --------

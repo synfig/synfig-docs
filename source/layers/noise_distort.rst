@@ -10,10 +10,14 @@
 
 FIXME!!!
 
+.. _layer_noise_distort  About Noise Distort Layer:
+
 About Noise Distort Layer
 -------------------------
 
 FIXME!!!
+
+.. _layer_noise_distort  Parameters of the Noise Distort Layers:
 
 Parameters of the Noise Distort Layers
 --------------------------------------
@@ -23,25 +27,25 @@ The parameters of the noise distort layer are:
 +---------------------------------------------------------------------------------------------+-------------------------+-------------+
 | Name                                                                                        | Value                   | Type        |
 +---------------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_real\_icon.png| `Z Depth Parameter <Z_Depth_Parameter>`__                        |   0.000000              |   real      |
+|     |Type\_real\_icon.png| |Z_Depth_Parameter|                                              |   0.000000              |   real      |
 +---------------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_real\_icon.png| `Amount <Amount_Parameter>`__                                    |   1.000000              |   real      |
+|     |Type\_real\_icon.png| |Amount_Parameter|                                               |   1.000000              |   real      |
 +---------------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_integer\_icon.png| `Blend <Blend_Method_Parameter>`__                            |   Straight              |   integer   |
+|     |Type\_integer\_icon.png| |Blend_Method_Parameter|                                      |   Straight              |   integer   |
 +---------------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_vector\_icon.png| `Displacement <Displacement_Parameter>`__                      |   0.250000u,0.250000u   |   vector    |
+|     |Type\_vector\_icon.png|  Displacement Parameter                                        |   0.250000u,0.250000u   |   vector    |
 +---------------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_vector\_icon.png| `Size <Size_Parameter>`__                                      |   1.000000u,1.000000u   |   vector    |
+|     |Type\_vector\_icon.png|  Size Parameter                                                |   1.000000u,1.000000u   |   vector    |
 +---------------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_integer\_icon.png| `RandomNoise Seed <RandomNoise_Seed_Parameter>`__             |   1299635156            |   integer   |
+|     |Type\_integer\_icon.png|  RandomNoise Seed Parameter                                   |   1299635156            |   integer   |
 +---------------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_integer\_icon.png| `Interpolation <Interpolation_Parameter>`__                   |   Cosine                |   integer   |
+|     |Type\_integer\_icon.png|  Interpolation Parameter                                      |   Cosine                |   integer   |
 +---------------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_integer\_icon.png| `Detail <Detail_Parameter>`__                                 |   4                     |   integer   |
+|     |Type\_integer\_icon.png|  Detail Parameter                                             |   4                     |   integer   |
 +---------------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_real\_icon.png| `Animation Speed <Animation_Speed_Parameter>`__                  |   0.000000              |   real      |
+|     |Type\_real\_icon.png|  Animation Speed Parameter                                       |   0.000000              |   real      |
 +---------------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_bool\_icon.png| `Turbulent <Turbulent_Parameter>`__                              |                         |   bool      |
+|     |Type\_bool\_icon.png|  Turbulent Parameter                                             |                         |   bool      |
 +---------------------------------------------------------------------------------------------+-------------------------+-------------+
 
 
@@ -56,3 +60,6 @@ The parameters of the noise distort layer are:
 
 
 
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method_Parameter| replace:: :ref:`Blend Method <parameters_blend_method>`

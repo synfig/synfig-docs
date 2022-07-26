@@ -7,6 +7,8 @@
    :alt: Layer_other_timeloop_icon.png
    :width: 64px
 
+.. _layer_time_loop  About Time Loop Layers:
+
 About Time Loop Layers
 ----------------------
 
@@ -14,48 +16,58 @@ The ``Time Loop layer`` is used to repeat an animation over and over. It
 loops a section of the layers below and within the same canvas over and
 over.
 
-See also the `Time Loop ValueNode <Convert#Time_Loop>`__ conversion,
+See also the |Convert_Time_Loop| conversion,
 which can be used to loop the value of a single parameter, rather than
 an entire layer or group of layers.
+
+.. _layer_time_loop  Parameters of Time Loop Layers:
 
 Parameters of Time Loop Layers
 ------------------------------
 
 These parameters, to **prevent undesired modification**, by default are
-`statics <Static_Parameters>`__.
+Static Parameters.
 
 The parameters of the time loop layers are:
 
 +---------------------------------------------------------------------------------------------------------------------+----------------------+------------+
 | **Name**                                                                                                            | **Value**            | **Type**   |
 +---------------------------------------------------------------------------------------------------------------------+----------------------+------------+
-| |Type_real_icon.png| `Z Depth <Z_Depth_Parameter>`__                                                                | 0.000000             | real       |
+| |Type_real_icon.png| |Z_Depth_Parameter|                                                                            | 0.000000             | real       |
 +---------------------------------------------------------------------------------------------------------------------+----------------------+------------+
-| |Type_time_icon.png| `Link Time <Time_Loop_Layer#Link_Time_.28time.29>`__                                           | 0f                   | time       |
+| |Type_time_icon.png| |Time_Loop_Layer#Link_Time_.28time.29|                                                         | 0f                   | time       |
 +---------------------------------------------------------------------------------------------------------------------+----------------------+------------+
-| |Type_time_icon.png| `Local Time <Time_Loop_Layer#Local_Time_.28time.29>`__                                         | 0f                   | time       |
+| |Type_time_icon.png| |Time_Loop_Layer#Local_Time_.28time.29|                                                        | 0f                   | time       |
 +---------------------------------------------------------------------------------------------------------------------+----------------------+------------+
-| |Type_time_icon.png| `Duration <Time_Loop_Layer#Duration_.28time.29>`__                                             | 1s                   | time       |
+| |Type_time_icon.png| |Time_Loop_Layer#Duration_.28time.29|                                                          | 1s                   | time       |
 +---------------------------------------------------------------------------------------------------------------------+----------------------+------------+
-| |Type_bool_icon.png| `Only For Positive Duration <Time_Loop_Layer#Only_For_Positive_Duration_.28bool.29>`__         | |p_checkbox_off.png| | bool       |
+| |Type_bool_icon.png| |Time_Loop_Layer#Only_For_Positive_Duration_.28bool.29|                                        | |p_checkbox_off.png| | bool       |
 +---------------------------------------------------------------------------------------------------------------------+----------------------+------------+
-| |Type_bool_icon.png| `Symmetrical <Time_Loop_Layer#Symmetrical_.28bool.29>`__                                       | |p_checkbox_off.png| | bool       |
+| |Type_bool_icon.png| |Time_Loop_Layer#Symmetrical_.28bool.29|                                                       | |p_checkbox_off.png| | bool       |
 +---------------------------------------------------------------------------------------------------------------------+----------------------+------------+
+
+.. _layer_time_loop  Link Time (time):
 
 Link Time (time)
 ~~~~~~~~~~~~~~~~
 
 Start time of cycled material/child layers.
 
+.. _layer_time_loop  Local Time (time):
+
 Local Time (time)
 ~~~~~~~~~~~~~~~~~
 
 Start time of loop.
 
+.. _layer_time_loop  Duration (time):
+
 Duration (time)
 ~~~~~~~~~~~~~~~
 
 Number of seconds or frames that are looped in the child layer.
+
+.. _layer_time_loop  Only For Positive Duration (bool):
 
 Only For Positive Duration (bool)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -65,6 +77,8 @@ Only For Positive Duration (bool)
 -  If not checked and the Duration is zero, the Time Loop layer freezes
    the animation of the children layers at the value of ``Link Time``.
 
+.. _layer_time_loop  Symmetrical (bool):
+
 Symmetrical (bool)
 ~~~~~~~~~~~~~~~~~~
 
@@ -72,6 +86,8 @@ If not checked, and the current time is less than ``Local Time``, then
 ``Duration`` is taken off the resulting time. This is to provide
 compatibility with `version 0.1 <Time_Loop_Layer_(v0.1)>`__ of the time
 loop layer.
+
+.. _layer_time_loop  How to use the Time Loop Layer ?:
 
 How to use the Time Loop Layer ?
 --------------------------------
@@ -86,22 +102,21 @@ When the Time Loop layer is asked to set its time to ``Local Time``, it
 sets the time in its child layers to be ``Link Time``, ie. the start of
 the loop.
 
+.. _layer_time_loop  Breaking loop:
+
 Breaking loop
 ~~~~~~~~~~~~~
 
-#.  Be Sure you are not in `Animation Mode <Animate_Editing_Mode>`__
+#.  Be Sure you are not in |Animate_Editing_Mode|
 #. In the layer's parameters of the time loop, you need to remove the
    'green guy' (|Animate\_mode\_off\_icon.png|), indicating that the
-   parameter is ``Static``, from `Duration
-   Parameter <Time_Loop_Layer#Duration_.28time.29>`__. Just right-click
-   on him and set ``Allow animation``. See `Static
-   Parameters <Static_Parameters>`__ for more informations.
-#. On the `timeline <Timebar>`__ navigate to a place where you want to
-   break the animation. And now enter the `Animation
-   Mode <Animate_Editing_Mode>`__.
+   parameter is ``Static``, from |Time_Loop_Layer#Duration_.28time.29|. Just right-click
+   on him and set ``Allow animation``. See Static Parameters for more informations.
+#. On the |Timebar| navigate to a place where you want to
+   break the animation. And now enter the |Animate_Editing_Mode|.
 #. In the time loop parameters, set 'Duration' to ``EOT`` (End-of-Time).
-#. Now you have three `waypoints <Waypoint>`__. One before the current,
-   we left it as it is. One is current, we `convert <Convert>`__ it to
+#. Now you have three |Waypoint|. One before the current,
+   we left it as it is. One is current, we |Convert| it to
    the ``constant`` (right-click on it -> Both -> Constant). And one
    after current, this one have to be removed (right-click on it ->
    Remove).
@@ -109,22 +124,22 @@ Breaking loop
    first frame of you animation, so you need to break it in the right
    place.
 
+.. _layer_time_loop  Detailed explanation:
+
 Detailed explanation
 ~~~~~~~~~~~~~~~~~~~~
 
-'Green guy' (|Animate\_mode\_off\_icon.png|) - `Static
-Parameters <Static_Parameters>`__ - is a guard that says “You shall not
+'Green guy' (|Animate\_mode\_off\_icon.png|) - Static Parameters - is a guard that says “You shall not
 pass!” to the animation. So when you attempt to change such parameter in
 animation mode it just changes the usual way. It's done to prevent
-unnecessary parameters to be animated, e.g. `Blend
-Method <Blend_Method_Parameter>`__.
+unnecessary parameters to be animated, e.g. |Blend_Method_Parameter|.
 
 Setting ``Duration`` to ``EOT``. If you set it to 0f, then the whole
 animation will stop, because you try to play it from 0f (``local time``)
 to 0f (``Duration``). And EOT means it'll continue to play your
 animation to the end of the time...
 
-Removing `waypoint <Waypoint>`__ after current one. If you skip this
+Removing |Waypoint| after current one. If you skip this
 step, then at the next waypoint ``Duration`` parameter will be restored
 to the value before current waypoint. It's a standard Synfig's behavior,
 but there's a magical button somewhere that can change it.
@@ -133,7 +148,9 @@ Converting current waypoint to the constant. Without it, ``Duration``
 will be smoothly interpolated from value you set to the EOT and the
 constant type will just set immediately at the waypoint. Interpolation
 can be a bit confusing sometimes, so you better read this about
-`waypoints <Waypoint>`__.
+|Waypoint|.
+
+.. _layer_time_loop  Visualized Example:
 
 Visualized Example
 ------------------
@@ -184,6 +201,8 @@ the Time Loop layer into a Time Shift layer. The Link Time and Local
 Time parameters controls which time in the children lines up with which
 time in the Time Loop layer, giving the amount of the timeshift, with
 both positive and negative differences working as expected.
+
+.. _layer_time_loop  Contrived Example:
 
 Contrived Example
 -----------------
@@ -250,3 +269,14 @@ available for download:
 
 
 
+.. |Convert_Time_Loop| replace:: :ref:`Convert: Time Loop <converters>`
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Time_Loop_Layer#Link_Time_.28time.29| replace:: :ref:`Link Time <layer_time_loop  Link Time (time)>`
+.. |Time_Loop_Layer#Local_Time_.28time.29| replace:: :ref:`Local Time <layer_time_loop  Local Time (time)>`
+.. |Time_Loop_Layer#Duration_.28time.29| replace:: :ref:`Duration <layer_time_loop  Duration (time)>`
+.. |Time_Loop_Layer#Only_For_Positive_Duration_.28bool.29| replace:: :ref:`Only for positive duration <layer_time_loop  Only For Positive Duration (bool)>`
+.. |Time_Loop_Layer#Symmetrical_.28bool.29| replace:: :ref:`Symmetrical <layer_time_loop  Symmetrical (bool)>`
+.. |Animate_Editing_Mode| replace:: :ref:`Animate Editing Mode <animation_mode>`
+.. |Timebar| replace:: :ref:`Timebar <canvas_timebar>`
+.. |Waypoint| replace:: :ref:`Waypoint <waypoints>`
+.. |Convert| replace:: :ref:`Convert <converters>`

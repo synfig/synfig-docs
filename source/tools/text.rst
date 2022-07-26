@@ -5,8 +5,8 @@
 ########################
 |Tool_text_icon.png| \ **ALT-X**\ 
 
-Select the ``Text Tool`` icon from the `Toolbox <Toolbox>`__, then click
-in the `canvas window <Canvas>`__ where the `Text Layer <Text_Layer>`__
+Select the ``Text Tool`` icon from the |Toolbox|, then click
+in the |Canvas| where the |Text_Layer|
 should be created.
 
 A dialog box will appear, allowing you to enter the text you want in the
@@ -17,10 +17,12 @@ will be created. In the dialog box, if ``Multiline Editor`` is checked,
 
 .. figure:: text_dat/Tool_Text-DialogBox_0.63.06.png
    :alt: Tool_Text-DialogBox_0.63.06.png
+.. _tool_text  Options:
+
 Options
 -------
 
-The `Tool Options Panel <Tool_Options_Panel>`__ allows you to specify:
+The |Tool_Options_Panel| allows you to specify:
 
 -  the **Name** used for the new layer; any number in this field will
    automatically increment with each layer created.
@@ -44,3 +46,10 @@ The `Tool Options Panel <Tool_Options_Panel>`__ allows you to specify:
 
 .. |Tool_text_icon.png| image:: text_dat/Tool_text_icon.png
    :width: 64px
+
+
+.. |Toolbox| replace:: :ref:`Toolbox <panel_toolbox>`
+.. |Canvas| replace:: :ref:`Canvas <canvas>`
+.. |Text_Layer| replace:: :ref:`Text Layer <layer_text>`
+
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`

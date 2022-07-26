@@ -8,10 +8,14 @@
    :width: 64px
 
 
+.. _layer_spherize  About Spherize Layers:
+
 About Spherize Layers
 ---------------------
 
 FIXMM!!!
+
+.. _layer_spherize  Parameters of Spherize Layers:
 
 Parameters of Spherize Layers
 -----------------------------
@@ -21,15 +25,15 @@ The parameters of the spherize layers are:
 +-------------------------------------------------------------------------------------+-------------------------+-------------+
 | Name                                                                                | Value                   | Type        |
 +-------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_vector\_icon.png| `Position Parameter <Position_Parameter>`__            |   0.000000u,0.000000u   |   vector    |
+|     |Type\_vector\_icon.png| Position                                               |   0.000000u,0.000000u   |   vector    |
 +-------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_real\_icon.png| `Radius Parameter <Radius_Parameter>`__                  |   1.000000u             |   real      |
+|     |Type\_real\_icon.png| Radius                                                   |   1.000000u             |   real      |
 +-------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_real\_icon.png| `Amount Parameter <Amount_Parameter>`__                  |   1.000000u             |   real      |
+|     |Type\_real\_icon.png| Amount                                                   |   1.000000u             |   real      |
 +-------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_bool\_icon.png| `Clip Parameter <Clip_Parameter>`__                      |                         |   bool      |
+|     |Type\_bool\_icon.png| Clip                                                     |                         |   bool      |
 +-------------------------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_integer\_icon.png| `Distort Type Parameter <Distort_Type_Parameter>`__   |   Spherize              |   integer   |
+|     |Type\_integer\_icon.png| Distrot Type                                          |   Spherize              |   integer   |
 +-------------------------------------------------------------------------------------+-------------------------+-------------+
 
 .. |Type_vector_icon.png| image:: images/Type_vector_icon.png

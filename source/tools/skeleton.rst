@@ -8,6 +8,8 @@
 
      Available since Synfig Studio 1.5.0.
 
+.. _tool_skeleton  Introduction:
+
 Introduction
 ============
 
@@ -20,6 +22,8 @@ Video Tutorial
 .. raw:: html
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/8qawMmSN55o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+
+.. _tool_skeleton  Usage:
 
 Usage
 =====
@@ -79,6 +83,8 @@ When you are modifying a skeleton deformation layer using the Skeleton tool, it 
 * Width handles are turned on.
 * Any changes you make to the rest position effects the deformation too.
 
+.. _tool_skeleton  Options:
+
 Options
 =======
 
@@ -91,3 +97,5 @@ You can find the following options in the tool options menu:
 .. image:: ./skeleton_dat/tool_options.png
     :align: left
     :alt: Make parent to active bone
+
+

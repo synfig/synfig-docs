@@ -9,43 +9,47 @@
    :width: 64px
    
 
+.. _layer_advanced_outline  About Advanced Outline Layers:
+
 About Advanced Outline Layers
 -----------------------------
 
 To create an Advanced Outline Layer use the Spline Tool and check
-``Create Advanced Outline`` in the `Tool Options
-Panel <Tool_Options_Panel>`__. Once you finish the definition of the
+``Create Advanced Outline`` in the |Tool_Options_Panel|. Once you finish the definition of the
 geometry of your outline and after pressing the ``Make Spline`` button
 (or selecting another tool or state) you create the Advanced Outline
-Layer with the `current <New_Layer_Defaults#Brush_Colors>`__
+Layer with the |New_Layer_Defaults_Brush_Colors|
 ``Outline Color``.
 
-Depending on the options you choose in the `Tool Options
-Panel <Tool_Options_Panel>`__ other like `Star Tool <Star_Tool>`__ or
-`Circle Tool <Circle_Tool>`__ can also create Advanced Outline Layers.
+Depending on the options you choose in the |Tool_Options_Panel| other like |Star_Tool| or
+|Circle_Tool| can also create Advanced Outline Layers.
 
-Using the `Layer Menu <Canvas_Layer_Menu>`__ ``Make Advanced Outline``,
+Using the |Canvas_Layer_Menu| ``Make Advanced Outline``,
 ``Make Outline`` or ``Make Region`` commands you can also create those
 layers.
+
+.. _layer_advanced_outline  Differences with Outline Layer: Outline width:
 
 Differences with Outline Layer: Outline width
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The **width** `Handle <Handle>`__ defines the outline width at a
+The **width** |Handle| defines the outline width at a
 particular place.
 
-In the regular `Outline Layer <Outline_Layer>`__, each width Handle is
+In the regular |Outline_Layer|, each width Handle is
 connected to the vertex that defines the outline shape at that place.
 That means that the user needs to insert a new vertex on the
-`Spline <Spline>`__ every time he wants to change the outline width in
+|Spline| every time he wants to change the outline width in
 some place. This behaviour can cause problems when the shape of the
 outline is very simple but the width varies a lot.
 
 Practice shows that most of the time the user wants to specify the width
-independently from the placement of `Spline <Spline>`__ vertices. Such
+independently from the placement of |Spline| vertices. Such
 functionality is available in the Advanced Outline layer, which Handles
 its width in a different way: the width Handles are freely moved around
 the Spline and define its width at any point.
+
+.. _layer_advanced_outline  Features:
 
 Features
 --------
@@ -57,28 +61,36 @@ listed with examples below:
 
 .. figure:: advanced_outline_dat/Variable-width-without-blinepoints.png 
    :alt: Variable-width-without-blinepoints.png
+
 No need to place a vertex to change the width.
 
 .. figure:: advanced_outline_dat/Lots-of-blinepoints-width-just-two_width-controls.png 
    :alt: Lots-of-blinepoints-width-just-two_width-controls.png 
+
 The width is controlled just by two points, while the Spline is constructed of many vertices. 
 
 .. figure:: advanced_outline_dat/Different-types_of_tips.png 
    :alt: Different-types_of_tips.png
+   
 Different types of tips: Rounded, Squared, Peak, Flat. 
 
 
 .. figure:: advanced_outline_dat/Segments_of_outlines.png 
    :alt: Segments_of_outlines.png 
+
 Segmented outline. 
 
 .. figure:: advanced_outline_dat/Different_cusps_types.png 
    :alt: Different_cusps_types.png
+
 Three global cusps types: Sharp, Rounded, Bevel.
 
 .. figure:: advanced_outline_dat/Smoothness_control.png 
    :alt: Smoothness_control.png
+
 Control of smoothness from linear (0.0) to smooth (1.0).
+
+.. _layer_advanced_outline  Parameters of Advanced Outline Layers:
 
 Parameters of Advanced Outline Layers
 -------------------------------------
@@ -88,50 +100,50 @@ The parameters of the Advanced Outline Layers are:
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
 | **Name**                                                                                                 | **Value**               | **Type**          |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_real_icon.png|  `Z Depth <Z_Depth_Parameter>`__                                                    | 0.000000                | real              |
+| |Type_real_icon.png|  |Z_Depth_Parameter|                                                                | 0.000000                | real              |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_real_icon.png| `Amount <Amount_Parameter>`__                                                       | 1.000000                | real              |
+| |Type_real_icon.png| |Amount_Parameter|                                                                  | 1.000000                | real              |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_integer_icon.png| `Blend Method <Blend_Method>`__                                                  | Composite               | integer           |
+| |Type_integer_icon.png| |Blend_Method|                                                                   | Composite               | integer           |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_color_icon.png| `Color <Colors_Dialog>`__                                                          | |p_color_green.png|     | color             |
+| |Type_color_icon.png| |Colors_Dialog|                                                                    | |p_color_green.png|     | color             |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_vector_icon.png| `Origin <Origin_Parameter>`__                                                     | 0.000000u,0.000000u     | vector            |
+| |Type_vector_icon.png| |Origin_Parameter|                                                                | 0.000000u,0.000000u     | vector            |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_bool_icon.png| `Invert <Invert_Parameter>`__                                                       | |p_checkbox_off.png|    | bool              |
+| |Type_bool_icon.png| |Invert_Parameter|                                                                  | |p_checkbox_off.png|    | bool              |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_bool_icon.png| `Antialiasing <Antialiasing_Parameter>`__                                           | |p_checkbox_off.png|    | bool              |
+| |Type_bool_icon.png| |Antialiasing_Parameter|                                                            | |p_checkbox_off.png|    | bool              |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_real_icon.png| `Feather <Feather_Parameter>`__                                                     | 0.000000pt              | real              |
+| |Type_real_icon.png| |Feather_Parameter|                                                                 | 0.000000pt              | real              |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_integer_icon.png| `Type of Feather <Feather_Parameter#Type_of_Feather>`__                          | Fast Gaussian Blur      | integer           |
+| |Type_integer_icon.png| |Feather_Parameter_Type_of_Feather|                                              | Fast Gaussian Blur      | integer           |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_integer_icon.png| `Winding Style <Winding_Style_Parameter>`__                                      | Non Zero                | integer           |
+| |Type_integer_icon.png| |Winding_Style_Parameter|                                                        | Non Zero                | integer           |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
 | |Type_list_icon.png| Vertices                                                                            | List                    | list (Spline)     |                                                                            
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_real_icon.png| `Outline Width <Outline_Layer#Outline_width>`__                                     | 2.000000pt              | real              |
+| |Type_real_icon.png| |Outline_Layer_Outline_width|                                                       | 2.000000pt              | real              |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_real_icon.png| `Expand <Outline_Layer#Expand>`__                                                   | 0.000000pt              | real              |
+| |Type_real_icon.png| |Outline_Layer_Expand|                                                              | 0.000000pt              | real              |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_integer_icon.png| `Tip Type at Start <Advanced_Outline_Layer#Tip_type_at_start_.2F_end>`__         | Rounded Stop            | integer           |
+| |Type_integer_icon.png| |Advanced_Outline_Layer#Tip_type_at_start_.2F_end|                               | Rounded Stop            | integer           |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_integer_icon.png| `Tip Type at End <Advanced_Outline_Layer#Tip_type_at_start_.2F_end>`__           | Rounded Stop            | integer           |
+| |Type_integer_icon.png| |Advanced_Outline_Layer#Tip_type_at_start_.2F_end|                               | Rounded Stop            | integer           |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_integer_icon.png| `Cusps Type <Advanced_Outline_Layer#Cusps_Type>`__                               | Sharp                   | integer           |
+| |Type_integer_icon.png| |Advanced_Outline_Layer_Cusps_Type|                                              | Sharp                   | integer           |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_real_icon.png| `Smoothness <Advanced_Outline_Layer#Smoothness>`__                                  | 0.500000                | real              |
+| |Type_real_icon.png| |Advanced_Outline_Layer_Smoothness|                                                 | 0.500000                | real              |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_bool_icon.png| `Homogeneous <Advanced_Outline_Layer#Homogeneous>`__                                | |p_checkbox_off.png|    | bool              |
+| |Type_bool_icon.png| |Advanced_Outline_Layer_Homogeneous|                                                | |p_checkbox_off.png|    | bool              |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_list_icon.png| `Width Point List <Advanced_Outline_Layer#Width_Point_List>`__                      | List                    | list(WPList)      |
+| |Type_list_icon.png| |Advanced_Outline_Layer_Width_Point_List|                                           | List                    | list(WPList)      |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_bool_icon.png| `Fast <Advanced_Outline_Layer#Fast>`__                                              | |p_checkbox_off.png|    | bool              |
+| |Type_bool_icon.png| |Advanced_Outline_Layer_Fast|                                                       | |p_checkbox_off.png|    | bool              |
 |                                                                                                          |                         |                   |
 |                                                                                                          |                         |                   |
 |                                                                                                          |                         |                   |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
-| |Type_bool_icon.png| `Dashed Outline <Advanced_Outline_Layer#Dashed_Outline>`__                          | |p_checkbox_off.png|    | bool              |
+| |Type_bool_icon.png| |Advanced_Outline_Layer_Dashed_Outline|                                             | |p_checkbox_off.png|    | bool              |
 |                                                                                                          |                         |                   |
 |                                                                                                          |                         |                   |
 |                                                                                                          |                         |                   |
@@ -141,18 +153,21 @@ The parameters of the Advanced Outline Layers are:
 | |Type_real_icon.png| Dash Items Offset                                                                   | 0.000000u               | real              |
 +----------------------------------------------------------------------------------------------------------+-------------------------+-------------------+
 
+.. _layer_advanced_outline  Specific parameters for Advanced Outline Layer:
+
 Specific parameters for Advanced Outline Layer
 ----------------------------------------------
 
 This section lists only the parameters specific to the Advanced Outline
-Layer. For documentation about the other parameters, refer to `Outline
-Layer <Outline_Layer>`__.
+Layer. For documentation about the other parameters, refer to |Outline_Layer|.
 
 -  Tip Type at Start
 -  Tip Type at End
 -  Cusps Type
 -  Smoothness
 -  Width Point List
+
+.. _layer_advanced_outline  Tip Type at Start / End:
 
 Tip Type at Start / End
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -193,6 +208,8 @@ Parameters:
 |            |    :alt: Avanced-Outline-Layer-TipType-Flat.png         |
 +------------+---------------------------------------------------------+
 
+.. _layer_advanced_outline  Cusp Type:
+
 Cusp Type
 ~~~~~~~~~
 
@@ -220,6 +237,8 @@ The type of cusp is controlled for the entire layer so currently it is
 not possible to control the type of corner individually. Maybe in future
 versions it will be possible.
 
+.. _layer_advanced_outline  Smoothness:
+
 Smoothness
 ~~~~~~~~~~
 
@@ -228,11 +247,12 @@ The width at a position p is a function of the surrounding width points.
 When smoothness is **zero** interpolation is lineal, when smoothness is
 **1.0** interpolation is given by a 5th degree smooth Spline.
 
+.. _layer_advanced_outline  Homogeneous:
+
 Homogeneous
 ~~~~~~~~~~~
 
-Enabling ``Homogeneous`` changes the way the position of the `width
-points <#widthpoint>`__ change according modification of the outline.
+Enabling ``Homogeneous`` changes the way the position of the :ref:`widthpoint <layer_outline  Outline width>` change according modification of the outline.
 
 -  When false, the “Position” parameter for a width point is equally
    distributed **among the vertices**. For example, in a spline with
@@ -245,6 +265,8 @@ points <#widthpoint>`__ change according modification of the outline.
    to the end of the spline **based on the length of the entire
    spline**. This means a “Position” of 0.5 will always correspond to
    the halfway point of the spline, not to a particular vertex.
+
+.. _layer_advanced_outline  Width Point List:
 
 Width Point List
 ~~~~~~~~~~~~~~~~
@@ -294,44 +316,55 @@ then the Width Point List is unlooped. Otherwise, if the Width Point
 List is looped and a width point has a Position of 1.3, its modulus
 based on the range [0,1] is used, so it is turned to a position of 0.3.
 
+.. _layer_advanced_outline  Fast:
+
 Fast
 ~~~~
 
 ...TODO WriteME.about...
+
+.. _layer_advanced_outline  Dashed Outline:
 
 Dashed Outline
 ~~~~~~~~~~~~~~
 
 ...TODO WriteME.about...
 
+.. _layer_advanced_outline  Working with the Avdanced Outline:
+
 Working with the Avdanced Outline
 ---------------------------------
+
+.. _layer_advanced_outline  Creation of the Advanced Outline:
 
 Creation of the Advanced Outline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can create Advanced Outlines by various ways:
 
--  With the `Draw Tool <Draw_Tool>`__ (check *Create Advanced Outline*
+-  With the |Draw_Tool| (check *Create Advanced Outline*
    in the tool options).
--  With the `Spline Tool <Spline_Tool>`__ (check *Create Advanced
+-  With the |Spline_Tool| (check *Create Advanced
    Outline* in the tool options).
--  Using a `Geometry Layer <Layers#Geometry>`__ (check *Create Advanced
+-  Using a |Layers_Geometry| (check *Create Advanced
    Outline* in the tool options).
 -  With the menu "<Insert> → <Layer> → Geometry → Advanced Outline".
+
+.. _layer_advanced_outline  Change the width of the Width Points:
 
 Change the width of the Width Points
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Initially the width Handles are hidden. You can make them visible by
 pressing (``Alt+5``) or clicking on the width toggle button. It is
-possible to change the width using the `Width Tool <Width_Tool>`__ using
+possible to change the width using the |Width_Tool| using
 the same procedure as for regular outlines. If you want more control
-over the width you can modify the width Handles with the `Transform
-Tool <Transform_Tool>`__ (``Alt+A``). More fine tunning is possible by
+over the width you can modify the width Handles with the |Transform_Tool| (``Alt+A``). More fine tunning is possible by
 expanding the width point sub-parameter and entering a specific value
 for the Width sub-parameter. In that case negative values are allowed to
 produce nice effects.
+
+.. _layer_advanced_outline  Change the position of the Width Points:
 
 Change the position of the Width Points
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -344,7 +377,7 @@ has a single way to hide/show the position and width Handles.
    This may change in the future
 
 The position Handles of the width points can be modified using the
-`Transform Tool <Transform_Tool>`__ (``Alt+A``) and clicking and
+|Transform_Tool| (``Alt+A``) and clicking and
 dragging the position Handle. You will notice that Handles are tied to
 the Spline so once clicked and dragged they can be placed at any way on
 the Spline. Notice that if you have a width point position Handle at
@@ -353,6 +386,8 @@ you obtain a value of -0.1 because you dragged it in one step and the
 Width Point List may be looped. If you want to avoid those problems do
 the movement in small steps to indicate the correct path to follow when
 calculating the new position.
+
+.. _layer_advanced_outline  Adding or removing width points:
 
 Adding or removing width points
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -371,6 +406,8 @@ one new item it will lie over the existing one.
 
 The newly added width point will have the interpolated width at the
 position where it is created.
+
+.. _layer_advanced_outline  Specific actions for Width Points:
 
 Specific actions for Width Points
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -400,7 +437,7 @@ actions:
    should be the interpolation between the on and off status. But it
    doesn't work properly at the moment. On / Off values are not
    interpolated but fully on or fully off. This has to be corrected.
--  Export: See `Export <Export>`__.
+-  Export: See |Export|.
 -  Loop: When set as looped, as mentioned before, it allows the width
    point positions loop around the range [0,1].
 -  Rotate Order: Doesn't do anything.
@@ -419,8 +456,6 @@ actions:
    of coincidence. So access the width Handle it is needed to have a
    quick action to set it to its default value (1.0).
 
-`Tools <Category:Tools>`__
-
 .. |Type_real_icon.png| image:: images/Type_real_icon.png
    :width: 16px
 .. |Type_integer_icon.png| image:: images/Type_integer_icon.png
@@ -435,3 +470,38 @@ actions:
    :width: 16px
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
 .. |p_color_green.png| image:: images/p_color_green.png
+
+
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |New_Layer_Defaults_Brush_Colors| replace:: :ref:`New Layer Defaults: Brush Color <new_layer_defaults Brush Colors>`
+.. |Star_Tool| replace:: :ref:`Star Tool <tool_star>`
+.. |Circle_Tool| replace:: :ref:`Circle Tool <tool_circle>`
+.. |Canvas_Layer_Menu| replace:: :ref:`Canvas Layer Menu <canvas_layer_menu>`
+.. |Handle| replace:: :ref:`Handle <handles>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Spline| replace:: :ref:`Spline <https://en.wikipedia.org/wiki/Spline_(mathematics)>__`
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Colors_Dialog| replace:: :ref:`Color <colors_dialog>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
+.. |Invert_Parameter| replace:: :ref:`Invert Parameter <parameters_invert>`
+.. |Antialiasing_Parameter| replace:: :ref:`Antialiasing Parameter <parameters_anitialiasing>`
+.. |Feather_Parameter| replace:: :ref:`Feather Parameter <parameters_feather>`
+.. |Feather_Parameter_Type_of_Feather| replace:: :ref:`Feather Parameter: Type of Feather <parameters_feather Type of Feather>`
+.. |Winding_Style_Parameter| replace:: :ref:`Winding Style Parameter <parameters_winding_style>`
+.. |Outline_Layer_Outline_width| replace:: :ref:`Outline Layer: Outline Width <layer_outline  Outline width>`
+.. |Outline_Layer_Expand| replace:: :ref:`Outline Layer: Expand <layer_outline Expand>`
+.. |Advanced_Outline_Layer#Tip_type_at_start_.2F_end| replace:: :ref:`Tip type at start/end <layer_advanced_outline  Tip Type at Start / End>`
+.. |Advanced_Outline_Layer_Cusps_Type| replace:: :ref:`Cusps Type <layer_advanced_outline  Cusp Type>`
+.. |Advanced_Outline_Layer_Smoothness| replace:: :ref:`Smoothness <layer_advanced_outline  Smoothness>`
+.. |Advanced_Outline_Layer_Homogeneous| replace:: :ref:`Homogeneous <layer_advanced_outline  Homogeneous>`
+.. |Advanced_Outline_Layer_Width_Point_List| replace:: :ref:`Width Point List <layer_advanced_outline  Width Point List>`
+.. |Advanced_Outline_Layer_Fast| replace:: :ref:`Fast <layer_advanced_outline  Fast>`
+.. |Advanced_Outline_Layer_Dashed_Outline| replace:: :ref:`Dashed Outline <layer_advanced_outline  Dashed Outline>`
+.. |Draw_Tool| replace:: :ref:`Draw Tool <tool_draw>`
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |Layers_Geometry| replace:: :ref:`Layer <layers>`
+.. |Width_Tool| replace:: :ref:`Width Tool <tool_width>`
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_transform>`
+.. |Export| replace:: :ref:`Export <export>`

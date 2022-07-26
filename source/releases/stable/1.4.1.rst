@@ -6,11 +6,15 @@ Synfig 1.4.1 Release Notes
 
 Synfig Studio 1.4.1 delivers some improvements and critical bugfixes. Please read below for details.
 
+.. _release-1.4.1  Features:
+
 Features
 --------------
 * Synfig now can export videos with sound (`#1623 <https://github.com/synfig/synfig/pull/1623>`_, `#1830 <https://github.com/synfig/synfig/pull/1830>`_). In previous versions Synfig was ignoring all Sound Layers in animation file when doing export to video format. Now all sounds are mixed and added into video file.
 
 |image0|
+
+.. _release-1.4.1  Windows-specific fixes:
 
 Windows-specific fixes
 ----------------------
@@ -21,9 +25,13 @@ Windows-specific fixes
 * Fixed problem with non-working plugins when loading them from path containing non-Latin characters (`#1882 <https://github.com/synfig/synfig/pull/1882>`_).
 * Fixed saving/loading palette to file with non-Latin name (`#1889 <https://github.com/synfig/synfig/pull/1889>`_).
 
+.. _release-1.4.1  MacOS-specific fixes:
+
 MacOS-specific fixes
 ----------------------
 * Fixed issue with Synfig not starting if SynfigStudio.app was renamed (`#1834 <https://github.com/synfig/synfig/pull/1834>`_).
+
+.. _release-1.4.1  Bugfixes:
 
 Bugfixes
 --------------
@@ -40,6 +48,8 @@ Bugfixes
 * Fixed issue with duplicating Duplicate Layer (`#1971 <https://github.com/synfig/synfig/pull/1971>`_).
 * Avoid possible random crashes related with non-unique node identifiers (`#2029 <https://github.com/synfig/synfig/pull/2029>`_).
 
+
+.. _release-1.4.1  UI/UX improvements:
 
 UI/UX improvements
 ------------------

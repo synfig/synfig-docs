@@ -7,6 +7,8 @@
    :alt: Layer_geometry_outline_icon.png
    :width: 64px
 
+.. _layer_outline  About Outline Layers:
+
 About Outline Layers
 --------------------
 
@@ -16,20 +18,20 @@ shapes. Also standalone Outlines (strokes) are used to define fold of 3D
 drawings and used together with shadows (created using gradients or
 feathering) are the basis of an artist's work.
 
-To create an Outline Layer use the `Spline Tool <Spline_Tool>`__ and
-check ``Create Outline`` in the `Tool Options
-Panel <Tool_Options_Panel>`__. Once you finish the definition of the
+To create an Outline Layer use the |Spline_Tool| and
+check ``Create Outline`` in the |Tool_Options_Panel|. Once you finish the definition of the
 geometry of your outline and after pressing the ``Make Spline`` button
 (or selecting another tool or state) you create the Outline Layer with
-the `current <New_Layer_Defaults#Brush_Colors>`__ ``Outline Color``.
+the |New_Layer_Defaults_Brush_Colors| ``Outline Color``.
 
-Depending on the options you choose in the `Tool Options
-Panel <Tool_Options_Panel>`__ other like `Star Tool <Star_Tool>`__ or
-`Circle Tool <Circle_Tool>`__ can also create Outline Layers.
+Depending on the options you choose in the |Tool_Options_Panel| other like |Star_Tool| or
+|Circle_Tool| can also create Outline Layers.
 
-Using the `Layer Menu <Canvas_Layer_Menu>`__ ``Make Advanced Outline``,
+Using the |Canvas_Layer_Menu| ``Make Advanced Outline``,
 ``Make Outline`` or ``Make Region`` commands you can also create those
 layers.
+
+.. _layer_outline  Parameters of Outline Layers:
 
 Parameters of Outline Layers
 ----------------------------
@@ -39,63 +41,65 @@ The parameters of the Outline layers are:
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
 | **Name**                                                                                | **Value**               | **Type**          |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_real\_icon.png| `Z Depth <Z_Depth_Parameter>`__                              |   0.000000              |   real            |
+|     |Type\_real\_icon.png| |Z_Depth_Parameter|                                          |   0.000000              |   real            |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_real\_icon.png| `Amount <Amount_Parameter>`__                                | 1.000000                |   real            |
+|     |Type\_real\_icon.png| |Amount_Parameter|                                           | 1.000000                |   real            |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_integer\_icon.png| `Blend Method <Blend_Method>`__                           | Composite               |   integer         |
+|     |Type\_integer\_icon.png| |Blend_Method|                                            | Composite               |   integer         |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_color\_icon.png| `Color <Colors_Dialog>`__                                   | |p_color_green.png|     |   color           |
+|     |Type\_color\_icon.png| |Colors_Dialog|                                             | |p_color_green.png|     |   color           |
 |                                                                                         |                         |                   |
 |                                                                                         |                         |                   |
 |                                                                                         |                         |                   |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_vector\_icon.png| `Origin <Origin_Parameter>`__                              |   0.000000u,0.000000u   |   vector          |
+|     |Type\_vector\_icon.png| |Origin_Parameter|                                         |   0.000000u,0.000000u   |   vector          |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_bool\_icon.png| `Invert <Invert_Parameter>`__                                | |p_checkbox_off.png|    |   bool            |
-|                                                                                         |                         |                   |
-|                                                                                         |                         |                   |
-|                                                                                         |                         |                   |
-+-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_bool\_icon.png| `Antialiasing <Antialiasing_Parameter>`__                    | |p_checkbox_off.png|    |   bool            |
+|     |Type\_bool\_icon.png| |Invert_Parameter|                                           | |p_checkbox_off.png|    |   bool            |
 |                                                                                         |                         |                   |
 |                                                                                         |                         |                   |
 |                                                                                         |                         |                   |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_real\_icon.png| `Feather <Feather_Parameter>`__                              |   0.000000pt            |   real            |
+|     |Type\_bool\_icon.png| |Antialiasing_Parameter|                                     | |p_checkbox_off.png|    |   bool            |
+|                                                                                         |                         |                   |
+|                                                                                         |                         |                   |
+|                                                                                         |                         |                   |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_integer\_icon.png| `Type of Feather <Feather_Parameter#Type_of_Feather>`__   |   Fast Gaussian Blur    |   integer         |
+|     |Type\_real\_icon.png| |Feather_Parameter|                                          |   0.000000pt            |   real            |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_integer\_icon.png| `Winding Style <Winding_Style_Parameter>`__               |   Non Zero              |   integer         |
+|     |Type\_integer\_icon.png| |Feather_Parameter_Type_of_Feather|                       |   Fast Gaussian Blur    |   integer         |
++-----------------------------------------------------------------------------------------+-------------------------+-------------------+
+|     |Type\_integer\_icon.png| |Winding_Style_Parameter|                                 |   Non Zero              |   integer         |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
 |     |Type\_list\_icon.png| Vertices                                                     |   List                  |   list (Spline)   |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_real\_icon.png| `Outline Width <Outline_Layer#Outline_width>`__              |   2.000000pt            |   real            |
+|     |Type\_real\_icon.png| |Outline_Layer_Outline_width|                                |   2.000000pt            |   real            |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_real\_icon.png| `Expand <Outline_Layer#Expand>`__                            |   0.000000pt            |   real            |
+|     |Type\_real\_icon.png| |Outline_Layer_Expand|                                       |   0.000000pt            |   real            |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_bool\_icon.png| `Sharp Cusps <Outline_Layer#Sharp_Cusps>`__                  | |p_checkbox_off.png|    |   bool            |
-|                                                                                         |                         |                   |
-|                                                                                         |                         |                   |
-|                                                                                         |                         |                   |
-+-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_bool\_icon.png| `Rounded Begin <Outline_Layer#Rounded_Begin>`__              | |p_checkbox_off.png|    |   bool            |
+|     |Type\_bool\_icon.png| |Outline_Layer_Sharp_Cusps|                                  | |p_checkbox_off.png|    |   bool            |
 |                                                                                         |                         |                   |
 |                                                                                         |                         |                   |
 |                                                                                         |                         |                   |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_bool\_icon.png| `Rounded End <Outline_Layer#Rounded_End>`__                  | |p_checkbox_off.png|    |   bool            |
+|     |Type\_bool\_icon.png| |Outline_Layer_Rounded_Begin|                                | |p_checkbox_off.png|    |   bool            |
 |                                                                                         |                         |                   |
 |                                                                                         |                         |                   |
 |                                                                                         |                         |                   |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_real\_icon.png| `Loopyness <Outline_Layer#Loopyness>`__                      |   1.000000              |   real            |
-+-----------------------------------------------------------------------------------------+-------------------------+-------------------+
-|     |Type\_bool\_icon.png| `Homogeneous <Outline_Layer#Homogeneous>`__                  | |p_checkbox_off.png|    |   bool            |
+|     |Type\_bool\_icon.png| |Outline_Layer_Rounded_End|                                  | |p_checkbox_off.png|    |   bool            |
 |                                                                                         |                         |                   |
 |                                                                                         |                         |                   |
 |                                                                                         |                         |                   |
 +-----------------------------------------------------------------------------------------+-------------------------+-------------------+
+|     |Type\_real\_icon.png| |Outline_Layer_Loopyness|                                    |   1.000000              |   real            |
++-----------------------------------------------------------------------------------------+-------------------------+-------------------+
+|     |Type\_bool\_icon.png| |Outline_Layer_Homogeneous|                                  | |p_checkbox_off.png|    |   bool            |
+|                                                                                         |                         |                   |
+|                                                                                         |                         |                   |
+|                                                                                         |                         |                   |
++-----------------------------------------------------------------------------------------+-------------------------+-------------------+
+
+.. _layer_outline  Specific parameters for Outline Layers:
 
 Specific parameters for Outline Layers
 --------------------------------------
@@ -110,6 +114,8 @@ This is a sample screenshot of an Outline Layer in action:
    :alt: Outline_Sample_0.63.06.png
 
    
+.. _layer_outline  Outline width:
+
 Outline width
 ~~~~~~~~~~~~~
 
@@ -128,7 +134,7 @@ Where:
 -  VW = specific vertex width value.
 -  E = value of the Expand parameter.
 
-The width `handle <Handle>`__ would show the radius value for that
+The width |Handle| would show the radius value for that
 vertex (W/2).
 
 The width that ends up being used for each vertex is ((VertexWidth \*
@@ -157,6 +163,8 @@ middle:
 |                                                      |                                                               |
 +------------------------------------------------------+---------------------------------------------------------------+
 
+.. _layer_outline  Expand:
+
 Expand
 ~~~~~~
 
@@ -178,6 +186,8 @@ OutLineWidth) + Expand\*2):
 | Zero ``Expand``                                             | Non-zero ``Expand``                                        |
 +-------------------------------------------------------------+------------------------------------------------------------+
 
+.. _layer_outline  Sharp cups:
+
 Sharp cups
 ~~~~~~~~~~
 
@@ -193,6 +203,8 @@ split:
 +-------------------------------------------------------------+-----------------------------------------------------------+
 | No ``Sharp Cusps``                                          | With ``Sharp Cusps``                                      |
 +-------------------------------------------------------------+-----------------------------------------------------------+
+
+.. _layer_outline  Rounded Begin:
 
 Rounded Begin
 ~~~~~~~~~~~~~
@@ -212,6 +224,8 @@ Enabling ``Rounded Begin`` makes the start of the outline rounded:
 Note: With cairo render activated, if the quality is superior to **6**,
 enabling ``Rounded Begin`` enable also R\ ``Rounded End``.
 
+.. _layer_outline  Rounded End:
+
 Rounded End
 ~~~~~~~~~~~
 
@@ -230,10 +244,14 @@ Enabling ``Rounded End`` makes the end of the outline rounded:
 Note: With cairo render activated, if the quality is superior to **6**,
 enabling ``Rounded End`` enable also ``Rounded Begin``.
 
+.. _layer_outline  Loopyness:
+
 Loopyness
 ~~~~~~~~~
 
 This parameter currently does absolutely nothing at all!
+
+.. _layer_outline  Homogeneous:
 
 Homogeneous
 ~~~~~~~~~~~
@@ -262,6 +280,8 @@ Maybe that's a bug:
 +-------------------------------------------------------+---------------------------------------------------+
 | not homogeneous                                       | homogeneous                                       |
 +-------------------------------------------------------+---------------------------------------------------+
+
+.. _layer_outline  Misc:
 
 Misc
 ~~~~
@@ -300,3 +320,28 @@ Note : :download:`File used <outline_dat/Outline_Layer.sifz>`
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
 .. |Outline\_Layer.sifz| image:: Outline_Layer.sifz
 
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |New_Layer_Defaults_Brush_Colors| replace:: :ref:`New Layer Defaults: Brush Colors <new_layer_defaults Brush Colors>`
+.. |Star_Tool| replace:: :ref:`Star Tool <tool_start>`
+.. |Canvas_Layer_Menu| replace:: :ref:`Canvas: Layer Menu <canvas_layer_menu>`
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Colors_Dialog| replace:: :ref:`Color <colors_dialog>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
+.. |Invert_Parameter| replace:: :ref:`Invert <parameters_invert>`
+.. |Antialiasing_Parameter| replace:: :ref:`Antialiasing <parameters_anitialiasing>`
+.. |Feather_Parameter| replace:: :ref:`Feather Parameter <parameters_feather>`
+.. |Feather_Parameter_Type_of_Feather| replace:: :ref:`Type of Feather <parameters_feather Type of Feather>`
+.. |Winding_Style_Parameter| replace:: :ref:`Winding Style Parameter <parameters_winding_style>`
+.. |Outline_Layer_Outline_width| replace:: :ref:`Outline Width <layer_outline  Outline width>`
+.. |Outline_Layer_Expand| replace:: :ref:`Expand <layer_outline  Expand>`
+.. |Outline_Layer_Sharp_Cusps| replace:: :ref:`Sharp Cusps <layer_outline  Sharp cups>`
+.. |Outline_Layer_Rounded_Begin| replace:: :ref:`Rounded Begin <layer_outline  Rounded Begin>`
+.. |Outline_Layer_Rounded_End| replace:: :ref:`Rounded End <layer_outline Rounded End>`
+.. |Outline_Layer_Loopyness| replace:: :ref:`Loopyness <layer_outline  Loopyness>`
+.. |Outline_Layer_Homogeneous| replace:: :ref:`Homogeneous <layer_outline  Homogeneous>`
+.. |Handle| replace:: :ref:`handle <handles>`
+.. |Circle_Tool| replace:: :ref:`Cicle Tool <tool_circle>`

@@ -8,11 +8,13 @@
    :width: 64px
 
  
+.. _layer_plant  About Plant Layers:
+
 About Plant Layers
 ------------------
 
-A short description of the layer can be found here:
-`Layer#Plant <Layer#Plant>`__
+
+.. _layer_plant  Parameters of Plant Layers:
 
 Parameters of Plant Layers
 --------------------------
@@ -22,13 +24,13 @@ The parameters of the Plant layers are:
 +-----------------------------------------------------------------+--------------------------+-------------------+
 | **Name**                                                        | **Value**                | **Type**          |
 +-----------------------------------------------------------------+--------------------------+-------------------+
-|     |Type\_real\_icon.png| `Z Depth <Z_Depth_Parameter>`__      |   0.000000               |   real            |
+|     |Type\_real\_icon.png| |Z_Depth_Parameter|                  |   0.000000               |   real            |
 +-----------------------------------------------------------------+--------------------------+-------------------+
-|     |Type\_real\_icon.png| `Amount <Amount_Parameter>`__        |   1.000000               |   real            |
+|     |Type\_real\_icon.png| |Amount_Parameter|                   |   1.000000               |   real            |
 +-----------------------------------------------------------------+--------------------------+-------------------+
-|     |type\_integer\_icon.png| `Blend Method <Blend_Method>`__   |   Composite              |   integer         |
+|     |type\_integer\_icon.png| |Blend_Method|                    |   Composite              |   integer         |
 +-----------------------------------------------------------------+--------------------------+-------------------+
-|     |Type\_vector\_icon.png| `Origin <Origin_Parameter>`__      |   0.000000u,0.000000u    |   vector          |
+|     |Type\_vector\_icon.png| |Origin_Parameter|                 |   0.000000u,0.000000u    |   vector          |
 +-----------------------------------------------------------------+--------------------------+-------------------+
 |     |Type\_list\_icon.png| Vertices                             |   List                   |   list (Spline)   |
 +-----------------------------------------------------------------+--------------------------+-------------------+
@@ -83,3 +85,10 @@ The parameters of the Plant layers are:
    :width: 16px
 .. |p_gradient.png| image:: images/p_gradient.png 
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
+
+
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`

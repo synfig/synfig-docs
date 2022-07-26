@@ -4,6 +4,8 @@
     Reuse Animations
 ########################################
 
+.. _reuse_animations  Introduction:
+
 Introduction
 ------------
 
@@ -17,7 +19,9 @@ to move your character's mouth to repeated positions depending on the
 phonemes it describes while speaking.
 
 This can be done easily just using a combination of
-`keyframes <Keyframe>`__ and exported canvases.
+|Keyframe| and exported canvases.
+
+.. _reuse_animations  Keyframes:
 
 Keyframes
 ---------
@@ -38,10 +42,9 @@ do that just do following:
 #. Repeat the above steps as many times you need to make a new “pose”.
    Let's say you have created a keyframe at frames number 2 (eye open)
    and 4 (eye closed).
-#. Once done then go to another frame with the `time
-   cursor <Time_Cursor>`__, select the keyframe you want to introduce
+#. Once done then go to another frame with the |Time_Cursor|, select the keyframe you want to introduce
    and press the “Duplicate keyframe” button. You'll obtain a copy of
-   the selected keyframe at the current `time cursor <Time_Cursor>`__
+   the selected keyframe at the current |Time_Cursor|
    position.
 
 .. figure:: reuse_animations_dat/Reuse_Animations_1_0.63.06.png
@@ -58,14 +61,15 @@ eyeblink (open and closed) set of keyframes in the middle, then the
 eyeball animation would be broken by the insertion of the copies of the
 eyelid movement keyframes.
 
+.. _reuse_animations  Exporting the Canvas Parameter:
+
 Exporting the Canvas Parameter
 ------------------------------
 
-Every time you group the layers, you obtain a `Group
-Layer <Group_Layer>`__ that prevents the composition of the contained
+Every time you group the layers, you obtain a |Group_Layer| that prevents the composition of the contained
 layers over layers outside of it.
 
-One of the parameters of the Group Layer is the `Canvas <Canvas>`__. The
+One of the parameters of the Group Layer is the |Canvas|. The
 canvas is like a workspace that represents all the grouped layers.
 
 .. figure:: reuse_animations_dat/Reuse_Animations_2_0.63.06.png
@@ -86,7 +90,7 @@ affecting all the objects in the scene) you can do following:
    :alt: Reuse_Animations_3_0.63.06.png
 
 
-Go to the `Canvas Browser Panel <Canvas_Browser_Panel>`__ and select the
+Go to the |Canvas_Browser_Panel| and select the
 just exported canvas.
 
 Double click it and a new workarea window will open with just the layers
@@ -130,6 +134,8 @@ the main work area and the exported canvas work area to show both
 windows at the same current time. This would give feedback on where to
 insert the 'pose' keyframes in your local animation.
 
+.. _reuse_animations  A sample:
+
 A sample
 --------
 
@@ -149,3 +155,10 @@ animation is defined to start at frame 6.
 All comments are welcome.
 
 
+
+
+.. |Keyframe| replace:: :ref:`Keyframe <keyframes>`
+.. |Time_Cursor| replace:: :ref:`Time Cursor <glossary_time_cursor>`
+.. |Group_Layer| replace:: :ref:`Group Layer <layer_group>`
+.. |Canvas| replace:: :ref:`Canvas <canvas>`
+.. |Canvas_Browser_Panel| replace:: :ref:`Canvas Browser Panel <panel_canvas_browser>`

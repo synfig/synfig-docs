@@ -8,6 +8,8 @@
    :alt: Layer_blur_blur_icon.png
    :width: 64px
 
+.. _layer_blur  About Blur Layer:
+
 About Blur Layer
 ----------------
 
@@ -26,6 +28,8 @@ compared to the situation where the aperture is fully closed (f22).
 In a graphical context, blurs are effects that imitate those situations
 (with more or less success).
 
+.. _layer_blur  Parameters of the Blur Layer:
+
 Parameters of the Blur Layer
 ----------------------------
 
@@ -34,15 +38,15 @@ The parameters of the ``Blur Layer`` are:
 +---------------------------------------------------------+-------------------------+------------------------------------------------+
 | **Name**                                                | **Value**               | **Type**                                       |
 +---------------------------------------------------------+-------------------------+------------------------------------------------+
-| |Type_real_icon.png| `Z Depth <Z_Depth_Parameter>`__    | 0.000000                | real                                           |
+| |Type_real_icon.png| |Z_Depth_Parameter|                | 0.000000                | real                                           |
 +---------------------------------------------------------+-------------------------+------------------------------------------------+
-| |Type_real_icon.png| `Amount <Amount_Parameter>`__      | 1.000000                | real                                           |
+| |Type_real_icon.png| |Amount_Parameter|                 | 1.000000                | real                                           |
 +---------------------------------------------------------+-------------------------+------------------------------------------------+
-| |Type_integer_icon.png| `Blend Method <Blend_Method>`__ | Composite               | integer                                        |
+| |Type_integer_icon.png| |Blend_Method|                  | Composite               | integer                                        |
 +---------------------------------------------------------+-------------------------+------------------------------------------------+
-| |Type_vector_icon.png| `Size <#Size>`__                 | 6.000000pt,6.000000pt   | vector                                         |
+| |Type_vector_icon.png| :ref:`Size <layer_blur  Size>`   | 6.000000pt,6.000000pt   | vector                                         |
 +---------------------------------------------------------+-------------------------+------------------------------------------------+
-| |Type_integer_icon.png| `Type <#Types>`__               | Fast Gaussian Blur      | integer                                        |
+| |Type_integer_icon.png| :ref:`Type <layer_blur  Type>`  | Fast Gaussian Blur      | integer                                        |
 +---------------------------------------------------------+-------------------------+------------------------------------------------+
 
 .. |Type_real_icon.png| image:: images/Type_real_icon.png
@@ -52,6 +56,8 @@ The parameters of the ``Blur Layer`` are:
 .. |Type_vector_icon.png| image:: images/Type_vector_icon.png
    :width: 16px
    
+.. _layer_blur  Size:
+
 Size
 ~~~~
 
@@ -62,32 +68,36 @@ quickly increases as you increase the size parameter, so be careful.
 This parameter is a compound value of two real numbers, x and y. Each of
 them indicates the size of the blur along that direction.
 
+.. _layer_blur  Type:
+
 Type
 ~~~~
 
 There are 5 types of blur:
 
--  `Fast Gaussian Blur <#Fast_Gaussian>`__
--  `Box Blur <#Box>`__ (See
-   `1 <http://en.wikipedia.org/wiki/Box_blur>`__)
--  `Cross Hatch Blur <#Cross_Hatch>`__
--  `Disc Blur <#Disc>`__
--  `Gaussian Blur <#Gaussian>`__ (See
-   `2 <http://en.wikipedia.org/wiki/Gaussian_blur>`__)
+-  :ref:`Fast Gaussian Blur <layer_blur  Fast Gaussian>`
+-  :ref:`Box Blur <layer_blur Box>` (`More info <http://en.wikipedia.org/wiki/Box_blur>`__)
+-  :ref:`Cross Hatch Blur <layer_blur Cross Hatch>`
+-  :ref:`Disc Blur <layer_blur Disc>`
+-  :ref:`Gaussian Blur <layer_blur Gaussian>` (`More info <http://en.wikipedia.org/wiki/Gaussian_blur>`__)
+
+.. _layer_blur  Samples:
 
 Samples
 -------
+.. _layer_blur  Star animation:
+
 Star animation
 ~~~~~~~~~~~~~~
 
 If you wonder how the animations were made (`sample
 file <Media:blur.sifz>`__):
 
--  a `Star Layer <Star_Layer>`__ is positioned at the center of the
-   Frame, with an `Outline Layer <Outline_Layer>`__ of width 0.05u
+-  a |Star_Layer| is positioned at the center of the
+   Frame, with an |Outline_Layer| of width 0.05u
 -  the animations have 120 frames, and the `Size <#Size>`__ parameter of
    the blur goes from 0u,0u to 1u,1u
--  the `rendering <Render_dialog>`__ settings are set to Quality 9 and
+-  the |Render_dialog| settings are set to Quality 9 and
    Anti-Aliasing 1
 
 Fast Gaussian :
@@ -111,8 +121,12 @@ Gaussian :
 .. |Disc| image:: blur_dat/Blur_disc.gif
 .. |Gaussian| image:: blur_dat/Blur_gaussian.gif
 
+.. _layer_blur  Fast Gaussian:
+
 Fast Gaussian
 ~~~~~~~~~~~~~
+
+.. _layer_blur  Fast Gaussian Blur:
 
 Fast Gaussian Blur
 ~~~~~~~~~~~~~~~~~~
@@ -126,6 +140,8 @@ Fast Gaussian Blur
 |                                              |                                               |
 +----------------------------------------------+-----------------------------------------------+
 
+.. _layer_blur  Box:
+
 Box
 ~~~
 
@@ -137,6 +153,8 @@ Box
 |                                    |                                      |
 |                                    |                                      |
 +------------------------------------+--------------------------------------+
+
+.. _layer_blur  Cross Hatch:
 
 Cross Hatch
 ~~~~~~~~~~~
@@ -150,6 +168,8 @@ Cross Hatch
 |                                           |                                             |
 +-------------------------------------------+---------------------------------------------+
 
+.. _layer_blur  Disc:
+
 Disc
 ~~~~
 
@@ -161,6 +181,8 @@ Disc
 |                                     |                                       |
 |                                     |                                       |
 +-------------------------------------+---------------------------------------+
+
+.. _layer_blur  Gaussian:
 
 Gaussian
 ~~~~~~~~
@@ -174,6 +196,8 @@ Gaussian
 |                                         |                                           |
 +-----------------------------------------+-------------------------------------------+
 
+.. _layer_blur  Fast Gaussian Blur over all the layers:
+
 Fast Gaussian Blur over all the layers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -186,15 +210,26 @@ Fast Gaussian Blur over all the layers
 |                                              |
 +----------------------------------------------+
 
+.. _layer_blur  See also:
+
 See also
 --------
 
--  `Radial Blur Layer <Radial_Blur_Layer>`__ with a radial control of
+-  |Radial_Blur_Layer| with a radial control of
    the size of the blur.
 
--  `Motion Blur Layer <Motion_Blur_Layer>`__ a type of blur that aims to
+-  |Motion_Blur_Layer| a type of blur that aims to
    simulate a motion blur (the one that happens when the object's
    movement is too fast for the exposure time). It is controlled by a
    single parameter called “Aperture”.
 
 
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Star_Layer| replace:: :ref:`Star Layer <layer_star>`
+.. |Outline_Layer| replace:: :ref:`Outline Layer <layer_outline>`
+.. |Render_dialog| replace:: :ref:`Render Dialog <canvas_render>`
+.. |Radial_Blur_Layer| replace:: :ref:`Radial Blur Layer <layer_radial_blur>`
+.. |Motion_Blur_Layer| replace:: :ref:`Motion Blur Layer <layer_motion_blur>`

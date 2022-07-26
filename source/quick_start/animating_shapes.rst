@@ -4,13 +4,15 @@
     Animating Shapes
 ########################
 
+.. _animating_shapes  Basic settings:
+
 Basic settings
 --------------
 
 In the `previous tutorial <Doc:Creating_Shapes>`__, you have learned to
-create shapes with the `Spline Tool <Spline_Tool>`__, in this tutorial
+create shapes with the |Spline_Tool|, in this tutorial
 we will learn how to create a simple animation of a growing flower using
-`Splines <Doc:Creating_Shapes>`__.
+:ref:`Splines <creating_shapes>`.
 
 |FlowerTutorial_0.png| 
 
@@ -19,14 +21,14 @@ created. If you already have Synfig Studio started, select ``File|New``
 in the toolbox.
 
 First, we need to create a gradient for a background. Click on the
-outline and fill colors in the `Toolbox <Toolbox>`__ to select the
+outline and fill colors in the |Toolbox| to select the
 colors our gradient will have. You can also directly edit the gradient
 by clicking the gradient line in the toolbox.
 
-Select the `Gradient Tool <Gradient_Tool>`__ and drag your cursor
+Select the |Gradient_Tool| and drag your cursor
 vertically across the canvas to fill it with the gradient.
 
-Next, select the `Spline Tool <Spline_Tool>`__ and in the Tool Options
+Next, select the |Spline_Tool| and in the Tool Options
 Panel, make sure that only ``Create Region Spline`` is checked. In the
 toolbox, set the fill color to green. Draw a kind of triangle with the
 Spline tool. To close the shape after drawing the 3 vertices, right
@@ -34,12 +36,11 @@ click on the first vertex and choose ``Loop Spline``.
 
 | Now that the trace of the form is closed, you can generate the proper
   form by selecting another tool or by pressing the button with the gear
-  icon at the bottom of the `Tool Options Panel <Tool_Options_Panel>`__.
+  icon at the bottom of the |Tool_Options_Panel|.
 | |FlowerTutorial_1_Canvas.png|
 
 This will be the base of the stem. You can tweak the tangent handles
-(red dots) a bit to make a rounder triangle. With the `Transform
-Tool <Transform_Tool>`__, right-click on each vertex and select
+(red dots) a bit to make a rounder triangle. With the |Transform_Tool|, right-click on each vertex and select
 ``Split Tangents``, so the tangent handles of each vertex can be moved
 separately.
 
@@ -54,25 +55,27 @@ separately.
 
 We're done with the basic settings.
 
+.. _animating_shapes  Animate the stem:
+
 Animate the stem
 ----------------
 
-In the Canvas Menu, select the `caret menu <Caret>`__ icon in the upper
+In the Canvas Menu, select the |Caret| icon in the upper
 left hand corner, where the rulers intersect, and then select
 ``Edit|Properties``. Go to the ``Time`` tab, set the ``End time`` to
 ``6s`` and click OK button.
 
 Click at the beginning of the timetrack (``0f``), then, in the
-`Keyframes Panel <Keyframes_Panel>`__ (the one with a key icon) click
+|Keyframes_Panel| (the one with a key icon) click
 the button with a “+” icon (add a new keyframe).
-`Keyframes <Keyframe>`__ allow us to *settle down* the scene; i.e. on a
+|Keyframe| allow us to *settle down* the scene; i.e. on a
 keyframe, every element of the scene will have all its properties
 remembered. Click again on the timetrack, at ``4s 12f`` (ie 4.5s at 24
 fps). Press the green man at the bottom right of the canvas (or whatever
 icon you have there, depending on your icon theme) to switch to the
-`Animate Editing Mode <Animate_Editing_Mode>`__ (the man is now red).
+|Animate_Editing_Mode| (the man is now red).
 
-With the `Transform Tool <Transform_Tool>`__, select the green sprout,
+With the |Transform_Tool|, select the green sprout,
 and move the upper vertex up to make a stem. You can play with the
 vertex handles to bend the shape a bit if you want.
 
@@ -102,8 +105,8 @@ Let's say we want the bud to appear only at 3s 12f, and be full size at
 
 Click on ``3s 12f`` on the timetrack. Now take a look at the
 ``Parameters`` and ``Timetrack`` panels at the bottom. You'll see that
-each parameter in the `Parameters Panel <Parameters_Panel>`__ matches a
-row in the `Timetrack Panel <Timetrack_Panel>`__. The last parameter is
+each parameter in the |Parameters_Panel| matches a
+row in the |Timetrack_Panel|. The last parameter is
 the vertices list. Click on the small arrow on the left to unfold the
 list. You should see something like this:
 
@@ -111,7 +114,7 @@ list. You should see something like this:
    :alt: FlowerTutorial_6_TimeTrackParameterPanel_0.63.06.png
 
 
-Each brown diamond (or `waypoint <waypoints>`__) stands for a recorded
+Each brown diamond (or |waypoints|) stands for a recorded
 value (here the vertices positions were recorded at 0f with the
 keyframe, and at 4s when we moved some vertices or vertices handles).
 The two vertices we added to make the bud are marked with green and red
@@ -143,6 +146,8 @@ watch.
    using higher values for 'Zoom' and 'Frames per second' in the preview
    dialog window.
 
+.. _animating_shapes  Adding the petals:
+
 Adding the petals
 -----------------
 
@@ -150,9 +155,8 @@ Now leave the ``Animate Editing Mode`` by clicking on the red circle at
 the right bottom of the canvas.
 
 Change the fill color to pink, and create a petal with the Spline Tool.
-You'll notice that the green `handle <handle>`__ that allows easy
-movement of a shape is at the center (`Origin
-Parameter <Origin_Parameter>`__ : ``0,0``) of the canvas. Select all the
+You'll notice that the green |handle| that allows easy
+movement of a shape is at the center (|Origin_Parameter| : ``0,0``) of the canvas. Select all the
 vertices of the petal with ``Ctrl|a`` and move them close to the green
 handle (with the Transform Tool), as shown.
 
@@ -162,7 +166,7 @@ handle (with the Transform Tool), as shown.
 
 Then drag the green handle very close to the top of the bud. Hit
 ``Ctrl|a`` again to select all vertices of the petal and tweak it a bit
-with Rotate Tool. Also, in the `Layers Panel <Layers_Panel>`__ select
+with Rotate Tool. Also, in the |Layers_Panel| select
 the petal layer and put it **under** the stem layer. Click on the petal
 to select it, then ctrl-click on the stem. Both objects should be
 selected.
@@ -206,6 +210,8 @@ back to the first keyframe, you'll see that the petals are visible. We
 don't want that. We want the petals to appear and bloom almost at the
 end of the growth.
 
+.. _animating_shapes  Hiding the petals:
+
 Hiding the petals
 -----------------
 
@@ -218,12 +224,11 @@ at the bottom right of the canvas. But if we will go to ``4s`` and
 modify them, then they also change at ``5s``. Because the shape/position
 of the petals is not fixated at this moment of time by any waypoints or
 keyframes. That means that we need a keyframe at ``5s``. On the
-timetrack, click to place the cursor at 5 seconds. On the `Keyframes
-Panel <Keyframes_Panel>`__, click on “+” to add a new keyframe.
+timetrack, click to place the cursor at 5 seconds. On the |Keyframes_Panel|, click on “+” to add a new keyframe.
 
 Now click on ``4s``, and on the Layers Panel, select all the petals
 layers (with ctrl+click), then press ``Ctrl|A`` to select all the petals
-vertices. Scale them down with the `Scale Tool <Scale_Tool>`__, and move
+vertices. Scale them down with the |Scale_Tool|, and move
 them, so they are hidden by the stem, as shown.
 
 .. figure:: animating_shapes_dat/FlowerTutorial_11_0.63.06.png
@@ -237,8 +242,7 @@ size on every frame from 0s to 4s, or we could make them invisible on
 this interval.
 
 Let's choose the second solution. To make things easier, we are going to
-`group <Group>`__ the petal layers into an `Group
-Layer <Group_Layer>`__. With all the petal layers selected, right-click
+group the petal layers into an |Group_Layer|. With all the petal layers selected, right-click
 on them on the Layers Panel and select ``Group``. You can rename the
 layers to make things more understandable.
 
@@ -293,10 +297,12 @@ want, and ensure that ``Use current frame`` option is unchecked
 
 You can :download:`download the project <animating_shapes_dat/FlowerTutorial.sifz>` used for the screenshots.
 
+.. _animating_shapes  What's next:
+
 What's next
 -----------
 
-Synfig Studio have a `Skeleton animation system <Skeleton_Layer>`__, in
+Synfig Studio have a |Skeleton_Layer|, in
 the `next step <Doc:Basic_Bone_Tutorial>`__ you will learn how to setup
 a basic skeleton.
 
@@ -304,7 +310,22 @@ a basic skeleton.
 .. |FlowerTutorial_1_Canvas.png| image:: animating_shapes_dat/FlowerTutorial_1_Canvas.png
 
 
-
-
+.. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
+.. |Toolbox| replace:: :ref:`Toolbox <panel_toolbox>`
+.. |Gradient_Tool| replace:: :ref:`Gradient Tool <tool_gradient>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_transform>`
+.. |Origin_Parameter| replace:: :ref:`Origin Parameter <parameters>`
+.. |Caret| replace:: :ref:`Canvas Menu Caret <canvas>`
+.. |Keyframes_Panel| replace:: :ref:`Keyframes Panel <panel_keyframes>`
+.. |Keyframe| replace:: :ref:`Keyframes <keyframes>`
+.. |Animate_Editing_Mode| replace:: :ref:`Animate Editing Mode <canvas>`
+.. |Parameters_Panel| replace:: :ref:`Paramters Panel <panel_parameters>`
+.. |Timetrack_Panel| replace:: :ref:`Timetrack Panel <panel_timetrack>`
+.. |Waypoints| replace:: :ref:`Waypoints <waypoints>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`
+.. |Scale_Tool| replace:: :ref:`Scale Tool <tool_scale>`
+.. |Group_Layer| replace:: :ref:`Group layer <layer_group>` 
+.. |Skeleton_Layer| replace:: :ref:`Skeleton Layer <layer_skeleton>`
 
 

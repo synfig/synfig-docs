@@ -6,28 +6,27 @@
 
 |Time\_track\_icon.png| 
 
-The ``Timetrack Panel`` shows a symbol ([Waypoints#Graphical\_Representation]) (usually a green dot) for every `Waypoint <Waypoint>`__ in the timeline. 
-`Keyframes <Keyframe>`__ are represented by vertical lines through the timeline. 
-The `time cursor <Time_Cursor>`__ shows you with another vertical line at which frame you currently are at.
+The ``Timetrack Panel`` shows a symbol ([Waypoints#Graphical\_Representation]) (usually a green dot) for every |Waypoint| in the timeline. 
+|Keyframe| are represented by vertical lines through the timeline. 
+The |Time_Cursor| shows you with another vertical line at which frame you currently are at.
 
 .. figure:: panel_timetrack_dat/Timetrack_panel_0.63.06.png
    :alt: Timetrack_panel_0.63.06.png
 
   
-When you change an object parameter while in `Animate Editing
-Mode <Animate_Editing_Mode>`__, for example by moving an object, a
-`Waypoint <Waypoint>`__ is inserted. The rows of the ``Timetrack Panel``
-are aligned with the `Parameters Panel <Parameters_Panel>`__. If you are
+When you change an object parameter while in |Animate_Editing_Mode|, for example by moving an object, a
+|Waypoint| is inserted. The rows of the ``Timetrack Panel``
+are aligned with the |Parameters_Panel|. If you are
 animating the individual vertices, you have to expand the vertices list
 to see their individual waypoints.
 
-You can drag those `Waypoints <Waypoint>`__ through time, and you can
+You can drag those |Waypoint| through time, and you can
 change their interpolation method ([Waypoints#Interpolation]) by
 right-clicking (eg. a sudden step change instead of a smooth
 transition). You can also change the default interpolation method from
-the Toolbox Panel in the `New Layer Defaults <New_Layer_Defaults>`__ section. The very
+the Toolbox Panel in the |New_Layer_Defaults| section. The very
 bottom control sets the default method, and is initially set to
-`Clamped <Clamped>`__.
+|Clamped|.
 
 .. figure:: panel_timetrack_dat/Timetrack_panel_Context_menu_0.63.06.png
    :alt: Timetrack_panel_Context_menu_0.63.06.png
@@ -54,11 +53,12 @@ Holding ``ALT`` while clicking waypoints will delete them.
 
 Further reading:
 
--  `Keyframe <Keyframe>`__
--  `Waypoint <Waypoint>`__
--  `Timebar <Timebar>`__
+-  |Keyframe|
+-  |Waypoint|
+-  |Timebar|
 
-Interested in futur things ? ``Waypoints ... what could be the future of...?`` <http://www.synfig.org/forums/viewtopic.php?f=14&t=5013>` in the synfig forum.
+Interested in future things ?
+ `Waypoints ... what could be the future of...? <https://forums.synfig.org/t/waypoints-what-could-be-the-future-of/2944>`__ in the synfig forum.
 
 
 .. |Time_track_icon.png| image:: panel_timetrack_dat/Time_track_icon.png
@@ -66,3 +66,11 @@ Interested in futur things ? ``Waypoints ... what could be the future of...
 
 
 
+.. |Waypoint| replace:: :ref:`Waypoint <waypoints>`
+.. |Keyframe| replace:: :ref:`Keyframe <keyframes>`
+.. |Time_Cursor| replace:: :ref:`Time Cursor <glossary_time_cursor>`
+.. |Animate_Editing_Mode| replace:: :ref:`Animate Editing Mode <animation_mode>`
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
+.. |New_Layer_Defaults| replace:: :ref:`New Layer Defaults <new_layer_defaults>`
+.. |Clamped| replace:: :ref:`Clamped <interpolations_Clamped>`
+.. |Timebar| replace:: :ref:`Timebar <timebar>`

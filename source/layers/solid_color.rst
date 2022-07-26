@@ -8,11 +8,15 @@
    :width: 64px
 
 
+.. _layer_solid_color  About Solid Color Layers:
+
 About Solid Color Layers
 ------------------------
 
-A `Solid Color Layer <Solid_Color_Layer>`__ create a plain color ground.
+A Solid Color Layer create a plain color ground.
 Usefull for example for scene background.
+
+.. _layer_solid_color  Parameters of Solid Color Layers:
 
 Parameters of Solid Color Layers
 --------------------------------
@@ -22,13 +26,13 @@ The parameters of the solid color layers are:
 +-----------------------------------------------------------------+--------------------+-------------+
 | Name                                                            | Value              | Type        |
 +-----------------------------------------------------------------+--------------------+-------------+
-|     |Type\_real\_icon.png| `Z Depth <Z_Depth_Parameter>`__      |   0.000000         |   real      |
+|     |Type\_real\_icon.png| |Z_Depth_Parameter|                  |   0.000000         |   real      |
 +-----------------------------------------------------------------+--------------------+-------------+
-|     |Type\_real\_icon.png| `Amount <Amount_Parameter>`__        |   1.000000         |   real      |
+|     |Type\_real\_icon.png| |Amount_Parameter|                   |   1.000000         |   real      |
 +-----------------------------------------------------------------+--------------------+-------------+
-|     |Type\_integer\_icon.png| `Blend Method <Blend_Method>`__   |   Composite        |   integer   |
+|     |Type\_integer\_icon.png| |Blend_Method|                    |   Composite        |   integer   |
 +-----------------------------------------------------------------+--------------------+-------------+
-|     |Type\_color\_icon.png| `Color <Color_Editor_Dialog>`__     ||p_color_green.png| |   color     |
+|     |Type\_color\_icon.png| |Color_Editor_Dialog|               ||p_color_green.png| |   color     |
 +-----------------------------------------------------------------+--------------------+-------------+
 
 
@@ -39,3 +43,8 @@ The parameters of the solid color layers are:
 .. |Type_color_icon.png| image:: images/Type_color_icon.png
    :width: 16px
 .. |p_color_green.png| image:: images/p_color_green.png    
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Color_Editor_Dialog| replace:: :ref:`Color <colors_dialog>`

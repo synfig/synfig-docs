@@ -6,12 +6,16 @@
 
 |Tool_rotate.png| \ **ALT-T**\ 
 
+.. _tool_rotate  Introduction:
+
 Introduction
 ------------
 
-The ``Rotate Tool`` rotate the selected `Handles <Handle>`__. It works
-much like to `Transform Tool <Transform_Tool>`__ except for when
-multiple `Handles <Handle>`__ are selected.
+The ``Rotate Tool`` rotate the selected |Handle|. It works
+much like to |Transform_Tool| except for when
+multiple |Handle| are selected.
+
+.. _tool_rotate  Options:
 
 Options
 -------
@@ -24,10 +28,12 @@ Options
    at the same time.
 
 
+.. _tool_rotate  Usage:
+
 Usage
 -----
 
-`Select multiple Handles <Handle#Choose_your_handles>`__, by either:
+|Handle_Choose_your_handles|, by either:
 
 -  Pressing ``Ctrl+A`` to select all Handles.
 -  Dragging a rectangle around a group of Handles.
@@ -39,3 +45,8 @@ move, rotating about the center of the selected handles group.
 
 .. |Tool_rotate.png| image:: rotate_dat/Tool_rotate.png
    :width: 64px
+
+
+.. |Handle| replace:: :ref:`Handle <handles>`
+.. |Transform_Tool| replace:: :ref:`Transform Tool <tool_transform>`
+.. |Handle_Choose_your_handles| replace:: :ref:`Handles: Choose your handles <handles>`

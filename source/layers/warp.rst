@@ -10,6 +10,8 @@
    :width: 64px
 
 
+.. _layer_warp  About Warp Layers:
+
 About Warp Layers
 -----------------
 
@@ -24,6 +26,8 @@ Notice that the source rectangle must be centered on the object, to
 achieve a good effect.
 
 If source == destination then object is not warped.
+
+.. _layer_warp  Parameters of Warp Layers:
 
 Parameters of Warp Layers
 -------------------------
@@ -51,10 +55,14 @@ The parameters of the warp layers are:
 +------------------------------------------+--------------------------+------------+
 
 
+.. _layer_warp  Source TL:
+
 Source TL
 ~~~~~~~~~
 
 The Top Left corner (vertex) of the source that is going to be mapped.
+
+.. _layer_warp  Source BR:
 
 Source BR
 ~~~~~~~~~
@@ -63,11 +71,15 @@ The Bottom Right corner (vertex) of the source that is going to be
 mapped. Combined with Source TL ([Warp\_Layer#Source TL]) it defined the
 ``Source rectangle``.
 
+.. _layer_warp  Destination TL:
+
 Destination TL
 ~~~~~~~~~~~~~~
 
 The Top Left corner (vertex) of the destination where the source is
 going to be mapped.
+
+.. _layer_warp  Destination TR:
 
 Destination TR
 ~~~~~~~~~~~~~~
@@ -75,11 +87,15 @@ Destination TR
 The Top Right corner (vertex) of the destination where the source is
 going to be mapped.
 
+.. _layer_warp  Destination BL:
+
 Destination BL
 ~~~~~~~~~~~~~~
 
 The Bottom Left corner (vertex) of the destination where the source is
 going to be mapped.
+
+.. _layer_warp  Destination BR:
 
 Destination BR
 ~~~~~~~~~~~~~~
@@ -87,11 +103,15 @@ Destination BR
 The Bottom Right corner (vertex) of the destination where the source is
 going to be mapped.
 
+.. _layer_warp  Clip:
+
 Clip
 ~~~~
 
 When checked (boolean) it only maps the pixels which lie inside the
 ``Source rectangle``.
+
+.. _layer_warp  Horizon:
 
 Horizon
 ~~~~~~~
@@ -107,11 +127,13 @@ where to stop rendering the points of the vanishing point.
 High values of Horizon make Synfig spend a lot of time rendering and the
 result is slightly visibly better.
 
+.. _layer_warp  Some Samples:
+
 Some Samples
 ------------
 
 Here are a few sample images of the result of applying the warp layer
-over a `checkerboard layer <Checkerboard_Layer>`__.
+over a |Checkerboard_Layer|.
 
 Before distortion:
 
@@ -173,6 +195,8 @@ final visible horizon gets further away.
    :alt: Warpsample2.gif
 
 
+.. _layer_warp  The Clip parameter:
+
 The Clip parameter
 ------------------
 
@@ -183,6 +207,8 @@ section of the checkerboard.
 .. figure:: warp_dat/Warp6.png
    :alt: Warp6.png
 
+
+.. _layer_warp  Turning warp on/off:
 
 Turning warp on/off
 -------------------
@@ -197,3 +223,4 @@ handles.
 .. |Type_real_icon.png| image:: images/Type_real_icon.png
    :width: 16px
 
+.. |Checkerboard_Layer| replace:: :ref:`Checkerboard Layer <layer_checkerboard>`

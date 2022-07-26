@@ -5,6 +5,8 @@
     Plugins
 ########################
 
+.. _plugins  Summary:
+
 Summary
 ====
 
@@ -12,10 +14,14 @@ The Plugins feature allows to run custom python scripts directly from Synfig Stu
 
 All plugins are located in the "Plug-Ins" submenu of the canvas.
 
+.. _plugins  Rationale:
+
 Rationale
 ====
 
 People often write some scripts to make useful things on Synfig (sif) files. The most of these scripts are written in python. But for ordinary users running custom scripts from terminal is tricky. With plugins feature user can install scripts as easy as they copy files and transparently run them in the same way as they use standard Synfig Studio commands. Also, runing scripts from menu is much faster than from terminal and it greatly improves the workflow for advanced users. Having this feature allows to easily add simple functions to Synfig Studio by writting scripts in python.
+
+.. _plugins  How to install plugins:
 
 How to install plugins
 ====
@@ -31,6 +37,8 @@ To install the plugin user should copy its directory into the following location
 
 The system-wide location for the plugins is USER_DIRECTORY/SYNFIG_CONFIGURATION_DIR/plugins
 
+.. _plugins  Where to find plugins:
+
 Where to find plugins
 ----
 
@@ -38,6 +46,8 @@ Where to find plugins
 * `Morevna:Plugins feature in Synfig Studio <http://morevnaproject.org/2012/06/11/plugins-feature-in-synfig-studio/>`_
 * `Berteh:Import Labels and Timings <https://github.com/berteh/synfig-import-labels>`_
 * `Synfig forum: scripts/plugin thread <https://forums.synfig.org/c/development/scripting>`_
+
+.. _plugins  Plugin structure:
 
 Plugin structure
 ====
@@ -48,6 +58,8 @@ Synfig parses the file called plugin.xml found in each plugin directory, which d
 
 This section describes the xml elements available and what they do.
 
+.. _plugins  <plugin>:
+
 <plugin>
 ----
 
@@ -57,6 +69,8 @@ Root element. Can contain the following:
 * <exec> Script to run when the user clicks on the Plugin menu. Can be omitted if there are importers or exporters
 * <exporter> Defines an exporter, a plugin can have multiple of these
 * <importer> Defines an importer, a plugin can have multiple of these
+
+.. _plugins  <name>:
 
 <name>
 ----
@@ -70,6 +84,8 @@ Example:
 
     <name>This is the default name</name>
     <name xml:lang="it">This is name it will show if you set Italian as your language</name>
+
+.. _plugins  <exec>:
 
 <exec>
 ----
@@ -107,6 +123,8 @@ Changing stream behaviour:
     <exec stdout="log" stderr="ignore">myscript.py</exec>
 
 
+.. _plugins  <exporter>:
+
 <exporter>
 ----
 
@@ -133,6 +151,8 @@ Example:
       <exec>svg-exporter.py</exec>
    </exporter>
 
+.. _plugins  <importer>:
+
 <importer>
 ----
 
@@ -154,6 +174,8 @@ Example:
    </importer>
 
 
+.. _plugins  <extension>:
+
 <extension>
 ----
 
@@ -166,6 +188,8 @@ Example:
 .. code-block:: xml
 
     <extension>svg</extension>
+
+.. _plugins  <description>:
 
 <description>
 ----
@@ -181,8 +205,12 @@ Example:
     <description>Scalable Vector Graphics (*.svg, *.svgz)</description>
 
 
+.. _plugins  Script Invocation:
+
 Script Invocation
 ====
+
+.. _plugins  Plugins Menu:
 
 Plugins Menu
 ----
@@ -191,10 +219,14 @@ For scripts run when the user clicks on the plugin name in the Plugins menu, syn
 
 The script can then modify that file and synfig will reload the canvas to reflect any changes.
 
+.. _plugins  Exporter:
+
 Exporter
 ----
 
 For an exporter, synfig will pass two arguments to the script: the first is the path to a synfig file containing the open canvas; the second is the file name.
+
+.. _plugins  Importer:
 
 Importer
 ----
@@ -203,6 +235,8 @@ For an importer, synfig will pass the file selected in the open dialog as first 
 
 Once the script is completed, synfig will load that second file, so the plugin script should populate it appropriately.
 
+
+.. _plugins  Tutorial:
 
 Tutorial
 ========
@@ -213,6 +247,8 @@ Tutorial
         <iframe src="https://www.youtube.com/embed/De9UhUkzNiY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
     
+.. _plugins  Details:
+
 Details
 -------
 

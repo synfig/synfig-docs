@@ -5,13 +5,16 @@
 ########################
 |Tool_zoom_icon.png| \ **ALT-Z**\ 
 
+.. _tool_zoom  Description:
+
 Description
 -----------
 
 The Zoom Tool allows you to move closer to, or further away from,
 objects that are being edited in the working area. Note that the Zoom
-Tool does not affect the output render as described in the `render
-options <render_options>`__.
+Tool does not affect the output render as described in the |render_options|.
+
+.. _tool_zoom  Usage:
 
 Usage
 -----
@@ -31,8 +34,7 @@ Click on the Zoom Tool button to activate. Now try the following:
    as you release the mouse button: it will zoom out to fit the current
    working window in the rectangle.
 
-Alternatively you can always use the existing `mouse short
-cuts <Mouse_Shortcuts>`__ for that task (``CTRL`` + mouse wheel) or the
+Alternatively you can always use the existing |Mouse_Shortcuts| for that task (``CTRL`` + mouse wheel) or the
 zoom buttons at the left bottom corners of the working area.
 
 .. figure:: zoom_dat/Zoom_buttons_0.63.06.png
@@ -46,6 +48,8 @@ They do following:
 -  Zoom to fit the window (press again an restore last zoom)
 -  Zoom out to 80% of the current zoom level
 
+.. _tool_zoom  Options:
+
 Options
 -------
 
@@ -53,3 +57,6 @@ Options
 
 .. |Tool_zoom_icon.png| image:: zoom_dat/Tool_zoom_icon.png
    :width: 64px
+
+.. |render_options| replace:: :ref:`Render Options <canvas_render>`
+.. |Mouse_Shortcuts| replace:: :ref:`Mouse Shortcuts <mouse_shortcuts>`

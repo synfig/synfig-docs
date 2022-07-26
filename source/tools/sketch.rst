@@ -7,13 +7,15 @@
 |Tool_sketch_icon.png| \ **ALT-K**\ 
 
 The ``Sketch Tool`` allows you to draw freehand over the top of a
-`Canvas <Canvas>`__.
+|Canvas|.
 
 Each workarea has a single sketch overlay associated with it.
 
 Sketches are not saved as part of the **.sifz** file when you save your
 work, but can be saved separately as **.sketch** files for later
 reloading.
+
+.. _tool_sketch  Options:
 
 Options
 -------
@@ -22,8 +24,7 @@ Options
    :alt: Sketch_Tool_Options.png
 
 
-The Sketch Tool has the following in its `Tool Options
-Panel <Tool_Options_Panel>`__ :
+The Sketch Tool has the following in its |Tool_Options_Panel| :
 
 -  **Show Sketch**: a checkbox for toggling the visibility of the sketch
    overlay **On** and **Off**.
@@ -36,7 +37,12 @@ Panel <Tool_Options_Panel>`__ :
    any previously drawn or opened sketch in the current workarea.
 
 | Sketch uses the color of the default ``foreground color`` in the
-  `Toolbox <Toolbox>`__.
+  |Toolbox|.
 
 .. |Tool_sketch_icon.png| image:: sketch_dat/Tool_sketch_icon.png
    :width: 64px
+
+
+.. |Canvas| replace:: :ref:`Canvas <canvas>`
+.. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
+.. |Toolbox| replace:: :ref:`Toolbox <panel_toolbox>`

@@ -18,7 +18,7 @@ saved with the file (is it worth to save it in the sifz file?).
 
 
 When a single user operation produces a lot of actions (typically when
-manipulating lots of `Handles <Handle>`__ at the same time) all those
+manipulating lots of |Handle| at the same time) all those
 common actions are grouped into a expandable one. See the small triangle
 in the image sample. By clicking on the small triangle you can expand
 the grouped actions and access them individually.
@@ -40,3 +40,4 @@ Finally the ``Clear Undo`` and ``Clear Redo`` buttons clean the history
 list of ``Undo`` and ``Redo`` actions. The Clear Undo and Clear Redo
 actions cannot be undone.
 
+.. |Handle| replace:: :ref:`Handle <handles>`

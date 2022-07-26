@@ -4,10 +4,14 @@
 Synfig 1.3.14 Release Notes
 ############################
 
+.. _release-1.3.14  Improvements:
+
 Improvements
 ------------
 
 * Show interpolation type directly in waypoint's context menu (see `details <https://github.com/synfig/synfig/pull/1353>`_).
+
+.. _release-1.3.14  Bugfixes:
 
 Bugfixes
 --------

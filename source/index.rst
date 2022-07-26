@@ -3,6 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. Synfig documentation master file,  Synfig User Manual:
+
 Synfig User Manual
 ==================
 
@@ -20,6 +22,7 @@ Synfig User Manual
    parameters.rst
    converters.rst
    configuration.rst
+   canvas.rst
    ui.rst
    export.rst
    plugins.rst
@@ -27,8 +30,12 @@ Synfig User Manual
    releases.rst
    about.rst
    how_to_help.rst
+   misc.rst
+   interpolations.rst
 
 
+
+.. Synfig documentation master file,  Indices and tables:
 
 Indices and tables
 ==================

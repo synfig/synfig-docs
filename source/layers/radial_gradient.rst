@@ -7,10 +7,14 @@
    :alt: Layer_gradient_radial_icon.png
    :width: 64px
 
+.. _layer_radial_gradient  About Radial Gradient Layers:
+
 About Radial Gradient Layers
 ----------------------------
 
 FIXME!!!
+
+.. _layer_radial_gradient  Parameters of Radial Gradient Layers:
 
 Parameters of Radial Gradient Layers
 ------------------------------------
@@ -20,13 +24,13 @@ The parameters of the radial gradient layers are:
 +------------------------------------------------------------------------+-------------------------+--------------+
 | **Name**                                                               | **Value**               | **Type**     |
 +------------------------------------------------------------------------+-------------------------+--------------+
-|     |Type\_real\_icon.png| `Z Depth <Z_Depth_Parameter>`__             |   0.000000              |   real       |
+|     |Type\_real\_icon.png| |Z_Depth_Parameter|                         |   0.000000              |   real       |
 +------------------------------------------------------------------------+-------------------------+--------------+
-|     |Type\_real\_icon.png| `Amount <Amount_Parameter>`__               |   1.000000              |   real       |
+|     |Type\_real\_icon.png| |Amount_Parameter|                          |   1.000000              |   real       |
 +------------------------------------------------------------------------+-------------------------+--------------+
-|     |Type\_integer\_icon.png| `Blend Method <Blend_Method>`__          |   Composite             |   integer    |
+|     |Type\_integer\_icon.png| |Blend_Method|                           |   Composite             |   integer    |
 +------------------------------------------------------------------------+-------------------------+--------------+
-|     |Type\_gradient\_icon.png| `Gradient <Gradient_Editor_Dialog>`__   |  |p_gradient.png|       |   gradient   |
+|     |Type\_gradient\_icon.png| |Gradient_Editor_Dialog|                |  |p_gradient.png|       |   gradient   |
 +------------------------------------------------------------------------+-------------------------+--------------+
 |     |Type\_vector\_icon.png| Center                                    |   0.000000u,0.000000u   |   vector     |
 +------------------------------------------------------------------------+-------------------------+--------------+
@@ -50,3 +54,8 @@ The parameters of the radial gradient layers are:
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png
 .. |p_gradient.png| image:: images/p_gradient.png   
 
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
+.. |Gradient_Editor_Dialog| replace:: :ref:`Gradient Editor Dialog <gradient_editor_dialog>`

@@ -7,6 +7,8 @@
    :alt: Layer_distortion_curvewarp_icon.png
    :width: 64px
 
+.. _layer_curve_warp  About Curve Warp Layer:
+
 About Curve Warp Layer
 ----------------------
 
@@ -21,6 +23,8 @@ the distance from the start point of the curve (the X coordinate) and
 the perpendicular distance to the straight line (the Y coordinate) are
 now the length of the spline from the first splinepoint and the
 perpendicular distance to the curve on that point.
+
+.. _layer_curve_warp  Parameters of Curve Warp Layer:
 
 Parameters of Curve Warp Layer
 ------------------------------
@@ -42,6 +46,8 @@ The parameters of the Curve Warp Layer are:
 +--------------------------------------+-----------------------------+------------+
 |     |Bool\_icon.png| Fast            |                             |   bool     |
 +--------------------------------------+-----------------------------+------------+
+
+.. _layer_curve_warp  Using a Curve Warp:
 
 Using a Curve Warp
 ------------------
@@ -113,6 +119,8 @@ visibiity of the width handles and modify them.
    :alt: Curve-warp-radial-layer-6.png
 
 
+.. _layer_curve_warp  Fast Option:
+
 Fast Option
 -----------
 
@@ -123,6 +131,8 @@ artifacts but it renders faster.
 .. figure:: curve_warp_dat/Curve-warp-radial-layer-7.png
    :alt: Curve-warp-radial-layer-7.png
 
+
+.. _layer_curve_warp  Other examples:
 
 Other examples
 --------------

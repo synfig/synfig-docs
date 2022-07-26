@@ -22,8 +22,8 @@ is currently displayed in the editing window.
 You can zoom in and out by dragging the zoom slider at the bottom. Also
 the zoomed area can be panned by dragging the red rectangle around.
 
-Alternatively you can zoom and pan the `WorkArea <WorkArea>`__ using the
-following mouse shortcuts in the `Canvas <Canvas>`__ window:
+Alternatively you can zoom and pan the |WorkArea| using the
+following mouse shortcuts in the |Canvas| window:
 
 #. Mouse wheel pans up and down.
 #. ``SHIFT`` + mouse wheel pans left and right.
@@ -37,3 +37,5 @@ can cause Synfig Studio to hang or crash in some situations.
 
 
 
+.. |WorkArea| replace:: :ref:`Workarea <canvas_workarea>`
+.. |Canvas| replace:: :ref:`Canvas <canvas>`

@@ -8,8 +8,7 @@
    :width: 64px
 
   
-Displays the parameter currently selected in the `Parameters
-Panel <Parameters_Panel>`__ as a function of time.
+Displays the parameter currently selected in the |Parameters_Panel| as a function of time.
 
 .. figure:: panel_graphs_dat/Graphs_panel_0.63.06.png
    :alt: Graphs_panel_0.63.06.png
@@ -17,3 +16,4 @@ Panel <Parameters_Panel>`__ as a function of time.
    
 ``ctrl`` + mouse wheel : Change zoom factor
 
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`

@@ -9,6 +9,8 @@
 The ``Cutout Tool`` is designed to select a piece of the composition by
 adding a mask.
 
+.. _tool_cutout  Options:
+
 Options
 -------
 
@@ -21,10 +23,12 @@ Options
    -  **Local** : Adjust the Spline between the Splines points.
    -  **Global** : Adjust the Spline Globally.
 
--  `Feather <Feather_Parameter>`__ : Width of the area that is going
+-  |Feather_Parameter| : Width of the area that is going
    to be dissolved at the edge of the mask.
 
 | 
+
+.. _tool_cutout  Video howto:
 
 Video howto
 -----------
@@ -33,3 +37,5 @@ Video howto
 
 .. |Tool_cutout_icon.png| image:: cutout_dat/Tool_cutout_icon.png
    :width: 64px
+
+.. |Feather_Parameter| replace:: :ref:`Feather Parameter <parameters_feather>`

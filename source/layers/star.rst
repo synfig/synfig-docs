@@ -8,6 +8,8 @@
    :width: 64px
 
 
+.. _layer_star  About Star Layers:
+
 About Star Layers
 -----------------
 
@@ -23,6 +25,8 @@ the number of peaks or points).
    :alt: Star_Layer_0.63.06.png
 
 
+.. _layer_star  Parameters of Star Layers:
+
 Parameters of Star Layers
 -------------------------
 
@@ -31,17 +35,17 @@ The parameters of the star layers are:
 +------------------------------------------------------------------+-------------------------+-------------+
 | **Name**                                                         | **Value**               | **Type**    |
 +------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_real\_icon.png| `Z Depth <Z_Depth_Parameter>`__       |   0.000000              |   real      |
+|     |Type\_real\_icon.png| |Z_Depth_Parameter|                   |   0.000000              |   real      |
 +------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_real\_icon.png| `Amount <Amount_Parameter>`__         |   1.000000              |   real      |
+|     |Type\_real\_icon.png| |Amount_Parameter|                    |   1.000000              |   real      |
 +------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_integer\_icon.png| `Blend Method <Blend_Method>`__    |   Composite             |   integer   |
+|     |Type\_integer\_icon.png| |Blend_Method|                     |   Composite             |   integer   |
 +------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_gradient\_icon.png| `Color <Color_Editor_Dialog>`__   | |p_color_green.png|     |   color     |
+|     |Type\_gradient\_icon.png| |Color_Editor_Dialog|             | |p_color_green.png|     |   color     |
 +------------------------------------------------------------------+-------------------------+-------------+
 |     |Type\_vector\_icon.png| Origin                              |   0.500000u,0.000000u   |   vector    |
 +------------------------------------------------------------------+-------------------------+-------------+
-|     |Type\_bool\_icon.png| `Invert <Invert_Parameter>`__         | |p_checkbox_off.png|    |   bool      |
+|     |Type\_bool\_icon.png| |Invert_Parameter|                    | |p_checkbox_off.png|    |   bool      |
 +------------------------------------------------------------------+-------------------------+-------------+
 |     |Type\_bool\_icon.png| Antialiasing                          | |p_checkbox_off.png|    |   bool      |
 +------------------------------------------------------------------+-------------------------+-------------+
@@ -66,15 +70,21 @@ The parameters of the star layers are the same as the majority of the
 shape-like objects but it has specific parameters for its own
 properties.
 
+.. _layer_star  Outer Radius:
+
 Outer Radius
 ~~~~~~~~~~~~
 
 Defines the radius of the circle where the peaks of the star lay.
 
+.. _layer_star  Inner Radius:
+
 Inner Radius
 ~~~~~~~~~~~~
 
 Defines the radius of the circle where the valleys of the star lay.
+
+.. _layer_star  Angle:
 
 Angle
 ~~~~~
@@ -82,14 +92,20 @@ Angle
 Is the rotation angle for the first peak of the star. Its default value
 is **90** degrees.
 
+.. _layer_star  Points:
+
 Points
 ~~~~~~
 
 Defines the number of divisions done in the circles and therefore the
 number of points and peaks in the star.
 
+.. _layer_star  Playing Around:
+
 Playing Around
 --------------
+
+.. _layer_star  Crazy Radii:
 
 Crazy Radii
 ~~~~~~~~~~~
@@ -115,11 +131,12 @@ You can also play with negative values:
 |    :width: 500px                                         |    :width: 500px                                        |
 +----------------------------------------------------------+---------------------------------------------------------+
 
+.. _layer_star  Winding Style Hacks:
+
 Winding Style Hacks
 ~~~~~~~~~~~~~~~~~~~
 
-You can even play with the `Winding Style
-Parameter <Winding_Style_Parameter>`__ and negative values to obtain
+You can even play with the |Winding_Style_Parameter| and negative values to obtain
 some effects:
 
 +-----------------------------------------------------------------------------+--------------------------------------------------------------------+
@@ -130,11 +147,13 @@ some effects:
 |    :width: 500px                                                            |    :width: 500px                                                   |
 +-----------------------------------------------------------------------------+--------------------------------------------------------------------+
 
+.. _layer_star  Regular 2N-sided Polygons:
+
 Regular 2N-sided Polygons
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Also you can `link <Linking>`__ both radii to create a **2\*N** sided
-regular `polygon <Polygon_Layer>`__, where **N** is the number of points
+Also you can |Linking| both radii to create a **2\*N** sided
+regular |Polygon_Layer|, where **N** is the number of points
 (3 points for this case (six sides)):
 
 .. figure:: star_dat/Star_Layer_Radius_Linked_0.63.06.png
@@ -157,5 +176,12 @@ regular `polygon <Polygon_Layer>`__, where **N** is the number of points
 .. |Type_angle_icon.png| image:: images/Type_angle_icon.png
    :width: 16px
 .. |p_checkbox_off.png| image:: images/p_checkbox_off.png 
-.. |p_color_green.png| image:: images/p_color_green.png       
+.. |p_color_green.png| image:: images/p_color_green.png      
 
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Color_Editor_Dialog| replace:: :ref:`Color <colors_dialog>`
+.. |Invert_Parameter| replace:: :ref:`Inver Parameter <parameters_invert>`
+.. |Linking| replace:: :ref:`Linking <linking>`
+.. |Polygon_Layer| replace:: :ref:`Polygon Layer <layer_polygon>`

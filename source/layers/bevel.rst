@@ -8,6 +8,8 @@
    :alt: Layer_stylize_bevel_icon.png‎
    :width: 64px
 
+.. _layer_bevel  About Bevel Layer:
+
 About Bevel Layer
 -----------------
 
@@ -15,6 +17,8 @@ Bevel layer is used to create a highlight and shadow over a shape. It
 pretends to give some volume to the shape by adding a dark area on the
 opposite place of the light direction and a light area on the light
 direction side.
+
+.. _layer_bevel  Parameters of Bevel Layer:
 
 Parameters of Bevel Layer
 -------------------------
@@ -24,29 +28,31 @@ The parameters of the Bevel Layers are:
 +----------------------------------------------------------------------+------------------------+-------------+
 | Name                                                                 | Value                  | Type        |
 +----------------------------------------------------------------------+------------------------+-------------+
-| |Real_icon.png| `Z Depth <Z_Depth_Parameter>`__                      | 0.000000               | real        |
+| |Real_icon.png| |Z_Depth_Parameter|                                  | 0.000000               | real        |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Real\_icon.png| `Amount <Amount_Parameter>`__                      | 1.000000               | real        |
+|  |Real\_icon.png| |Amount_Parameter|                                 | 1.000000               | real        |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Integer\_icon.png| `Blend Method <Blend_Method>`__                 | Composite              | integer     |
+|  |Integer\_icon.png| |Blend_Method|                                  | Composite              | integer     |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Integer\_icon.png| `Type <Blur_Layer>`__                           | Fast Gaussian Blur     | integer     |
+|  |Integer\_icon.png| |Blur_Layer|                                    | Fast Gaussian Blur     | integer     |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Color\_icon.png| `Hi-Color <Colors_Dialog>`__                      |                        | color       |
+|  |Color\_icon.png| :ref:`Hi-Color <colors_dialog>`                   |                        | color       |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Color\_icon.png| `Lo-Color <Colors_Dialog>`__                      |                        | color       |
+|  |Color\_icon.png| :ref:`Lo-Color <colors_dialog>`                   |                        | color       |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Angle\_icon.png| `Light Angle <Light_Angle_Parameter>`__           | 135.00°                | angle       |
+|  |Angle\_icon.png| |Light_Angle|                                     | 135.00°                | angle       |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Real\_icon.png| `Depth of Bevel <Depth_of_Bevel_Parameter>`__      | 12.000000pt            | real        |
+|  |Real\_icon.png|  |Depth_of_Bevel|                                  | 12.000000pt            | real        |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Real\_icon.png| `Softness <Softeness_Parameter>`__                 | 6.000000pt             | real        |
+|  |Real\_icon.png|  |Softeness_Parameter|                             | 6.000000pt             | real        |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Bool\_icon.png| `Use Luma <Use_Luma_Parameter>`__                  |                        | bool        |
+|  |Bool\_icon.png|  |Use_Luma_Parameter|                              |                        | bool        |
 +----------------------------------------------------------------------+------------------------+-------------+
-|  |Bool\_icon.png| `Solid <Solid_Parameter>`__                        |                        | bool        |
+|  |Bool\_icon.png| |Solid_Parameter|                                  |                        | bool        |
 +----------------------------------------------------------------------+------------------------+-------------+
 +----------------------------------------------------------------------+------------------------+-------------+
+
+.. _layer_bevel  Specific Parameters for Bevel Layers:
 
 Specific Parameters for Bevel Layers
 ------------------------------------
@@ -65,10 +71,12 @@ parameter determines the source of the light. The Depth of Bevel
 determines how wide is the region of light or shadow created and the
 Softness parameter produces a feathered light or shadow region instead
 of a sharp one. The feather type is determined by the Type parameter and
-can be one of the known `Blur Types <Blur_Layer#Types>`__.
+can be one of the known |Blur_Layer_Types|.
 
 .. figure:: bevel_dat/Bevel1.png
    :alt: Bevel1.png
+
+.. _layer_bevel  Light Angle:
 
 Light Angle
 ~~~~~~~~~~~
@@ -77,6 +85,8 @@ Modifying the light angle changes the regions that are high lighted and
 darkened. It is an angle parameter and it is defined from the X positive
 axis counter clock wise.
 
+.. _layer_bevel  Depth of Bevel:
+
 Depth of Bevel
 ~~~~~~~~~~~~~~
 
@@ -84,21 +94,29 @@ The Depth of Bevel parameter determines the width or expansion of the
 bevel on both sides (dark and light side). The bigger the parameter is
 the softer the produced bevel is.
 
+.. _layer_bevel  Softness:
+
 Softness
 ~~~~~~~~
 
 Softness parameter controls how feathered is the bevel. Its type of
 feather is controlled by the Type parameter.
 
+.. _layer_bevel  Use Luma:
+
 Use Luma
 ~~~~~~~~
 
 Please write me.
 
+.. _layer_bevel  Solid:
+
 Solid
 ~~~~~
 
 Please write me.
+
+.. _layer_bevel  Samples:
 
 Samples
 -------
@@ -139,3 +157,15 @@ the resulting bevel over the gradient.
    :width: 16px
 .. |Bool_icon.png| image:: images/Type_bool_icon.png
    :width: 16px
+
+
+.. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
+.. |Amount_Parameter| replace:: :ref:`Opacity <opacity>`
+.. |Blend_Method| replace:: :ref:`Blend Method <parameters_blend_method>`
+.. |Blur_Layer| replace:: :ref:`Blur Type <layer_blur>`
+.. |Use_Luma_Parameter| replace:: :ref:`Luma <layer_bevel  Use Luma>`
+.. |Solid_Parameter| replace:: :ref:`Solid <layer_bevel  Solid>`
+.. |Blur_Layer_Types| replace:: :ref:`Blur Layer: Types <layer_blur Type>`
+.. |Light_Angle| replace:: :ref:`Light Angle <layer_bevel  Light Angle>`
+.. |Depth_of_Bevel| replace:: :ref:`Depth Of Bevel <layer_bevel  Depth of Bevel>`
+.. |Softeness_Parameter| replace:: :ref:`Softness <layer_bevel Softness>`

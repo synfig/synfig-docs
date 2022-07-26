@@ -14,25 +14,33 @@ Example :
 
 **How to show or hide a layer, or fade the effect of a blur?**
 
-In the `Parameters Panel <Parameters_Panel>`__, look for an option
+In the |Parameters_Panel|, look for an option
 labeled ``Opacity`` - this controls how much of the
 blended result of the layer is composited with the blend of the layers
 beneath it.
 
 In other words, for a typical layer, this will 'fade it out'. For a
-`Blur Layer <Blur_Layer>`__ set to
-“`Straight <Blend_Method#Straight>`__”, this will fade *between* the
+|Blur_Layer| set to
+“|Blend_Method_Straight|”, this will fade *between* the
 blurred version and the unblurred version of the canvas. If you want it
-to become less blurry, adjust the `Blur Layer's 'size'
-parameter <Blur_Layer#Size>`__.
+to become less blurry, adjust the |Blur_Layer_Size|.
 
 If you want to affect multiple layers at the same time, you have several
 options:
 
--  You can `Group <Group_Layer>`__ your layers and use the group's
+-  You can |Group_Layer| your layers and use the group's
    Opacity Parameter,
--  `Export <Export>`__ one of the layers Opacity Parameter and `link <Linking>`__ others layer's Opacity Parameter,
--  `Linking <Linking>`__ all layer's Opacity Parameter.
-   Select the layers you want to affect in the `Layers
-   Panel <Layers_Panel>`__, right click to Opacity Parameter
-   in the `Parameters Panel <Parameters_Panel>`__ and choose ``Link``.
+-  |Export| one of the layers Opacity Parameter and |Linking| others layer's Opacity Parameter,
+-  |Linking| all layer's Opacity Parameter.
+   Select the layers you want to affect in the |Layers_Panel|, right click to Opacity Parameter
+   in the |Parameters_Panel| and choose ``Link``.
+
+
+.. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
+.. |Blur_Layer| replace:: :ref:`Blur Layer <layer_blur>`
+.. |Blend_Method_Straight| replace:: :ref:`Blend Method: Straight <parameters_blend_method  Straight>`
+.. |Blur_Layer_Size| replace:: :ref:`Blur Layer: Size <layer_blur  Size>`
+.. |Group_Layer| replace:: :ref:`Group Layer <layer_group>`
+.. |Export| replace:: :ref:`Export <export>`
+.. |Linking| replace:: :ref:`Linking <linking>`
+.. |Layers_Panel| replace:: :ref:`Layers Panel <panel_layers>`

@@ -27,6 +27,8 @@ individually. There are two techniques for that:
 -  Morphing animation
 -  Cutout animation
 
+.. _introduction  Morphing:
+
 Morphing
 --------
 
@@ -45,6 +47,8 @@ transformation is usually defined by control points.
   motion for the scene, and Synfig Studio will create the in-between
   frames.
 
+.. _introduction  Cutout animation:
+
 Cutout animation
 ----------------
 
@@ -59,6 +63,8 @@ time.
 | Synfig Studio uses those values to interpolate the motion for
   in-between frames. Cutout animation can be produced from bitmap images
   or vector graphics.
+
+.. _introduction  Synthesis and other functionalities:
 
 Synthesis and other functionalities
 -----------------------------------

@@ -6,8 +6,12 @@ Synfig 1.4.0 Release Notes
 
 Synfig Studio 1.4.0 is a major stable release, which is introducing many new features and improvements. Please read below for details.
 
+.. _release-1.4.0  Animation Tools:
+
 Animation Tools
 ===============
+
+.. _release-1.4.0  Editable curves in Graphs Panel:
 
 Editable curves in Graphs Panel
 -------------------------------
@@ -23,6 +27,8 @@ selecting/deselecting all points. Much thanks to Rodolfo Ribeiro Gomes for imple
     <iframe width="560" height="315" src="https://www.youtube.com/embed/yd-HtV4PiWY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/2Bi--fpBhsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
+.. _release-1.4.0  Sound synchronization features:
+
 Sound synchronization features
 ------------------------------
 
@@ -32,6 +38,8 @@ non-working volume parameter and eliminated synchronization issues.
 In addition to that, Rodolfo Ribeiro Gomes implemented a special panel to display waveform. Now it's so easy to sync your animation with soundtrack!
 
 |image0|
+
+.. _release-1.4.0  Control point to change Transformation Origin:
 
 Control point to change Transformation Origin
 ---------------------------------------------
@@ -44,6 +52,8 @@ Now transformation widget has a special control point to easily change origin of
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/mz4aXu-flDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
+.. _release-1.4.0  Animation Baking:
+
 Animation Baking
 ----------------
 
@@ -55,6 +65,8 @@ any interpolated curve as a sequence of waypoints.
 Result:
 
 |image3|
+
+.. _release-1.4.0  Improved TimeTrack:
 
 Improved TimeTrack
 ------------------
@@ -70,6 +82,8 @@ TimeTrack Panel got several improvements. Now you can define playback range and 
 
    Frame thumbnail shown when cursor hovers timeline
 
+.. _release-1.4.0  Open images in external tool:
+
 Open images in external tool
 ----------------------------
 
@@ -81,6 +95,8 @@ Layer and choose "Edit image in external tool...".
 |image5|
 
 |image6|
+
+.. _release-1.4.0  Fixes and changes for onion-skin functionality:
 
 Fixes and changes for onion-skin functionality
 ----------------------------------------------
@@ -95,8 +111,12 @@ improving onion-skin features as part of `issue
 
 |image7|
 
+.. _release-1.4.0  Importing:
+
 Importing
 ==============
+
+.. _release-1.4.0  Simple import of image sequences:
 
 Simple import of image sequences
 --------------------------------
@@ -109,6 +129,8 @@ sequence..." from menu.
     <iframe width="560" height="315" src="https://www.youtube.com/embed/XoAvm4VmUG4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
 |image8|
+
+.. _release-1.4.0  Vectorization of bitmap images:
 
 Vectorization of bitmap images
 ------------------------------
@@ -124,6 +146,8 @@ Google Summer of Code 2019 program.
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/liixFv7TUjA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
+.. _release-1.4.0  Basic video import functionality:
+
 Basic video import functionality
 --------------------------------
 
@@ -136,8 +160,12 @@ GIFs (yes, it can import GIF as well).
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/XrAhZKSAOJg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
+.. _release-1.4.0  Rendering and Export:
+
 Rendering and Export
 ====================
+
+.. _release-1.4.0  Export animation for web (Lottie):
 
 Export animation for web (Lottie)
 ---------------------------------
@@ -156,6 +184,8 @@ by Anish Gulati as part of Google Summer of Code 2019 program.
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/cJq8yoP8Ji8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <br><br>
+
+.. _release-1.4.0  Default render settings:
 
 Default render settings
 -----------------------
@@ -181,6 +211,8 @@ Other notable changes regarding rendering process:
 -  A sound notification is played when rendering is done (`issue
    #648 <https://github.com/synfig/synfig/issues/648>`__).
 
+.. _release-1.4.0  Render engine improvements:
+
 Render engine improvements
 --------------------------
 
@@ -205,6 +237,8 @@ which greatly improves quality resulting image.
 
    Rendering result in Synfig 1.4.0
 
+.. _release-1.4.0  "Preview" rendering mode for workarea:
+
 "Preview" rendering mode for workarea
 -------------------------------------
 
@@ -227,6 +261,8 @@ quality and is used by default in GUI. For more details please check
 
 |image13|
 
+.. _release-1.4.0  Workarea Cache and Background Rendering:
+
 Workarea Cache and Background Rendering
 ---------------------------------------
 
@@ -248,6 +284,8 @@ second video below).
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/re79je9nZvw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <br><br>	
+
+.. _release-1.4.0  Gamma handling:
 
 Gamma handling
 --------------
@@ -284,8 +322,12 @@ here <https://github.com/synfig/synfig/issues/1022#issuecomment-571449482>`__.
 
 |image14|
 
+.. _release-1.4.0  Layers:
+
 Layers
 ======
+
+.. _release-1.4.0  Advanced Outline Layer:
 
 Advanced Outline Layer
 ----------------------
@@ -303,6 +345,8 @@ file <http://www.synfig.org/wp-content/uploads/2020/02/adv-outline-1.4.0.sifz>`_
 
 |image16|
 
+.. _release-1.4.0  Switch Layer:
+
 Switch Layer
 ------------
 
@@ -311,6 +355,8 @@ This is done using a new parameter - "Active Layer Depth". The parameter
 takes effect when "Active Layer name" parameter is empty.
 
 |image17|
+
+.. _release-1.4.0  Rectangle Layer:
 
 Rectangle Layer
 ---------------
@@ -327,8 +373,12 @@ Rectangle Layer is removed. See GitHub's `issue
 
 |image19|  
 
+.. _release-1.4.0  Settings & Customization:
+
 Settings & Customization
 ========================
+
+.. _release-1.4.0  Saving workspace layouts:
 
 Saving workspace layouts
 ------------------------
@@ -339,6 +389,8 @@ custom workspaces by calling "Workspace" - "Edit workspace list...".
 
 |image20|
 
+.. _release-1.4.0  Default background for new files:
+
 Default background for new files
 --------------------------------
 
@@ -348,6 +400,8 @@ background can be a solid color or image. You can configure this via
 “Edit” -> “Preferences” -> “Document”.
 
 |image21|
+
+.. _release-1.4.0  Other notable improvements:
 
 Other notable improvements
 ==========================
@@ -371,6 +425,8 @@ Other notable improvements
 -  Brush Tool is now disabled by default. User can get it back by
    enabling "Experimental features" option in Preference.
 -  Home/End keys now set time cursor to start/end of timeline.
+
+.. _release-1.4.0  Minor improvements:
 
 Minor improvements
 ==================
@@ -405,6 +461,8 @@ Minor improvements
    default.
 -  Set Animation Speed parameter of Noise Distort Layer as static by
    default.
+
+.. _release-1.4.0  Bugfixes:
 
 Bugfixes
 ========

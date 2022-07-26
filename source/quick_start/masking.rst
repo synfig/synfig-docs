@@ -7,6 +7,8 @@
 **This tutorial gives you an overview of how masking can be done in
 Synfig.**
 
+.. _masking  About masking:
+
 About masking
 -------------
 
@@ -16,7 +18,9 @@ can probably just place the character behind the object in your layer
 stack but if your background is an image you need to do this by masking.
 
 This tutorial will show you two basic ways of masking; hiding and
-revealing using differents `blend methods <Blend_Method_Parameter>`__
+revealing using differents |Blend_Method_Parameter|
+
+.. _masking  Hiding:
 
 Hiding
 ------
@@ -41,11 +45,15 @@ In this masking mode everything covered by the mask shape is hidden.
    :alt: Basic_Masking-tutorial_03_0.63.06.png
 
 
+.. _masking  Revealing:
+
 Revealing
 ---------
 
 A revealing mask can be achieved by two different approaches using
 different blend modes.
+
+.. _masking  Revealing mask method 1.:
 
 Revealing mask method 1.
 ------------------------
@@ -69,7 +77,7 @@ Revealing mask method 1.
  
 -  Set the blend method of the elements you want to mask (robot layer in
    this case) to “Straight Onto”
-   ([Blend\_Method\_Parameter#Straight\_Onto]). You can only use this
+   |Blend_Method_Parameter#Straight_Onto|. You can only use this
    method on one layer at a time so if you have several objects you need
    to group those into one group layer.
 -  Everything above the mask will be visible, everything outside will be
@@ -78,6 +86,8 @@ Revealing mask method 1.
 .. figure:: masking_dat/Basic_Masking-tutorial_05_0.63.06.png
    :alt: Basic_Masking-tutorial_05_0.63.06.png
 
+
+.. _masking  Revealing mask method 2.:
 
 Revealing mask method 2.
 ------------------------
@@ -90,7 +100,7 @@ many layers. |Basic\_Masking-tutorial\_06\_0.63.06.png|
 -  Create a mask shape above the objects you want to mask.
 -  Tick the “Invert” option of the mask.
 -  Set blend method of mask to “Alpha Over”
-   ([Blend\_Method\_Parameter#Alpha\_over]). Everything below the mask
+   |Blend_Method_Parameter#Alpha_over|. Everything below the mask
    shape will be visible and the rest is masked off.
 -  You can group the mask and the objects that should be masked.
    Anything outside of this group layer is not masked so leave the
@@ -100,12 +110,13 @@ many layers. |Basic\_Masking-tutorial\_06\_0.63.06.png|
    :alt: Basic_Masking-tutorial_07_0.63.06.png
 
 
+.. _masking  Revealing mask method 3.:
+
 Revealing mask method 3.
 ------------------------
 
 Using one 'mask' and one 'full mask'. To be describe (using the linked
 project)
-
 
 Tutorial files
 --------------
@@ -124,3 +135,7 @@ This is the end of the introductory tutorials. From here you can take a
 look at the `Interface <Doc:Interface>`__ page, or continue reading or
 doing the rest of . The gives you a list of the available articles to
 read for a more complete understanding of Synfig.
+
+.. |Blend_Method_Parameter| replace:: :ref:`Blend Method Parameter <parameters_blend_method>`
+.. |Blend_Method_Parameter#Straight_Onto| replace:: :ref:`Blend Method Parameter: Straight Onto <parameters_blend_method  Straight Onto>`
+.. |Blend_Method_Parameter#Alpha_over| replace:: :ref:`Blend Method Parameter: Alpha Over <parameters_blend_method  Alpha over>`
