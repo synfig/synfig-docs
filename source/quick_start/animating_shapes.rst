@@ -48,11 +48,9 @@ separately.
    :alt: FlowerTutorial_2_Canvas.png
 
 
-.. note::
-   Shape |Origin_Parameter|, transformation and
-   link
+.. note:: Origin parameter
    
-   Be certain that the shape's origin is set to ``0,0`` ... this will
+   Be certain that the shape's 'Origin' parameter is set to ``0,0``. This will
    save you from headhache in further steps.
 
 We're done with the basic settings.

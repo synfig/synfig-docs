@@ -17,6 +17,9 @@ creating more complex shapes? To do this, we use the |Spline_Tool|.
 
 .. _creating_shapes  Spline Tool:
 
+A video on this subject is available
+`here <https://youtu.be/FBnBE9t3Jd8>`__.
+
 Spline Tool
 -----------
 
@@ -227,15 +230,10 @@ tools to create Splines too. Just check the ``Create Outline`` and
 ``Create Region`` options in the Tool Options Panel when using those
 tools.
 
-Creating geometric primitive as Spline gives you a better control over
-it's shape and look. For example, if you want a deformed star, then you
+Creating geometric primitives as Splines gives you better control over
+their look and shape. For example, if you want a deformed star, then you
 can use the Star Tool to create it as outline and region Splines and
 then use the Transform Tool to deform it.
-
-Now you are ready for the |last_tutorial| in
-this section. Hang on!
-
-.. _creating_shapes  Links:
 
 Links
 -----
@@ -244,10 +242,6 @@ A video on this subject is available
 `here <https://youtu.be/FBnBE9t3Jd8>`__
 
 .. |Reset Colors button in the Toolbox| image:: creating_shapes_dat/Toolbox_Reset_Colors_Button_1_0.png
-
-
-
-
 
 
 

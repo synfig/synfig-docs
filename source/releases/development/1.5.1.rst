@@ -1,0 +1,101 @@
+.. _release-1.5.1:
+
+############################
+Synfig 1.5.1 Release Notes
+############################
+
+This version features major improvements for Text Layer, fixes for Skeleton Tool, better onion-skin,as well as other important fixes and usability improvements. Please check the full list below.
+
+Rewritten Text Layer
+--------------------
+
+|image0|
+
+- Text Layer fully rewritten and optimized, which results in much faster rendering (`#2362`_).
+- Text Layer now have proper support for RTL languages (i.e. Arabic) (`#2232`_). Please notice that if you use a string which mixes RTL and LTR text, then you might need to set a “Direction” parameter in Text Layer to indicate the proper order.
+
+|image1|
+
+- Text Layers now visible when workarea displays its content in Draft mode (`#631`_).
+- Fixed issue with "jumping" letters in animated text (`#389`_).
+- Fixed issue with quality regression under Text Layer (`#831`_).
+- Fixed glitched rendering output when Text Layer is combined with Perspective Layer (`#1566`_).
+- Allow to select font from drop-down menu in Tool Options (`#2355`_).
+
+Improvements
+------------
+
+|image2|
+
+- New option for Onion Skin allows to choose between Keyframes and Frames (`#2166`_).
+- The “Keep aspect ratio for width and height” option is now enabled by default in Render Settings (`#2351`_).
+- When the user imports the file the imported layer becomes selected (`#2308`_).
+- Now it is possible to create a new vertex on a Spline with double-click (`#2312`_).
+
+Fixes for Skeleton Tool
+-----------------------
+- Fix active bone selection for Skeleton Deformation Layer (`#2340`_, `#2365`_).
+- Fix crash when moving origin point of child bone in Skeleton Deformation Layer using Bone Tool (`#2049`_).
+- Fix crash when undoing Child Bone until first one (`#2341`_).
+- Fix loading of default bone width preference value (`#2343`_).
+
+Fixes
+-----------
+- TimeTrack Panel: Fix missing context menu for waypoints at Canvas Parameter (`#2357`_).
+- TimeTrack Panel: Update time track area when keyframe is moved (`#2289`_).
+- Sound Panel: Fix loading of some audio files (`#2301`_).
+- Fixed incorrect framerate when importing image sequence (`#2219`_).
+- Fixed Link To Spline action (`#2344`_).
+- Fix workarea context menu action not affecting all layers (`#2352`_).
+- Fix crash when list of vertices is converted into Switch (`#2354`_).
+- Fix dialog responses for user pressing Esc key (`#2309`_) (`#2329`_).
+- Don’t let inner layer be duplicated twice when copying (`#2317`_).
+- Fix image size when importing onto canvas with non-standard size (`#2252`_).
+- Fix magick++ target missing in AppImage (issue `#2320`_).
+
+Other changes
+-------------
+- Circle Tool: Removed deprecated falloff option (`#2366`_).
+- Rectangle Layer: Bevel parameter now defined by relative value, not distance (`#2350`_).
+- Skeleton Deformation Layer: Better tooltip/description for "Bones" Parameter (`#2332`_).
+- Advanced Outline Layer: Improve hints for Dash Item Parameters (`#2314`_).
+- Added support for building with MLT++-7 (Autotools) (`#2306`_).
+
+.. |image0| image:: 1.5.1_dat/text-layer-rewritten.png
+.. |image1| image:: 1.5.1_dat/text-rtl-option.png
+.. |image2| image:: 1.5.1_dat/onionskin.png
+
+.. _#2362: https://github.com/synfig/synfig/issues/2362
+.. _#2232: https://github.com/synfig/synfig/issues/2232
+.. _#631: https://github.com/synfig/synfig/issues/631
+.. _#389: https://github.com/synfig/synfig/issues/389
+.. _#831: https://github.com/synfig/synfig/issues/831
+.. _#1566: https://github.com/synfig/synfig/issues/1566
+.. _#2355: https://github.com/synfig/synfig/issues/2355
+.. _#2166: https://github.com/synfig/synfig/issues/2166
+.. _#2351: https://github.com/synfig/synfig/issues/2351
+.. _#2308: https://github.com/synfig/synfig/issues/2308
+.. _#2312: https://github.com/synfig/synfig/issues/2312
+.. _#2340: https://github.com/synfig/synfig/issues/2340
+.. _#2365: https://github.com/synfig/synfig/issues/2365
+.. _#2049: https://github.com/synfig/synfig/issues/2049
+.. _#2341: https://github.com/synfig/synfig/issues/2341
+.. _#2343: https://github.com/synfig/synfig/issues/2343
+.. _#2357: https://github.com/synfig/synfig/issues/2357
+.. _#2289: https://github.com/synfig/synfig/issues/2289
+.. _#2301: https://github.com/synfig/synfig/issues/2301
+.. _#2219: https://github.com/synfig/synfig/issues/2219
+.. _#2344: https://github.com/synfig/synfig/issues/2344
+.. _#2352: https://github.com/synfig/synfig/issues/2352
+.. _#2354: https://github.com/synfig/synfig/issues/2354
+.. _#2309: https://github.com/synfig/synfig/issues/2309
+.. _#2329: https://github.com/synfig/synfig/issues/2329
+.. _#2317: https://github.com/synfig/synfig/issues/2317
+.. _#2252: https://github.com/synfig/synfig/issues/2252
+.. _#2320: https://github.com/synfig/synfig/issues/2320
+.. _#2366: https://github.com/synfig/synfig/issues/2366
+.. _#2350: https://github.com/synfig/synfig/issues/2350
+.. _#2332: https://github.com/synfig/synfig/issues/2332
+.. _#2314: https://github.com/synfig/synfig/issues/2314
+.. _#2306: https://github.com/synfig/synfig/issues/2306
+
