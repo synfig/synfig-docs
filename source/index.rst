@@ -16,7 +16,7 @@ Synfig User Manual
    quick_start.rst
    main_concepts.rst
    tutorials.rst
-   artwork_import/index.rst
+   artwork_import.rst
    tools.rst
    layers.rst
    parameters.rst
