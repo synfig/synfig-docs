@@ -12,4 +12,5 @@
    artwork_import/vectorization.rst
    artwork_import/svg.rst
    artwork_import/videos.rst
+   artwork_import/swf.rst
 
