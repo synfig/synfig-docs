@@ -62,9 +62,7 @@ Rewritten Text Layer
 - Fixed issue with "jumping" letters in animated text (`#389`_).
 - Fixed issue with quality regression under Text Layer (`#831`_).
 - Fixed glitched rendering output when Text Layer is combined with Perspective Layer (`#1566`_).
-- For Text Layer it is now possible to select font family from drop-down
-menu in Parameters and Tool Options
-(PR \ `#1432 <https://github.com/synfig/synfig/pull/1432>`__\, `#2355`_)
+- For Text Layer it is now possible to select font family from drop-down menu in Parameters and Tool Options (PR \ `#1432 <https://github.com/synfig/synfig/pull/1432>`__\, `#2355`_).
 - the list shows all fonts available in your system, so it is so easy to
 choose one now!
 
@@ -98,7 +96,7 @@ Reworked Plugins Infrastructure
 -------------------------------
 
 Now anyone with knowledge of Python language can write plugins which
-allows SYnfig to export/import new formats and those formats will become
+allows Synfig to export/import new formats and those formats will become
 available
 
 In this version the Plugins system was
@@ -276,4 +274,3 @@ instructions.
 .. _#2350: https://github.com/synfig/synfig/issues/2350
 .. _#2332: https://github.com/synfig/synfig/issues/2332
 .. _#2314: https://github.com/synfig/synfig/issues/2314
-.. _#2306: https://github.com/synfig/synfig/issues/2306
