@@ -92,7 +92,7 @@ Note that the edges can cross each other. When they do, the |Winding_Style_Param
 .. |Color_Editor_Dialog| replace:: :ref:`Color <colors_dialog>`
 .. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
 .. |Invert_Parameter| replace:: :ref:`Invert <parameters_invert>`
-.. |Antialiasing_Parameter| replace:: :ref:`Antialiasing <parameters_anitialiasing>`
+.. |Antialiasing_Parameter| replace:: :ref:`Antialiasing <parameters_antialiasing>`
 .. |Feather_Parameter| replace:: :ref:`Feather Parameter <parameters_feather>`
 .. |Feather_Parameter_Type_of_Feather| replace:: :ref:`Type of Feather <parameters_feather Type of Feather>`
 .. |Winding_Style_Parameter| replace:: :ref:`Winding Style Parameter <parameters_winding_style>`
