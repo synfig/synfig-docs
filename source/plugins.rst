@@ -45,6 +45,7 @@ Where to find plugins
 * `Yoyobuae:FreeForm Deform <https://github.com/yoyobuae/synfig-plugins>`_
 * `Morevna:Plugins feature in Synfig Studio <http://morevnaproject.org/2012/06/11/plugins-feature-in-synfig-studio/>`_
 * `Berteh:Import Labels and Timings <https://github.com/berteh/synfig-import-labels>`_
+* `Controller  Plugin (by Veer Metri) <https://github.com/veermetri05/controller-plugin>`_
 * `Synfig forum: scripts/plugin thread <https://forums.synfig.org/c/development/scripting>`_
 
 .. _plugins  Plugin structure:
