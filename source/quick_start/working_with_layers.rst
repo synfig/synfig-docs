@@ -226,7 +226,7 @@ creation |Creating_Shape|.
 .. |Group_Layer| replace:: :ref:`Group Layer <layer_group>`
 .. |Parameters_Panel| replace:: :ref:`Parameters Panel <panel_parameters>`
 .. |Blend_Method_Parameter| replace:: :ref:`Blend Method Parameter <parameters_blend_method>`
-.. |Blend_Method_Parameter_onto| replace:: :ref:`Blende Method Parameter:Onto <parameters_blend_method  Onto>`
+.. |Blend_Method_Parameter_onto| replace:: :ref:`Blend Method Parameter:Onto <parameters_blend_method  Onto>`
 .. |Blur_Layer| replace:: :ref:`Blur Layer <layer_blur>`
 .. |Circle_Tool| replace:: :ref:`Circle Tool <tool_circle>`
 .. |New_Layer_Defaults| replace:: :ref:`New Layer Defaults <layers>`
