@@ -1,2 +1,2 @@
 myst-parser==3.0.1
-docutils==0.17
+docutils==0.18
