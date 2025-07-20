@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas version="1.1" width="480" height="270" xres="2834.645752" yres="2834.645752" gamma-r="2.200000" gamma-g="2.200000" gamma-b="2.200000" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
+  <name>Synfig Animation 1</name>
+  <meta name="background_first_color" content="0.880000 0.880000 0.880000"/>
+  <meta name="background_second_color" content="0.650000 0.650000 0.650000"/>
+  <meta name="background_size" content="15.000000 15.000000"/>
+  <meta name="grid_color" content="0.623529 0.623529 0.623529"/>
+  <meta name="grid_show" content="0"/>
+  <meta name="grid_size" content="0.250000 0.250000"/>
+  <meta name="grid_snap" content="1"/>
+  <meta name="guide_color" content="0.435294 0.435294 1.000000"/>
+  <meta name="guide_show" content="1"/>
+  <meta name="guide_snap" content="0"/>
+  <meta name="jack_offset" content="0.000000"/>
+  <meta name="onion_skin" content="0"/>
+  <meta name="onion_skin_future" content="0"/>
+  <meta name="onion_skin_past" content="1"/>
+  <keyframe time="0f" active="true"/>
+  <layer type="SolidColor" active="true" exclude_from_rendering="false" version="0.1">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>0.044056</r>
+        <g>0.044056</g>
+        <b>0.044056</b>
+        <a>1.000000</a>
+      </color>
+    </param>
+  </layer>
+  <layer type="circle" active="true" exclude_from_rendering="false" version="0.2">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>0.043229</r>
+        <g>0.120764</g>
+        <b>0.458531</b>
+        <a>1.000000</a>
+      </color>
+    </param>
+    <param name="radius">
+      <real value="0.5000000000"/>
+    </param>
+    <param name="feather">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="origin">
+      <composite type="vector">
+        <x>
+          <linear type="real">
+            <slope>
+              <real value="1.3000000000"/>
+            </slope>
+            <offset>
+              <real value="-3.2500000000"/>
+            </offset>
+          </linear>
+        </x>
+        <y>
+          <sine type="real">
+            <angle>
+              <linear type="angle">
+                <slope>
+                  <angle value="180.000000"/>
+                </slope>
+                <offset>
+                  <angle value="0.000000"/>
+                </offset>
+              </linear>
+            </angle>
+            <amp>
+              <real value="1.5000000000"/>
+            </amp>
+          </sine>
+        </y>
+      </composite>
+    </param>
+    <param name="invert">
+      <bool value="false"/>
+    </param>
+  </layer>
+</canvas>
