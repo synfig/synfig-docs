@@ -323,7 +323,7 @@ Note : :download:`File used <outline_dat/Outline_Layer.sifz>`
 .. |Spline_Tool| replace:: :ref:`Spline Tool <tool_spline>`
 .. |Tool_Options_Panel| replace:: :ref:`Tool Options Panel <panel_tool_options>`
 .. |New_Layer_Defaults_Brush_Colors| replace:: :ref:`New Layer Defaults: Brush Colors <new_layer_defaults Brush Colors>`
-.. |Star_Tool| replace:: :ref:`Star Tool <tool_start>`
+.. |Star_Tool| replace:: :ref:`Star Tool <tool_star>`
 .. |Canvas_Layer_Menu| replace:: :ref:`Canvas: Layer Menu <canvas_layer_menu>`
 
 .. |Z_Depth_Parameter| replace:: :ref:`Z Depth Parameter <parameters_zdepth>`
@@ -332,7 +332,7 @@ Note : :download:`File used <outline_dat/Outline_Layer.sifz>`
 .. |Colors_Dialog| replace:: :ref:`Color <colors_dialog>`
 .. |Origin_Parameter| replace:: :ref:`Origin <parameters_origin>`
 .. |Invert_Parameter| replace:: :ref:`Invert <parameters_invert>`
-.. |Antialiasing_Parameter| replace:: :ref:`Antialiasing <parameters_anitialiasing>`
+.. |Antialiasing_Parameter| replace:: :ref:`Antialiasing <parameters_antialiasing>`
 .. |Feather_Parameter| replace:: :ref:`Feather Parameter <parameters_feather>`
 .. |Feather_Parameter_Type_of_Feather| replace:: :ref:`Type of Feather <parameters_feather Type of Feather>`
 .. |Winding_Style_Parameter| replace:: :ref:`Winding Style Parameter <parameters_winding_style>`
