@@ -47,6 +47,8 @@ Where to find plugins
 * `Berteh:Import Labels and Timings <https://github.com/berteh/synfig-import-labels>`_
 * `Controller  Plugin (by Veer Metri) <https://github.com/veermetri05/controller-plugin>`_
 * `Synfig forum: scripts/plugin thread <https://forums.synfig.org/c/development/scripting>`_
+* `Wayang Smartbone: scripts/plugin thread <https://github.com/zaynopenapp/Wayang>`_
+
 
 .. _plugins  Plugin structure:
 
